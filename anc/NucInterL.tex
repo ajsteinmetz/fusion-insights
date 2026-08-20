@@ -120,18 +120,18 @@
 % Dots for condensed-phase densities (in microns)
 \node[circle,fill=orange!85!black,draw=black,inner sep=1.5pt](BeNineDot)
   at (axis cs:1.85,{\Lscale*\mArealPBeNine/1.85}) {};
-\node[anchor=south,xshift=15pt,yshift=20pt,rotate=-62,orange!85!black](BeNineLabel)
+\node[anchor=north east,xshift=5pt,yshift=-15pt,rotate=-62,orange!85!black](BeNineLabel)
   at (axis cs:1.85,{\Lscale*\mArealPBeNine/1.85}) {\,Solid $^{9}$Be};
 
-\draw[thick,->,orange!85!black]
-  (BeNineLabel) -- (BeNineDot);
+%\draw[thick,->,orange!85!black]
+%  (BeNineLabel) -- (BeNineDot);
 
 \node[circle,fill=red,draw=black,inner sep=1.5pt](BElevenDot)
   at (axis cs:2.34,{\Lscale*\mArealPBEleven/2.34}) {};
-\node[anchor=south,xshift=30pt,yshift=-15pt,rotate=-62,red](BElevenLine) at (axis cs:2.34,{\Lscale*\mArealPBEleven/2.34}) {\,Solid $^{11}$B};
+\node[anchor=north west,rotate=-62,red](BElevenLine) at (axis cs:2.34,{\Lscale*\mArealPBEleven/2.34}) {\,Solid $^{11}$B};
 
-\draw[thick,->,red]
-  (BElevenLine) -- (BElevenDot);
+%\draw[thick,->,red]
+%  (BElevenLine) -- (BElevenDot);
 
 \node[circle,fill=green!60!black,draw=black,inner sep=1.5pt]
   at (axis cs:0.08,{\Lscale*\mArealDHeThree/0.08}) {};
@@ -145,7 +145,7 @@
   at (axis cs:0.53,{\Lscale*\mArealDLiSeven/0.53}) {};
 \node[circle,fill=blue!40,draw=black,inner sep=1.5pt](LiDot4)
   at (axis cs:0.53,{\Lscale*\mArealDLiSix/0.53}) {};
-\node[anchor=south,xshift=10pt,rotate=-62,blue](LiLine) at (axis cs:0.53,{\Lscale*\mArealPLiSeven/0.53}) {\,Solid $^{6/7}$Li};
+\node[anchor=south,xshift=25pt,yshift=-25pt,rotate=-62,blue](LiLine) at (axis cs:0.53,{\Lscale*\mArealPLiSeven/0.53}) {\,Solid $^{6/7}$Li};
 
 \draw[thick,->,blue] (LiLine) -- (LiDot1);
 \draw[thick,->,blue] (LiLine) -- (LiDot2);
@@ -168,21 +168,21 @@
 % ---- d + d curve: Liquid D2 (w_D = 1.0) ----
 \node[circle,fill=violet,draw=black,inner sep=1.8pt]
   at (axis cs:0.17,{\Lscale*\mArealDD/0.17}) {};
-\node[anchor=south east,rotate=-62,violet]
+\node[anchor=north,yshift=-5pt,rotate=-62,violet]
   at (axis cs:0.17,{\Lscale*\mArealDD/0.17})
   {\,Liq.\ D$_2$};
 
 % ---- d + d curve: Solid LiD ----
 \node[circle,fill=violet,draw=black,inner sep=1.8pt]
   at (axis cs:0.82,{\Lscale*\mArealDD/(\wLiD*0.82)}) {};
-\node[anchor=north east,rotate=-62,violet]
+\node[anchor=east,rotate=-62,violet]
   at (axis cs:0.82,{\Lscale*\mArealDD/(\wLiD*0.82)})
   {\,Solid LiD};
 
 % ---- d + d curve: Liquid D2O ----
 \node[circle,fill=violet,draw=black,inner sep=1.8pt]
   at (axis cs:1.105,{\Lscale*\mArealDD/(\wDtwoO*1.105)}) {};
-\node[anchor=south west,rotate=-62,violet]
+\node[anchor=west,rotate=-62,violet]
   at (axis cs:1.105,{\Lscale*\mArealDD/(\wDtwoO*1.105)})
   {\,Liq.\ D$_2$O};
 
