@@ -92,10 +92,8 @@
 %\newcommand*{\xgreen}{\color{green}}
 %\newcommand*{\rcite}{{\xred [Cite!]}}
 
-%\setlength{\headheight}{25.0pt}
-\setlength{\headheight}{20.0pt}
-%You might also make \topmargin smaller: 
-\addtolength{\topmargin}{-8.0pt}
+\setlength{\headheight}{25.0pt}
+\addtolength{\topmargin}{-13.0pt}
 
 %=================================================================
 % The following two lines should be uncommented if the LaTeX file is uploaded to arXiv.org
@@ -106,7 +104,7 @@
 %% For proofs, please use the proof environment (the amsthm package is loaded by the MDPI class).
 %=================================================================
 % Full title of the paper (Capitalized)
-\Title{Science Of Nuclear Fusion:\\ \Large{Insights and Ideas}}
+\Title{Science Of Nuclear Fusion:\texorpdfstring{\\ \Large{Insights and Ideas}}{ Insights and Ideas}}
 
 % MDPI internal command: Title for citation in the left column
 \TitleCitation{Science Of Nuclear Fusion}
@@ -160,7 +158,7 @@ ${}^{2}$ School of Physics, Georgia Institute of Technology, Atlanta, GA 30332, 
 %\conference{} % An extended version of a conference paper
 
 % Abstract (Do not insert blank lines, i.e. \$ 
-\abstract{Advances in several physics domains open up novel paths to smaller scale, higher energy density opportunities to advance small systems for nuclear fusion. Here we survey both legacy and several novel ``table-top'' approaches which attract current interest. We furthermore address a few related practical and challenging nuclear science topics arising in the context of magnetic confinement and inertial confinement fusion. The contents emphasis includes: By example of solar fusion cycles we draw attention to aneutronic fusion reaction chains. Considering the natural isotopic abundances we assess more carefully the meaning of the term ``limitless energy'' in the context of actual fusion power realizations. We describe achievements in laser-driven proton-boron fusion, and extensions to more complex aneutronic boron-nitride reaction cycle. We look in depth at the plasmonic opto-electric field-enhancement for fusion, and at the particle (muon) catalyzed fusion option. We describe problems in harnessing the $dt$ fusion for civilian use and introduce space travel as forthcoming application of nano-fusion.
+\abstract{Advances in several physics domains open up novel paths to smaller scale, higher energy density opportunities to advance small systems for nuclear fusion. Here we survey both legacy and several novel ``table-top'' approaches which attract current interest. We furthermore address a few related practical and challenging nuclear science topics arising in the context of magnetic confinement and inertial confinement fusion. The contents emphasis includes: By example of solar fusion cycles we draw attention to aneutronic fusion reaction chains. Considering the natural isotopic abundances we assess more carefully the meaning of the term ``limitless energy'' in the context of actual fusion power realizations. We describe achievements in laser-driven proton-boron fusion, and extensions to more complex aneutronic boron-nitride reaction cycle. We look in depth at the plasmonic opto-electric field-enhancement for fusion, and at the particle (muon) catalyzed fusion option. We describe problems in harnessing the \texorpdfstring{$dt$}{dt} fusion for civilian use and introduce space travel as forthcoming application of nano-fusion.
 }
 % Keywords
 \keyword{nuclear fusion; muon catalyzed fusion, laser fusion, inertial confinement, magnetic confinement, relativistic optics; nano-antennas} 
@@ -534,7 +532,7 @@ The fuel consumption rate for an operational $dt$ fusion power plant is daunting
 In June 2022, the magazine \emph{Science} summarized the situation: \emph{``Today there is not enough tritium fuel to initiate one reactor''}~\cite{Clery2022FusionFuel}. The implication is clear: the $dt$-ICF fuel cycle is resource-limited well before it is technology-limited by the need to handle high energy neutrons. Both problems will probably have a common solution.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Thermal equilibrium $dd$ fusion}\label{ssec:ThermalBalance}
+\subsection{Thermal equilibrium \texorpdfstring{$dd$}{dd} fusion}\label{ssec:ThermalBalance}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Steady state power balance}\label{sssec:PowerBalance}
 The suitability of a nuclear reaction for thermal fusion energy in large plasma devices depends on the competition between (i) collisional fusion heating and (ii) radiative and transport losses. For a plasma in thermal equilibrium at ion temperature $T_i$ and electron temperature $T_e$, the volumetric fusion rate between species $i$ and $j$ is
@@ -662,7 +660,7 @@ d + {}^3{\rm He} \to \alpha + p
 grows like $x(1-x)$, whereas bremsstrahlung increases monotonically through $Z_{\rm eff}(x)=(1+3x)/(1+x)$. The result is a tradeoff: modest ${}^3$He fractions can enhance $P_{\rm fus}/n_e^2$ over pure deuterium in the temperature range where the $d+{}^3$He reactivity is competitive, but higher ${}^3$He simultaneously raises radiative losses, so the net margin between heating and bremsstrahlung depends sensitively on both temperature and mixture fraction. Notably, the most gains occur for only a modest helium-3 fraction, indicating it can be used to enhance a deuterium plasma into the net power producing regime.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Secondary heating: $dd$ example}\label{ssubsec:SecondHeating}
+\subsubsection{Secondary heating: \texorpdfstring{$dd$}{dd} example}\label{ssubsec:SecondHeating}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 In general fusion daughter products may themselves undergo fusion. This is even more true for fuels with multiple reaction paths; several distinct daughter products may themselves undergo fusion, producing additional heating beyond the primary reaction. An example is deuterium fusion:
 \begin{align}
@@ -817,7 +815,7 @@ L_\odot \simeq 3.8\times10^{26}~\mathrm{W},
 and has done so without interruption for approximately $4.6$ billion years. Our planet exists within the narrow range of conditions made possible by the continuous operation of our ``local'' aneutronic stellar core reactor.
 
 %%%%%%%%%%
-\subsubsection{The proton-proton ($pp$) chains}\label{sec:PPChains}
+\subsubsection{The proton-proton (\texorpdfstring{$pp$}{pp}) chains}\label{sec:PPChains}
 %%%%%%%%%%
 
 In~\rf{fig:PPChain}, we show branching ratios and detailed sub-chains of the so called ($pp$) fusion cycle: 
@@ -912,7 +910,7 @@ The reaction proceeds in two steps. First, two ${}^{4}\mathrm{He}$ nuclei combin
 %%%%%%%%%%
 \subsection{Particle beams and fusion}\label{ssec:exploreLas}
 %%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Aneutronic {$d+^3\mathrm{He}$} fusion}\label{sssec:d3Hefuesion}
+\subsubsection{Aneutronic \texorpdfstring{{$d+^3\mathrm{He}$}}{d+3He} fusion}\label{sssec:d3Hefuesion}
 Let us look more closely at $d+^3\mathrm{He}\to \alpha+p$ aneutronic fusion which yields 18.35 MeV: 80\% (14.68 MeV) of the fusion yield is carried by high energetic proton, and 20\% (3.67 MeV) by the $\alpha$-particle. The reaction cross-section peaks at $E_\mathrm{CM}=250\,\mathrm{keV}$ at a value of 0.85 barns which is significantly lower compared to $dt$ 6 barn cross-section at 4 times lower reaction energy. The scientific reasons for this are well understood: The Coulomb wall is twice as high with Helium, and the resonant reaction peak is, due to greater electromagnetic interaction, now inside ${}^3\mathrm{He}$, also pushed up.
 
 The thermal burn of $d+^3\mathrm{He}$ would be accompanied by $dd$ fusion which is `neutronic'. Thus only a non-thermal, non-confined directed particle motion induced fusion reaction can be considered. This would be a ${}^3He$ particle beam hitting a $d$ target; this often is referred to as `inverse' geometry as the heavier particle is in motion. This allows maintaining control of the inventory of the much rarer ${}^3He$ and allows better control of forward projected charge particle fusion products, especially useful in space propulsion applications.
@@ -990,7 +988,7 @@ is initiated by a picosecond laser pulse that accelerates protons into the BN la
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[ht]
 \centering
-\includegraphics[width=0.75\linewidth]{BNCyclesV.jpg}
+%\includegraphics[width=0.75\linewidth]{BNCyclesV.jpg}
 %\includegraphics[trim={0 0 15.5cm 0},clip,width=0.75\textwidth]{BNCycles.png}\\
 %\includegraphics[trim={13.3cm 0 0 0},clip,width=0.75\textwidth]{BNCycles.png}
 \caption{
