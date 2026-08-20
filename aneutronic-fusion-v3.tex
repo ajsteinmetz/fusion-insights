@@ -66,14 +66,7 @@
 \usepackage{comment}
 %\usepackage{doi}
 
-\usepackage{siunitx}
-\sisetup{
-scientific-notation = true,
-%output-exponent-marker = \times 10,
-%exponent-product = \times,
-per-mode = symbol,
-retain-zero-exponent = false
-}
+\providecommand{\UseTaggingSocket}[1]{}
 
 \usetikzlibrary{positioning,patterns}
 \usepackage{pgfplots}
@@ -727,7 +720,7 @@ The secondary reaction rates then reduce to
 R_{dt} \simeq S_t \simeq b_t R_{dd},\qquad
 R_{d{}^3\!He} \simeq S_3 \simeq b_3 R_{dd}.
 \end{align}
-The corresponding charged-particle heating contributions according to \req{eq:dHQ},\req{eq:dtQ} are
+The corresponding charged-particle heating contributions according to \req{eq:dHeQ},\req{eq:dtQ} are
 \begin{align}
 P_{\alpha}^{(t)} &\simeq b_t R_{dd} E_\alpha, 
 \qquad &(E_\alpha &= 3.56~\mathrm{MeV}), \\
@@ -1181,7 +1174,7 @@ is preventing us from calling the above cycle aneutronic. Moreover, reactions su
 \begin{equation}
 {}^9\mathrm{Be}+d\to\! ^{7}\mathrm{Li}+\alpha + Q \,,\quad Q= 7.1521\,\mathrm{MeV}\,;\qquad
 {}^9\mathrm{Be}+d\to\! ^{8}\mathrm{Be}+t + Q \,,\quad Q= 4.5927\,\mathrm{MeV}\,;
-\label{eq:9Bed-10Bn}
+\label{eq:9Bed-7Lia-8Bet}
 \end{equation}
 do not produce a proton in the final state and thus also interrupt the repetative reaction cycle. Clearly a pure Be is not a good aneutronic medium.
 
