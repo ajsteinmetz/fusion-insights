@@ -122,6 +122,42 @@ Morse, E.
 \newblock {\em Nuclear fusion}; Springer,  2018.
 \newblock {\url{https://doi.org/10.1007/978-3-319-98171-0}}.
 
+\bibitem[Creely et~al.(2020)Creely, Greenwald, Ballinger, Brunner,
+  et~al.]{Creely:2020}
+Creely, A.J.; Greenwald, M.J.; Ballinger, S.B.; Brunner, D.;  et~al.
+\newblock Overview of the {SPARC} tokamak.
+\newblock {\em Journal of Plasma Physics} {\bf 2020}, {\em 86},~865860502.
+\newblock {\url{https://doi.org/10.1017/S0022377820001257}}.
+
+\bibitem[Grulke et~al.(2024)Grulke, Albert, Alcuson~Belloso,
+  et~al.]{Grulke:2024}
+Grulke, O.; Albert, C.; Alcuson~Belloso, J.A.;  et~al.
+\newblock Overview of the first {Wendelstein 7-X} long pulse campaign with
+  fully water-cooled plasma facing components.
+\newblock {\em Nuclear Fusion} {\bf 2024}, {\em 64},~112002.
+\newblock {\url{https://doi.org/10.1088/1741-4326/ad2f4d}}.
+
+\bibitem[Lion et~al.(2025)Lion, Angl{\'e}s, Bonauer, et~al.]{Lion:2025}
+Lion, J.; Angl{\'e}s, J.C.; Bonauer, L.;  et~al.
+\newblock Stellaris: A high-field quasi-isodynamic stellarator for a
+  prototypical fusion power plant.
+\newblock {\em Fusion Engineering and Design} {\bf 2025}, {\em 214},~114868.
+\newblock {\url{https://doi.org/10.1016/j.fusengdes.2025.114868}}.
+
+\bibitem[Keilhacker et~al.(1999)Keilhacker, Gibson, Gormezano, Lomas,
+  et~al.]{Keilhacker:1999}
+Keilhacker, M.; Gibson, A.; Gormezano, C.; Lomas, P.J.;  et~al.
+\newblock High fusion performance from deuterium-tritium plasmas in {JET}.
+\newblock {\em Nuclear Fusion} {\bf 1999}, {\em 39},~209--234.
+\newblock {\url{https://doi.org/10.1088/0029-5515/39/2/306}}.
+
+\bibitem[Wurzel and Hsu(2025)]{Wurzel:2025}
+Wurzel, S.E.; Hsu, S.C.
+\newblock Continuing progress toward fusion energy breakeven and gain as
+  measured against the Lawson criteria.
+\newblock {\em Physics of Plasmas} {\bf 2025}, {\em 32},~112106.
+\newblock {\url{https://doi.org/10.1063/5.0297357}}.
+
 \bibitem[Hurricane et~al.(2023)Hurricane, Patel, Betti, Froula, Regan, Slutz,
   Gomez, and Sweeney]{Hurricane:2023Review}
 Hurricane, O.A.; Patel, P.K.; Betti, R.; Froula, D.H.; Regan, S.P.; Slutz,
