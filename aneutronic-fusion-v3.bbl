@@ -51,6 +51,22 @@ Rafelski, J.; Birrell, J.; Grayson, C.; Steinmetz, A.; Yang, C.T.
   [arXiv:hep-ph/2409.19031]}}.
 \newblock {\url{https://doi.org/10.1140/epjs/s11734-025-01470-w}}.
 
+\bibitem[Cooke et~al.(2018)Cooke, Pettini, and Steidel]{Cooke:2017cwo}
+Cooke, R.J.; Pettini, M.; Steidel, C.C.
+\newblock One Percent Determination of the Primordial Deuterium Abundance.
+\newblock {\em Astrophys. J.} {\bf 2018}, {\em 855},~102,
+  \href{http://arxiv.org/abs/1710.11129}{{\normalfont
+  [arXiv:astro-ph.CO/1710.11129]}}.
+\newblock {\url{https://doi.org/10.3847/1538-4357/aaab53}}.
+
+\bibitem[Meija et~al.(2016)Meija, Coplen, Berglund, Brand, Bièvre, Gröning,
+  Holden, Irrgeher, Loss, Walczyk, and Prohaska]{Meija:2016}
+Meija, J.; Coplen, T.B.; Berglund, M.; Brand, W.A.; Bièvre, P.D.; Gröning,
+  M.; Holden, N.E.; Irrgeher, J.; Loss, R.D.; Walczyk, T.;  et~al.
+\newblock Isotopic compositions of the elements 2013 (IUPAC Technical Report).
+\newblock {\em Pure and Applied Chemistry} {\bf 2016}, {\em 88},~293--306.
+\newblock {\url{https://doi.org/10.1515/pac-2015-0503}}.
+
 \bibitem[Aymar(2001)]{Aymer:2001}
 Aymar, R.
 \newblock ITER R\&D: Executive Summary: Design Overview.
@@ -353,14 +369,6 @@ Sawicki, M.; Gajda, M.; Harley, D.; Rafelski, J.
 Haynes, W.M., Ed.
 \newblock {\em CRC handbook of chemistry and physics}; CRC press,  2016.
 \newblock {\url{https://doi.org/10.1201/9781315380476}}.
-
-\bibitem[Meija et~al.(2016)Meija, Coplen, Berglund, Brand, Bièvre, Gröning,
-  Holden, Irrgeher, Loss, Walczyk, and Prohaska]{Meija:2016}
-Meija, J.; Coplen, T.B.; Berglund, M.; Brand, W.A.; Bièvre, P.D.; Gröning,
-  M.; Holden, N.E.; Irrgeher, J.; Loss, R.D.; Walczyk, T.;  et~al.
-\newblock Isotopic compositions of the elements 2013 (IUPAC Technical Report).
-\newblock {\em Pure and Applied Chemistry} {\bf 2016}, {\em 88},~293--306.
-\newblock {\url{https://doi.org/10.1515/pac-2015-0503}}.
 
 \bibitem[Aguilar et~al.(2023)]{AMS:2023anq}
 Aguilar, M.;  et~al.
