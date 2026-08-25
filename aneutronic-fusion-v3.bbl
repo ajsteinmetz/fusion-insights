@@ -233,14 +233,6 @@ Novotny, L.; van Hulst, N.
 \newblock {\em Nature Photonics} {\bf 2011}, {\em 5},~83--90.
 \newblock {\url{https://doi.org/10.1038/nphoton.2010.237}}.
 
-\bibitem[Schuck et~al.(2005)Schuck, Fromm, Sundaramurthy, Kino, and
-  Moerner]{Schuck:2005}
-Schuck, P.J.; Fromm, D.P.; Sundaramurthy, A.; Kino, G.S.; Moerner, W.E.
-\newblock Improving the mismatch between light and nanoscale objects with gold
-  bowtie nanoantennas.
-\newblock {\em Physical Review Letters} {\bf 2005}, {\em 94},~017402.
-\newblock {\url{https://doi.org/10.1103/PhysRevLett.94.017402}}.
-
 \bibitem[Csernai and Collaborations(2026)]{Csernai:2026MDPI}
 Csernai, L.P.o.b.o.t.N.; Collaborations, F.
 \newblock Laser-Induced Fusion via Resonant Nanorod Antennas.
@@ -659,6 +651,22 @@ Labaune, C.; Baccou, C.; Yahia, V.; Neuville, C.; Rafelski, J.
 \newblock {\em Scientific Reports} {\bf 2016}, {\em 6},~21202.
 \newblock {\url{https://doi.org/10.1038/srep21202}}.
 
+\bibitem[Golberg et~al.(1998)Golberg, Bando, St\'ephan, and
+  Kurashima]{Golberg:1998BNfull}
+Golberg, D.; Bando, Y.; St\'ephan, O.; Kurashima, K.
+\newblock Octahedral boron nitride fullerenes formed by electron beam
+  irradiation.
+\newblock {\em Applied Physics Letters} {\bf 1998}, {\em 73},~2441--2443.
+\newblock {\url{https://doi.org/10.1063/1.122475}}.
+
+\bibitem[Oku et~al.(2004)Oku, Nishiwaki, and Narita]{Oku:2004BnNn}
+Oku, T.; Nishiwaki, A.; Narita, I.
+\newblock Formation and atomic structures of {B$_n$N$_n$} ($n=24$--$60$)
+  clusters studied by mass spectrometry, high-resolution electron microscopy
+  and molecular orbital calculations.
+\newblock {\em Physica B: Condensed Matter} {\bf 2004}, {\em 351},~184--190.
+\newblock {\url{https://doi.org/10.1016/j.physb.2004.06.007}}.
+
 \bibitem[Labaune and Rafelski(2019)]{Labaune2019US10217538B2}
 Labaune, C.; Rafelski, J.
 \newblock Creation of isotopes using laser beams.
@@ -671,6 +679,20 @@ Kro{\'o}, N.; R{\'a}cz, P.; Tuett{\H{o}}, I.
   laser light.
 \newblock {\em Europhysics Letters} {\bf 2016}, {\em 115},~27010.
 \newblock {\url{https://doi.org/10.1209/0295-5075/115/27010}}.
+
+\bibitem[Schuck et~al.(2005)Schuck, Fromm, Sundaramurthy, Kino, and
+  Moerner]{Schuck:2005}
+Schuck, P.J.; Fromm, D.P.; Sundaramurthy, A.; Kino, G.S.; Moerner, W.E.
+\newblock Improving the mismatch between light and nanoscale objects with gold
+  bowtie nanoantennas.
+\newblock {\em Physical Review Letters} {\bf 2005}, {\em 94},~017402.
+\newblock {\url{https://doi.org/10.1103/PhysRevLett.94.017402}}.
+
+\bibitem[Novotny(2007)]{Novotny:2007}
+Novotny, L.
+\newblock Effective wavelength scaling for optical antennas.
+\newblock {\em Physical review letters} {\bf 2007}, {\em 98},~266802.
+\newblock {\url{https://doi.org/10.1103/PhysRevLett.98.266802}}.
 
 \bibitem[for~the NAPLIFE~Collaboration et~al.(2026)]{tamas2025nanofusion}
 for~the NAPLIFE~Collaboration, T.B.;  et~al.
