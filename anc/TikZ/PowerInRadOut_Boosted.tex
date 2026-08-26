@@ -1,0 +1,86 @@
+% !TeX program = lualatex
+\documentclass[tikz,border=2pt]{standalone}
+
+\usepackage{pgfplots,amsmath}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{shapes.geometric}
+\usepgfplotslibrary{fillbetween}
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+
+\begin{document}
+
+% -------- DT vs DD (pure) vs DD (boosted/full), with boosted-DT (partial/full) and brems --------
+\begin{tikzpicture}
+\begin{axis}[
+  width=10.5cm, height=10.5cm,
+  xmode=log, ymode=log,
+  xlabel={Temperature $T$ (keV)},
+  ylabel={$P/n_e^2$ \,[W m$^{3}$]},
+  ymin=3e-37, ymax=4e-34,
+  xmin=1e0, xmax=8e2,
+  grid=major, legend pos=south east,
+  major grid style={dashed, gray!45},
+  legend cell align=left,
+]
+
+% --------------------------------------------------
+% Baseline DT heating (equimolar DT)
+% --------------------------------------------------
+\addplot[name path=DT_base, black, solid, line width=0.75pt] table[
+  x=T_keV, y=Palpha_per_ne2_Wm3_adopted, col sep=comma
+]{dt_curves_for_tikz.csv};
+\addlegendentry{$P_{\rm dt}(1:1)$}
+
+% --------------------------------------------------
+% Pure DD heating (pure D)
+% --------------------------------------------------
+\addplot[name path=DD_pure, black, dotted, line width=1.1pt] table[
+  x=T_keV, y=Palpha_per_ne2_Wm3_adopted, col sep=comma
+]{dd_curves_for_tikz.csv};
+\addlegendentry{$P_{\rm dd}$}
+
+% --------------------------------------------------
+% Boosted DD heating: secondary DT only (chi_t >> 1)  [blue]
+% --------------------------------------------------
+
+
+% Full boosted DD heating: secondary DT + d+3He (chi_t, chi_3 >> 1)  [dark blue]
+\addplot[name path=DD_boost_full, blue!70!black, solid, line width=1.2pt] table[
+  x=T_keV, y=Palpha_per_ne2_Wm3_adopted, col sep=comma
+]{dd_fully_boosted_curves_for_tikz.csv};
+\addlegendentry{$P_{\rm dd}^{\rm full}(\chi_t,\chi_3\gg1)$}
+
+% Shaded boost region 2: DT-only -> full boosted (extra from 3He burn-up)
+\addplot[blue!20, draw=none, forget plot] fill between[
+  of=DD_pure and DD_boost_full
+];
+
+% --------------------------------------------------
+% Boosted DT heating = DT + boosted-DD-in-DTmix (DT-daughter burn only)  [red]
+% --------------------------------------------------
+
+% Full boosted DT heating = DT + full-boosted-DD-in-DTmix (includes 3He burn-up)  [dark red]
+\addplot[name path=DT_boost_full, red!70!black, solid, line width=1.2pt] table[
+  x=T_keV,
+  y=Ptotal_dt_plus_fullboostdd_per_ne2_Wm3_adopted,
+  col sep=comma
+]{dt_fully_boosted_with_dd_he3_for_tikz.csv};
+\addlegendentry{$P_{\rm dt}^{\rm full}(\chi_t,\chi_3\gg1)$}
+
+% Shaded region 2: DT -> DT full (additional extra from 3He burn-up)
+\addplot[red!20, draw=none, forget plot] fill between[
+  of=DT_base and DT_boost_full
+];
+
+% --------------------------------------------------
+% Bremsstrahlung (same hydrogenic Zeff=1 assumption)
+% --------------------------------------------------
+\addplot[black, dashed, line width=0.75pt] table[
+  x=T_keV, y=Pbrem_per_ne2_Wm3, col sep=comma
+]{dt_curves_for_tikz.csv};
+\addlegendentry{$P_{\text{brem}}$}
+
+\end{axis}
+\end{tikzpicture}
+
+\end{document}

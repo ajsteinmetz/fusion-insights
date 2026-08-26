@@ -1,0 +1,94 @@
+% !TeX program = lualatex
+\documentclass[tikz,border=2pt]{standalone}
+
+\usepackage{pgfplots,amsmath}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{shapes.geometric}
+\usepgfplotslibrary{fillbetween}
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+
+\begin{document}
+
+% -------- D–He3 mixtures: fusion heating and brems (all normalized to n_e^2) --------
+% Uses: d3he_power_brem_curves_for_tikz.csv
+\begin{tikzpicture}
+\begin{axis}[
+  width=10.5cm, height=10.5cm,
+  xmode=log, ymode=log,
+  xlabel={Temperature $T$ (keV)},
+  ylabel={$P/n_e^2$ \,[W m$^{3}$]},
+  ymin=3e-37, ymax=4e-34,
+  xmin=1e0, xmax=8e2,
+  grid=major, legend pos=north west,
+  major grid style={dashed, gray!45},
+  legend cell align=left,
+]
+
+% --------------------------------------------------
+% Fusion heating curves: P_fus / n_e^2
+% --------------------------------------------------
+
+% Pure D (x=0)  [black]
+\addplot[name path=Pfus_x0, black, dotted, line width=1.00pt] table[
+  x=T_keV, y=Pfus_per_ne2_pureD_x0_Wm3, col sep=comma
+]{d3he_power_brem_curves_for_tikz.csv};
+\addlegendentry{$P_{\rm fus}$ (dd)}
+
+% 5% He3 (x=0.05)  [blue]
+\addplot[blue, solid, line width=1.00pt] table[
+  x=T_keV, y=Pfus_per_ne2_He3_5pct_x0p05_Wm3, col sep=comma
+]{d3he_power_brem_curves_for_tikz.csv};
+\addlegendentry{$P_{\rm fus}$ (5\% ${}^3$He)}
+
+% 10% He3 (x=0.10)  [green]
+\addplot[green, solid, line width=1.00pt] table[
+  x=T_keV, y=Pfus_per_ne2_He3_10pct_x0p1_Wm3, col sep=comma
+]{d3he_power_brem_curves_for_tikz.csv};
+\addlegendentry{$P_{\rm fus}$ (10\% ${}^3$He)}
+
+% 50% He3 (x=0.50)  [orange]  (maximum mixture among plotted cases)
+\addplot[name path=Pfus_x05, orange, solid, line width=1.00pt] table[
+  x=T_keV, y=Pfus_per_ne2_He3_50pct_x0p5_Wm3, col sep=comma
+]{d3he_power_brem_curves_for_tikz.csv};
+\addlegendentry{$P_{\rm fus}$ (50\% ${}^3$He)}
+
+% --------------------------------------------------
+% Green shading: max-mixture vs pure-D fusion output
+% --------------------------------------------------
+\addplot[orange!10, draw=none, forget plot] fill between[
+  of=Pfus_x0 and Pfus_x05
+];
+
+% --------------------------------------------------
+% Bremsstrahlung curves: P_brem / n_e^2
+% (same color as corresponding fusion curve, all dashed)
+% --------------------------------------------------
+
+% Pure D brem  [black dashed]
+\addplot[black, dashed, line width=0.95pt] table[
+  x=T_keV, y=Pbrem_per_ne2_pureD_x0_Wm3, col sep=comma
+]{d3he_power_brem_curves_for_tikz.csv};
+\addlegendentry{$P_{\rm brem}$ (dd)}
+
+% 5% He3 brem  [blue dashed]
+\addplot[blue, dashed, line width=0.95pt] table[
+  x=T_keV, y=Pbrem_per_ne2_He3_5pct_x0p05_Wm3, col sep=comma
+]{d3he_power_brem_curves_for_tikz.csv};
+\addlegendentry{$P_{\rm brem}$ (5\% ${}^3$He)}
+
+% 10% He3 brem  [green dashed]
+\addplot[green, dashed, line width=0.95pt] table[
+  x=T_keV, y=Pbrem_per_ne2_He3_10pct_x0p1_Wm3, col sep=comma
+]{d3he_power_brem_curves_for_tikz.csv};
+\addlegendentry{$P_{\rm brem}$ (10\% ${}^3$He)}
+
+% 50% He3 brem  [orange dashed]
+\addplot[orange, dashed, line width=0.95pt] table[
+  x=T_keV, y=Pbrem_per_ne2_He3_50pct_x0p5_Wm3, col sep=comma
+]{d3he_power_brem_curves_for_tikz.csv};
+\addlegendentry{$P_{\rm brem}$ (50\% ${}^3$He)}
+
+\end{axis}
+\end{tikzpicture}
+
+\end{document}

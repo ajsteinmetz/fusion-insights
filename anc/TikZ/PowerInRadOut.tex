@@ -1,0 +1,60 @@
+% !TeX program = lualatex
+\documentclass[tikz,border=2pt]{standalone}
+
+\usepackage{pgfplots,amsmath}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{shapes.geometric}
+\usepgfplotslibrary{fillbetween}
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+
+\begin{document}
+
+% -------- DT PANEL --------
+\begin{tikzpicture}
+\begin{axis}[
+  width=10.5cm, height=10.5cm,
+  xmode=log, ymode=log,
+  xlabel={Temperature $T$ (keV)},
+  ylabel={$P/n_e^2$ \,[W m$^{3}$]},
+  ymin=3e-37, ymax=4e-34,
+  xmin=1e0, xmax=8e2,
+  grid=major, legend pos=south east,
+  major grid style={dashed, gray!45}
+]
+
+% DT alpha heating
+\addplot[black, solid, line width=0.75pt] table[
+  x=T_keV, y=Palpha_per_ne2_Wm3_adopted, col sep=comma
+]{dt_curves_for_tikz.csv};
+\addlegendentry{$P_{\rm dt}(1:1)$}
+
+% DD charged heating
+\addplot[black, dotted, line width=1.25pt] table[
+  x=T_keV, y=Palpha_per_ne2_Wm3_adopted, col sep=comma
+]{dd_curves_for_tikz.csv};
+\addlegendentry{$P_{\rm dd}$}
+
+% Bremsstrahlung (no band)
+\addplot[black, dashed, line width=0.75pt] table[
+  x=T_keV, y=Pbrem_per_ne2_Wm3, col sep=comma
+]{dt_curves_for_tikz.csv};
+\addlegendentry{$P_{\text{brem}}$}
+
+% P_alpha band (low-high)
+\addplot[name path=DT_upper, draw=none] table[
+  x=T_keV, y=Palpha_per_ne2_Wm3_high, col sep=comma
+]{dt_curves_for_tikz.csv};
+\addplot[name path=DT_lower, draw=none] table[
+  x=T_keV, y=Palpha_per_ne2_Wm3_low, col sep=comma
+]{dt_curves_for_tikz.csv};
+\addplot[fill=black!15, draw=none, forget plot]
+  fill between[of=DT_upper and DT_lower];
+
+% Band legend (area)
+%\addlegendimage{area legend, fill=black!15, draw=black!30}
+%\addlegendentry{$P_\alpha$ low-high}
+
+\end{axis}
+\end{tikzpicture}
+
+\end{document}

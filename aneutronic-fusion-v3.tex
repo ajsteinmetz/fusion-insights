@@ -397,7 +397,7 @@ This assures extraordinary capability to achieve synchronous collective dynamics
 
 Several fusion companies have been created around such nascent ideas of which our preferred solution is described in more detail above. This domain of nuclear fusion is also attracting a lot of investor attention, both private and government. This in many aspects is reminiscent of the Manhattan Project: A rush to convert to praxis the nuclear science principles, today not about fission but about aneutronic fusion using a highly interdisciplinary context employing relativistic laser pulses, opto-electronic fusion targets and using opto-electro-mechanical resonant devices. However, each `player' follows a significantly different path.
 
-Because fusion reactions which are in their first step driven by laser accelerated particles and can achieve and exceed the aneutronic nuclear fusion reaction threshold, this is the method of choice to advance aneutronic fusion in general. The creation of a truly aneutronic chain is a challenge to which we return several times in this work. We will discuss by example some aneutronic reactions and give an example of aneutronic reaction chain in \rsec{sssec:BNcycles} and \rsec{sssec:aneutronicBe}.
+Because fusion reactions which are in their first step driven by laser accelerated particles and can achieve and exceed the aneutronic nuclear fusion reaction threshold, this is the method of choice to advance aneutronic fusion in general. The creation of a truly aneutronic chain is a challenge to which we return several times in this work. We will discuss by example some aneutronic reactions and give an example of aneutronic reaction chain in \rsec{sssec:BNcycles} and \rsec{ssec:Beryl}.
  
 It is hard to predict the method allowing the achievement of practical application. However, the clear objective is to overcome the energy threshold and enable aneutronic fusion path. Commercial companies are aiming at aneutronic energy from fusion. In our eyes the primary first application of ongoing work on nanofusion will be to space propulsion, we comment on this at a few opportunities and give a longer discussion at the very end of this report as an important outlook to near future of nanofusion. 
 
@@ -463,8 +463,8 @@ The historical importance of $\mu$CF lies in following:
 Therefore, we suggest the $\mu$CF path is not entirely at its scientific endpoint.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Fusion everywhere}\label{sec:Fusion}
-\subsection{Availability of nuclear energy}\label{ssec:Nenergy}
+\section{Nuclear Fusion Everywhere}\label{sec:Fusion}
+\subsection{Availability of nuclear fusion energy}\label{ssec:Nenergy}
 \subsubsection{Relevant nuclear `ashes'}\label{sssec:NuclearAshes}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 The present-day elemental composition of the Universe reflects the cumulative outcome of several nuclear cosmological and astrophysical events: the Big Bang Nucleosynthesis (BBN), explosive stellar nucleosynthesis, and the radiogenic enrichment over cosmic time. The present isotopic element distribution is a fossil record of all nuclear activity in the cosmos, shaped by both fusion and fission processes. All stable isotopes may be regarded as the nuclear `ashes' left behind by successive generations of diverse nuclear transmutation processes.
@@ -491,15 +491,72 @@ In \rf{fig:NuclearAshUniverse} we show the abundance of all elements inferred fo
 \begin{figure}
 \centering
 \includegraphics[width=0.99\linewidth]{AbundanceWiki.jpg}
-\caption{Elemental abundances in the universe normalized to silicon (log scale; atoms per million Si atoms) versus atomic number $Z$. For further insight see comments in the figure drawn from JR presentation at Particles and Plasma meeting in Summer 2025.}
+\caption{Elemental abundances in the Universe normalized to silicon (log scale; atoms per million Si atoms) versus atomic number $Z$. For further insight see comments in the figure drawn from JR presentation at Particles and Plasma meeting in Summer 2025.}
 \label{fig:NuclearAshUniverse}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
 Abundance maxima occur at specific atomic nuclei whose synthesis is favored by binding-energy maxima and/or reaction pathways. Light elements are predominantly products of fusion reactions. From the perspective of fuel for nuclear fusion we note many common isotopes with relatively small abundance. Elements heavier than iron are primarily produced by neutron-capture processes in explosive stellar environments. These heavy nuclei can undergo fission releasing energy.
 
+%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{The (nuclear) interaction length} \label{sssec:InterLength}
+%%%%%%%%%%%%%%%%%%%%%%%%
 
+Conventional thermonuclear fusion proceeds through equilibrium plasmas, in which reactant nuclei follow a Maxwell-Boltzmann velocity distribution and the fusion rate depends on the thermal average of the microscopic reactivity, $\langle\sigma v\rangle(T)$. In contrast, non-equilibrium or beam-target fusion describes situations in which one population of ions-typically energetic projectiles produced by an accelerator, laser, or collisionless shock-impinges upon a relatively cold and dense target medium that remains near rest.
+
+In a beam-target fusion experiment, the probability that an incoming particle will induce a given reaction is quantified by its cross-section $\sigma(E)$. Dimensionally, $\sigma$ has units of area; in nuclear physics one almost always uses the barn
+\[
+1\ \mathrm{barn} = 10^{-28}\ \mathrm{m}^2,
+\]
+so that typical fusion cross-sections lie in the range $10^{-3}-10^3\ \mathrm{mb}$ (millibarns, $10^{-3}$ b).
+
+Because charged‐particle fusion at low energies is suppressed by Coulomb repulsion, it is convenient to factor out the dominant exponential tunneling term and define the $S$-factor
+\begin{equation}\label{eq:Sfactor}
+S(E)\;\equiv\;E\,e^{2\pi\eta}\,\sigma(E)\,,
+\quad
+\eta=\frac{Z_1Z_2e^2}{4\pi\varepsilon_0\hbar v}
+=\frac{Z_1Z_2\alpha}{\beta}\,,
+\end{equation}
+where $E$ is the center‐of‐mass energy, $\eta$ the Sommerfeld parameter, $v=\beta c$ the relative velocity, and $Z_{1,2}$ the nuclear charges. By construction, $S(E)$ varies smoothly with $E$ even when $\sigma(E)$ itself changes by many orders of magnitude~\cite{Barker:2002mfp,wang2012reanalysis}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+\centering
+%\input{NucInterL.tex}
+\includegraphics[width=0.85\linewidth]{NucInterL.pdf}
+\caption{Nuclear interaction length $L_{\rm int}$ (in microns) vs.\ target density $\rho$ for thin targets at each channel's peak cross-section $\sigma_\mathrm{peak}$. For every entrance channel $\sigma_\mathrm{peak}$ is summed over all exothermic exit channels at the evaluated CM energy. Cross-sections are obtained from Refs~\cite{Page:2004md,Angulo:1999zz,Xu:2013fha,bosch1992improved,Sikora:2016pB,Otuka:2014wzu}. Dots mark specific material densities of each target. The y-axis is extended down to show the interaction length of compressed targets.}
+\label{fig:InteractionLength}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Add second resonance line for proton boron; also add alpha scattering on nitrogen. Also fix the ordering.
+
+Because the projectiles occupy a narrow energy band rather than a thermal distribution, the relevant quantity for estimating fusion probability is the differential cross-section $\sigma(E)$ evaluated at the projectile energy. For a projectile of known kinetic energy $E$, the mean distance it travels in the target before undergoing a nuclear fusion reaction is characterized by the interaction length
+\begin{equation}
+ L_{\rm int}
+ \;=\;
+ \frac{1}{n_{Z}\,\sigma_{\rm fus}(E)} \, ,
+ \label{eq:Lint}
+\end{equation}
+where $n_{Z}$ is the number density of target nuclei and $\sigma_{\rm fus}(E)$ is the fusion cross-section at that energy. Expressing $n_Z$ in terms of the target density $\rho_Z$, atomic weight $A_Z$, and Avogadro's number $N_A$,
+\begin{equation}
+n_{Z} = \frac{N_A\,\rho_Z}{A_Z}\,,
+\end{equation}
+allows one to write the product $\rho_Z L_{\rm int}$ as an areal mass
+\begin{equation}
+ m_{\rm areal}
+ \;\equiv\;
+ \rho_Z L_{\rm int}
+ \;=\;
+ \frac{A_Z}{N_A\,\sigma_{\rm fus}(E)} 
+ \;,
+ \label{eq:m_areal}
+\end{equation}
+At the peak of the measured or calculated cross-section $\sigma_{\rm fus}(E)$, the corresponding $L_{\rm int}$ describes the characteristic thickness of target material that would yield a fusion optical depth of unity for mono-energetic projectiles. This definition isolates purely nuclear factors from thermal or hydrodynamic effects and provides a convenient metric for comparing different reaction channels under non-equilibrium conditions.
+
+Figure~\ref{fig:InteractionLength} illustrates $L_{\rm int}$ as a function of target density for several representative aneutronic and light-ion fusion reactions. Each colored curve corresponds to the inverse relation $L_{\rm int} = m_{\rm areal}/\rho$ evaluated at the cross-section’s resonance or peak value. The steep inverse dependence ($L_{\rm int}\propto 1/\rho$) means that even dense condensed-phase targets remain effectively transparent for reactions with small cross-sections. For example, the broad resonance of the $p+{}^{11}\mathrm{B}\!\to\!3\alpha$ process ($\sigma\!\approx\!1.2$~b) requires an areal mass of $m_{\rm areal}\!\approx\!15$~g\,cm${}^{-2}$, corresponding to $L_{\rm int}\!\sim\!6.5\times10^{4}$~$\mu$m in solid boron. By comparison, the familiar $d+t\!\to\!\alpha+n$ channel with $\sigma\!\approx\!5$~b achieves a somewhat shorter $L_{\rm int}\!\sim\!3.7\times10^{4}$~$\mu$m in solid lithium deuteride. Targets containing chemically bound elements such as LiD or D$_2$O appear slightly offset from their pure-isotope curves because only a fraction of the total mass density corresponds to reactive deuterons or tritons.
+
+Although the interaction-length concept is strictly applicable to mono-energetic beams, it provides a useful heuristic for visualizing the relative accessibility of different reactions in non-thermal or beam-driven environments where the particle energy distribution is narrow and the target density is well defined.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{The most accessible path to fusion}\label{ssec:eazyfusion}
@@ -546,9 +603,7 @@ A critical, looming, and underappreciated limitation of $dt$-based fusion path i
 
 As shown in~\rf{fig:t_supply}, the total commercial tritium inventory is presently of order $\mathcal{O}(30~\mathrm{kg})$. It is projected to peak before 2030 and decline thereafter due to radioactive decay, CANDU commercial reactor retirements, and diversion of tritium to other applications. Even without new fusion demand, supply will decrease sharply over the coming decades. The ITER experimental program alone, with an estimated burn rate of $0.9~\mathrm{kg/yr}$, would significantly accelerate this depletion.
 
-The fuel consumption rate for an operational $dt$ fusion power plant is daunting: a $1~\mathrm{GW}$ electric ($\sim 2.8~\mathrm{GW_{th}}$) reactor requires $\sim 10^{21}$ $dt$ fusions per second. This corresponds to $\approx 160~\mathrm{kg}$ of tritium per year. At current production costs for artificially made tritium (\$30,000-\$300,000 per gram), the annual fuel bill would be \$5-50 billion per gigawatt of output. No reactor-scale $dt$ fusion economy can be sustained without breeding tritium in situ from lithium via $n+\,^6\mathrm{Li} \rightarrow t+\alpha$ reactions. 
-
-In June 2022, the magazine \emph{Science} summarized the situation: \emph{``Today there is not enough tritium fuel to initiate one reactor''}~\cite{Clery2022FusionFuel}. The implication is clear: the $dt$-ICF fuel cycle is resource-limited well before it is technology-limited by the need to handle high energy neutrons. Both problems will probably have a common solution.
+The fuel consumption rate for an operational $dt$ fusion power plant is daunting: a $1~\mathrm{GW}$ electric ($\sim 2.8~\mathrm{GW_{th}}$) reactor requires $\sim 10^{21}$ $dt$ fusions per second. This corresponds to $\approx 160~\mathrm{kg}$ of tritium per year. At current production costs for artificially made tritium (\$30,000-\$300,000 per gram), the annual fuel bill would be \$5-50 billion per gigawatt of output. No reactor-scale $dt$ fusion economy can be sustained without breeding tritium in situ from lithium via $n+\,^6\mathrm{Li} \rightarrow t+\alpha$ reactions. In June 2022, the magazine \emph{Science} summarized the situation: \emph{``Today there is not enough tritium fuel to initiate one reactor''}~\cite{Clery2022FusionFuel}. The implication is clear that $dt$-ICF fuel cycle is resource-limited well before it is technology-limited by the need to handle high energy neutrons. Both problems will probably have a common solution.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Thermal equilibrium \texorpdfstring{$dd$}{dd} fusion}\label{ssec:ThermalBalance}
@@ -923,7 +978,101 @@ The triple-$\alpha$ process ignites at core temperatures $T \gtrsim 10^{8}~\math
 \end{align}
 The reaction proceeds in two steps. First, two ${}^{4}\mathrm{He}$ nuclei combine to form unstable ${}^{8}\mathrm{Be}$, which has a lifetime of only $\sim 10^{-16}~\mathrm{s}$. Second, during this brief interval, if a third ${}^{4}\mathrm{He}$ collides with ${}^{8}\mathrm{Be}$, the three-body system can pass through the resonant Hoyle state~\cite{Hoyle:1954zz,Chernykh:2007zz,Epelbaum:2011md} of ${}^{12}\mathrm{C}$ and decay to its ground state with the emission of a gamma ray. This process is aneutronic in the sense that no free neutrons are produced, and it is responsible for the first major buildup of carbon in the Universe after BBN.
 
+%%%%%%%%%%
+\subsection{Plasma screening and heavy-nuclear catalysis}\label{ssec:PlasmaScreening}
+%%%%%%%%%%
 
+%%%%%%%%%%
+\subsubsection{Heavy nuclear catalysts}\label{sssec:HeavyCatalyst}
+%%%%%%%%%%
+
+Heavy highly-charged nuclei sitting inside a dense bound electron cloud are capable of lowering the Coulomb wall seen by nearby colliding light nuclei~\cite{Grayson:2025kva}. This polarization screening occurs with electron densities near the $Z=79$ gold ion and are far from the textbook weak-field regime. This situation is depicted in \rf{fig:AuCatalyst} where two light nuclei approach one another inside the dense cloud of electrons which a heavy, highly charged nucleus gathers around itself in a hot plasma. Within that cloud the Coulomb barrier separating the light reactants is measurably lowered and they tunnel more readily. The heavy nucleus then acts a catalyst, and being far more massive than the plasma is hot, $m_\mathrm{Au}\gg T$, it does not move on the timescale of the reaction. Such as situation serves as the high-$Z$ counterpart of the self-consistent screening of light nuclei studied for Big Bang nucleosynthesis (BBN)~\cite{Grayson:2024uwg}, where the correction to thermonuclear reaction rates was found to be small, but very strongly dependent on the nuclear charge $Ze$.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}%[ht]
+\centering
+\includegraphics[width=0.40\linewidth]{strongscreenCart3.pdf}
+\caption{Depiction of heavy nuclei catalyzing fusion reactions. A proton and a boron nucleus collide within the large screening cloud of electrons generated by a stationary heavy nucleus such as Au ($Z=79$). Reprinted from Ref.~\cite{Grayson:2025kva} under \href{https://creativecommons.org/licenses/by/4.0/}{CC~BY~4.0}.}
+\label{fig:AuCatalyst}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Gold is the natural candidate for study for heavy nuclear catalysis as it already present in many plasmas of current interest: 
+\begin{itemize}
+    \item[(i)] In the gold films used as targets in laser-fusion experiments;
+    \item[(ii)] in the hohlraum walls of indirect-drive inertial confinement fusion, see \rsec{sssec:NIF};
+    \item[(iii)] and introduced deliberately as the plasmonic nanoparticles of the NAPLIFE targets, see \rsec{sssec:nanoF} and \rsec{ssec:Plasmonics} below.
+\end{itemize}
+
+Whether such a cloud matters depends on where in the potential the reaction is actually sampled. Most reactions in a thermal plasma occur near the Gamow energy
+\begin{equation}\label{eq:GamowE}
+E_G = \left(\frac{(\pi T\,Z_1Z_2\,\alpha)^2\,\mu_\mathrm{r}}{2}\right)^{1/3}\,,
+\end{equation}
+where $\mu_\mathrm{r}$ is the reduced mass of the two colliding light nuclei. Notably, the classical turning point $r_{E_G}$ belonging to this energy lies at internuclear distances of order femtometers. The controlling parameter is then whether the ratio $Ze\phi(r_{E_G})/T$ exceeds unity at that turning point. See \rf{fig:ScreenRegimes} for gold where the weak-field condition $e\phi/T\ll1$ which underlies Debye-H\"uckel theory holds only beyond $\sim10^4$\,fm, whereas the Gamow energy $E_G=131$\,keV of the ${}^{11}\mathrm{B}(p,\alpha){}^{8}\mathrm{Be}$ reaction at $T=20$\,keV falls deep inside the region where $e\phi/T>1$ denoting the strong-screening region.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.72\linewidth]{StrongCart.pdf}
+\caption{Vacuum potential energy $e\phi_\mathrm{vac}(r)$ of a gold nucleus ($Z=79$) in a $T=20$~keV plasma. In the orange region where $e\phi/T<1$, weak-field Debye-H\"uckel screening applies. In the purple region $e\phi/T>1$ and the screening corrections become nonlinear. The gray band is the nuclear interior, $R_\mathrm{Au}=5.3$~fm. Reprinted from Ref.~\cite{Grayson:2025kva} under \href{https://creativecommons.org/licenses/by/4.0/}{CC~BY~4.0}.}
+\label{fig:ScreenRegimes}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%
+\subsubsection{Potential-dependent screening mass}\label{sssec:ScreeningMass}
+%%%%%%%%%%
+Ordinary Debye-H\"uckel plasma screening assumes the electromagnetic potential energy $V(r)\equiv e\phi(r)$ is everywhere small compared to the plasma temperature $T$, $V(r)/T\ll1$, so that the induced charge density is linear in $\phi$~\cite{Barker:2002mfp}. Since this weak-field condition fails at exactly the distances the reaction samples, \rsec{sssec:HeavyCatalyst}, the solution is to solve the Poisson equation self-consistently, keeping the full nonlinear dependence of the induced charge on the potential. Additionally, for strong fields screening it is required to use relativistic Fermi--Dirac statistics for the electrons rather than the Boltzmann approximation; see Ref.~\cite{Birrell:2024bdb} for an improved mathematical treatment of FD limits.
+
+Writing the unitless potential $\Phi\equiv V/T$ and introducing a potential-dependent screening mass $m_s(\Phi)$, the rescaled Poisson equation takes the compact form
+\begin{equation}\label{eq:PBscreen}
+-\nabla^2\Phi(r) + \frac{m_s^2(\Phi)}{(\hbar c)^2}\,\Phi(r) = P_\mathrm{ext}(r)\,,
+\end{equation}
+which reduces to Debye-H\"uckel theory when $\Phi\ll 1$ and to the Thomas--Fermi atomic model of electron cloud as $T\to 0$. In the ultrarelativistic, strong-field limit relevant near the nuclear surface the screening mass itself becomes~\cite{Elze:1980er,Kodama:2002xjg}
+\begin{equation}\label{eq:screenmass}
+m^2_{s,\mathrm{FD}}(\Phi) \approx \frac{4\alpha T^2}{3\pi}\left[\pi^2 + \Phi^2(r)\right]\,,
+\qquad
+m/\Phi T\ll 1\,,
+\end{equation}
+a weak-field (Debye) term plus a nonlinear correction that grows with the local potential rather than saturating exponentially as the older Boltzmann treatment predicts. Over the range probed by tunneling, see \rf{fig:ScreenMassFD}, the simplified Boltzmann statistics overestimates the screening mass, and hence the reaction-rate enhancement, by orders of magnitude relative to the correct Fermi--Dirac result~\cite{Grayson:2024uwg,Grayson:2025kva}.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.72\linewidth]{ScreeningMassFD.png}
+\caption{Effective screening mass $m_s$ around a finite-sized $^4$He (\,$^8$Be\,) nucleus at the (illustratively chosen) BBN temperature $T=86.7$~keV, as a function of the local potential $e\phi$. The self-consistent Fermi--Dirac result (blue dashed) tracks the weak-field Debye value $m_D$ (black) at small $\Phi$ but rises only as a power law at large $\Phi$; the traditionally used Boltzmann approximation (red dashed) instead diverges exponentially, over-predicting screening in the tunneling-relevant window bounded by the Gamow energy $E_G$ and the on-surface potential $e\phi(0)$. Reprinted from Ref.~\cite{Grayson:2024uwg} under \href{https://creativecommons.org/licenses/by/4.0/}{CC~BY~4.0}.}
+\label{fig:ScreenMassFD}
+\end{figure}
+
+%%%%%%%%%%
+\subsubsection{Fusion rate enhancement}\label{sssec:FusionEnhancement}
+%%%%%%%%%%
+
+Reaction-rate enhancement follows the Salpeter form~\cite{Salpeter:1954nc}, in which the fractional change in reaction rate is set by the induced potential evaluated at the origin
+\begin{equation}\label{eq:salpeter}
+\mathcal{F}_\mathrm{sc} \equiv \frac{R_\mathrm{sc}}{R_\mathrm{vac}} \sim \exp\!\left(\frac{e\phi_\mathrm{ind}(0)}{T}\right)\,.
+\end{equation}
+We can then apply this same self-consistent machinery to the fully ionized gold catalyst of \rsec{sssec:HeavyCatalyst}, embedded in the $\sim$keV electron plasma. Although \req{eq:PBscreen} is nonlinear, the strong-screening and weak-field (Debye) contributions to the induced potential near the origin turn out to be additive, so the weak-field part can be subtracted at each temperature to isolate a strong-screening contribution $e\phi_\mathrm{ind}(0)\simeq14.2$~keV that is independent of plasma temperature. This is close to the zero-temperature potential shift of the bound-electron cloud of a gold atom
+\begin{equation}
+    e\phi_\mathrm{HF}(0)=\alpha^2Z^{4/3}a_\mathrm{TF}m_e\simeq14.7\,\mathrm{keV}
+\end{equation}
+obtained from the Hartree--Fock screened-Coulomb potential shifts tabulated in Ref.~\cite{garrett1967potential} ($a_\mathrm{TF}\approx1.598$ at $Z=79$). For two light reactants of charge $Z_1,Z_2$ tunneling near a heavy catalyst of charge $Z_3$, the full multi-body enhancement factor becomes
+\begin{equation}\label{eq:goldF}
+\mathcal{F}_\mathrm{sc} = \exp\!\left[\frac{1}{T}\left(Z_1Z_2\,\alpha\, m_{s,\mathrm{FD}}(r_G) + Z_3\frac{Z_1+Z_2}{2}\,\alpha\, m_{s,\mathrm{FD}}(r_G) + \frac{Z_1+Z_2}{2}\,\phi_\mathrm{ind}(r_G)\right)\right]\,,
+\end{equation}
+evaluated at the Gamow turning point $r_G$. \rf{fig:GoldEnhance} shows the resulting enhancement for several aneutronic and near-aneutronic reactions as a function of plasma temperature. Because catalysis grows with the charge of the reacting pair, $p+{}^{11}\mathrm{B}$ benefits the most, while $d$-based reactions are enhanced more modestly.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.72\linewidth]{ScreenEnhanceGold.pdf}
+\caption{Reaction-rate enhancement factor $\mathcal{F}_\mathrm{sc}$ [\req{eq:goldF}] near a fully ionized gold catalyst, as a function of plasma temperature, for $p$-${}^{11}$B (black solid), $d$-$t$ (blue dashed), $d$-$d$ (red dotted), and $d$-${}^3$He (orange dashed). All curves rise slowly at low $T$, where the temperature-independent strong-screening term of \req{eq:screenmass} dominates, then climb sharply above $\sim100$~keV as thermal electrons increasingly penetrate the gold polarization cloud, before flattening once $T$ approaches $m_ec^2$. Reprinted from Ref.~\cite{Grayson:2025kva} under \href{https://creativecommons.org/licenses/by/4.0/}{CC~BY~4.0}.}
+\label{fig:GoldEnhance}
+\end{figure}
+
+An enhancement factor of order unity may seem modest, but note that \req{eq:goldF} presumes thermal reactants, whose kinetic energy carries them only into the outer reaches of the gold cloud. Laser-accelerated, non-thermal ions penetrate much further, up towards the nuclear surface, where the enhancement is instead governed by
+\begin{equation}
+    \mathcal{F}_\mathrm{sc}=\exp\left(\frac{\langle Z\rangle e\phi_\mathrm{ind}(R)}{T}\right)\,,
+\end{equation}
+with $e\phi_\mathrm{ind}(R)\simeq14$~keV and where $\langle Z\rangle$ is the average charge of the reactants. This may provide an explanation for the long-standing ``anomalous screening'' seen in low-energy astrophysical $S$-factor measurements~\cite{Grayson:2025kva}.
 
 \section{High-tech Fusion}\label{sec:newFusion}
 %%%%%%%%%%
@@ -938,7 +1087,15 @@ In literature one often notes a fusion company, Helion Fusion, which promises di
 
 The nuclear fusion energy output in such a system implies amplification by about a factor 20. Therefore in principle a device providing a net electrical gain in each cycle, i.e. gain per injected particle energy balance $\Delta Q_c>0$ can be achieved -- we keep in mind that we assumed that electronic stopping power slowing down fusion reactants can be technologically controlled. If not, any directed particle energy will end warming up the electron cloud with marginal fusion outcome.
 
-A fusion cycle yield is derived from the following sequel steps, reminiscent of a catalytic cicle: $<$Elctricity $\to$ particle beam $\to$ fusion $\to$ electricity$>$. The amplification factor per cycle is (fusion energy out+beam energy in less loss) /beam kinetic energy. Loss is predominantly due to heating of reactants and energy used in mitigation strategy. Considering particle beams, given the required size of a beam-target system and speed of light, each cycle lasts as little as $\tau_c$ = 20 nanoseconds (6 meters at speed of light in vacuum). Because there can be many cycles per second, a small generated power excess converts to a large power (energy per time) number:
+A fusion cycle yield is derived from the following sequel steps:
+\[
+\text{Electricity}\to\text{particle beam}\to\text{fusion}\to\text{electricity.}
+\]
+The amplification factor per cycle is
+\[
+\frac{\text{fusion energy out}\,+\,\text{beam energy}\,-\,\text{beam losses}}{\text{beam energy}}
+\]
+Loss is predominantly due to heating of reactants and energy used in mitigation strategy. Considering particle beams, given the required size of a beam-target system and speed of light, each cycle lasts as little as $\tau_c$ = 20 nanoseconds (6 meters at speed of light in vacuum). Because there can be many cycles per second, a small generated power excess converts to a large power (energy per time) number:
  \begin{align}
  P_c=\frac{\Delta Q_c}{\tau_c}\,, \qquad P= N_cP_c\,.
 \end{align}
@@ -1030,6 +1187,77 @@ is  endothermic, it allows reaction cycle by converting the produced $\alpha$-pa
 
 The use of the BN target had two initial objectives, i) to increase the reaction rate by allowing energetic fusion $\alpha$ to react with ${}^{14}\mathrm{N}$ in order to generate energetic protons, thus supporting reaction cycling driven by $p$, while withdrawing the $\alpha$ inventory from the secondary neutron generating reaction in their unavoidable collisions with ${}^{11}\mathrm{B}$. iii) Inadvertently, this target choice had a third consequence; BN is often a natural nano structured material. The presence of such a structure (see next \rsec{ssec:Plasmonics}) may have created ultra high yield fusion events, which a decade ago were not evaluated in fear of allowing into the data sample an unknown experimental error. Selecting `normal low yield' reactions, the use of (natural isotope mix) BN, was a success with considerable increase in the observed $\alpha$ yield, verifying the proposed fusion material.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Beryllium based  aneutronic fusion cycle} \label{ssec:Beryl}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\paragraph*{Beryllium based deuterium production}
+We draw attention to arguably the lowest energy yield fusion process  with anneutronic reaction products in first step easily fully confined 
+\begin{equation}
+^9\mathrm{Be}+p\to\! ^8\mathrm{Be}+d + Q \,,\qquad Q=0.5592\,\mathrm{MeV}\,.
+\label{eq:9Bep-8Ben}
+\end{equation}
+This reaction has a lot of interesting physics, as was recently discussed~\cite{Rafelski:2025uio}. The nucleus ${}^9\mathrm{Be}$ can be seen to consist of two $\alpha$-particle molecule bound by a neutron orbiting with angular momentum $J=3/2^-$. An relatively low energy slow grazing proton picks up this fast orbiting neutron.
+
+This is in every regard the inverse of usual nuclear reaction models: Instead of using we make a deuteron and the motion of incoming particle inducing fusion reaction is slower compared to particles in the target which participates. Moreover, it is a neutron moving out, which is not subject to the requirement to penetrate a Coulomb wall. Moreover, this neutron is relatively weakly bound else we could not gain energy attaching it to form deuteron.
+
+The weak binding of the neutron in ${}^9\mathrm{Be}$ with separation energy $E_s^{(n^8\mathrm{Be})}=-1.6654$\,MeV implies for the static wave function a long-range tail. The energy gain arises because of neutron attachment to proton gains $E_d^{(np)}=-2.22457$\,MeV.
+
+ %%%%%%%%
+\paragraph*{Secondary reactions on beryllium}
+The produced deuteron has a good chance to engage with another ${}^9\mathrm{Be}$. Among possible reactions is the following:
+\begin{equation}
+{}^9\mathrm{Be}+d\to\! ^{10}\mathrm{Be}+p + Q \,,\qquad Q= 4.5877\,\mathrm{MeV}\,.
+\label{eq:9Bed-10Bep}
+\end{equation}
+The reaction product, ${}^{10}\mathrm{Be}$
+is a molecular state of two $\alpha$-particles glued together by two valence neutrons which are both in the $J=3/2^-$ orbit. This reaction~\req{eq:9Bed-10Bep} could be induced by a $d$ produced in primary reaction~\req{eq:9Bep-8Ben}. The produced proton can restart the cycle of reactions. 
+
+This branch of ${}^9\mathrm{Be}+d$ reaction cycle is clearly aneutronic. However, there is another reactions branch
+\begin{equation}
+{}^9\mathrm{Be}+d\to\! ^{10}\mathrm{B}+n + Q \,,\qquad Q= 4.3621\,\mathrm{MeV}\,,
+\label{eq:9Bed-10Bn}
+\end{equation}
+is preventing us from calling the the two step berryllium  cycle aneutronic. Moreover, reactions such as 
+\begin{equation}
+{}^9\mathrm{Be}+d\to\! ^{7}\mathrm{Li}+\alpha + Q \,,\quad Q= 7.1521\,\mathrm{MeV}\,;\qquad
+{}^9\mathrm{Be}+d\to\! ^{8}\mathrm{Be}+t + Q \,,\quad Q= 4.5927\,\mathrm{MeV}\,;
+\label{eq:9Bed-7Lia-8Bet}
+\end{equation}
+do not produce a proton in the final state and thus interrupt the repetitive reaction cycle. Clearly a pure Be is neither a selfsustainig fusion cycle nor at two step level aneutronic.
+
+
+%%%%%%%%%%
+\paragraph*{Beryllium-${}^{3}\mathrm{He}$ fusion chain}
+We just saw how a Be target can be made into a source of deuterons and we want to further exploit this:  Table~\ref{tab:aneutronic_reactions} summarizes the principal first step reaction channels of current experimental interest. The top section is the standard neutronic reaction set. The bottom section has select aneutronic reactions appearing often in literature. 
+
+%%%%%% 
+\begin{table}[ht]
+\centering
+\caption{We show select set of fusion reactions: In columns we include the lowest resonant fusion reaction energy $E_\mathrm{rCM}\pm\Gamma/2$ in CM frame total half width $\Gamma/2$, the total energy release $Q$; $Q_\mathrm{ch}$ is the energy carried by charged products (available locally); $f_n = 1 - Q_\mathrm{ch}/Q$ is the neutron energy fraction. Reactions marked $\star$ produce no primary free neutrons.}
+\label{tab:aneutronic_reactions}
+\begin{tabular}{lccccc}
+\toprule
+Reaction & Products & $E_\mathrm{rCM}\pm\Gamma/2$ [MeV] & $Q$ [MeV] & $Q_\mathrm{ch}$ [MeV] & $f_n$ \\
+\midrule
+\phantom{ $\star$ }$ d + d \to $ & ${}^{3}\mathrm{He}+n$ &$0.4\pm3$ &3.27 & 0.82 & 0.75 \\
+\phantom{ $\star$ }$\phantom{d + d} \to $ & $t+p$ & $0.4\pm3$ &4.03 & 4.03 & 0 \\
+\phantom{ $\star$ }$ d + t \to $ & $\alpha+n$ & $0.05\pm0.037$ &17.59 & 3.52 & 0.80 \\
+\midrule
+ $\star$ $d + {}^{3}\mathrm{He} \to $ & $\alpha+p$ & $0.25\pm0.14$ &18.35 & 18.35 & 0 \\
+ $\star$ $p + {}^{6}\mathrm{Li} \to $ & $\alpha+ {}^{3}\mathrm{He}$ & $1.6\pm 0.25$ &4.02 & 4.02 & 0 \\
+ $\star$ $p + {}^{7}\mathrm{Li} \to $ & $2\times\alpha$ &$ -0.33\pm0.037$ &17.35 & 17.35 & 0 \\
+ $\star$ $p + {}^9\mathrm{Be} \to $ & ${}^{8}\mathrm{Be}+d$ & $0.29\pm 0.06$ & 0.56 & 0.56 & 0 \\
+ $\star$ $p + {}^{11}\mathrm{B} \to $ & $3\times\alpha$ & $0.15\pm 2.7$ &8.68 & 8.68 & 0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Before we proceed we should remember: a) There are many other aneutronic reactions involving collisions of protons with light elements; b) The aneutronic $p + {}^{7}\mathrm{Li}$ does not have an active above energy threshold resonance that decays into energy yielding fusion channel before neutron removal is probable. Thus the aneutronic channel in this reaction is unreachable in two body reactions, while the reachable reaction channels are accompanied by neutron production. We defer further discussion of this often overlooked issue to another venue.
+
+
+Among the `star' marked aneutronic reactions on Table~\ref{tab:aneutronic_reactions} we see the case of $p + {}^9\mathrm{Be}$ we have just discussed. This reaction produces a deuteron. Presence of produced weekly bound deuteron in general induces neutron generating reactions as we saw by example of the secondary reaction on ${}^9\mathrm{Be}$. However, the deuteron produced in $p + {}^9\mathrm{Be}$ reaction is just at resonant energy for the reaction $d + {}^{3}\mathrm{He}$ shown in the first starred line of Table~\ref{tab:aneutronic_reactions}. Therefore mixing with ${}^9\mathrm{Be}$ in the target enough ${}^{3}\mathrm{He}$ assures that the second step involving the produced $d$ will resonantly favor fusion on ${}^{3}\mathrm{He}$ which always produces a (high energy) proton. Moreover the primary ad secondary protons will not react with in target  ${}^{3}\mathrm{He}$. 
+
+We conclude that a  target mix of  ${}^9\mathrm{Be}$ with ${}^{3}\mathrm{He}$appears to be aneutronic and selfsustaining for very many cycles per incoming proton. This is probably the simplest of all imaginable aneutronic fusion reactor designs: Combination of a  proton beam with a target comprising a mix of  ${}^9\mathrm{Be}$ with ${}^{3}\mathrm{He}$.  Sweeping of electrons by a laser shot is an option to be explored under a separate cover. 
  
 %%%%%%%%%%
 \subsection{Laser plasmonic resonance}\label{ssec:Plasmonics}
@@ -1104,224 +1332,6 @@ A key challenge for scaling to net-energy gain condition is simultaneous ignitio
 The Coulomb explosion also provides natural pressure amplification: the electrostatic field energy in a fully ionized nanorod cluster scales roughly as $Z^2$ times the laser deposition, creating transient pressures far exceeding direct laser illumination. Combined with the $\sim 10^5$ reduction in stopping power in electron-depleted regions, these effects make the nanoplasmonic target qualitatively distinct from a conventional ICF fuel pellet.
 
 The immediate experimental priority of the NAPLIFE collaboration is statistically unambiguous, shot-by-shot reproducible $\alpha$ detection with confirmed absence of contaminants~\cite{mcnamee2025contaminant}. This requires dedicated runs at ELI-ALPS with controlled target purity, laser contrast $\gtrsim 10^{10}$, and systematic variation of nanorod density and alignment. Directed nanorod orientation during polymerization could increase proton-acceleration efficiency by up to an order of magnitude~\cite{Aladi:2025EPJ}.
-
-
-%%%%%%%%%%
-\subsection{Plasma screening and heavy-nuclear catalysis}\label{ssec:PlasmaScreening}
-%%%%%%%%%%
-The gold nanorods embedded in the NAPLIFE laser light transparent targets, see \rsec{sssec:Anten}, and the ionized and out-moving gold ``pusher'' shell described in the opto-electro-mechanical scheme \rsec{sssec:optoelecmechFusion}, contain a heavy, highly-charged nucleus sitting inside a dense bound electron cloud.  Such a cloud is capable to lower the Coulomb wall seen by nearby colliding light nuclei. This polarization screening occurs with electron densities near the $Z=79$ gold ion and are far from the textbook weak-field regime. It is therefore important to model this screening rigorously~\cite{Grayson:2024uwg,Grayson:2025kva}.  
-
-%%%%%%%%%%
-\subsubsection{Heavy nuclear catalysts}\label{sssec:HeavyCatalyst}
-%%%%%%%%%%
-The situation is depicted in \rf{fig:AuCatalyst}: two light nuclei approach one another inside the dense cloud of electrons which a heavy, highly charged nucleus gathers around itself in a hot plasma. Within that cloud the Coulomb barrier separating the light reactants is measurably lowered and they tunnel more readily. The heavy nucleus is a catalyst in the literal sense: it takes no part in the reaction, and being far more massive than the plasma is hot, $m_\mathrm{Au}\gg T$, it does not move on the timescale of the encounter. It supplies electron density and nothing else. Such a `heavy nuclear catalyst' was introduced by Grayson and Rafelski~\cite{Grayson:2025kva} as the high-$Z$ counterpart of the self-consistent screening of light nuclei studied for Big Bang nucleosynthesis (BBN)~\cite{Grayson:2024uwg}, where the correction to thermonuclear reaction rates was found to be small, but very strongly dependent on the nuclear charge $Ze$.
-
-Gold is the natural candidate, and dispersed gold ions are already present in most plasmas of current interest: in the gold films used as targets in laser-fusion experiments, in the hohlraum walls of indirect-drive inertial confinement fusion, see \rsec{sssec:NIF}, and---the case which concerns us here---introduced deliberately as the plasmonic nanoparticles of the NAPLIFE targets, see \rsec{sssec:Anten}. In these plasmonic experiments a huge number of conducting electrons oscillate coherently with the electromagnetic field of the ultrafast pulse in a localized surface plasmon resonance, \rsec{ssec:Plasmonics}, so that any screening enhancement would occur locally, within the electron cloud surrounding each nanorod. That coherent oscillation is a quantum process; Ref.~\cite{Grayson:2025kva} explores it semi-classically by analogy, replacing it with a high-temperature electron-ion plasma around an ionized gold nucleus.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}[ht]
-\centering
-\includegraphics[width=0.42\linewidth]{strongscreenCart3.pdf}
-\caption{Depiction of heavy nuclei catalyzing fusion reactions: a proton and a boron nucleus collide within the large screening cloud of electrons generated by a stationary heavy nucleus such as Au ($Z=79$). Reprinted from Ref.~\cite{Grayson:2025kva} under \href{https://creativecommons.org/licenses/by/4.0/}{CC~BY~4.0}.}
-\label{fig:AuCatalyst}
-\end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%
-
-Whether such a cloud matters depends on where in the potential the reaction is actually sampled. Most reactions in a thermal plasma occur near the Gamow energy
-\begin{equation}\label{eq:GamowE}
-E_G = \left(\frac{(\pi T\,Z_1Z_2\,\alpha)^2\,\mu_\mathrm{r}}{2}\right)^{1/3}\,,
-\end{equation}
-where $\mu_\mathrm{r}$ is the reduced mass of the two colliding light nuclei; the classical turning point $r_{E_G}$ belonging to this energy lies at internuclear distances of order femtometers. What decides the issue is thus whether the ratio $Ze\phi(r_{E_G})/T$ exceeds unity at that turning point, and \rf{fig:ScreenRegimes} answers this for gold: the weak-field condition $e\phi/T\ll1$ which underlies Debye-H\"uckel theory holds only beyond $\sim10^4$\,fm, whereas the Gamow energy $E_G=131$\,keV of the ${}^{11}\mathrm{B}(p,\alpha){}^{8}\mathrm{Be}$ reaction at $T=20$\,keV falls deep inside the region where $e\phi/T>1$. A plasma can therefore be globally weakly coupled and yet strongly coupled at precisely those distances which set the tunneling rate. It is this circumstance, rather than the bulk plasma conditions, which compels the nonlinear self-consistent treatment we describe next.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}[ht]
-\centering
-\includegraphics[width=0.72\linewidth]{StrongCart.pdf}
-\caption{Vacuum potential energy $e\phi_\mathrm{vac}(r)$ of a gold nucleus ($Z=79$) in a $T=20$~keV plasma. In the orange region $e\phi/T<1$ and weak-field Debye-H\"uckel screening applies; in the purple region $e\phi/T>1$ and the screening corrections become nonlinear; the gray band is the nuclear interior, $R_\mathrm{Au}=5.3$~fm. The Gamow energy \req{eq:GamowE} of the $p+{}^{11}$B reaction, $E_G=131$~keV, lies well inside the strong-screening region. Reprinted from Ref.~\cite{Grayson:2025kva} under \href{https://creativecommons.org/licenses/by/4.0/}{CC~BY~4.0}.}
-\label{fig:ScreenRegimes}
-\end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%
-\subsubsection{Potential-dependent screening mass}\label{sssec:ScreeningMass}
-%%%%%%%%%%
-Ordinary Debye-H\"uckel plasma screening assumes the electromagnetic potential energy $V(r)$ is everywhere small compared to the plasma temperature $T$, $V(r)/T\ll1$, so that the induced charge density is linear in $\phi$~\cite{Barker:2002mfp}. Since this weak-field condition fails at exactly the distances the reaction samples, \rsec{sssec:HeavyCatalyst}, the recourse is to solve the Poisson equation self-consistently, keeping the full nonlinear dependence of the induced charge on the potential. Additionally, for strong fields screening it is required to use relativistic Fermi--Dirac statistics for the electrons rather than the Boltzmann approximation, an inadequate approximation nearly universal in the older literature; see Ref.~\cite{Birrell:2024bdb} for  improved mathematical treatment.
-
-Writing the unitless potential $\Phi\equiv V/T$ and introducing a potential-dependent screening mass $m_s(\Phi)$, the rescaled Poisson equation takes the compact form
-\begin{equation}\label{eq:PBscreen}
--\nabla^2\Phi(r) + \frac{m_s^2(\Phi)}{(\hbar c)^2}\,\Phi(r) = P_\mathrm{ext}(r)\,,
-\end{equation}
-which reduces to Debye-H\"uckel theory when $\Phi\ll 1$ and to the Thomas--Fermi atomic model of electron cloud as $T\to 0$. In the ultrarelativistic, strong-field limit relevant near the nuclear surface the screening mass itself becomes~\cite{Elze:1980er,Kodama:2002xjg}
-\begin{equation}\label{eq:screenmass}
-m^2_{s,\mathrm{FD}}(\Phi) \approx \frac{4\alpha T^2}{3\pi}\left[\pi^2 + \Phi^2(r)\right]\,,
-\qquad
-m/\Phi T\ll 1\,,
-\end{equation}
-a weak-field (Debye) term plus a nonlinear correction that grows with the local potential rather than saturating exponentially as the older Boltzmann treatment predicts. Over the range probed by tunneling, see \rf{fig:ScreenMassFD}, the simplified Boltzmann statistics overestimates the screening mass, and hence the reaction-rate enhancement, by orders of magnitude relative to the correct Fermi--Dirac result~\cite{Grayson:2024uwg,Grayson:2025kva}.
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=0.72\linewidth]{ScreeningMassFD.png}
-\caption{Effective screening mass $m_s$ around a finite-sized $^4$He (\,$^8$Be\,) nucleus at BBN temperature $T=86.7$~keV, as a function of the local potential $e\phi$. The self-consistent Fermi--Dirac result (blue dashed) tracks the weak-field Debye value $m_D$ (black) at small $\Phi$ but rises only as a power law at large $\Phi$; the traditionally used Boltzmann approximation (red dashed) instead diverges exponentially, over-predicting screening in the tunneling-relevant window bounded by the Gamow energy $E_G$ and the on-surface potential $e\phi(0)$. Reprinted from Ref.~\cite{Grayson:2024uwg} under \href{https://creativecommons.org/licenses/by/4.0/}{CC~BY~4.0}.}
-\label{fig:ScreenMassFD}
-\end{figure}
-
-%%%%%%%%%%
-\subsubsection{Fusion rate enhancement}\label{sssec:FusionEnhancement}
-%%%%%%%%%%
-
-Reaction-rate enhancement follows the Salpeter form~\cite{Salpeter:1954nc}, in which the fractional change in reaction rate is set by the induced potential evaluated at the origin
-\begin{equation}\label{eq:salpeter}
-\mathcal{F}_\mathrm{sc} \equiv \frac{R_\mathrm{sc}}{R_\mathrm{vac}} \sim \exp\!\left(\frac{e\phi_\mathrm{ind}(0)}{T}\right)\,.
-\end{equation}
-Ref.~\cite{Grayson:2025kva} applies this same self-consistent machinery to the fully ionized gold catalyst of \rsec{sssec:HeavyCatalyst}, embedded in the $\sim$keV electron plasma which a relativistic laser pulse creates by stripping the nanorod. Although \req{eq:PBscreen} is nonlinear, the strong-screening and weak-field (Debye) contributions to the induced potential near the origin turn out to be additive, so the weak-field part can be subtracted at each temperature to isolate a strong-screening contribution $e\phi_\mathrm{ind}(0)\simeq14.2$~keV that is independent of plasma temperature. This is close to the zero-temperature potential shift of the bound-electron cloud of a gold atom
-\begin{equation}
-    e\phi_\mathrm{HF}(0)=\alpha^2Z^{4/3}a_\mathrm{TF}m_e\simeq14.7\,\mathrm{keV}
-\end{equation}
-obtained from the Hartree--Fock screened-Coulomb potential shifts tabulated in Ref.~\cite{garrett1967potential} ($a_\mathrm{TF}\approx1.598$ at $Z=79$). For two light reactants of charge $Z_1,Z_2$ tunneling near a heavy catalyst of charge $Z_3$, the full multi-body enhancement factor becomes
-\begin{equation}\label{eq:goldF}
-\mathcal{F}_\mathrm{sc} = \exp\!\left[\frac{1}{T}\left(Z_1Z_2\,\alpha\, m_{s,\mathrm{FD}}(r_G) + Z_3\frac{Z_1+Z_2}{2}\,\alpha\, m_{s,\mathrm{FD}}(r_G) + \frac{Z_1+Z_2}{2}\,\phi_\mathrm{ind}(r_G)\right)\right]\,,
-\end{equation}
-evaluated at the Gamow turning point $r_G$. \rf{fig:GoldEnhance} shows the resulting enhancement for several aneutronic and near-aneutronic reactions as a function of plasma temperature. Because catalysis grows with the charge of the reacting pair, $p+{}^{11}\mathrm{B}$ benefits the most, while $d$-based reactions are enhanced more modestly.
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=0.72\linewidth]{ScreenEnhanceGold.pdf}
-\caption{Reaction-rate enhancement factor $\mathcal{F}_\mathrm{sc}$ [\req{eq:goldF}] near a fully ionized gold catalyst, as a function of plasma temperature, for $p$-${}^{11}$B (black solid), $d$-$t$ (blue dashed), $d$-$d$ (red dotted), and $d$-${}^3$He (orange dashed). All curves rise slowly at low $T$, where the temperature-independent strong-screening term of \req{eq:screenmass} dominates, then climb sharply above $\sim100$~keV as thermal electrons increasingly penetrate the gold polarization cloud, before flattening once $T$ approaches $m_ec^2$. Reprinted from Ref.~\cite{Grayson:2025kva} under \href{https://creativecommons.org/licenses/by/4.0/}{CC~BY~4.0}.}
-\label{fig:GoldEnhance}
-\end{figure}
-
-A factor of order unity is modest next to the field-acceleration mechanisms of \rsec{ssec:Plasmonics}, but it is a genuinely distinct, additive effect which requires no coherent plasmon field, but only the local electron density that any sufficiently heavy, ionized nucleus drags in a hot plasma. Moreover, \req{eq:goldF} presumes thermal reactants, whose kinetic energy carries them only into the outer reaches of the gold cloud. Laser-accelerated, non-thermal ions penetrate much further, up towards the nuclear surface, where the enhancement is instead governed by $\mathcal{F}_\mathrm{sc}=\exp[\langle Z\rangle e\phi_\mathrm{ind}(R)/T]$ with $e\phi_\mathrm{ind}(R)\simeq14$~keV and $\langle Z\rangle$ the average charge of the reactants---which is precisely the beam-like situation the nanoplasmonic targets of \rsec{ssec:Plasmonics} create. This may provide an explanation for the long-standing ``anomalous screening'' seen in low-energy astrophysical $S$-factor measurements~\cite{Grayson:2025kva}.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Size of system matters}\label{ssec:size}
-%%%%%%%%%%%%%%%%%%%%%%%%%%
-
- %%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{The (nuclear) interaction length} \label{sssec:InterLength}
-%%%%%%%%%%%%%%%%%%%%%%%%
-
-Conventional thermonuclear fusion proceeds through equilibrium plasmas, in which reactant nuclei follow a Maxwell-Boltzmann velocity distribution and the fusion rate depends on the thermal average of the microscopic reactivity, $\langle\sigma v\rangle(T)$. In contrast, non-equilibrium or beam-target fusion describes situations in which one population of ions-typically energetic projectiles produced by an accelerator, laser, or collisionless shock-impinges upon a relatively cold and dense target medium that remains near rest.
-
-In a beam-target fusion experiment, the probability that an incoming particle will induce a given reaction is quantified by its cross-section $\sigma(E)$. Dimensionally, $\sigma$ has units of area; in nuclear physics one almost always uses the barn
-\[
-1\ \mathrm{barn} = 10^{-28}\ \mathrm{m}^2,
-\]
-so that typical fusion cross-sections lie in the range $10^{-3}-10^3\ \mathrm{mb}$ (millibarns, $10^{-3}$ b).
-
-Because charged‐particle fusion at low energies is suppressed by Coulomb repulsion, it is convenient to factor out the dominant exponential tunneling term and define the $S$-factor
-\begin{equation}\label{eq:Sfactor}
-S(E)\;\equiv\;E\,e^{2\pi\eta}\,\sigma(E)\,,
-\quad
-\eta=\frac{Z_1Z_2e^2}{4\pi\varepsilon_0\hbar v}
-=\frac{Z_1Z_2\alpha}{\beta}\,,
-\end{equation}
-where $E$ is the center‐of‐mass energy, $\eta$ the Sommerfeld parameter, $v=\beta c$ the relative velocity, and $Z_{1,2}$ the nuclear charges. By construction, $S(E)$ varies smoothly with $E$ even when $\sigma(E)$ itself changes by many orders of magnitude~\cite{Barker:2002mfp,wang2012reanalysis}.
-
-Because the projectiles occupy a narrow energy band rather than a thermal distribution, the relevant quantity for estimating fusion probability is the differential cross-section $\sigma(E)$ evaluated at the projectile energy. For a projectile of known kinetic energy $E$, the mean distance it travels in the target before undergoing a nuclear fusion reaction is characterized by the interaction length
-\begin{equation}
- L_{\rm int}
- \;=\;
- \frac{1}{n_{Z}\,\sigma_{\rm fus}(E)} \, ,
- \label{eq:Lint}
-\end{equation}
-where $n_{Z}$ is the number density of target nuclei and $\sigma_{\rm fus}(E)$ is the fusion cross-section at that energy. Expressing $n_Z$ in terms of the target density $\rho_Z$, atomic weight $A_Z$, and Avogadro's number $N_A$,
-\begin{equation}
-n_{Z} = \frac{N_A\,\rho_Z}{A_Z}\,,
-\end{equation}
-allows one to write the product $\rho_Z L_{\rm int}$ as an areal mass
-\begin{equation}
- m_{\rm areal}
- \;\equiv\;
- \rho_Z L_{\rm int}
- \;=\;
- \frac{A_Z}{N_A\,\sigma_{\rm fus}(E)} 
- \;,
- \label{eq:m_areal}
-\end{equation}
-At the peak of the measured or calculated cross-section $\sigma_{\rm fus}(E)$, the corresponding $L_{\rm int}$ describes the characteristic thickness of target material that would yield a fusion optical depth of unity for mono-energetic projectiles. This definition isolates purely nuclear factors from thermal or hydrodynamic effects and provides a convenient metric for comparing different reaction channels under non-equilibrium conditions.
-
-%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure}
-\centering
-%\input{NucInterL.tex}
-\includegraphics[width=0.85\linewidth]{NucInterL.pdf}
-\caption{Nuclear interaction length $L_{\rm int}$ (in microns) vs.\ target density $\rho$ for thin targets at each channel's peak cross-section $\sigma_\mathrm{peak}$. For every entrance channel $\sigma_\mathrm{peak}$ is summed over all exothermic exit channels at the evaluated CM energy. Cross-sections are obtained from Refs~\cite{Page:2004md,Angulo:1999zz,Xu:2013fha,bosch1992improved,Sikora:2016pB,Otuka:2014wzu}. Dots mark specific material densities of each target. The y-axis is extended down to show the interaction length of compressed targets.}
-\label{fig:InteractionLength}
-\end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% Add second resonance line for proton boron; also add alpha scattering on nitrogen. Also fix the ordering.
-
-Figure~\ref{fig:InteractionLength} illustrates $L_{\rm int}$ as a function of target density for several representative aneutronic and light-ion fusion reactions. Each colored curve corresponds to the inverse relation $L_{\rm int} = m_{\rm areal}/\rho$ evaluated at the cross-section’s resonance or peak value. The steep inverse dependence ($L_{\rm int}\propto 1/\rho$) means that even dense condensed-phase targets remain effectively transparent for reactions with small cross-sections. For example, the broad resonance of the $p+{}^{11}\mathrm{B}\!\to\!3\alpha$ process ($\sigma\!\approx\!1.2$~b) requires an areal mass of $m_{\rm areal}\!\approx\!15$~g\,cm${}^{-2}$, corresponding to $L_{\rm int}\!\sim\!6.5\times10^{4}$~$\mu$m in solid boron. By comparison, the familiar $d+t\!\to\!\alpha+n$ channel with $\sigma\!\approx\!5$~b achieves a somewhat shorter $L_{\rm int}\!\sim\!3.7\times10^{4}$~$\mu$m in solid lithium deuteride. Targets containing chemically bound elements such as LiD or D$_2$O appear slightly offset from their pure-isotope curves because only a fraction of the total mass density corresponds to reactive deuterons or tritons.
-
-Although the interaction-length concept is strictly applicable to mono-energetic beams, it provides a useful heuristic for visualizing the relative accessibility of different reactions in non-thermal or beam-driven environments where the particle energy distribution is narrow and the target density is well defined.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Lowest energy Be reaction}\label{ssec:Beryl}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-We draw attention to arguably the lowest energy yield fusion process which therefore can proceed in relatively small size low density condition with anneutronic reaction products in first step fully confined 
-\begin{equation}
-^9\mathrm{Be}+p\to\! ^8\mathrm{Be}+d + Q \,,\qquad Q=0.5592\,\mathrm{MeV}\,.
-\label{eq:9Bep-8Ben}
-\end{equation}
-This reaction has a lot of interesting physics, as was recently discussed~\cite{Rafelski:2025uio}. The nucleus ${}^9\mathrm{Be}$ can be seen to consist of two $\alpha$-particle molecule bound by a neutron orbiting with angular momentum $J=3/2^-$. An relatively low energy slow grazing proton picks up this fast orbiting neutron.
-
- This is in every regard the inverse of usual nuclear reaction models: Instead of using we make a deuteron and the motion of incoming particle inducing fusion reaction is slower compared to particles in the target which participates. Moreover, it is a neutron moving out, which is not subject to the requirement to penetrate a Coulomb wall. Moreover, this neutron is relatively weakly bound else we could not gain energy attaching it to form deuteron.
-
- The weak binding of the neutron in ${}^9\mathrm{Be}$ with separation energy $E_s^{(n^8\mathrm{Be})}=-1.6654$\,MeV implies for the static wave function a long-range tail. The energy gain arises because of neutron attachment to proton gains $E_d^{(np)}=-2.22457$\,MeV.
- 
-The produced deuteron has a good chance to engage with another ${}^9\mathrm{Be}$. Among possible reactions is the following:
-\begin{equation}
-{}^9\mathrm{Be}+d\to\! ^{10}\mathrm{Be}+p + Q \,,\qquad Q= 4.5877\,\mathrm{MeV}\,.%= 15.8162 \,\mathrm{MeV}-11.2285\,\mathrm{MeV}\,.
-%2012 data: 15.8162 -11.2285=4.5877
-\label{eq:9Bed-10Bep}
-\end{equation}
-The reaction product, ${}^{10}\mathrm{Be}$
-is a molecular state of two $\alpha$-particles glued together by two valence neutrons which are both in the $J=3/2^-$ orbit. This reaction~\req{eq:9Bed-10Bep} could be induced by a $d$ produced in primary reaction~\req{eq:9Bep-8Ben}. The produced proton can restart the cycle of reactions. 
-
-This branch of ${}^9\mathrm{Be}+d$ reaction cycle is clearly aneutronic. However, there is another reactions branch, which can proceed when proton hits ${}^9\mathrm{Be}$ and the neutron producing one
-\begin{equation}
-{}^9\mathrm{Be}+d\to\! ^{10}\mathrm{B}+n + Q \,,\qquad Q= 4.3621\,\mathrm{MeV}\,,
-\label{eq:9Bed-10Bn}
-\end{equation}
-is preventing us from calling the above cycle aneutronic. Moreover, reactions such as 
-\begin{equation}
-{}^9\mathrm{Be}+d\to\! ^{7}\mathrm{Li}+\alpha + Q \,,\quad Q= 7.1521\,\mathrm{MeV}\,;\qquad
-{}^9\mathrm{Be}+d\to\! ^{8}\mathrm{Be}+t + Q \,,\quad Q= 4.5927\,\mathrm{MeV}\,;
-\label{eq:9Bed-7Lia-8Bet}
-\end{equation}
-do not produce a proton in the final state and thus also interrupt the repetative reaction cycle. Clearly a pure Be is not a good aneutronic medium.
-
-
- %%%%%%%%%%
-\subsubsection{Beryllium-helium aneutronic fusion chain}\label{sssec:aneutronicBe}
-We just saw how a Be target can be made into a source of deuterons and we want to further exploit this to build another aneutronic fusion cycle. Table~\ref{tab:aneutronic_reactions} summarizes the principal first step reaction channels of current experimental interest. The top section is the standard neutronic reaction set we have discussed. The bottom aneutronic reaction section appears often in literature. Before we proceed we should remember: a) There are many other aneutronic reactions involving collisions of protons with light elements; b) The aneutronic $p + {}^{7}\mathrm{Li}$ does not have an active above energy threshold resonance that decays into energy yielding fusion channel before neutron removal is probable. Thus the aneutronic channel in this reaction is unreachable in two body reactions, while the reachable reaction channels are accompanied by neutron production. We defer further discussion of this often overlooked issue to another venue.
-
-%%%%%%p42
-\begin{table}[ht]
-\centering
-\caption{We show select set of fusion reactions: In columns we include the lowest resonant fusion reaction energy $E_\mathrm{rCM}\pm\Gamma/2$ in CM frame total half width $\Gamma/2$, the total energy release $Q$; $Q_\mathrm{ch}$ is the energy carried by charged products (available locally); $f_n = 1 - Q_\mathrm{ch}/Q$ is the neutron energy fraction. Reactions marked $\star$ produce no primary free neutrons.}
-\label{tab:aneutronic_reactions}
-\begin{tabular}{lccccc}
-\toprule
-Reaction & Products & $E_\mathrm{rCM}\pm\Gamma/2$ [MeV] & $Q$ [MeV] & $Q_\mathrm{ch}$ [MeV] & $f_n$ \\
-\midrule
-\phantom{ $\star$ }$ d + d \to $ & ${}^{3}\mathrm{He}+n$ &$0.4\pm3$ &3.27 & 0.82 & 0.75 \\
-\phantom{ $\star$ }$\phantom{d + d} \to $ & $t+p$ & $0.4\pm3$ &4.03 & 4.03 & 0 \\
-\phantom{ $\star$ }$ d + t \to $ & $\alpha+n$ & $0.05\pm0.037$ &17.59 & 3.52 & 0.80 \\
-\midrule
- $\star$ $d + {}^{3}\mathrm{He} \to $ & $\alpha+p$ & $0.25\pm0.14$ &18.35 & 18.35 & 0 \\
- $\star$ $p + {}^{6}\mathrm{Li} \to $ & $\alpha+ {}^{3}\mathrm{He}$ & $1.6\pm 0.25$ &4.02 & 4.02 & 0 \\
- $\star$ $p + {}^{7}\mathrm{Li} \to $ & $2\times\alpha$ &$ -0.33\pm0.037$ &17.35 & 17.35 & 0 \\
- $\star$ $p + {}^9\mathrm{Be} \to $ & ${}^{8}\mathrm{Be}+d$ & $0.29\pm 0.06$ & 0.56 & 0.56 & 0 \\
- $\star$ $p + {}^{11}\mathrm{B} \to $ & $3\times\alpha$ & $0.15\pm 2.7$ &8.68 & 8.68 & 0 \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-
-Among the `star' marked aneutronic reactions on Table~\ref{tab:aneutronic_reactions} we see the case of $p + {}^9\mathrm{Be}$ we have just discussed. This reaction produces a deuteron. Presence of produced weekly bound deuteron in general induces neutron generating reactions as we saw by example of the secondary reaction on ${}^9\mathrm{Be}$. However, the deuteron produced in $p + {}^9\mathrm{Be}$ reaction is just at resonant energy for the reaction $d + {}^{3}\mathrm{He}$ shown in the first starred line of Table~\ref{tab:aneutronic_reactions}. Therefore mixing with ${}^9\mathrm{Be}$ in the target enough ${}^{3}\mathrm{He}$ could allow a repetitive cycle of reactions between these two components, given the outcome of $d + {}^{3}\mathrm{He}$ reaction, which always contains a high energy proton.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Muon-catalyzed fusion}\label{ssec:MuonCatalyzed}
@@ -1513,7 +1523,7 @@ We believe that $\phi(1020)$ is the preferred candidate for the following reason
 \item 
 \textbf{Kaon decay chain.} The $\phi$ decays to $K^+K^-$ (49.1\%), $K_LK_S$ (33.9\%), and the remainder goes to three pion channel. Most kaons decay directly into a muon e.g. $K^-\to\mu^-\bar\nu_\mu$ at branching fraction 63.6\%.  One can estimate that about 10\% of $\phi$ chain decay does not produce a muon, this is decay path that takes neutral Kaons into neutral pions. Said differently a vast majority of produced $\phi$ produces in the decay chain one muon pair. We note that this is also the case for the $\rho$ produced $\pi^+\pi^-$ pairs. However, unlike formation of two Kaons in $\phi$ decay which are easily slowed down as their kinetic energy is in 10-15\,MeV range, pions from $\rho$-decay are relativistic with $\sim 200$~MeV kinetic energy, similar to the conventional pion source. It is clear that the   $\phi/K$ path provides a distinct intermediate step with better-defined kinematics.
 \item 
-\textbf{Boost geometry.} In a geometrically asymmetric $e^+e^-$ collider where the beam energies and angles are carefully chosen, all produced $\phi$ can be directed at chosen speed towards reaction vessel allowing the cascade decay muons to be well localized and thus assure a large acceptance of muons for fusion. Here the weak decay  $K^-\to\mu^-\bar\nu_\mu$ is convenient since the neutrono removes 236 MeV of available decay energy due to is vanishingly small mass. One could indeed us a highly asymmetric $e^+e^-$ collider such that about as many as 25\% of produced $\mu^-$ are created at rest in the reaction chamber. A full estimate requires in depth consideration for both $\phi$, and $\rho$ 
+\textbf{Boost geometry.} In a geometrically asymmetric $e^+e^-$ collider where the beam energies and angles are carefully chosen, all produced $\phi$ can be directed at chosen speed towards reaction vessel allowing the cascade decay muons to be well localized and thus assure a large acceptance of muons for fusion. Here the weak decay  $K^-\to\mu^-\bar\nu_\mu$ is convenient since the neutron removes 236 MeV of available decay energy due to is vanishingly small mass. One could indeed us a highly asymmetric $e^+e^-$ collider such that about as many as 25\% of produced $\mu^-$ are created at rest in the reaction chamber. A full estimate requires in depth consideration for both $\phi$, and $\rho$ 
 %
 \item 
 \textbf{Existing infrastructure.} The DA$\Phi$NE $e^+e^-$ collider at Frascati (Italy) was built and operated expressly as a $\phi$ factory, demonstrating the technical feasibility of this approach at a modest scale. No equivalent dedicated $\rho$-factory infrastructure exists or would be straightforward to justify. There is apparently already a project underway to explore muon production at DA$\Phi$NE
@@ -1521,7 +1531,7 @@ We believe that $\phi(1020)$ is the preferred candidate for the following reason
 
 The effective $\mu^-$ cross-section from the $e^+e^-\to \phi$  resonance is $\sigma(\mu^-)\simeq 1700$~nb (combining $K^+K^-$ and $K_LK_S$ contributions), competitive with or exceeding the other resonances on a per-event basis while retaining the sharp-resonance advantage. Whether the full system-level $e^+e^-\to \phi$ energy cost per stopped $\mu^-$ improves over the optimized storage-ring pion-production scheme of~\cite{Rafelski:1991DOE} remains an open quantitative question: There is need to consider collider wall-plug power, kaon capture efficiency, and muon transport losses. The resonant production mechanism and well-defined kaon decay kinematics provide qualitative advantages; the $\phi$-factory concept thus deserves serious consideration and energy cost evaluation as a muon source for $\mu$CF systems.
 
-\paragraph*{To summarizez $\mu$CF theoretical viability.}
+\paragraph*{To summarize $\mu$CF theoretical viability.}
 The lifespan bound on number of fusions per muon is counted in 1000s of fusions due to long life span $\tau_\mu=2.2\mu$s and sub-nanoscale timing of all reaction processes in dense D-T target. Such a number of fusions per muon vastly exceeds the muon cost estimate we developed here based on resonant $\phi(1020)$ production. However, $\mu$CF is limited by muon sticking to $\alpha$ or to $({}^3\mathrm{He}$. This caps the effective yield of fusions per muon to below about $150$ fusion events observed. However, experiments have shown an intriguing departure from theoretical sticking estimates especially so within analysis that accounts for muon cycling and sticking in a high tritium environment. We considered unexplored nuclear muon regeneration mechanisms which justify continued interest in the $\mu$CF path to fusion.
 
 \paragraph*{Current commercial activity.}
@@ -1530,14 +1540,10 @@ As of 2026 at least two private companies: Muons, Inc.\ and Acceleron Fusion are
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Evaluation, discussion and outlook}\label{sec:Dis}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-In this work we have shown why study of the science of nuclear fusion with ultimate application to energy generation should not be viewed today to have some clear cut path leading to near term technological realization. We have argued that there is a broad class of nuclear pathways whose feasibility depends on multitude of unknown technological and scientific factors.
+\subsection{Recapitulation}
+In this work we have shown why study of the science of nuclear fusion with ultimate application to energy generation should not be viewed today to have some clear cut unique path leading to near term technological realization. We have argued that there is a broad class of nuclear pathways whose feasibility depends on multitude of unexplored scientific factors which often requiring novel technological realizations. It should be remembered that this remark applies strongly to the `traditional' $dt$ fusion path irrespective of realization model: laser implosion (direct or indirect),  dynamic EM field implosion, a variant not further discussed here, or plasma (stelatron, tokomak).
 
-The light-element abundances summarized in~\rf{fig:NuclearAsh} and \rf{fig:NuclearAshUniverse}, imply that the relevant fuels are not equally available: deuterium, lithium, boron, carbon, nitrogen, and helium isotopes each occupy different positions in the terrestrial and cosmic nuclear inventory. The phrase ``limitless fusion energy'' must be qualified by isotope supply, the reaction cycle chosen and the ability of the chosen realization to close any required breeding or fuel loop, while developing the transition of the society to fusion.
-
-
-\paragraph*{Fusion in paths the Universe}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-The preceding sections have surveyed fusion pathways across an unusually broad physics range, from stellar quasi-equilibrium reactors, to laboratory-scale thermal plasmas, and finally to non-equilibrium, ultrafast, and nano-structured environments (see~\rf{fig:ProcessTimeVolume}).
+The preceding sections have surveyed fusion pathways across an unusually broad physics range, from stellar quasi-equilibrium reactors, to laboratory-scale thermal plasmas, and beam driven non-equilibrium ignition and  nano-structured environments. We attempt to illustrate the width of considered environments in~\rf{fig:ProcessTimeVolume} where in space size-time plane different systems are displayed in qualitative terms.  The Big Bang Nucleosynthesis (BBN) is present in a homogeneous thermally equilibrated expanding Universe, spatially as big as it can be. However, fusions reactions end within an `hour'. Stellar nucleosynthesis is opposite, a modest sized but very long duration.  Large manmade fusion experiments are designed or capable to operate for rather short microsecond to minute duration burns and are a large building sized. Beam driven  approaches are aiming to be `table top' sized but those requiring giant lasers have some miniaturization to achieve.  Resonant antenna for light systems are metaphorical future ``space planes ''  where ignition size and burn time is the smallest. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}[ht]%[ht]
@@ -1545,12 +1551,17 @@ The preceding sections have surveyed fusion pathways across an unusually broad p
 %\input{FusionScale4D.tex}
 \includegraphics[width=0.75\linewidth]{FusionScale4D.pdf}
 %%%%%%%%%%%
-\caption{Comparison of time and scale of fusion environments. Big Bang Nucleosynthesis (BBN) is present in a homogeneous thermally equilibrated universe filling plasma which cools in expending Universe and fusions reactions end within an `hour'. Stellar nucleosynthesis is a near equilibrium in plasma process with reactor size in front of our eyes. Large manmade fusion experiments are designed or capable to operate for short microsecond to minute duration burns. Aneutronic approaches (such as proton-boron and plasmonics) are metaphorical future ``space planes.'' Nuclear burn is limited in both time and space to below microscale. The space plane art credit to \textcopyright\ Virgin Galactic~\cite{VirginGalactic:2020}.
+\caption{Comparison of time and scale of fusion environments. Big Bang Nucleosynthesis (BBN) is present in a homogeneous thermally equilibrated Universe filling plasma which cools in expanding Universe and fusions reactions end within an `hour'. Stellar nucleosynthesis is a near equilibrium in plasma process with reactor size in front of our eyes. Large manmade fusion experiments are designed or capable to operate for short microsecond to minute duration burns. Aneutronic approaches (such as proton-boron and plasmonics) are metaphorical future ``space planes.'' Nuclear burn is limited in both time and space to below microscale. The space plane art credit to \textcopyright\ Virgin Galactic~\cite{VirginGalactic:2020}.
 }
 \label{fig:ProcessTimeVolume}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+The light-element abundances summarized in~\rf{fig:NuclearAsh} and \rf{fig:NuclearAshUniverse}, imply that the relevant fuels are not equally available: deuterium, lithium, boron, carbon, nitrogen, and helium isotopes each occupy different positions in the terrestrial and cosmic nuclear inventory. The phrase ``limitless fusion energy'' must be qualified by isotope supply, the reaction cycle chosen and the ability of the chosen realization to close any required breeding or fuel loop, while developing the transition of the society to nuclear fusion energy.
+
+
+\paragraph*{Fusion self heating}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 For thermal plasmas, the central constraint remains the requirement that charged-particle heating
 \[
 P_{\rm fus} = \sum_{ij,k} R_{ij}^{(k)} E_{\rm ch}^{(k)} f_{\rm dep}^{(k)}
@@ -1563,23 +1574,23 @@ P_{\rm brem}
 \]
 As illustrated in~\rf{fig:PowerBalance_AllFuels}, the favorable reactivity of the $dt$ channel lowers the ignition threshold relative to $dd$ which itself is worse in terms of neutron flux but does not need tritium. An intermediate strategy is to ``spike'' a deuterium plasma with a modest fraction of ${}^3$He, as in~\rf{fig:He3Spike}. In this case the additional $d+{}^3$He channel increases charged-particle heating. However, bremsstrahlung rises through the corresponding increase in $Z_{\rm eff}$. For suitable temperatures and mixture fractions, a net gain in $P_{\rm fus}/n_e^2$ relative to pure deuterium can be achieved without introducing thus prodution of proliferation agent, tritium.
  
-More generally, controlled doping of light hydrogen plasma with deuterium and other light nuclei (including ${}^3$He, Li isotopes, Be, and more) offers a pathway to tailor reaction networks and enhance secondary heating, albeit potentially at the cost of increased radiative losses and more complex burn dynamics. A self-consistent treatment of doped plasmas, including full reaction networks, secondary burn fractions, evolving composition, and radiative feedback, remains an important and yet entirely open nuclear science problem.
+More generally, controlled doping of light hydrogen plasma with deuterium and other light nuclei (including ${}^3$He,  Be, B, etc) offers a pathway to tailor reaction networks and enhance secondary heating, albeit potentially at the cost of increased radiative losses and more complex burn dynamics. A self-consistent treatment of doped plasmas, including full reaction networks, secondary burn fractions, evolving composition, and radiative feedback, remains an important and yet entirely open nuclear science problem arguably with little if any  presence in literature.
 
 \paragraph*{Convenional hydrogen burn}
-The most technologically accessible high energy gain reaction remains the traditional 
+The most technologically accessible high energy gain reaction remains the traditional fusion channel
 \begin{align}
  \nonumber d+t\to \alpha+n\,,
 \end{align}
 because of its large reactivity and lowest thermal ignition temperature, as illustrated by the thermal power-balance comparison in~\rf{fig:PowerBalance_AllFuels}. However, this accessibility comes at the cost of a $14~\mathrm{MeV}$ neutron carrying most of the released energy (which itself presents a radiation hazard; see~\rf{fig:NuetronSafety}) and the need for tritium-breeding to maintain and expand the fuel cycle, as discussed in~\rsec{sssec:ICFtritium}. 
 
-In this sense, application of $dt$ fusion is not governed only by a solution to the reaction domain confinement problem (such as direct or indirect ICF; see~\rsec{sssec:picoICF}). It also requires development of science and technology addressing the fuel-cycle (tritium breeding) and fast neutron control, combining tritium breeding and shielding from interaction with conventional materials. These challenges remain whether or not the $dt$ burn is realized in magnetic confinement, inertial confinement, or muon-catalyzed fusion.
+In this sense, application of $dt$ fusion is not governed only by a solution to the reaction domain confinement problem (such as direct or indirect ICF; see~\rsec{sssec:picoICF}). It also requires development of science and technology addressing the fuel-cycle (tritium breeding) and fast neutron control, combining tritium breeding and shielding from interaction with conventional and newly developed stress and radiation wear resistent materials. These challenges remain whether or not the $dt$ burn is realized in magnetic confinement, inertial confinement, or muon-catalyzed fusion.
 
-Deuterium fusion 
+The pure deuterium fusion solution
 \begin{align}
  \nonumber d+d\to p+t,\qquad
  d+d\to n+{}^3{\rm He}
 \end{align}
-is sometimes regarded as a cleaner alternative, but more complete reaction chain analysis, discussed in~\rsec{ssubsec:SecondHeating}, shows that this argument is incomplete. The primary $dd$ fusion reactions naturally generate secondary generation tritium and ${}^3\mathrm{He}$. The allows secondary reactions
+is sometimes advanced as a cleaner alternative, but more complete reaction chain analysis, discussed in~\rsec{ssubsec:SecondHeating}, shows that this argument is incomplete. The primary $dd$ fusion reactions naturally generate secondary generation tritium and ${}^3\mathrm{He}$. The allows secondary reactions
 \begin{align}
  d+t\to \alpha+n\,,\qquad
  d+{}^3{\rm He}\to \alpha+p\,.
@@ -1590,14 +1601,14 @@ Complete assessment of $dd$ fusion therefore requires tracking the burn rates of
  
 Undesired $dd$ burn issues arise furthermore considering on first look a clean ${d}^{3\!}\mathrm{He}$-fusion burn. The problem: The neutron producing $dd$ burn dominates up to temperatures around 20 keV the desired ${d}^{3\!}\mathrm{He}$-fusion burn. Reduction of fractional abundance of $d$ in the ${}^3\mathrm{He}$ plasma will limit chance of $dd$ fusion but greatly increase bremsstrahlung radiation losses, considering higher operational temperature required in $d+{}^3\mathrm{He}$ burn channel, see~\rsec{sssec:RadLosses}. The technological challenges of realizing \underline{thermal} ${d}^{3\!}\mathrm{He}$-fusion limiting neutron production are well above our present day technological capabilities. 
 
-Therefore, any practical approach to a clean $d+{}^3\mathrm{He}$ burn requires, as we have discussed, the injection of a high flux resonant reaction energy ${}^3\mathrm{He}$-beam into $d$ target. Such a system is clearly not a thermal plasma device. We remember here that larger $Z>2$ thermal plasma enhances Bremsstrahlung losses beyond the fusion gain. We have also addressed another alternative, the use of a proton beam to create $d$ in reactions on beryllium and accompany this by sequel $d+{}^3\mathrm{He}$ reaction which is re-creating the proton needed to continue a fusion cycle. This proposal is a conceptual idea; the realization requires harvesting the high energy of produced protons before recycling these to produce deuterons on Be.
+Therefore, any practical approach to a clean $d+{}^3\mathrm{He}$ burn requires, as we have discussed, the injection of a high flux resonant reaction energy ${}^3\mathrm{He}$-beam into $d$ target. Such a system is clearly not a thermal plasma device. We remember here that larger $Z>2$ thermal plasma enhances Bremsstrahlung losses beyond the fusion gain. We have also addressed another alternative, the use of a proton beam to create $d$ in reactions on beryllium and accompany this by sequel $d+{}^3\mathrm{He}$ reaction which is re-creating the proton needed to continue a fusion cycle. This proposal is a conceptual idea; the realization could require  harvesting the high energy of produced protons before recycling these to produce deuterons on Be.
 
 {\it We thus conclude that a \underline{thermal plasma} and radiation clean energy producing fusion device that can be built on Earth has not been conceptually discovered. Therefore a thermal fusion energy source requires breakthrough novel ideas or the development of fast neutron handling technologies which then can be adapted to tritium breeding favoring $dt$-reactions in thermal confined plasma energy production. This conclusion applies in general, thus involving both magnetic and inertial confinement when and if most of energy produced is through thermal burn reactions. It applies to muon catalyzed fusion as we know it today.}
 
 \paragraph*{Search for aneutronic fusion method}
-This understanding motivates the recent interest in aneutronic reactions. Search for laboratory aneutronic beam-target approaches and environments are motivated at least in part by the fully aneutronic stellar fusion burn cycles, discussed in~\rsec{sssub:sunN}. In general aneutronic processes require much higher inter-particle collision energy. This in turn has stimulated interest in non-equilibrium reaction pathways involving use of particle beams to either fully drive a fusion reactor or to ignite in spark manner thermal burn front. 
+This understanding motivates the recent interest in aneutronic reactions. Search for laboratory aneutronic beam-target approaches and environments are motivated at least in part by the fully aneutronic stellar fusion burn cycles, discussed in~\rsec{sssub:sunN}. In general aneutronic processes require much higher inter-particle collision energy. This in turn has stimulated interest in non-equilibrium reaction pathways involving use of particle beams to either fully drive a fusion reactor or to ignite in spark manner a thermal burn front. 
 
-In such directed particle motion systems, the central control variable is no longer a thermal quasi-equilibrium temperature. Instead, fusion yield depends on the ion energy spectrum, target density, stopping power of produced fusion secondaries, and pointlike fusion inducement by meta-material field-enhancement. Examples include laser-driven $p+{}^{11}\mathrm{B}$ fusion in~\rf{fig:PBFusion} and~\rf{fig:YieldpB}, boron-nitride reaction cycles in~\rf{fig:BNcycles}, and plasmonic/nano-structured target concepts discussed in~\rsec{sssec:nanoF}.
+In such directed particle motion systems, the central control variable is no longer a thermal quasi-equilibrium temperature. Instead, fusion yield depends on the ion energy spectrum, target density, stopping power of produced fusion secondaries, and pointlike fusion inducement by meta-material field-enhancement. Examples include laser-driven $p+{}^{11}\mathrm{B}$ fusion seen in~\rf{fig:PBFusion} and~\rf{fig:YieldpB} requiring boron-nitride reaction cycles in~\rf{fig:BNcycles} to assure proton production for fusion cycling, potentially implemented in plasmonic/nano-structured target concepts discussed in~\rsec{sssec:nanoF}. Another similar aneutronic system involving a mix 
 
 Nuclear fusion reactions driven by high contrast high intensity short pulsed lasers have now been explored for more than two decades. The advantage is the ability to use isotopes which leads to a small to start from, and potentially reducible rate of production of neutrons. This is the aneutronic fusion. One must also note research works with opposite objective, i.e. interest to cheaply produce neutrons on demand, needed for practical technological applications~\cite{Karsch2002Neutrons}.
 
@@ -1667,7 +1678,7 @@ The space propulsion application is arguably the most near-term route to making 
 
 \dataavailability{Data used in creating in plasma reaction figures will be made available in arXiv data depository.} 
 
-\acknowledgments{One of us (JR) thanks: NAPLife project leader Tam{\'a}s Bir{\'o} for the kind invitation to participate on-line in the group meetings in observer status; Vojt{\v e}ch Petr\'a{\v c}ek of Czech Technical University and CFP (Check Fusion Partners) for a careful reading of the manuscript and valuable comments. We thank Sandy Yousif for help in photographing the Lycurgus cup.} 
+\acknowledgments{One of us (JR) thanks: NAPLife project leader Tam{\'a}s Bir{\'o} for the kind invitation to participate on-line in the group meetings in observer status; Vojt{\v e}ch Petr\'a{\v c}ek of Czech Technical University and CFP (Check Fusion Partners) for a careful reading of the manuscript and valuable comments. We also thank Sandy Yousif for help in photographing the Lycurgus cup.} 
 
 \conflictsofinterest{The authors declare no conflicts of interest.}
 
