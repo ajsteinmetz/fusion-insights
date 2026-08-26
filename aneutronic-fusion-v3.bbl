@@ -67,6 +67,13 @@ Meija, J.; Coplen, T.B.; Berglund, M.; Brand, W.A.; Bièvre, P.D.; Gröning,
 \newblock {\em Pure and Applied Chemistry} {\bf 2016}, {\em 88},~293--306.
 \newblock {\url{https://doi.org/10.1515/pac-2015-0503}}.
 
+\bibitem[Aguilar et~al.(2025)]{Aguilar:2025}
+Aguilar, M.;  et~al.
+\newblock Properties of Cosmic Lithium Isotopes Measured by the Alpha Magnetic
+  Spectrometer.
+\newblock {\em Phys. Rev. Lett.} {\bf 2025}, {\em 134},~201001.
+\newblock {\url{https://doi.org/10.1103/PhysRevLett.134.201001}}.
+
 \bibitem[Aymar(2001)]{Aymer:2001}
 Aymar, R.
 \newblock ITER R\&D: Executive Summary: Design Overview.
@@ -233,12 +240,6 @@ Novotny, L.; van Hulst, N.
 \newblock {\em Nature Photonics} {\bf 2011}, {\em 5},~83--90.
 \newblock {\url{https://doi.org/10.1038/nphoton.2010.237}}.
 
-\bibitem[Csernai and Collaborations(2026)]{Csernai:2026MDPI}
-Csernai, L.P.o.b.o.t.N.; Collaborations, F.
-\newblock Laser-Induced Fusion via Resonant Nanorod Antennas.
-\newblock {\em Particles} {\bf 2026}, {\em 9},~86.
-\newblock {\url{https://doi.org/10.3390/particles9030086}}.
-
 \bibitem[Bir{\'o} and {NAPLIFE Collaboration}(2025)]{Biro:2025EPJ}
 Bir{\'o}, T.; {NAPLIFE Collaboration}.
 \newblock Nanotechnology and plasmonics for fusion.
@@ -262,6 +263,12 @@ Aladi, M.; Kedves, M.; {NAPLIFE Collaboration}.
   234},~2999--3005.
 \newblock {\url{https://doi.org/10.1140/epjs/s11734-025-01674-0}}.
 
+\bibitem[Csernai and Collaborations(2026)]{Csernai:2026MDPI}
+Csernai, L.P.o.b.o.t.N.; Collaborations, F.
+\newblock Laser-Induced Fusion via Resonant Nanorod Antennas.
+\newblock {\em Particles} {\bf 2026}, {\em 9},~86.
+\newblock {\url{https://doi.org/10.3390/particles9030086}}.
+
 \bibitem[Bir{\'o} et~al.(2023)Bir{\'o}, Kro{\'o}, {Csernai}, Veres, Aladi,
   Papp, and Kedves]{Biro:2023Univ}
 Bir{\'o}, T.S.; Kro{\'o}, N.; {Csernai}, L.P.; Veres, M.; Aladi, M.; Papp, I.;
@@ -276,6 +283,12 @@ Grayson, C.; Rafelski, J.
   accelerated implosion of nuclear fuel within sub-wavelength enclosing
   structures.
 \newblock United States US Patent App. 19/773,972,  Aug 2026.
+
+\bibitem[Novotny(2007)]{Novotny:2007}
+Novotny, L.
+\newblock Effective wavelength scaling for optical antennas.
+\newblock {\em Physical review letters} {\bf 2007}, {\em 98},~266802.
+\newblock {\url{https://doi.org/10.1103/PhysRevLett.98.266802}}.
 
 \bibitem[Frank(1947)]{Frank:1947}
 Frank, F.O.
@@ -384,6 +397,11 @@ Rafelski, J.; Jones, S.E.
 Rafelski, H.E.; Harley, D.; Shin, G.R.; Rafelski, J.
 \newblock Cold fusion: Muon catalyzed fusion.
 \newblock {\em J. Phys. B} {\bf 1991}, {\em 24},~1469.
+
+\bibitem[Kuramoto and Kitaoka(2000)]{Kuramoto:2000}
+Kuramoto, Y.; Kitaoka, Y.
+\newblock {\em Dynamics of Heavy Electrons}; International Series of Monographs
+  on Physics, OUP Oxford,  2000.
 
 \bibitem[Kamimura et~al.(2023)Kamimura, Kino, and Yamashita]{Kamimura2023:xka}
 Kamimura, M.; Kino, Y.; Yamashita, T.
@@ -687,12 +705,6 @@ Schuck, P.J.; Fromm, D.P.; Sundaramurthy, A.; Kino, G.S.; Moerner, W.E.
   bowtie nanoantennas.
 \newblock {\em Physical Review Letters} {\bf 2005}, {\em 94},~017402.
 \newblock {\url{https://doi.org/10.1103/PhysRevLett.94.017402}}.
-
-\bibitem[Novotny(2007)]{Novotny:2007}
-Novotny, L.
-\newblock Effective wavelength scaling for optical antennas.
-\newblock {\em Physical review letters} {\bf 2007}, {\em 98},~266802.
-\newblock {\url{https://doi.org/10.1103/PhysRevLett.98.266802}}.
 
 \bibitem[for~the NAPLIFE~Collaboration et~al.(2026)]{tamas2025nanofusion}
 for~the NAPLIFE~Collaboration, T.B.;  et~al.
