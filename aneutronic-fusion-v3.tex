@@ -547,8 +547,6 @@ where $E$ is the center‐of‐mass energy, $\eta$ the Sommerfeld parameter, $v=
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Add alpha scattering on nitrogen. Also fix the ordering.
-
 Because the projectiles occupy a narrow energy band rather than a thermal distribution, the relevant quantity for estimating fusion probability is the differential cross-section $\sigma(E)$ evaluated at the projectile energy. For a projectile of known kinetic energy $E$, the mean distance it travels in the target before undergoing a nuclear fusion reaction is characterized by the interaction length
 \begin{equation}
  L_{\rm int}
@@ -650,6 +648,7 @@ Each channel releases an energy $Q_{ij}^{(k)}$ distributed among reaction produc
 P_{\rm fus}
 = \sum_{ij}\sum_k 
 R_{ij}^{(k)}\,E_{\rm ch}^{(k)}\,f_{\rm dep}^{(k)},
+\label{eq:powerFusion}
 \end{align}
 where $f_{\rm dep}^{(k)}$ is the fraction of charged energy deposited before escape or transport losses. 
 
@@ -695,6 +694,7 @@ P_{\rm brem}
 \sqrt{T_e}
 \left(1 + a_1\frac{T_e}{m_e c^2}\right)
 g_B ,
+\label{eq:powerBrem}
 \end{align}
 where $T_{e}$ is written in keV and $C_b=4.83\times10^{-37}\,\mathrm{W\,m^3\,keV^{-1/2}}$ is obtained from the average of the free--free scattering process
 $e+Z\to e+Z+\gamma$. The parameter $g_B\simeq1.1$ is the velocity-averaged
@@ -1589,24 +1589,14 @@ The light-element abundances summarized in~\rf{fig:NuclearAsh} and \rf{fig:Nucle
 
 \paragraph*{\bf Fusion self heating}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-For thermal plasmas, the central constraint remains the requirement that charged-particle heating
-\[
-P_{\rm fus} = \sum_{ij,k} R_{ij}^{(k)} E_{\rm ch}^{(k)} f_{\rm dep}^{(k)}
-\]
-exceed radiative losses, dominated at high temperature by
-\[
-P_{\rm brem}
-= C_b n_e^2 Z_{\rm eff}\sqrt{T_e}
-\left(1 + a_1\frac{T_e}{m_e c^2}\right) g_B .
-\]
-As illustrated in~\rf{fig:PowerBalance_AllFuels}, the favorable reactivity of the $dt$ channel lowers the ignition threshold relative to $dd$ which itself is worse in terms of neutron flux but does not need tritium. An intermediate strategy is to ``spike'' a deuterium plasma with a modest fraction of ${}^3$He, as in~\rf{fig:He3Spike}. In this case the additional $d+{}^3$He channel increases charged-particle heating. However, bremsstrahlung rises through the corresponding increase in $Z_{\rm eff}$. For suitable temperatures and mixture fractions, a net gain in $P_{\rm fus}/n_e^2$ relative to pure deuterium can be achieved without introducing thus prodution of proliferation agent, tritium.
+For thermal plasmas, the central constraint remains the requirement that charged-particle heating, see \req{eq:powerFusion}, exceed radiative losses, dominated at high temperature by Bremsstrahlung, \req{eq:powerBrem}. As illustrated in~\rf{fig:PowerBalance_AllFuels}, the favorable reactivity of the $dt$ channel lowers the ignition threshold relative to $dd$ which itself is worse in terms of neutron flux but does not need tritium. An intermediate strategy is to ``spike'' a deuterium plasma with a modest fraction of ${}^3$He, as in~\rf{fig:He3Spike}. In this case the additional $d+{}^3$He channel increases charged-particle heating. However, bremsstrahlung rises through the corresponding increase in $Z_{\rm eff}$. For suitable temperatures and mixture fractions, a net gain in $P_{\rm fus}/n_e^2$ relative to pure deuterium can be achieved without introducing thus prodution of proliferation agent, tritium.
  
 More generally, controlled doping of light hydrogen plasma with light nuclei (including ${}^3$He, Be, B, etc) offers a pathway to tailor reaction networks and enhance secondary heating, albeit potentially at the cost of increased radiative losses and more complex burn dynamics. A self-consistent treatment of doped plasmas, including full reaction networks, secondary burn fractions, evolving composition, and radiative feedback, remains today an important and yet entirely open nuclear science problem arguably with little if any presence in literature.
 
 \paragraph*{\bf Convenional hydrogen burn}
 The most technologically accessible high energy gain reaction remains the traditional fusion channel
 \begin{align}
- \nonumber d+t\to \alpha+n\,,
+ d+t\to \alpha+n\,,
 \end{align}
 because of its large reactivity and lowest thermal ignition temperature, as illustrated by the thermal power-balance comparison in~\rf{fig:PowerBalance_AllFuels}. However, this accessibility comes at the cost of a $14~\mathrm{MeV}$ neutron carrying most of the released energy (which itself presents a radiation hazard; see~\rf{fig:NuetronSafety}) and the need for tritium-breeding to maintain and expand the fuel cycle, as discussed in~\rsec{sssec:ICFtritium}. 
 
@@ -1614,8 +1604,7 @@ In this sense, application of $dt$ fusion is not governed only by a solution to 
 
 The pure deuterium fusion solution
 \begin{align}
- \nonumber d+d\to p+t,\qquad
- d+d\to n+{}^3{\rm He}
+d+d\to p+t,\qquad d+d\to n+{}^3{\rm He}
 \end{align}
 is sometimes advanced as a cleaner alternative, but more complete reaction chain analysis, discussed in~\rsec{ssubsec:SecondHeating}, shows that this argument is incomplete. The primary $dd$ fusion reactions naturally generate secondary generation tritium and ${}^3\mathrm{He}$. The allows secondary reactions
 \begin{align}
@@ -1665,13 +1654,9 @@ For non-thermal fusion, the key task is to develop equally self-consistent model
 It should be noted that particle beam driven fusion space propulsion is by far the preferred solution given the natural directionality of generated thrust and electrical power harnessing at minimal level to keep system operational in deep space, while using solar power when available. We return to this matter in the closing of this work.
 \end{enumerate}
 
-Non-equilibrium approaches alter fusion landscape vastly by relaxing the assumption of Maxwellian ion distributions. In beam-target regimes which do not aim to use produced fast  particles as propellant, a relevant metric is the (nuclear) interaction length
-\[
-L_{\rm int}=\frac{1}{n_Z\sigma_{\rm fus}(E)} ,
-\]
-with the associated areal mass $m_{\rm areal}$ in \req{eq:m_areal}. As~\rf{fig:InteractionLength} makes clear, even near resonance peaks, aneutronic reactions require substantial target areal densities to reach unit optical depth.
+Non-equilibrium approaches alter fusion landscape vastly by relaxing the assumption of Maxwellian ion distributions. In beam-target regimes which do not aim to use produced fast  particles as propellant, a relevant metric is the (nuclear) interaction length, see \req{eq:Lint}, with the associated areal mass $m_{\rm areal}$ in \req{eq:m_areal}. As~\rf{fig:InteractionLength} makes clear, even near resonance peaks, aneutronic reactions require substantial target areal densities to reach unit optical depth.
 
-The laser-driven $p+{}^{11}\mathrm{B}$ experiments (see~\rf{fig:PBFusion} and~\rf{fig:YieldpB}) and boron-nitride cycles (\rf{fig:BNcycles}) demonstrate that non-equilibrium, picosecond-scale fusion is experimentally accessible. In these schemes, fusion is driven by transient ion acceleration and beam--target interactions rather than by a Maxwellian ion distribution, so the relevant control parameters shift from bulk temperature and confinement time to the ion energy spectrum, stopping length, target density, and the timing of resonant energy deposition relative to hydrodynamic expansion and thermalization. 
+The laser-driven $p+{}^{11}\mathrm{B}$ experiments (see~\rf{fig:PBFusion} and~\rf{fig:YieldpB}) and boron-nitride cycles (see \rf{fig:BNcycles}) demonstrate that non-equilibrium, picosecond-scale fusion is experimentally accessible. In these schemes, fusion is driven by transient ion acceleration and beam--target interactions rather than by a Maxwellian ion distribution, so the relevant control parameters shift from bulk temperature and confinement time to the ion energy spectrum, stopping length, target density, and the timing of resonant energy deposition relative to hydrodynamic expansion and thermalization. 
 
 
 \paragraph*{\bf Space propulsion}
