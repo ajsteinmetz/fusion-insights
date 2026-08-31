@@ -97,31 +97,41 @@
     yshift=0pt}
 ]
 
-% Curves (converted to microns)
+% Curves (converted to microns).
+% Plots and legend entries are both ordered by decreasing m_areal, i.e. in the
+% order the curves appear from top to bottom:
+%   p+11B(narrow) 184.5, p+7Li 129.2, p+6Li 45.3, d+6Li 22.6, d+7Li 19.4,
+%   p+9Be 18.0, d+d 17.5, p+11B(broad) 15.0, d+3He 6.1, t+d 0.66  [g/cm^2]
+
+% Phantom entry heading the legend: no line, only the reading rule for the
+% labels below it.  Must precede the first \addplot to take the first slot.
+\addlegendimage{draw=none,no markers}
+
+\addplot+[thick, no marks, domain=\XMin:\XMax, samples=400, color=red!65, dashed] ({x},{\Lscale*\mArealPBElevenNarrow/x});
+\addplot+[thick, no marks, domain=\XMin:\XMax, samples=400, color=blue, solid] ({x},{\Lscale*\mArealPLiSeven/x});
+\addplot+[thick, no marks, domain=\XMin:\XMax, samples=400, color=blue!80, dashed] ({x},{\Lscale*\mArealPLiSix/x});
+\addplot+[thick, no marks, domain=\XMin:\XMax, samples=400, color=blue!40, dashed] ({x},{\Lscale*\mArealDLiSix/x});
+\addplot+[thick, no marks, domain=\XMin:\XMax, samples=400, color=blue!60, solid] ({x},{\Lscale*\mArealDLiSeven/x});
+\addplot+[thick, no marks, domain=\XMin:\XMax, samples=400, color=orange!85!black, solid] ({x},{\Lscale*\mArealPBeNine/x});
 
 % D + D (two branches: d(d,p)t and d(d,n)3He); color: violet
 \addplot+[thick, no marks, domain=\XMin:\XMax, samples=400,
           color=violet, line width=2.0pt, dashed]
   ({x},{\Lscale*\mArealDD/x});
 
-\addplot+[thick, no marks, domain=\XMin:\XMax, samples=400, color=blue, solid] ({x},{\Lscale*\mArealPLiSeven/x});
-\addplot+[thick, no marks, domain=\XMin:\XMax, samples=400, color=blue!80, dashed] ({x},{\Lscale*\mArealPLiSix/x});
-\addplot+[thick, no marks, domain=\XMin:\XMax, samples=400, color=blue!40, dashed] ({x},{\Lscale*\mArealDLiSix/x});
-\addplot+[thick, no marks, domain=\XMin:\XMax, samples=400, color=red!65, dashed] ({x},{\Lscale*\mArealPBElevenNarrow/x});
 \addplot+[thick, no marks, domain=\XMin:\XMax, samples=400, color=red, solid] ({x},{\Lscale*\mArealPBEleven/x});
-\addplot+[thick, no marks, domain=\XMin:\XMax, samples=400, color=blue!60, solid] ({x},{\Lscale*\mArealDLiSeven/x});
-\addplot+[thick, no marks, domain=\XMin:\XMax, samples=400, color=orange!85!black, solid] ({x},{\Lscale*\mArealPBeNine/x});
 \addplot+[thick, no marks, domain=\XMin:\XMax, samples=400, color=green, solid] ({x},{\Lscale*\mArealDHeThree/x});
 \addplot+[thick, no marks, domain=\XMin:\XMax, samples=400, color=black, solid] ({x},{\Lscale*\mArealTD/x});
 
-\addlegendentry{$d + d$ \ ($E_{\rm cm}=1.25$\,MeV)}
+\addlegendentry{\hspace{-0.62cm}\textbf{beam} $+$ \textbf{target} (peak $E_{\rm cm}$)}
+\addlegendentry{$p + {}^{11}\textrm{B}$ \ ($E_{\rm cm}=0.148$\,MeV)}
 \addlegendentry{$p + {}^{7}\textrm{Li}$ \ ($E_{\rm cm}=2.63$\,MeV)}
 \addlegendentry{$p + {}^{6}\textrm{Li}$ \ ($E_{\rm cm}=1.54$\,MeV)}
 \addlegendentry{$d + {}^{6}\textrm{Li}$ \ ($E_{\rm cm}=0.75$\,MeV)}
-\addlegendentry{$p + {}^{11}\textrm{B}$ \ ($E_{\rm cm}=0.148$\,MeV)}
-\addlegendentry{$p + {}^{11}\textrm{B}$ \ ($E_{\rm cm}=0.60$\,MeV)}
 \addlegendentry{$d + {}^{7}\textrm{Li}$ \ ($E_{\rm cm}=0.78$\,MeV)}
 \addlegendentry{$p + {}^{9}\textrm{Be}$ \ ($E_{\rm cm}=0.30$\,MeV)}
+\addlegendentry{$d + d$ \ ($E_{\rm cm}=1.25$\,MeV)}
+\addlegendentry{$p + {}^{11}\textrm{B}$ \ ($E_{\rm cm}=0.60$\,MeV)}
 \addlegendentry{$d + {}^{3}\textrm{He}$ \ ($E_{\rm cm}=0.26$\,MeV)}
 \addlegendentry{$t + d$ \ ($E_{\rm cm}=0.065$\,MeV)}
 
