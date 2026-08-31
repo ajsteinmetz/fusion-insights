@@ -717,6 +717,8 @@ Density-normalized power balance of $dt$ and $dd$ fusion fuels. Each panel shows
 
 Figure~\ref{fig:PowerBalance_AllFuels} illustrates the temperature dependence of these density-normalized heating and radiation terms for two representative fuels. The figure shows conventional neutronic fuels $d+t$ (with 3.5\,MeV $\alpha$-heating) and $d+d$. Note that $d+d$ will naturally occur within a $dt$ fuel mixture as a competing process. All curves are normalized to $n_e^2$ to permit direct comparison independent of density. The intersection of heating and radiation curves marks the temperature at which volumetric charged-particle heating balances radiative losses, highlighting the comparatively favorable low-temperature window of $d+t$.
 
+\paragraph*{\bf Helium-3 spiked deuterium fusion}
+
 %%%%%%%%%%
 \begin{figure}
 \centering
@@ -727,11 +729,7 @@ Figure~\ref{fig:PowerBalance_AllFuels} illustrates the temperature dependence of
 \end{figure}
 %%%%%%%%%%
 
-% Make the spike a separate section. Discuss optimal amount, add secondary heating to optimal amount. Helium-3 doesn't solve the neutron.
-
-% Ratio of fusion yield to brem losses. Show the optimal efficiency point and that most of the gain is for small percentage of helium-3. What is the optimum burn temperature for most-gains.
-
-We show in~\rf{fig:He3Spike}, as ${}^3$He is added to ``spike'' a deuterium plasma, the fusion heating changes because the $dd$ contribution is reduced by the $(1-x)^2$ weighting where
+We show in~\rf{fig:He3Spike}, as ${}^3$He is added to ``spike'' a deuterium plasma, the fusion heating changes because the $dd$ contribution is reduced by the $[(1-x)/(1+x)]^2$ weighting where
 \begin{equation}
 x\equiv \frac{n_{^{3}\text{He}}}{n_{d}+n_{^{3}\text{He}}}\,,
 \end{equation}
@@ -739,7 +737,27 @@ while the $d+{}^3$He fusion channel given by
 \begin{equation}
 d + {}^3{\rm He} \to \alpha + p
 \end{equation}
-grows like $x(1-x)$, whereas bremsstrahlung increases monotonically through $Z_{\rm eff}(x)=(1+3x)/(1+x)$. The result is a tradeoff: modest ${}^3$He fractions can enhance $P_{\rm fus}/n_e^2$ over pure deuterium in the temperature range where the $d+{}^3$He reactivity is competitive, but higher ${}^3$He simultaneously raises radiative losses, so the net margin between heating and bremsstrahlung depends sensitively on both temperature and mixture fraction. Notably, the most gains occur for only a modest helium-3 fraction, suggesting use of  helium-3 as ion heating beam with the dual role, as  it can be used to enhance a deuterium plasma into the greater (aneutronic) net power producing regime.
+grows like $x(1-x)/(1+x)^2$, the common factor $(1+x)^{-2}$ arising because at fixed electron density the doubly charged ${}^3$He displaces two deuterons, $n_e=n_d+2n_{^3\mathrm{He}}$. Meanwhile bremsstrahlung increases monotonically through $Z_{\rm eff}(x)=(1+3x)/(1+x)$. The result is a tradeoff: modest ${}^3$He fractions can enhance $P_{\rm fus}/n_e^2$ over pure deuterium in the temperature range where the $d+{}^3$He reactivity is competitive, but higher ${}^3$He simultaneously raises radiative losses, so the net margin between heating and bremsstrahlung depends sensitively on both temperature and mixture fraction.
+
+\begin{table}[ht]
+\centering
+\caption{Optimal operating point of a $d$--${}^3$He mixture at fixed $n_e$ as a function of the ${}^3$He number fraction $x$. $T_{\rm opt}$ maximizes the heating-to-bremsstrahlung ratio $\mathcal{G}=P_{\rm fus}/P_{\rm brem}$ evaluated with Bosch--Hale cross sections~\cite{bosch1992improved} at $T_e=T_i=T$, $\mathcal{G}_{\max}$ is that maximum, normalized in the fifth column to pure deuterium. The last column gives the fraction $f_n$ of released fusion energy carried by neutrons, for the primary reactions alone and in the strong burn-up limit $\chi_t,\chi_3\gg1$ of \rsec{ssubsec:SecondHeating}. Bremsstrahlung uses \req{eq:powerBrem} with $g_B=1.1$, $a_1=2.6$; transport and synchrotron losses are not included, so $\mathcal{G}$ is an upper bound.}
+\label{tab:He3Spike}
+\begin{tabular}{cccccc}
+\toprule
+$x$ & $Z_{\rm eff}$ & $T_{\rm opt}$ (keV) & $\mathcal{G}_{\max}$ & $\mathcal{G}_{\max}/\mathcal{G}_{\max}(0)$ & $f_n$ (primary / full burn)\\
+\midrule
+0.00 & 1.00 & 153 & 1.17 & 1.0 & 0.37 / 0.36\\
+0.05 & 1.10 & 119 & 3.39 & 2.9 & 0.13 / 0.27\\
+0.10 & 1.18 & 117 & 4.70 & 4.0 & 0.08 / 0.22\\
+0.20 & 1.33 & 116 & 5.74 & 4.9 & 0.04 / 0.14\\
+0.35 & 1.52 & 116 & 5.46 & 4.6 & 0.02 / 0.09\\
+0.50 & 1.67 & 116 & 4.36 & 3.7 & 0.01 / 0.05\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+As seen in \rt{tab:He3Spike}, the optimum burn temperature is nearly independent of the mixture, $T_{\rm opt}\simeq115$--120\,keV for any $x\gtrsim0.05$, about four times the optimum of an equimolar $dt$ plasma, while the gain is strongly front-loaded in $x$: the maximum $\mathcal{G}_{\max}\simeq5.8$ occurs at $x\simeq0.24$, yet $x=0.05$ already captures about half and $x=0.10$ about three quarters of the attainable improvement before the rising $Z_{\rm eff}$ turns the trend over. The most gain therefore occurs for only a modest helium-3 fraction, suggesting use of helium-3 as an ion heating beam with the dual role of enhancing a deuterium plasma into the net power producing regime. This advantage is, however, largely pre-empted by the secondary burn of \rsec{ssubsec:SecondHeating}: in the strong burn-up limit pure $dd$ already reaches $\mathcal{G}_{\max}\simeq7.2$ and the best spiked mixture, $x\simeq0.11$, improves this only to $\simeq8.0$, since the $dd$ chain manufactures its own ${}^3$He. Nor does spiking resolve the neutron problem. At modest $x$ the fuel remains nine parts deuterium and its neutronic branch is suppressed only by $[(1-x)/(1+x)]^2\simeq0.67$; counting the secondary $d+t$ 14\,MeV neutron, the neutron output per unit charged-particle heating falls merely by a factor two, from $4.5\times10^{17}$ to $2.2\times10^{17}$ neutrons per MJ, against $1.8\times10^{18}$ per MJ for equimolar $dt$. Helium-3 spiking thus buys power balance without tritium, but the aneutronic use of $d+{}^3$He requires the non-thermal beam geometry of~\rsec{sssec:d3Hefuesion}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Secondary heating: \texorpdfstring{$dd$}{dd} example}\label{ssubsec:SecondHeating}
