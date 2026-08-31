@@ -30,6 +30,9 @@
 %  p + 9Be     0.83      0.30        0.33     9Be(p,alpha)6Li 0.36 b
 %                                             + 9Be(p,d)8Be   0.47 b; Sierk 1973
 %  p + 11B     1.22      0.60        0.655    11B(p,alpha_0+alpha_1); Becker 1987
+%                                             broad 2- resonance,  12C* 16.57  MeV
+%  p + 11B     0.099     0.148       0.1615   11B(p,alpha_0+alpha_1); Becker 1987
+%                                             narrow 2+ resonance, 12C* 16.106 MeV
 %  d + 6Li     0.44      0.75        1.00     (d,alpha) 0.06 + (d,p_0+p_1) 0.09
 %                                             + (d,n)7Be 0.10 + (d,t)5Li 0.19
 %  d + 7Li     0.60      0.78        1.00     total exothermic yield, dominated
@@ -62,9 +65,12 @@
 % p + 9Be, resonant alpha-producing channels sigma[p,alpha] + sigma[p,d]
 \def\sigmaPBeNine{0.83}
 \pgfmathsetmacro{\mArealPBeNine}{\NAinv*9/\sigmaPBeNine}
-% p + 11B
+% p + 11B, broad 2- resonance at E_cm = 0.60 MeV
 \def\sigmaPBEleven{1.22}
 \pgfmathsetmacro{\mArealPBEleven}{\NAinv*11/\sigmaPBEleven}
+% p + 11B, narrow 2+ resonance at E_cm = 0.148 MeV
+\def\sigmaPBElevenNarrow{0.099}
+\pgfmathsetmacro{\mArealPBElevenNarrow}{\NAinv*11/\sigmaPBElevenNarrow}
 
 % Deuterium mass fractions of chemically bound targets
 \def\wLiD{0.224}             % LiD
@@ -101,6 +107,7 @@
 \addplot+[thick, no marks, domain=\XMin:\XMax, samples=400, color=blue, solid] ({x},{\Lscale*\mArealPLiSeven/x});
 \addplot+[thick, no marks, domain=\XMin:\XMax, samples=400, color=blue!80, dashed] ({x},{\Lscale*\mArealPLiSix/x});
 \addplot+[thick, no marks, domain=\XMin:\XMax, samples=400, color=blue!40, dashed] ({x},{\Lscale*\mArealDLiSix/x});
+\addplot+[thick, no marks, domain=\XMin:\XMax, samples=400, color=red!65, dashed] ({x},{\Lscale*\mArealPBElevenNarrow/x});
 \addplot+[thick, no marks, domain=\XMin:\XMax, samples=400, color=red, solid] ({x},{\Lscale*\mArealPBEleven/x});
 \addplot+[thick, no marks, domain=\XMin:\XMax, samples=400, color=blue!60, solid] ({x},{\Lscale*\mArealDLiSeven/x});
 \addplot+[thick, no marks, domain=\XMin:\XMax, samples=400, color=orange!85!black, solid] ({x},{\Lscale*\mArealPBeNine/x});
@@ -111,6 +118,7 @@
 \addlegendentry{$p + {}^{7}\textrm{Li}$ \ ($E_{\rm cm}=2.63$\,MeV)}
 \addlegendentry{$p + {}^{6}\textrm{Li}$ \ ($E_{\rm cm}=1.54$\,MeV)}
 \addlegendentry{$d + {}^{6}\textrm{Li}$ \ ($E_{\rm cm}=0.75$\,MeV)}
+\addlegendentry{$p + {}^{11}\textrm{B}$ \ ($E_{\rm cm}=0.148$\,MeV)}
 \addlegendentry{$p + {}^{11}\textrm{B}$ \ ($E_{\rm cm}=0.60$\,MeV)}
 \addlegendentry{$d + {}^{7}\textrm{Li}$ \ ($E_{\rm cm}=0.78$\,MeV)}
 \addlegendentry{$p + {}^{9}\textrm{Be}$ \ ($E_{\rm cm}=0.30$\,MeV)}
@@ -129,6 +137,12 @@
 \node[circle,fill=red,draw=black,inner sep=1.5pt](BElevenDot)
   at (axis cs:2.34,{\Lscale*\mArealPBEleven/2.34}) {};
 \node[anchor=north west,rotate=-62,red](BElevenLine) at (axis cs:2.34,{\Lscale*\mArealPBEleven/2.34}) {\,Solid $^{11}$B};
+
+% Same solid-boron density on the narrow 0.148 MeV resonance curve
+\node[circle,fill=red!65,draw=black,inner sep=1.5pt](BElevenNarrowDot)
+  at (axis cs:2.34,{\Lscale*\mArealPBElevenNarrow/2.34}) {};
+% No text label here: it lands on the violet 'Liq. D_2O' label. The dot sits
+% directly above the labelled 'Solid 11B' dot on the broad-resonance curve.
 
 %\draw[thick,->,red]
 %  (BElevenLine) -- (BElevenDot);

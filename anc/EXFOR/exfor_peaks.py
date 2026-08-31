@@ -28,8 +28,14 @@ ADOPTED = [
      "9Be(p,a)6Li 0.36 b + 9Be(p,d)8Be 0.47 b @ E_p=0.33 MeV; "
      "Sierk & Tombrello 1973 (F0169004/5), confirmed by Zahnow 1997."),
     ("p + 11B", 1.22, 0.60, 0.655, 11,
+     "Broad 2- resonance, 12C* 16.57 MeV, Gamma ~ 300 keV: "
      "11B(p,a1)8Be* 1.22 b @ E_p=0.655 MeV; Becker 1987 (A0413005). "
      "(p,a0) adds <10 mb there."),
+    ("p + 11B", 0.099, 0.148, 0.1615, 11,
+     "Narrow 2+ resonance, 12C* 16.106 MeV, Gamma ~ 6 keV: "
+     "11B(p,a1)8Be* 96 mb + (p,a0) 2.9 mb @ E_p=0.1615 MeV; Becker 1987 "
+     "(A0413005/A0413004), resonance resolved over 0.153-0.169 MeV in 7 points. "
+     "Thin-target peak: the quoted height is resolution limited."),
     ("d + 6Li", 0.44, 0.75, 1.00, 6,
      "@ E_d=1.0 MeV: (d,a) 0.057 (Bertrand) + (d,p0+p1) 0.094 (Mcclenahan) "
      "+ (d,n)7Be 0.099 (Ruby) + (d,t)5Li 0.188 (Macklin). "
