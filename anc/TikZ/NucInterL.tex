@@ -136,16 +136,17 @@
 
 \node[circle,fill=red,draw=black,inner sep=1.5pt](BElevenDot)
   at (axis cs:2.34,{\Lscale*\mArealPBEleven/2.34}) {};
-\node[anchor=north west,rotate=-62,red](BElevenLine) at (axis cs:2.34,{\Lscale*\mArealPBEleven/2.34}) {\,Solid $^{11}$B};
 
 % Same solid-boron density on the narrow 0.148 MeV resonance curve
 \node[circle,fill=red!65,draw=black,inner sep=1.5pt](BElevenNarrowDot)
   at (axis cs:2.34,{\Lscale*\mArealPBElevenNarrow/2.34}) {};
-% No text label here: it lands on the violet 'Liq. D_2O' label. The dot sits
-% directly above the labelled 'Solid 11B' dot on the broad-resonance curve.
 
-%\draw[thick,->,red]
-%  (BElevenLine) -- (BElevenDot);
+% One label serving both boron markers, arrows as for the Li family below
+\node[anchor=south,xshift=25pt,yshift=-25pt,rotate=-62,red](BElevenLine)
+  at (axis cs:2.34,{\Lscale*\mArealPBElevenNarrow/2.34}) {\,Solid $^{11}$B};
+
+\draw[thick,->,red] (BElevenLine) -- (BElevenNarrowDot);
+\draw[thick,->,red] (BElevenLine) -- (BElevenDot);
 
 \node[circle,fill=green!60!black,draw=black,inner sep=1.5pt]
   at (axis cs:0.08,{\Lscale*\mArealDHeThree/0.08}) {};
