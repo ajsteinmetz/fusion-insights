@@ -74,14 +74,45 @@ Aguilar, M.;  et~al.
 \newblock {\em Phys. Rev. Lett.} {\bf 2025}, {\em 134},~201001.
 \newblock {\url{https://doi.org/10.1103/PhysRevLett.134.201001}}.
 
+\bibitem[von Baeckmann(1990)]{von1990modern}
+von Baeckmann, A.
+\newblock Modern fuel cycle technologies and IAEA safeguards.
+\newblock {\em IAEA Bulletin} {\bf 1990}, {\em 32},~11--15.
+\newblock
+  \url{https://www.iaea.org/sites/default/files/publications/magazines/bulletin/bull32-1/32103451115.pdf}.
+
+\bibitem[Dalton(2017)]{dalton2017toward}
+Dalton, T.
+\newblock Toward a nuclear firewall: Bridging the NPT’s three pillars.
+\newblock {\em JSTOR Security Studies Collection} {\bf 2017}.
+\newblock
+  \url{https://carnegieendowment.org/files/CP_301_Dalton_et_al_Firewall_Final_Web.pdf}.
+
+\bibitem[Abdou et~al.(2021)Abdou, Riva, Ying, Day, Loarte, Baylor,
+  Humrickhouse, Fuerst, and Cho]{abdou2021physics}
+Abdou, M.; Riva, M.; Ying, A.; Day, C.; Loarte, A.; Baylor, L.; Humrickhouse,
+  P.; Fuerst, T.F.; Cho, S.
+\newblock Physics and technology considerations for the deuterium--tritium fuel
+  cycle and conditions for tritium fuel self sufficiency.
+\newblock {\em Nuclear fusion} {\bf 2021}, {\em 61},~013001.
+\newblock {\url{https://doi.org/10.1088/1741-4326/abbf35}}.
+
+\bibitem[{International Atomic Energy Agency}(2024)]{iaea2024}
+{International Atomic Energy Agency}.
+\newblock {\em Plasma Physics and Technology Aspects of the Deuterium–Tritium
+  Fuel Cycle for Fusion Energy}; Number 2049 in IAEA-TECDOC, {INTERNATIONAL
+  ATOMIC ENERGY AGENCY}: Vienna,  2024.
+\newblock
+  \url{http://www.iaea.org/publications/15616/plasma-physics-and-technology-aspects-of-the-deuterium-tritium-fuel-cycle-for-fusion-energy}.
+
 \bibitem[Aymar(2001)]{Aymer:2001}
 Aymar, R.
 \newblock ITER R\&D: Executive Summary: Design Overview.
 \newblock {\em Fusion Engineering and Design} {\bf 2001}, {\em 55},~107--118.
 \newblock {\url{https://doi.org/10.1016/S0920-3796(01)00192-2}}.
 
-\bibitem[Organization(2018)]{ITR-18-003}
-Organization, I.
+\bibitem[{ITER Organization}(2018)]{ITR-18-003}
+{ITER Organization}.
 \newblock ITER Research Plan within the Staged Approach (Level\,III –
   Provisional Version).
 \newblock ITER Technical Report ITR-18-003, ITER Organization,  2018.
@@ -95,7 +126,7 @@ Campbell, D.J.; Loarte, A.; Boilson, D.; Bonnin, X.; de~Vries, P.; Giancarli,
   L.; Gribov, Y.; Kim, S.H.; Lehnen, M.; Luce, T.;  et~al.
 \newblock ITER Research Plan within the Staged Approach (Level\,III - Final
   Version); ITR-24-005.
-\newblock ITER Technical Report ITR-24-005, ITER Organization,  2024.
+\newblock ITER Technical Report ITR-24-005, {ITER Organization},  2024.
 \newblock
   \url{https://www.iter.org/sites/default/files/media/2024-04/itr-24-005-ok1.pdf}.
 
@@ -252,6 +283,8 @@ Grayson, C.; Rafelski, J.
   accelerated implosion of nuclear fuel within sub-wavelength enclosing
   structures.
 \newblock United States US Patent App. 19/773,972,  Aug 2026.
+\newblock
+  \url{https://inventions.arizona.edu/tech/Sub-Picosecond_Coulomb_Implosion_of_Resonant_Nanoscale_Structures_for_Nuclear_Fusion}.
 
 \bibitem[Bir{\'o} and {NAPLIFE Collaboration}(2025)]{Biro:2025EPJ}
 Bir{\'o}, T.; {NAPLIFE Collaboration}.
