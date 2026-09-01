@@ -1,7 +1,7 @@
 %
 %\documentclass[particles,article,submit,pdftex,moreauthors]{Definitions/mdpi} 
-\documentclass[particles,review,submit,pdftex,moreauthors]{Definitions/mdpi} 
-%\documentclass[preprints,article,submit,pdftex,moreauthors]{Definitions/mdpi} 
+%\documentclass[particles,review,submit,pdftex,moreauthors]{Definitions/mdpi} 
+\documentclass[preprints,article,submit,pdftex,moreauthors]{Definitions/mdpi} 
 % For posting an early version of this manuscript as a preprint, you may use "preprints" as the journal. Changing "submit" to "accept" before posting will remove line numbers.
 
 % Below journals will use APA reference format:
@@ -70,9 +70,9 @@
 \providecommand{\UseTaggingSocket}[1]{}
 
 \usetikzlibrary{positioning,patterns}
-\usepackage{pgfplots}
-\pgfplotsset{compat=1.18}
-\usepgfplotslibrary{fillbetween}
+%\usepackage{pgfplots}
+%\pgfplotsset{compat=1.18}
+%\usepgfplotslibrary{fillbetween}
 
 \newcommand{\req}[1]{Eq.\,(\ref{#1})}
 \newcommand{\reqs}[2]{Eqs.\,({\ref{#1}},{\ref{#2}})}
@@ -98,9 +98,9 @@
 \addtolength{\topmargin}{-13.0pt}
 
 %=================================================================
-% The following two lines should be uncommented if the LaTeX file is uploaded to arXiv.org
-%\pdfoutput=1 
-%\renewcommand{\linenumbers}{}
+% The following two lines should be uncommented if the LaTeX file is uploaded to arXiv.org in a century, 
+\pdfoutput=1 
+\renewcommand{\linenumbers}{}
 %=================================================================
 % Please use the following mathematics environments: Theorem, Lemma, Corollary, Proposition, Characterization, Property, Problem, Example, ExamplesandDefinitions, Hypothesis, Remark, Definition, Notation, Assumption
 %% For proofs, please use the proof environment (the amsthm package is loaded by the MDPI class).
@@ -190,7 +190,7 @@ The term `nuclear fusion' in its most general sense applies to all light-element
 
 The redistribution of nucleons in all fusion reactions occurring between two electrically charged nuclei is hindered by their mutual Coulomb repulsion, which in general requires quantum tunneling through this so-called Coulomb barrier or wall. The tunneling probability increases with collision energy, while higher density raises the collision frequency. Collision energy may be increased either by raising the temperature of a thermal plasma or by arranging a non-equilibrium, collective flow of fusible material.
 
-The tunneling probability is governed by relative speed which at given energy  is greatly inhibited by increasing masses of reactants, the root of the reduced mass is therefore found in the tunneling exponent. The product of colliding charges determines the height of the repulsive wall. To amplify the chance of fusion we preferentially seek reactions in which the Coulomb wall is low and/or narrow. In order for a near steady-state thermal burn to be self-sustaining the energy released by nuclear fusion must exceed the radiative and outflow losses. The often-cited `Lawson criterion' encapsulates this requirement for quasi-static plasma confinement; it has been the primary figure of merit for magnetic-confinement devices, which have remained `20 years away' from a burn condition break even for more than half a century. Our scientific discussion reaches beyond the Lawson triple product of reactant density $n$, confinement time $\tau$, and plasma temperature $T$, which establishes an engineering boundary for one specific usually considered set of reactants.  In the present work we will pay attention to gain and loss terms explicitly and quantitatively, without relying on order-of-magnitude criteria, allowing direct comparison among diverse nuclear fusion conceptual solutions.
+The tunneling probability is governed by relative speed which at given energy is greatly inhibited by increasing masses of reactants, the root of the reduced mass is therefore found in the tunneling exponent. The product of colliding charges determines the height of the repulsive wall. To amplify the chance of fusion we preferentially seek reactions in which the Coulomb wall is low and/or narrow. In order for a near steady-state thermal burn to be self-sustaining the energy released by nuclear fusion must exceed the radiative and outflow losses. The often-cited `Lawson criterion' encapsulates this requirement for quasi-static plasma confinement; it has been the primary figure of merit for magnetic-confinement devices, which have remained `20 years away' from a burn condition break even for more than half a century. Our scientific discussion reaches beyond the Lawson triple product of reactant density $n$, confinement time $\tau$, and plasma temperature $T$, which establishes an engineering boundary for one specific usually considered set of reactants. In the present work we will pay attention to gain and loss terms explicitly and quantitatively, without relying on order-of-magnitude criteria, allowing direct comparison among diverse nuclear fusion conceptual solutions.
 
 \paragraph*{\bf Plasma engineering versus nuclear science}
 Impressive engineering effort has been devoted to achieve magnetically confined fusible plasma in clever magnetic-field configurations. Such systems are relatively large, as otherwise we could not keep the low density plasma magnetically confined. The technology of magnetic fields, and plasma confinement is in policy documents in a misguided manner declared to be `nuclear fusion research'. However, such research is entirely unrelated to nuclear fusion research, including inertial confinement nuclear fusion realization which is implemented in very small, very high density explosive systems. We show in this work that dilute thermal burn plasma magnetic confinement fusion devices have no future in civilian energy production as they will be always associated with very costly if not impossible to control ultra-fast neutron flux produced in a large plasma volume. General study and the development of conceptual physics principles concerning nuclear fusion reactions, which topics are addressed in this work, differs in principle and in actual context from such dilute and large plasma fusion systems seen on the fringe of the present day very active nuclear fusion research. 
@@ -208,7 +208,7 @@ Several isotopes of hydrogen and helium play central roles in nuclear fusion sch
 Deuterium ($d=pn$) is a naturally abundant heavy-hydrogen isotope, available in literally unlimited abundance in all water. Its near-universal presence reflects incomplete burn during the Big Bang Nucleosynthesis (BBN) epoch in the expanding Universe~\cite{Rafelski:2023emw,Rafelski:2024fej}, which left a primordial ratio $\mathrm{D}/\mathrm{H}=2.53\times10^{-5}$~\cite{Cooke:2017cwo} or about one $d$ per $40{,}000$ protons. However, ocean water on Earth is enriched by a factor 6.16 compared to this reference, the measured value is $\mathrm{D}/\mathrm{H}=1.5576\times10^{-4}$~\cite{Meija:2016} or one $d$ per $6420$ protons. Most light isotopes found on Earth today are also nuclear `ashes' of past cosmological and stellar evolution. Some light elements are, however, not well understood in current nuclear fusion astrophysical chains, they are explained as being produced by cosmic radiation. We will not address here this `origin' question subject to ongoing research using the cosmic flux measurements by the Alpha Magnetic Spectrometer Collaboration with the instrument sited on the International Space Station, see for example~\cite{Aguilar:2025} for Lithium isotope abundance update.
 
 \paragraph*{\bf Tritium and helium-3}
-In the technological race to realize first-generation fusion reactors, the most important hydrogen isotope is the yet heavier tritium T, with nucleus $t=pnn$. While $d$ is naturally stable, $t$ has a half-life of  $12.32$~yr (4500 days) and is therefore practically absent as a natural isotope in Earth's crust. We note that $0.667\%$ of all tritium inventory decays every 30 days, transmuting into the light helium isotope ${}^3_2\mathrm{He}^{++}=ppn$ with two protons and one neutron. Consequently, all tritium used in $dt$-fusion must be manufactured, and the slow natural decay of $t$ will, if first generation fusion reactors are implemented, gradually enrich the available terrestrial ${}^3_2$He inventory. Since mixing of material at the Moon surface is not present for billion(s) of years, a relatively large abundance of ${}^3_2$He has been identified in a relatively narrow Moon surface shell. Mining of Moon surface inventory accumulated over billions of years from solar wind is planned today.
+In the technological race to realize first-generation fusion reactors, the most important hydrogen isotope is the yet heavier tritium T, with nucleus $t=pnn$. While $d$ is naturally stable, $t$ has a half-life of $12.32$~yr (4500 days) and is therefore practically absent as a natural isotope in Earth's crust. We note that $0.667\%$ of all tritium inventory decays every 30 days, transmuting into the light helium isotope ${}^3_2\mathrm{He}^{++}=ppn$ with two protons and one neutron. Consequently, all tritium used in $dt$-fusion must be manufactured, and the slow natural decay of $t$ will, if first generation fusion reactors are implemented, gradually enrich the available terrestrial ${}^3_2$He inventory. Since mixing of material at the Moon surface is not present for billion(s) of years, a relatively large abundance of ${}^3_2$He has been identified in a relatively narrow Moon surface shell. Mining of Moon surface inventory accumulated over billions of years from solar wind is planned today.
 
 \paragraph*{\bf Principal deuterium reactions and energy units}
 The importance of ${}^3_2$He is easily recognized considering the principal deuterium-induced fusion reactions 
@@ -270,37 +270,37 @@ All this is straightforward to write down; the engineering realization is formid
 \end{enumerate}
 
 \paragraph*{\bf Tritium as a safeguarded material}
-
-An additional strategic difficulty in running a $dt$ reactor economy is that tritium is recognized as an essential component in nuclear weapons programs, therefore there have been proposals over the years to tighten safeguards and controls over its production. Despite that ``tritium is not even mentioned in any safeguards agreement''~\cite{von1990modern} or the IAEA statute, the proliferation of reactors able to produce tritium on the order of kilograms would certainly reignite such regulatory calls~\cite{dalton2017toward,abdou2021physics}. And while no overarching framework exists, laboratories licensed to store tritium (regulated via national and sub-national agencies) only stockpile tritium on the order of $10\sim100$ grams~\cite{iaea2024}. To list a few examples: Tritium Process Laboratory in Japan (60 g), Tritium Laboratory Karlsruhe in Germany (40 g), and JET experimental tokamak in the UK (90 g).
+An additional strategic difficulty in running a $dt$ reactor economy is that tritium is recognized as an essential component in nuclear weapons programs, therefore there have been proposals over the years to tighten safeguards and controls over its production. Despite that ``tritium is not even mentioned in any safeguards agreement''~\cite{von1990modern} or the IAEA statute, the proliferation of reactors able to produce tritium on the order of kilograms would certainly reignite such regulatory calls~\cite{dalton2017toward,abdou2021physics}. And while no overarching framework exists, laboratories licensed to store tritium (regulated via national and sub-national agencies) only stockpile tritium on the order of $10\sim100$ grams~\cite{iaea2024}. To list a few examples: Tritium Process Laboratory in Japan (60 g), Tritium Laboratory Karlsruhe in Germany (40 g), and JET experimental tokamak in the UK (90 g). Laser-based fusion facilities store comparably less e.g. the Laboratory for Laser Energetics in Rochester, NY is licensed to store at most $\sim1.5$ grams~\cite{lle_cryogenic_tritium}.
 
 A 1~GWe (e for usable electric power) $dt$ plant requires $\sim160$ kg/yr far beyond the amounts in continuous circulation under current regulations. The political and treaty infrastructure for overseeing such inventories at the global scale required for a meaningful $dt$ fusion energy economy does not exist and would require new international agreements of considerable complexity.
 
-These challenges have not been addressed with adequate rigor by many advocates of $dt$-based nuclear fusion. The brute-force approach of drawing lithium walls around a plasma volume fails on two counts:
+These challenges have not been addressed with adequate rigor by many advocates of $dt$-based nuclear fusion. The brute-force approach of drawing lithium walls around a plasma volume fails on multiple counts:
 \begin{itemize}
-\item It neglects the requirement to safely harvest the dominant fraction (70\%) of reactor produced energy, that is 90\% of neutron carried energy before reaching the final breeding-relevant neutron energy range, and 
-\item Large 15-50\,meter-scale (diameter), meter-thick lithium structures are economically unrealistic and greatly encumbered by the need to cool 70\% of produced energy. These still  new to develop structures are growing in size with the size of large low plasma density magnetic confinement devices. 
+\item Science: Breeding tritium on ${}^7\mathrm{Li}$ occurs at the upper end of the produced neutron energy while once 90\% of neutron energy has been harvested the final one-for-one breeding on ${}^6\mathrm{Li}$ occurs;
+\item Technology: The step in-between the two tritium breeding phases: Reactor designers have to show how they safely and efficiently harvest the dominant fraction (70\%) of reactor produced energy, that is 90\% of neutron carried energy before reaching the final breeding-relevant neutron energy range; 
+\item Economical viability: Large 15-50\,meter-scale (diameter), meter-thick lithium structures are economically unrealistic and greatly encumbered by the need to remove 70\% of produced energy. These still new to develop structures are growing in size with the size of low plasma density magnetic confinement devices. 
 \end{itemize}
-Arguably the gigantic support structures that the total system requires assure that a $dt$ fusion reactor is with near certainty more `dirty' than any fission nuclear reactor.
+Arguably the gigantic support structures that the total low plasma density large fusion system requires assure that a $dt$ fusion reactor is with near certainty more `dirty' than any fission nuclear reactor.
 
 \paragraph*{\bf Is pure deuterium cleaner?}
 Among the answers one sometimes hears is that once $dt$ burn is achieved, the reactor will be upgraded to burn pure deuterium at higher temperatures, implying here presumably that $dd$ fusion is `mostly aneutronic'. We discuss quantitatively in \rsec{ssubsec:SecondHeating} why this argument misleads: Consider \req{eq:ddQp}, the deuterium plasma continuously produces tritium as a $dd$ reaction product; this tritium burns much, much faster than deuterium, so a hot $dd$ reactor effectively runs a $dt$ reactor with in-situ tritium production. The two $dd$ branches together produce on average `half a 2.45~MeV neutron and half a 14~MeV neutron' per $dd$ event, so the neutron problem is not eliminated by switching to pure deuterium fuel. Indeed it becomes larger when neutron yield is measured per neutron produced.
 
-In our opinion $dt$ nuclear fusion is indeed just around the engineering corner. However, the outcome must be viewed from the perspective that such a fusion system is harnessing the hydrogen bomb along with the radiation complications which must be solved upfront, and geared to a specific departure point: for a relatively large scale magnetic demonstration reactor ITER (International Thermonuclear Experimental Reactor) the problem of harnessing neutron energy and breeding tritium is clearly different from the same challenge originated in laser driven inertial confinement fusion system where the scale of the source of $dt$ fusion neutrons can be up to a billion times smaller when measured by the volume source of fusion neutrons.
+However, the temperatures needed to run $dd$ reactor which creates tritium internally are far and away. On the other hand, some plasma $dt$ nuclear fusion is indeed just around the engineering corner. However, the outcome must be viewed from the perspective that such a fusion system is harnessing the hydrogen bomb along with the radiation complications which must be solved upfront, and geared to a specific departure point: for a relatively large scale magnetic demonstration reactor ITER (International Thermonuclear Experimental Reactor) the problem of harnessing neutron energy and breeding tritium is clearly different from the same challenge originated in laser driven inertial confinement fusion system where the scale of the source of $dt$ fusion neutrons can be up to a billion times smaller when measured by the volume source of fusion neutrons.
 
 \paragraph*{\bf Inertial confinement: a smaller neutron source}
-Inertial confinement (IC) means there is no time for an ignited fusion pellet to fall apart before it is sufficiently burned up. An IC reactor is a small, nano-hydrogen bomb fired by lasers at a rate of 0.5 kHz, releasing up to 5.6\,MJ in energy per shot, accompanied by a burst of $2 \times 10^{18}$ ultra-fast 14.1 MeV neutrons. In our opinion it is possible to enclose this burst source with a 20 meter radius reactor vessel, harnessing 90\% of energy and allowing the remaining 10\% 1.4 MeV neutrons to breed in the lithium blanket the required tritium. 
+Inertial confinement (IC) means there is no time for an ignited fusion pellet to fall apart before it is sufficiently burned up. An IC reactor is a small, nano-hydrogen bomb fired by lasers at a rate of 0.5 kHz, releasing up to 5.6\,MJ in energy per shot, accompanied by a burst of $2 \times 10^{18}$ ultra-fast 14.1 MeV neutrons. In our opinion it is possible to enclose this burst source with a 5-20 meter radius reactor vessel, harnessing energy and breeding the required tritium. 
 
-The point of IC laser driven fusion is that the complete reactor fusion core is much smaller than all current magnetic confinement primary vessels which then need to be surrounded by a secondary system with a volume nearly 10  times larger than the primary large fusion core, making neither economical sense nor being radiation reduced compared to fission reactors. In our opinion only the inertial confinement $dt$ fusion nuclear reactor with its very small, point like source of neutrons could be economically viable considering the need for neutron handling and tritium breeding. However, required laser technology and pellet cost remain a formidable challenge.
+The point of IC laser driven fusion is that the complete reactor fusion core is very much smaller than all current magnetic confinement primary vessels which then need to be surrounded by a secondary system with a volume nearly 10 times larger than the primary large fusion core, making neither economical sense nor being radiation reduced compared to fission reactors. In our opinion only the inertial confinement $dt$ fusion nuclear reactor with its very small, point like source of neutrons could be economically viable considering the need for neutron handling and tritium breeding. However, required laser technology and pellet cost remain a formidable challenge needing to be overcome.
 
-Given the issues with $dt$-based nuclear fusion one can only wonder why the reader has heard so little about this. In most popular literature the fusion reactor in the Sun is introduced to advance $dt$-based nuclear fusion energy economy. The fallacy of this argument is absence of any relation between these two nuclear fusion paths. To understand this let us next discuss the way Solar reactor works.
+Given the issues with $dt$-based nuclear fusion one can only wonder why the reader has heard so little about this. In most popular literature the fusion reactor in the Sun is introduced to advance $dt$-based nuclear fusion energy economy. The fallacy of this argument is absence of any relation between these two nuclear fusion paths. To understand this let us next discuss the way our Solar reactor works.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  \subsubsection{Solar aneutronic power}\label{sssub:sunN}
-The natural fusion reactor we all observe daily is our Sun. The Solar reactor works very differently from any $dt$ fusion reactor: It is gravity which confines the thermal reacting solar core and radiation is screened by 1000s of kilometers of dense non-reacting plasma; the question then is: Is there really $dt$ fusion inside the Sun? Maybe at the creation of the Solar system there was some amount of the required ${}^6\mathrm{Li}$, ${}^7\mathrm{Li}$ allowing to breed the tritium inside the core. However, given its totally negligible abundance in the Universe, the small amount of ${}^6\mathrm{Li}$, if any, which was present initially would have been burned long ago. We keep in mind that the 4500 day half life  of $t$ assures that the burn core of the Sun is operating differently.
+The natural fusion reactor we all observe daily is our Sun. The Solar reactor works very differently from any $dt$ fusion reactor: It is gravity which confines the thermal reacting solar core and radiation is screened by 1000s of kilometers of dense non-reacting plasma; the question then is: Could there be $dt$ fusion inside the Sun? Maybe at the creation of the Solar system there was some amount of the required ${}^6\mathrm{Li}$, ${}^7\mathrm{Li}$ allowing to breed the tritium inside the core. However, given its totally negligible abundance in the Universe, the small amount of ${}^6\mathrm{Li}$, if any, which was present initially would have been burned long ago. %We keep in mind that the 4500 day half life of $t$ assures that the burn core of the Sun is operating differently.
 
 More to the point, in our Sun, made of protons and $\alpha$ particles (24\% by weight), and small trace abundance of carbon, all nuclear energy producing fusion reactions are those which do not produce neutrons. Nuclear fusion cycles with much reduced if any neutrons in primary and secondary steps are called aneutronic. It is clear that truly aneutronic is different from near aneutronic: A nuclear fusion reactor working entirely on a chain of truly aneutronic nuclear reactions is the dream that would realize the buzz-term `limitless safe and clean energy'. This is indeed our Sun with a projected remaining lifespan of nearly 5-6 billion years, and a total lifespan of about 10 billion years.
 
-Is an Earthbound fully aneutronic nuclear fusion reactor possible? Addressing, let alone solving this question, is what motivates this work. We note that truly aneutronic fusion could lead to small reactor implementations, suitable for use in transportation solutions, allowing the development cost to be distributed in time and allowing multiple solutions to arise. Think in this context about space travel where aneutronic fusion would be introduced to boost the thrust, first at percent level and growing in time. To see how this works, look and compare with your smartphone which has evolved rapidly. We foresee `I-FusionV32' fusion reactor in a century, outgrowing the space applications, and becoming source of terrestrial energy.
+Is an Earthbound fully aneutronic nuclear fusion reactor possible? Addressing, let alone solving this question, is what motivates this work. We note that truly aneutronic fusion could lead to small reactor implementations, suitable for use in transportation solutions, allowing the development cost to be distributed in time and allowing multiple solutions to arise. Think in this context about space travel where aneutronic fusion could be introduced at first jut to boost the thrust, first at percent level and growing in time. To see how this works, look at PC computer development and compare with your smartphone which also has evolved rapidly. Similarly, we foresee space drive fusion reactor turning many design corners and outgrowing the space applications, and becoming source of terrestrial energy.
 
 \paragraph*{\bf Aneutronic burn in the stars}
 Can this dream of truly aneutronic fusion energy realized in our terrestrial environment come true? Let us be encouraged by all the visible stars in the sky. In general all visible stars consist of gravitationally confined hydrogen plasma, comprising also the fusion-produced, and primordial, helium, and trace abundances of some other light elements (called `metallicity') typically created in prior stellar generation(s). 
@@ -343,7 +343,7 @@ ITER is a very large quasi steady state magnetically confined low density plasma
 \item
 The current intent is to study at ITER fusion processes in a plasma made of abundantly available deuterium $d$ in order to minimize contamination by $t$ burn with high energy neutrons. However, this high energy neutron production is unavoidable as a secondary reaction if $d$ fill is allowed and fusion conditions are achieved, as already explained above. Per unit of produced energy the $d$ fill generates an excess of neutrons that engineers and managers wanted to avoid. We will evaluate chains of hot plasma fusion reactions in \rsec{ssec:ThermalBalance}.
 \item
-To avoid terminal (to operation) neutron radiation damage, the plasma within ITER can be either run at very low temperature for the deuterium fill, or consist entirely  of light hydrogen $p$. In its current context ITER is thus not a thermonuclear experimental reactor  but a large and costly plasma experiment.
+To avoid terminal (to operation) neutron radiation damage, the plasma within ITER can be either run at very low temperature for the deuterium fill, or consist entirely of light hydrogen $p$. In its current context ITER is thus not a thermonuclear experimental reactor but a large and costly plasma experiment.
 \end{itemize}
 
 To conclude: It would be good to be sure that we need this highly modified from original design plasma experiment. Novel and promising paths to nuclear fusion, some we describe, do not require any ITER experiments as they either are not operating in near to steady state condition, or if they do, their operational regime is vastly different from that at ITER. Moreover, there is good reason to believe that some of the new ideas we describe in this overview will be successful, upending ITER with design conceived 40 years ago before modern paths to fusion described here were opened up by novel technologies.
@@ -351,17 +351,16 @@ To conclude: It would be good to be sure that we need this highly modified from 
 One can further argue the case of ITER in two distinctly opposite manners: 
 \begin{itemize}
 \item ITER has kept in past decades interest in nuclear fusion and contributed to the development of manpower required to start nuclear fusion infrastructure, and 
-\item  ITER, by binding very large international financial and intellectual resources, has been and remains {\em the primary obstacle delaying success of rising and innovative nuclear fusion approaches}. 
+\item ITER by binding very large international financial and intellectual resources, has been and remains {\em the primary obstacle delaying success of rising and innovative nuclear fusion approaches}. 
 \end{itemize}
-
-Arguably, this is providing an explanation for the data seen in \rf{fig:FusionPredictions}; on one hand optimism about the future of nuclear fusion, on another large ITER-inertia preventing advancements. The ITER project thus lives up to its Latin language meaning: The noun `iter' translates from Latin as being the journey itself, the road (or path) to nuclear fusion requires the noun `via'. ``Iter sine termino'' is a Latin phrase that translates to ``a journey without end'' or ``an endless journey.''
+This observation is providing an explanation for the data seen in \rf{fig:FusionPredictions}; on one hand optimism about the future of nuclear fusion, on another large international agreement ITER-inertia preventing timely fusion advancements. The ITER project thus lives up to its Latin language meaning: The noun `iter' translates from Latin as being the journey itself, the road (or path) to nuclear fusion requires the noun `via'. ``Iter sine termino'' is a Latin phrase that translates to ``a journey without end'' or ``an endless journey '': at present ITER event calendar is reaching to 2039. It would indeed be to our surprise if unrelated to ITER nuclear fusion reactor were not operational before that date. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Alternative plasma fusion approaches}\label{sssec:INTnewPlasma}
 %%%%%%%%%%%
-Work is ongoing to improve the grandfathered and arguably as above discussion implies too large (to fail as well) and thus obsolete 1950s quasi-static magnetic confinement technology which ITER represents. Two solutions are explored today for stationary plasma fusion burning. In one approach the static plasma density is considerably increased allowing to reduce reactor size and/or temperature when compared to ITER, thus reducing the size of the source of high energy neutron radiation making it more manageable, while cutting the primary $dt$ fusion reactor construction cost ultimately by 1-2 orders of magnitude.
+Work is ongoing to improve the grandfathered and (arguably as above discussion implies) too large (to fail as well) 1950s quasi-static magnetic confinement technology which ITER represents. Two solutions are explored today for stationary plasma fusion burning. In one approach the static plasma density is considerably increased allowing to reduce reactor size when compared to ITER, thus reducing the size of the source of high energy neutron radiation making it more manageable, while cutting the primary $dt$ fusion reactor construction cost ultimately by 1-2 orders of magnitude.
 
-To achieve this goal, a considerable increase in the strength of the applied magnetic field guiding the plasma is required. Development of strong magnetic fields for fusion has been an objective that has been in the works for decades and the technology is arguably available today such as the compact high-field tokamak SPARC, built around 20\,T high-temperature superconducting magnets~\cite{Creely:2020}. High field high density plasma burning reactor development does not depend on insights that ITER could have provided, or will provide in some yet not foreseen future.
+To achieve this goal, a considerable increase in the strength of the applied magnetic field guiding the plasma is required. Development of strong magnetic fields for fusion has been an objective that has been in the works for decades and the technology is arguably available today such as the compact high-field tokamak SPARC, built around 20\,T high-temperature superconducting magnets~\cite{Creely:2020}. High field and high density plasma burning reactor development does not depend on insights that ITER could have provided, or will provide in some yet not fully determined future.
 
 Another, arguably more promising approach which reduces size and cost, alters furthermore the shape of the confining magnetic field, from the tokamak/ITER style with a pumpkin-like plasma volume to what is a smaller volume stellarator doughnut ring. The implementation of a stellarator has as a technological requirement high precision magnetic fields. We point to the Wendelstein 7-X (\mbox{W7-X}) stellarator at Greifswald~\cite{Grulke:2024}, and a stellarator-based thermonuclear reactor in development in Germany/Bavaria by Proxima Fusion~\cite{Lion:2025}. We stress, however, that none of these approaches has yet reached energy break-even as no magnetically confined plasma, tokamak or stellarator, has ever produced more fusion energy than was supplied to heat it. The record (unbeaten in magnetic confinement for nearly three decades) still belongs to JET, whose 1997 deuterium-tritium burn released a peak $16\,\mathrm{MW}$ of fusion power with scientific gain $Q_\mathrm{sci}=0.63<1$~\cite{Keilhacker:1999,Wurzel:2025}.
 
@@ -371,7 +370,7 @@ Another, arguably more promising approach which reduces size and cost, alters fu
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Inertial confinement fusion}\label{sssec:picoICF}
 %%%%%%%%%%
-Inertial confinement fusion (ICF) was originally conceived for  heavy-ion beam drivers; one of us (JR) observed this close-up and personal as to a large degree this generated interest in the study of relativistic heavy ion collisions. However, the ICF development shifted toward high-power lasers due to technological advances allowing much shorter pulse durations, and recognition of significantly better coupling of radiation to electrons in the target. ICF offers a highly pulsed thermonuclear burn in which a small capsule of fusion fuel is compressed and heated to nuclear fusion ignition conditions. This is explored by two different methods~\cite{Hurricane:2023Review}
+Inertial confinement fusion (ICF) was originally conceived for heavy-ion beam drivers; one of us (JR) observed this close-up and personal as to a large degree this generated interest in the study of relativistic heavy ion collisions. However, the ICF development shifted toward high-power lasers due to technological advances allowing much shorter pulse durations, and recognition of significantly better coupling of radiation to electrons in the target. ICF offers a highly pulsed thermonuclear burn in which a small capsule of fusion fuel is compressed and heated to nuclear fusion ignition conditions. This is explored by two different methods~\cite{Hurricane:2023Review}
 \begin{itemize}
 \item 
 Indirectly driven ICF: by the ablation pressure initiated by an intense driver pulse interacting with vessel walls converting the incident energy into a quasi-isotropic bath of x-rays that symmetrically ablate the fuel capsule; this in essence is a micro-nuclear weapon experiment conducted under controlled conditions.
@@ -405,7 +404,7 @@ To compare to a power station, an aneutronic fusion reactor powering a truck, a 
 
 Today we have available the required technologies: 1) short near and sub-femtosecond lasting coherent high contrast so called relativistic light pulses; and 2) capability to mass produce nano-structures and meta-material, optimized to resonate with such extreme light pulses in the sense of acting as {\em light antennas}, attracting the light pulse energy.
 
-This phenomenon has a well-known historical example in the well-studied Lycurgus cup, see~\rf{fig:LycurgusCup}, a 4th-century Roman glass that appears green in reflection and ruby-red in transmission. Its dichromatic properties arise from Au/Ag nanoparticles $\sim$10--100~nm in size, which resonate at visible wavelengths and selectively scatter and absorb light~\cite{freestone2007lycurgus}.  
+This phenomenon has a well-known historical example in the well-studied Lycurgus cup, see~\rf{fig:LycurgusCup}, a 4th-century Roman glass that appears green in reflection and ruby-red in transmission. Its dichromatic properties arise from Au/Ag nanoparticles $\sim$10--100~nm in size, which resonate at visible wavelengths and selectively scatter and absorb light~\cite{freestone2007lycurgus}. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}%[ht]
@@ -413,7 +412,7 @@ This phenomenon has a well-known historical example in the well-studied Lycurgus
 %\includegraphics[width=0.75\linewidth]{LycurgusCup.jpg}
 \includegraphics[width=0.35\linewidth]{lycurgus_cup1.JPG}
 \includegraphics[width=0.35\linewidth]{lycurgus_cup2.JPG}
-\caption{The Lycurgus cup under (left) reflected light and (right) transmitted light. Image by author (AJS) under \href{https://creativecommons.org/licenses/by/4.0/}{CC BY 4.0}.}
+\caption{The Lycurgus cup under (left) reflected light and (right) transmitted light. Image at the British Museum by author (AJS) under \href{https://creativecommons.org/licenses/by/4.0/}{CC BY 4.0}.}
 %\caption{The Lycurgus cup under (left) reflected light and (right) transmitted light. Photo reprinted from Ref.~\cite{freestone2007lycurgus} under \href{https://creativecommons.org/licenses/by-nc/2.0/}{CC BY-NC 2.0}; \textcopyright\ Trustees of the British Museum.}
 \label{fig:LycurgusCup}
 \end{figure}
@@ -421,22 +420,22 @@ This phenomenon has a well-known historical example in the well-studied Lycurgus
 
 When driven near its localized surface plasmon (LSP) resonance, the nanoparticle develops strong near-fields enabling interactions far below the free-space diffraction limit of laser light~\cite{Novotny:2011}, producing local intensity enhancements of $10^4-10^6$. It should be noted that use of antennas for light allows to concentrate laser light to space-time domains well below usual diffraction limit~\cite{Novotny:2007,Novotny:2011} allowing laser light energy to be deposited into small ignition domains. In this manner all of incoming coherent light is delivered to the active fusion centers and constitutes near hundredfold progress compared to NIF where about 1\% of laser energy is used to ignite a single fusion center. 
 
-The use of  nano-antennas for light in nuclear fusion~\cite{Kroo2025HighField} exploits the same principles. It relies on  incident light coherent electromagnetic wave  coupling to collective oscillations of conduction electrons in nanoscale metallic structures which behave as an optical antenna. Under irradiation by high-contrast, ultrashort laser pulses, resonant nanorods (for example seeded within transparent polymers) can generate: (i) large near-field electric gradients, (ii) acceleration of ions, and (iii) collective electron motion thought capable of transferring correlated momentum to nearby protons.
+The use of nano-antennas for light in nuclear fusion~\cite{Kroo2025HighField} exploits the same principles. It relies on incident light coherent electromagnetic wave coupling to collective oscillations of conduction electrons in nanoscale metallic structures which behave as an optical antenna. Under irradiation by high-contrast, ultrashort laser pulses, resonant nanorods (for example seeded within transparent polymers) can generate: (i) large near-field electric gradients, (ii) acceleration of ions, and (iii) collective electron motion thought capable of transferring correlated momentum to nearby protons.
 
-Such microscopic dynamical mechanisms accelerate particles  bypassing the bremsstrahlung losses inherent to thermal plasmas: particle for fusion acceleration occurs on near picosecond time scale in a highly non-equilibrium, non-thermal environment. The related research field is in general referred to as `plasmonic fusion' or perhaps better termed `nano fusion' as plasmonic response of the resonant nano-antenna can be used in multiple ways~\cite{ChGJR2025patent}.
-  
+Such microscopic dynamical mechanisms accelerate particles bypassing the bremsstrahlung losses inherent to thermal plasmas: particle for fusion acceleration occurs on near picosecond time scale in a highly non-equilibrium, non-thermal environment. The related research field is in general referred to as `plasmonic fusion' or perhaps better termed `nano fusion' as plasmonic response of the resonant nano-antenna can be used in multiple ways~\cite{ChGJR2025patent}.
+ 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  \subsubsection{Opto-electro-mechanical Fusion}\label{sssec:optoelecmechFusion}
 Laser driven nano fusion relies on a transient, highly localized energy deposition to trigger, or better said, to spark, primary nuclear reactions. The research in this field~\cite{Kroo2025HighField,Biro:2025EPJ,Csernai:2025EPJ,Aladi:2025EPJ} has as its primary objective the demonstration of efficient fusion `ignition' using relativistic laser pulses of nano-scale fusion domains. 
 
-Once this stage is fully understood the next objective is to use the ignition process applying several non parallel laser pulses aiming to achieve a bulk shock burn which ultimately should lead to abundant fusion yield~\cite{Csernai:2026MDPI,Biro:2023Univ}. In aneutronic nano-fusion cycles the burn progresses at a speed determined by the range of produced charged particles, per cycle time, implying near relativistic speed of burn propagation in ordinary matter. There is a lot of undiscovered physics in these still little explored research areas awaiting an in-depth theoretical study, and an experimental exploration with the objective of formation of a  shock front bulk nuclear fusion burn. 
+Once this stage is fully understood the next objective is to use the ignition process applying several non parallel laser pulses aiming to achieve a bulk shock burn which ultimately should lead to abundant fusion yield~\cite{Csernai:2026MDPI,Biro:2023Univ}. In aneutronic nano-fusion cycles the burn progresses at a speed determined by the range of produced charged particles, per cycle time, implying near relativistic speed of burn propagation in ordinary matter. There is a lot of undiscovered physics in these still little explored research areas awaiting an in-depth theoretical study, and an experimental exploration with the objective of formation of a shock front bulk nuclear fusion burn. 
 
 How this can be done with success is of course the trillion dollar question; some of the novel ideas have led to patent filing, including by Grayson and Rafelski~\cite{ChGJR2025patent}. Our Arizona solution involves light concentration with the objective of achieving at sub-picosecond scale nuclear fusion ignition by opto-electro-mechanically accelerated motion of nuclear fuel within sub-wavelength (partially) enclosing structures. This approach does not use LSP collective electromagnetic field to achieve motion of fusible material, the method employed by the NAPLIFE collaboration~\cite{Kroo2025HighField,Biro:2025EPJ,Csernai:2025EPJ,Aladi:2025EPJ}. Instead we use LSP to help focus light to sub-diffraction limit, reaching intensity that will highly ionize a heavy element `pusher' of the fusible material.
 
 The motion of fusible isotopes is due to the collective Coulomb force: Ionized heavy and LSP capable element `pusher', e.g. gold, is chosen to have a high inertia; the also ionized much less inertial i.e. lighter fusible material repels, moving in the opposite direction. Momentum conservation allows a large kinetic energy acquisition and thus the capability of overcoming in collective directed motion the aneutronic energy threshold leading to nuclear fusion albeit in a small target area devoid of electrons, removed by the laser pulse. We already addressed the LSP focusing of light; the Coulomb induced collective motion is today well known: There is a laser-driven classroom demonstration experiment called the Coulomb explosion: A pinhead in vacuum is ionized by a laser shot, and the ionic Coulomb explosion is observed.
 
-To achieve fusion conditions one would want to master such collective Coulomb field directed motion in high density material rather than in the vacuum. In our Arizona approach the first objective is removing most of the electrons from (many) 50--100 nm scale light antennas. These can, for example, be (semi) hollow structures embedded in transparent to light wavelength fusible material. Normal about 3\,$\mu $m light pulse focal point comprises a volume that is more than 20,000 times the volume of a single resonator. This means that whatever we discuss can happen in a synchronous manner to thousands of resonators found in a typical focal volume of a laser pulse.  If the available light pulse energy allows the focal point to be made larger keeping the ionization level of the target even millions of resonators could experience LSP assisted removal of electrons followed by the complex dynamical evolution we studied using the particle-in-cell method. The antenna for light approach uses laser energy effectively avoiding instabilities other methods for direct laser fusion suffer from. 
+To achieve fusion conditions one would want to master such collective Coulomb field directed motion in high density material rather than in the vacuum. In our Arizona approach the first objective is removing most of the electrons from (many) 50--100 nm scale light antennas. These can, for example, be (semi) hollow structures embedded in transparent to light wavelength fusible material. Normal about 3\,$\mu $m light pulse focal point comprises a volume that is more than 20,000 times the volume of a single resonator. This means that whatever we discuss can happen in a synchronous manner to thousands of resonators found in a typical focal volume of a laser pulse. If the available light pulse energy allows the focal point to be made larger keeping the ionization level of the target even millions of resonators could experience LSP assisted removal of electrons followed by the complex dynamical evolution we studied using the particle-in-cell method. The antenna for light approach uses laser energy effectively avoiding instabilities other methods for direct laser fusion suffer from. 
 
 \paragraph*{\bf Synchronized nano-shell implosion}
 One particularly interesting simulation result underpinning the patent filing by Grayson and Rafelski~\cite{ChGJR2025patent} is the implosion of a hollowed heavy nano-shell structure which when filled with fusible material reminds us of more standard inertial confinement fusion (ICF) but miniaturized, and duplicated thousandfold if not millionfold. It is interesting to note that each nano structured antenna is enveloped by laser coherently which is assuring a synchronized dynamical motion. For 90 nm objects synchronized by light velocity this means $ 0.3\times 10^{-15}\,\mathrm{s}$ precision. Each of the many antennas in the path of the light pulse is synchronized to react by light pulse with each antenna acting as the center of ignition of a small spherical explosive burn. Choosing the right density depth profile of nano-antennas could be the key to effective use of laser light for fusion front ignition and effective matter compression.
@@ -444,18 +443,18 @@ One particularly interesting simulation result underpinning the patent filing by
 This assures an extraordinary capability to achieve synchronous collective dynamics of ignited fusible material with prescribed geometric distribution (meta material) nearly impossible to achieve otherwise in the context of ICF, and certainly out of reach for conventional particle beams which miss by about 5 orders of magnitude the time sharpness of laser pulses. This allows to explore many laser beam direct and indirect inertial confinement implosions necessary to achieve large enough nuclear fusion volume capable to retain the fusion energy carried by charged particle fusion products. Such a system offers the required synchronicity that inhibits dynamical implosion instability, a critical advantage of laser pulse opto-electro-mechanically facilitated nuclear fusion. Such a million-fold enhanced particle intensity originates in each of the many spatially distributed fusion sparks synchronized with speed of light and thus allowing shock wave formation; this extreme condition we hope to use to start shock burn in the bulk of the material.
 
 \paragraph*{\bf A fragmented Manhattan Project}
-Several fusion companies have been created around such nascent ideas of which our preferred solution was described in more detail above. This domain of nuclear fusion is furthermore attracting investor attention, both private and government. This in many aspects is reminiscent of the Manhattan Project: A rush to convert to praxis the  science principles  about aneutronic nano-fusion within a highly interdisciplinary context employing relativistic laser pulses, opto-electronic fusion targets and using opto-electro-mechanical resonant devices. However, unlike the national and coherent Manhattan Project, today in nuclear fusion each `player' follows a significantly different path and there is large fragmentation and secrecy surrounding the science basis of the different approaches.
+Several fusion companies have been created around such nascent ideas of which our preferred solution was described in more detail above. This domain of nuclear fusion is furthermore attracting investor attention, both private and government. This in many aspects is reminiscent of the Manhattan Project: A rush to convert to praxis the science principles about aneutronic nano-fusion within a highly interdisciplinary context employing relativistic laser pulses, opto-electronic fusion targets and using opto-electro-mechanical resonant devices. However, unlike the national and coherent Manhattan Project, today in nuclear fusion each `player' follows a significantly different path and there is large fragmentation and secrecy surrounding the science basis of the different approaches.
 
 Because fusion reactions driven in their first step by laser accelerated particles can achieve and exceed the aneutronic nuclear fusion reaction threshold, this is the method of choice to advance aneutronic fusion in general. The creation of a truly aneutronic chain is a challenge to which we return several times in this work. We will discuss by example some aneutronic reactions and give an example of aneutronic reaction chain in \rsec{sssec:BNcycles} and \rsec{ssec:Beryl}.
  
-It is hard to predict the method allowing the achievement of practical application. However, the clear objective is to overcome the energy threshold and enable aneutronic fusion path. Commercial companies are aiming at aneutronic energy from fusion. However,  it is more likely that the primary first application of ongoing work on nano-fusion will be to space propulsion, we comment on this at a few opportunities and give a longer discussion at the very end of this report as an important outlook to near future of nano-fusion. 
+It is hard to predict the method allowing the achievement of practical application. However, the clear objective is to overcome the energy threshold and enable aneutronic fusion path. Commercial companies are aiming at aneutronic energy from fusion. However, it is more likely that the primary first application of ongoing work on nano-fusion will be to space propulsion, we comment on this at a few opportunities and give a longer discussion at the very end of this report as an important outlook to near future of nano-fusion. 
 
 %%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Particle catalyzed fusion}\label{ssec:INTmuCF}
 %%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{The birth of particle physics: Particle catalyzed nuclear fusion}\label{sssec:particles}
 
-The basic principle of particle catalyzed (nuclear) fusion (CF) is transparent to anyone who has explored the question why a bottle of hydrogen gas, which contains about 1:3200 part of HD molecules  does not spontaneously warm up due to production of light helium in spontaneous aneutronic $pd$ fusion reactions. The resolution to this puzzle is that electrons keep nucleons bound at \AA ngstrom separation, which assures stability against fusion on a cosmic time scale.
+The basic principle of particle catalyzed (nuclear) fusion (CF) is transparent to anyone who has explored the question why a bottle of hydrogen gas, which contains about 1:3200 part of HD molecules does not spontaneously warm up due to production of light helium in spontaneous aneutronic $pd$ fusion reactions. The resolution to this puzzle is that electrons keep nucleons bound at \AA ngstrom separation, which assures stability against fusion on a cosmic time scale.
 
 A 200 times heavier particle, the muon, here just a heavy electron, would bind hydrogen to a 200 times shorter distance. This would allow fusion reactions at a rate ranging between one per microsecond, to one per picosecond, depending on isotopic molecular composition: For different mixes of the three hydrogen isotopes in the molecule there are 6 possible combinations. CF reactions are possible at room temperature and ambient pressure. What controls the fusion rate and yield is the formation speed of `exotic' mesonic hydrogen molecule and self-poisoning of the catalyzing particle, typically by permanent binding to the fusion produced helium. 
 
@@ -482,7 +481,7 @@ There are several important implicit messages in above quote: Real nuclear fusio
 
 Jumping forward, Jackson in his seminal work~\cite{Jackson:1957zza} created a no-go theorem: Under most optimal conditions no more than 85 fusions per muon could ever be achieved which seemed not enough for practical applications. This limit was based on sticking of the muon to the in-fusion produced $\alpha$-particle. In the following two decades continued improvement in understanding of the $\mu$CF processes is seen in many theoretical and experimental works in the Soviet Union, status of the field as of 1979 was summarized by one of us (JR)~\cite{Rafelski:1979ab}. In part stimulated by this widely circulated CERN report Steven E. Jones and collaborators in early 1980s studied at Los Alamos Laboratory $\mu$CF in dense, very cold, $dt$-liquid achieving 150+ nuclear fusions per muon~\cite{Jones:1983pw,Jones:1986kk,Jones:1986Na}. This result was at first grossly contradicting the theoretical understanding of the epoch; it had placed $\mu$CF near, if not above, the engineering break-even point, depending on the technology available for muon generation, a topic we turn to in \rsec{sssec:muon_production}. Engineering break-even threshold means we could, at a great cost, develop a reactor that would run on empty, not delivering power but sustaining itself.
 
-Jones' results were initially contested without contrary evidence~\cite{jones1993evaluation}; in our reasoning this was solely rooted in scientific disbelief that experiments carried out on a shoestring budget by newcomers in their result could be contradicting an easy to follow theoretical quantum physics no-go theorem. However, this theorem did not, for example, consider that the muon captured and bound deeply to the fusion $\alpha$ could be stripped in the followup collisional slowdown process~\cite{Rafelski:1988wq}. Nor was there ever consideration of the possible followup nuclear fusion reaction such as $\alpha\mu+t$ which today seems plausible considering a possible  reaction resonance in the compound ${}^7\mathrm{Li}$ nucleus~\cite{Aprahamian:2025AA}. 
+Jones' results were initially contested without contrary evidence~\cite{jones1993evaluation}; in our reasoning this was solely rooted in scientific disbelief that experiments carried out on a shoestring budget by newcomers in their result could be contradicting an easy to follow theoretical quantum physics no-go theorem. However, this theorem did not, for example, consider that the muon captured and bound deeply to the fusion $\alpha$ could be stripped in the followup collisional slowdown process~\cite{Rafelski:1988wq}. Nor was there ever consideration of the possible followup nuclear fusion reaction such as $\alpha\mu+t$ which today seems plausible considering a possible reaction resonance in the compound ${}^7\mathrm{Li}$ nucleus~\cite{Aprahamian:2025AA}. 
 
 Jones' $\mu$CF result on maximum achievable fusion yield held its ground and is today the accepted standard. In the following two decades the theoretical no-go $\mu$CF bounds were stretched in order to accommodate Jones' results, but in expert opinion of one of us (JR) there remains a lot more to be understood. The current learned opinions about maximum number of fusions a muon can catalyze are as soft as was the original Jackson no-go theorem. Detailed analysis of experimental results carried out by Jones and his collaborators~\cite{jones1993evaluation} in regard to the surprising speed of tritium catalytic cycles accompanied by limited catalyst poisoning if taken at face value indicate a much higher upper limit maybe above 500 fusions per muon. A review of muon-catalyzed fusion results up to 1996 can be found in Jones's summary chapter~\cite{Jones1997}, which makes clear that the experimental program was far from exhausted at the time of its termination in USA. 
 
@@ -501,7 +500,7 @@ Adding insult to injury, because high yielding $\mu$CF approaches require handli
 It is important to remind that catalyzed heavy particle fusion cannot use `heavy electrons' introduced to describe electron dynamics in special materials~\cite{Kuramoto:2000}. Mass is particle inertial resistance to applied force. A heavy electron is a quasi-particle invented to describe how a solid state medium inhibits particle response to applied force. Clearly such heavy electrons cannot exist outside the specific solid state environment and cannot be used to mimic muon catalyzed fusion. On the other hand, if the heavy electron medium consists of the fusible materials, collective material effects inhibiting electron inertial motion, which imply electron enhanced localization, could be of interest to nuclear fusion.
 
 \paragraph*{\bf Ongoing work and historical importance}
-Today scientific research in $\mu$CF continues in Japan, see for example Refs.~\cite{Kamimura2023:xka,Yamashita:2022yza}. A recent experimental study of resonant $dd\mu$ formation is notable~\cite{Toyama:2026}. We argue in \rsec{ssec:MuonCatalyzed} that $\mu$CF approach to fusion deserves further experimental and scientific exploration. One of us (JR) checked that there is related experimental activity beyond Japan at an international research site  licensed to handle a large tritium inventory where also beam of muons is available, i.e. the PSI laboratory near Z\"urich in Switzerland.
+Today scientific research in $\mu$CF continues in Japan, see for example Refs.~\cite{Kamimura2023:xka,Yamashita:2022yza}. A recent experimental study of resonant $dd\mu$ formation is notable~\cite{Toyama:2026}. We argue in \rsec{ssec:MuonCatalyzed} that $\mu$CF approach to fusion deserves further experimental and scientific exploration. One of us (JR) checked that there is related experimental activity beyond Japan at an international research site licensed to handle a large tritium inventory where also beam of muons is available, i.e. the PSI laboratory near Z\"urich in Switzerland.
  
 The historical importance of $\mu$CF lies in following:
 \begin{itemize}
@@ -566,7 +565,7 @@ where $E$ is the center-of-mass energy, $\eta$ the Sommerfeld parameter, $v=\bet
 \begin{figure}
 \centering
 %\input{NucInterL.tex}
-\includegraphics[width=0.85\linewidth]{NucInterL.pdf}
+\includegraphics[width=0.75\linewidth]{NucInterL.pdf}
 \caption{Nuclear interaction length $L_{\rm int}$ (in microns) vs.\ target density $\rho$ for thin targets at each channel's peak cross-section $\sigma_\mathrm{peak}$. For every entrance channel $\sigma_\mathrm{peak}$ is summed over all exothermic exit channels at the evaluated CM energy. Cross-sections are obtained from Refs~\cite{Page:2004md,Angulo:1999zz,Xu:2013fha,bosch1992improved,Sikora:2016pB,Otuka:2014wzu,Koning:2019qbo}. Dots mark specific material densities of each target. The $p+{}^{11}\mathrm{B}$ channel enters twice, once for each of its two resonances. The y-axis is extended down to show the interaction length of compressed targets.}
 \label{fig:InteractionLength}
 \end{figure}
@@ -610,7 +609,7 @@ In~\rf{fig:NeutronSafety} we see that alpha particles are stopped by thin materi
 
 The deuterium-tritium ($dt$) fusion reaction,
 \begin{align}
- d + t \;\longrightarrow\; \alpha(3.6~\mathrm{MeV}) + n(14.1~\mathrm{MeV}),
+ d + t \;\longrightarrow\; \alpha(3.56~\mathrm{MeV}) + n(14.1~\mathrm{MeV}),
 \label{eq:dt}
 \end{align}
 produces a copious flux of $14~\mathrm{MeV}$ neutrons with velocities $v_{n} \approx 0.173\,c$. These neutrons are uncharged and thus highly penetrating: they traverse light shielding materials such as paper and aluminum with negligible attenuation, penetrate even dense high-$Z$ shields like lead, and require dedicated light elemental e.g. hydrogenous moderators and neutron absorbers to capture effectively. In contrast, $\alpha$, $\beta$, and $\gamma$ radiation exhibit far shorter ranges in matter. 
@@ -744,6 +743,15 @@ Density-normalized power balance of $dt$ and $dd$ fusion fuels. Each panel shows
 Figure~\ref{fig:PowerBalance_AllFuels} illustrates the temperature dependence of these density-normalized heating and radiation terms for two representative fuels. The figure shows conventional neutronic fuels $d+t$ (with 3.5\,MeV $\alpha$-heating) and $d+d$. Note that $d+d$ will naturally occur within a $dt$ fuel mixture as a competing process. All curves are normalized to $n_e^2$ to permit direct comparison independent of density. The intersection of heating and radiation curves marks the temperature at which volumetric charged-particle heating balances radiative losses, highlighting the comparatively favorable low-temperature window of $d+t$.
 
 \paragraph*{\bf Helium-3 spiked deuterium fusion}
+We show in~\rf{fig:He3Spike}, as ${}^3$He is added to ``spike'' a deuterium plasma, the fusion heating changes because the $dd$ contribution is reduced by the $[(1-x)/(1+x)]^2$ weighting where
+\begin{equation}
+x\equiv \frac{n_{^{3}\text{He}}}{n_{d}+n_{^{3}\text{He}}}\,,
+\end{equation}
+while the $d+{}^3$He fusion channel given by
+\begin{equation}
+d + {}^3{\rm He} \to \alpha + p
+\end{equation}
+grows like $x(1-x)/(1+x)^2$. The common denominator arises because at fixed electron density, the doubly charged ${}^3$He displaces two deuterons, $n_e=n_d+2n_{^3\mathrm{He}}$. Meanwhile bremsstrahlung increases monotonically through $Z_{\rm eff}(x)=(1+3x)/(1+x)$. The result is a tradeoff where a modest ${}^3$He fraction can enhance $P_{\rm fus}/n_e^2$ over pure deuterium in the temperature range where the $d+{}^3$He reactivity is competitive, but higher ${}^3$He simultaneously raises radiative losses, so the net margin between heating and bremsstrahlung depends sensitively on both temperature and mixture fraction.
 
 %%%%%%%%%%
 \begin{figure}
@@ -754,16 +762,6 @@ Figure~\ref{fig:PowerBalance_AllFuels} illustrates the temperature dependence of
 \label{fig:He3Spike}
 \end{figure}
 %%%%%%%%%%
-
-We show in~\rf{fig:He3Spike}, as ${}^3$He is added to ``spike'' a deuterium plasma, the fusion heating changes because the $dd$ contribution is reduced by the $[(1-x)/(1+x)]^2$ weighting where
-\begin{equation}
-x\equiv \frac{n_{^{3}\text{He}}}{n_{d}+n_{^{3}\text{He}}}\,,
-\end{equation}
-while the $d+{}^3$He fusion channel given by
-\begin{equation}
-d + {}^3{\rm He} \to \alpha + p
-\end{equation}
-grows like $x(1-x)/(1+x)^2$. The common denominator arises because at fixed electron density, the doubly charged ${}^3$He displaces two deuterons, $n_e=n_d+2n_{^3\mathrm{He}}$. Meanwhile bremsstrahlung increases monotonically through $Z_{\rm eff}(x)=(1+3x)/(1+x)$. The result is a tradeoff where a modest ${}^3$He fraction can enhance $P_{\rm fus}/n_e^2$ over pure deuterium in the temperature range where the $d+{}^3$He reactivity is competitive, but higher ${}^3$He simultaneously raises radiative losses, so the net margin between heating and bremsstrahlung depends sensitively on both temperature and mixture fraction.
 
 \begin{table}[ht]
 \centering
@@ -909,7 +907,7 @@ Step & Reaction & $Q$ (MeV) & $Q_\mathrm{ch}$ (MeV) & Heating per primary $dd$ (
 \midrule
 \multicolumn{4}{l}{Primary charged heating $E_\mathrm{ch}^{dd}$} & $\simeq 2.43$\\
 \midrule
-1 (secondary) & $d+t\to\alpha+n$ & 17.59 & 3.50 & $b_t\times 3.50 \simeq 1.75$ \\
+1 (secondary) & $d+t\to\alpha+n$ & 17.59 & 3.56 & $b_t\times 3.56 \simeq 1.78$ \\
  & $d+{}^3\mathrm{He}\to\alpha+p$ & 18.35 & 18.35 & $b_3\times 18.35\simeq 9.18$ \\
 \midrule
 \multicolumn{4}{l}{Secondary charged heating} & $\simeq 10.93$\\
@@ -1058,7 +1056,7 @@ Gold is the natural candidate for study for heavy nuclear catalysis as it is alr
  \item[(iii)] and introduced deliberately as the plasmonic nanoparticles of the NAPLIFE targets, see \rsec{sssec:nanoF} and \rsec{ssec:Plasmonics} below.
 \end{itemize}
 
-Whether such a dense electron cloud of a heavy  gold  nucleus  matters depends on where in the potential the reaction is actually sampled. In a thermal environment nuclear fusion reactions occur near the Gamow energy arising from the competition between tunneling probability and probability of collision at given relative energy
+Whether such a dense electron cloud of a heavy gold nucleus matters depends on where in the potential the reaction is actually sampled. In a thermal environment nuclear fusion reactions occur near the Gamow energy arising from the competition between tunneling probability and probability of collision at given relative energy
 \begin{equation}\label{eq:GamowE}
 E_G = \left(\frac{(\pi T\,Z_1Z_2\,\alpha)^2\,\mu_\mathrm{r}}{2}\right)^{1/3}\,.
 \end{equation}
@@ -1135,12 +1133,12 @@ with $e\phi_\mathrm{ind}(R)\simeq14$~keV and where $\langle Z\rangle$ is the ave
 \subsection{Particle beams and fusion}\label{ssec:exploreLas}
 %%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Aneutronic \texorpdfstring{{$d+^{3\!}\mathrm{He}$}}{d+3He} fusion}\label{sssec:d3Hefuesion}
-Let us look more closely at $d+^{3\!}\mathrm{He}\to \alpha+p$ aneutronic fusion which yields 18.35 MeV: 80\% (14.68 MeV) of the fusion yield is carried by a highly energetic proton, and 20\% (3.67 MeV) by the $\alpha$-particle. The reaction cross-section peaks at $E_\mathrm{CM}=250\,\mathrm{keV}$ at a value of 0.85 barns which is significantly lower compared to $dt$ 6 barn cross-section at 4 times lower reaction energy. The scientific reasons for this are well understood: The Coulomb wall is twice as high with Helium, and the resonant reaction peak is, due to greater electromagnetic interaction, now inside ${}^3\mathrm{He}$, also pushed up.
+Let us look more closely at $d+^{3\!}\mathrm{He}\to \alpha+p$ aneutronic fusion which yields 18.35 MeV: 80\% (14.68 MeV) of the fusion yield is carried by a highly energetic proton, and 20\% (3.67 MeV) by the $\alpha$-particle. The reaction cross-section peaks at $E_\mathrm{CM}=250\,\mathrm{keV}$ at a value of 0.85 barns which is significantly lower compared to the $dt$ 5 barn cross-section at 4 times lower reaction energy. The scientific reasons for this are well understood: The Coulomb wall is twice as high with Helium, and the resonant reaction peak is, due to greater electromagnetic interaction, now inside ${}^3\mathrm{He}$, also pushed up.
 
 The thermal burn of $d+^{3\!}\mathrm{He}$ would be accompanied by $dd$ fusion which is `neutronic'. Thus only a non-thermal, non-confined directed particle motion induced fusion reaction can be considered. This would be a ${}^3\mathrm{He}$ particle beam hitting a $d$ target; this often is referred to as `inverse' geometry as the heavier particle is in motion. This allows maintaining control of the inventory of the much rarer ${}^3\mathrm{He}$ and allows better control of forward projected charged particle fusion products, especially useful in space propulsion applications.
 
 \paragraph*{\bf Direct conversion of charged-product energy}
-In literature one often notes a fusion company, Helion Fusion, which promises direct harvesting of (electrical) power from the motion of the produced charged particles. Abundant fusion reactions are expected in collective plasma cloud collisions. Both promises have steep technological challenges to overcome. What is important to note is that a fusion reactor system with a highly effective conversion of electrical power to reactant particle beam followed by an equally highly effective conversion of fusion produced kinetic charged particle energy into the electrical power could possibly solve the fusion problem, provided that fusion conditions are indeed achieved.
+In literature one often notes a fusion company, Helion Energy, which promises direct harvesting of (electrical) power from the motion of the produced charged particles. Abundant fusion reactions are expected in collective plasma cloud collisions. Both promises have steep technological challenges to overcome. What is important to note is that a fusion reactor system with a highly effective conversion of electrical power to reactant particle beam followed by an equally highly effective conversion of fusion produced kinetic charged particle energy into the electrical power could possibly solve the fusion problem, provided that fusion conditions are indeed achieved.
 
 The nuclear fusion energy output in such a system implies amplification by about a factor 20. Therefore in principle a device providing a net electrical gain in each cycle, i.e. gain per injected particle energy balance $\Delta Q_c>0$ can be achieved -- we keep in mind that we assumed that electronic stopping power slowing down fusion reactants can be technologically controlled. If not, any directed particle energy will end warming up the electron cloud with marginal fusion outcome.
 
@@ -1246,8 +1244,8 @@ is endothermic, it allows reaction cycle by converting the produced $\alpha$-par
 
 The use of the BN target has two initial objectives:
 \begin{itemize}
-    \item[(a)] to increase the reaction rate by allowing energetic fusion $\alpha$ to react with ${}^{14}\mathrm{N}$ in order to generate energetic protons, thus supporting reaction cycling driven by $p$;
-    \item[(b)] and to withdraw the $\alpha$ inventory from the secondary neutron generating reaction in their unavoidable collisions with ${}^{11}\mathrm{B}$.
+ \item[(a)] to increase the reaction rate by allowing energetic fusion $\alpha$ to react with ${}^{14}\mathrm{N}$ in order to generate energetic protons, thus supporting reaction cycling driven by $p$;
+ \item[(b)] and to withdraw the $\alpha$ inventory from the secondary neutron generating reaction in their unavoidable collisions with ${}^{11}\mathrm{B}$.
 \end{itemize}
 Inadvertently, this target choice had a third consequence as BN is often a natural nano-structured material. The presence of such a structure (see next \rsec{ssec:Plasmonics}) may have created ultra high yield fusion events, which a decade ago were not evaluated in fear of allowing into the data sample an unknown experimental error. Selecting `normal low yield' reactions, the use of (natural isotope mix) BN, was a success with considerable increase in the observed $\alpha$ yield, verifying the proposed fusion material.
 
@@ -1568,7 +1566,6 @@ achieves the factor-of-four improvement in muon cost noted above by harvesting s
 \end{enumerate}
 Accounting for pion transport and muon stopping in the fusion vessel, the overall energetic cost is $\sim 10$~GeV of thermal power per usable stopped $\mu^-$, or $\sim 5$~GeV of electrical energy per muon when accelerator wall-plug efficiency is included~\cite{Rafelski:1990in,Rafelski:1991DOE}.
 
-
 \paragraph*{\bf $e^+e^-$ resonance as a muon source: why $\phi(1020)$ wins}
 The pion-based muon production chain requires a multi-GeV proton accelerator, imposing substantial capital cost. An alternative exploits low-energy $e^+e^-$ resonances to produce mesons that subsequently decay to muons. Three light vector mesons are candidates: the $\rho(770)^0$, the $\omega(782)$, and the $\phi(1020)$. We show in the following how the three resonances differ in their practical utility for $\mu$CF. 
 
@@ -1579,13 +1576,13 @@ The peak cross-section for a spin-1 resonance is
 with Table~\ref{tab:ee_muon} summarizing the key parameters.
 \begin{table}[ht]
 \centering
-\caption{Comparison of light $e^+e^-$ vector resonances considered as potential muon sources. $\sigma_\mathrm{peak}$ is the peak hadronic cross-section; $\Gamma_\mathrm{tot}$ the total width; $\sigma({\mu^-})$ the effective cross-section for negative muon production accounting for decay branching fractions. Data from PDG~2024.}
+\caption{Comparison of light $e^+e^-$ vector resonances considered as potential muon sources. $\sigma_\mathrm{peak}$ is the peak hadronic cross-section; $\Gamma_\mathrm{tot}$ the total width; $\sigma({\mu^-})$ the effective cross-section for negative muon production accounting for decay branching fractions. Data from PDG~2024~\cite{ParticleDataGroup:2024cfk}.}
 \label{tab:ee_muon}
 \begin{tabular}{lccccl}
 \toprule
 Resonance & $M$ (MeV) & $\Gamma_\mathrm{tot}$ (MeV) & $\sigma_\mathrm{peak}$ ($\mu$b) & $\sigma(\mu^-)$ ($\mu$b) & Muon path \\
 \midrule
-$\rho(770)^0$ & 775 & 149 & 1.15 & $\sim 1.15$ & $\rho\to\pi^+\pi^-\to\mu$ \\
+$\rho(770)^0$ & 775 & 147 & 1.15 & $\sim 1.15$ & $\rho\to\pi^+\pi^-\to\mu$ \\
 $\omega(782)$ & 783 & 8.68 & 1.66 & $\sim 1.47$ & $\omega\to\pi^+\pi^-\pi^0\to\mu$ \\
 $\phi(1020)$ & 1020 & 4.25 & 4.22 & $\sim 1.70$ & $\phi\to K^+K^-\to\mu$ \\
 \bottomrule
@@ -1619,7 +1616,7 @@ As of 2026 at least two private companies: Muons, Inc.\ and Acceleron Fusion are
 \section{Evaluation, discussion and outlook}\label{sec:Dis}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \subsection{Fusion pathways}
-In this work we have shown why study of the science of nuclear fusion with ultimate application to energy generation should not be viewed today to have some clear cut unique path leading to near term technological realization. We have argued that there is a broad class of nuclear pathways whose feasibility depends on multitude of unexplored scientific factors  often requiring novel technological realizations. It should be remembered that this remark applies strongly to the `traditional' $dt$ fusion path irrespective of realization model: laser implosion (direct or indirect), dynamic EM field implosion, a variant not further discussed here, or plasma (stellarator, tokamak). We clearly suggested that ICF holds a significant advantage due to spatially tiny neutron source allowing development of viable neutron control. 
+In this work we have shown why study of the science of nuclear fusion with ultimate application to energy generation should not be viewed today to have some clear cut unique path leading to near term technological realization. We have argued that there is a broad class of nuclear pathways whose feasibility depends on multitude of unexplored scientific factors often requiring novel technological realizations. It should be remembered that this remark applies strongly to the `traditional' $dt$ fusion path irrespective of realization model: laser implosion (direct or indirect), dynamic EM field implosion, a variant not further discussed here, or plasma (stellarator, tokamak). We clearly suggested that ICF holds a significant advantage due to spatially tiny neutron source allowing development of viable neutron control. 
 
 The preceding sections have surveyed fusion pathways across an unusually broad physics range, from stellar quasi-equilibrium reactors, to laboratory-scale thermal plasmas, and beam driven non-equilibrium ignition and nano-structured environments. We attempt to illustrate the width of considered environments in~\rf{fig:ProcessTimeVolume} where in space size-time plane different systems are displayed in qualitative terms. The Big Bang Nucleosynthesis (BBN) is present in a homogeneous thermally equilibrated expanding Universe, spatially as big as it can be. However, fusion reactions end within an `hour'. Stellar nucleosynthesis is opposite, a modest sized but very long duration. Large manmade fusion experiments are designed or capable to operate for rather short microsecond to minute duration burns and are a large building sized. Beam driven approaches are aiming to be `table top' sized but those requiring giant lasers have some miniaturization to achieve. Resonant antenna for light systems are metaphorical future ``space planes'' where ignition size and burn time is the smallest. 
 
@@ -1640,7 +1637,6 @@ The light-element abundances summarized in~\rf{fig:NuclearAsh} and \rf{fig:Nucle
 
 
 \paragraph*{\bf Fusion self heating}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 For thermal plasmas, the central constraint remains the requirement that charged-particle heating, see \req{eq:powerFusion}, exceed radiative losses, dominated at high temperature by Bremsstrahlung, \req{eq:powerBrem}. As illustrated in~\rf{fig:PowerBalance_AllFuels}, the favorable reactivity of the $dt$ channel lowers the ignition threshold relative to $dd$ which itself is worse in terms of neutron flux but does not need tritium. An intermediate strategy is to ``spike'' a deuterium plasma with a modest fraction of ${}^3$He, as in~\rf{fig:He3Spike}. In this case the additional $d+{}^3$He channel increases charged-particle heating. However, bremsstrahlung rises through the corresponding increase in $Z_{\rm eff}$. For suitable temperatures and mixture fractions, a net gain in $P_{\rm fus}/n_e^2$ relative to pure deuterium can be achieved without introducing thus production of a proliferation agent, tritium.
  
 More generally, controlled doping of light hydrogen plasma with light nuclei (including ${}^3$He, Be, B, etc) offers a pathway to tailor reaction networks and enhance secondary heating, albeit potentially at the cost of increased radiative losses and more complex burn dynamics. A self-consistent treatment of doped plasmas, including full reaction networks, secondary burn fractions, evolving composition, and radiative feedback, remains today an important and yet entirely open nuclear science problem arguably with little if any presence in literature.
@@ -1672,7 +1668,7 @@ Considering on first look a clean ${d}^{3\!}\mathrm{He}$-fusion burn we note app
 \subsection{Future fusion solutions}
 Therefore, any practical approach to a clean $d+{}^3\mathrm{He}$ burn requires, as we have discussed, the injection of a high flux resonant reaction energy ${}^3\mathrm{He}$-beam into a $d$ target. Such a system is clearly not a thermal plasma device. We remember here that larger $Z>2$ thermal plasma enhances Bremsstrahlung losses beyond the fusion gain. We have also addressed another alternative, the use of a proton beam to create $d$ in reactions on beryllium and accompany this by sequel $d+{}^3\mathrm{He}$ reaction which is re-creating the proton needed to continue a fusion cycle. This proposal is a conceptual idea; the realization could require harvesting the high energy of produced protons before recycling these to produce deuterons on Be.
 
-{\it In summary of the above we thus conclude that a \underline{thermal plasma} and radiation clean energy producing fusion device that can be built on Earth has not been conceptually discovered, implying that large, costly, advanced in construction magnetic confinement devices are a classic example of premature rush to engineering solution without a demonstrated science case. A thermal fusion energy source requires breakthrough novel ideas for alternate to $dt$ fusion plasmas or the development of fast neutron handling  technologies with energy harvesting and tritium breeding. This conclusion applies in general, thus involving both magnetic and inertial confinement when and if most of energy produced is through thermal burn reactions. It applies to muon catalyzed fusion as we know it today. However, we anticipate that smaller nuclear burn environments and thus smaller neutron sources will be easier to handle.}
+{\it In summary of the above we thus conclude that a \underline{thermal plasma} and radiation clean energy producing fusion device that can be built on Earth has not been conceptually discovered, implying that large, costly, advanced in construction magnetic confinement devices are a classic example of premature rush to engineering solution without a demonstrated science case. A thermal fusion energy source requires breakthrough novel ideas for alternate to $dt$ fusion plasmas or the development of fast neutron handling technologies with energy harvesting and tritium breeding. This conclusion applies in general, thus involving both magnetic and inertial confinement when and if most of energy produced is through thermal burn reactions. It applies to muon catalyzed fusion as we know it today. However, we anticipate that smaller nuclear burn environments and thus smaller neutron sources will be easier to handle.}
 
 \paragraph*{\bf Search for aneutronic fusion method}
 This understanding motivates the recent interest in aneutronic reactions. Search for laboratory aneutronic beam-target approaches and environments are motivated at least in part by the fully aneutronic stellar fusion burn cycles, discussed in~\rsec{sssub:sunN}. In general aneutronic processes require much higher inter-particle collision energy. This in turn has stimulated interest in non-equilibrium reaction pathways involving use of particle beams to either fully drive a fusion reactor or to ignite in spark manner a thermal burn front. 
@@ -1706,13 +1702,13 @@ For non-thermal fusion, the key task is to develop equally self-consistent model
 It should be noted that particle beam driven fusion space propulsion is by far the preferred solution given the natural directionality of generated thrust and electrical power harnessing at minimal level to keep system operational in deep space, while using solar power when available. We return to this matter in the closing of this work.
 \end{enumerate}
 
-Non-equilibrium approaches alter fusion landscape vastly by relaxing the assumption of Maxwellian ion distributions. In beam-target regimes which do not aim to use produced fast  particles as propellant, a relevant metric is the (nuclear) interaction length, see \req{eq:Lint}, with the associated areal mass $m_{\rm areal}$ in \req{eq:m_areal}. As~\rf{fig:InteractionLength} makes clear, even near resonance peaks, aneutronic reactions require substantial target areal densities to reach unit optical depth.
+Non-equilibrium approaches alter fusion landscape vastly by relaxing the assumption of Maxwellian ion distributions. In beam-target regimes which do not aim to use produced fast particles as propellant, a relevant metric is the (nuclear) interaction length, see \req{eq:Lint}, with the associated areal mass $m_{\rm areal}$ in \req{eq:m_areal}. As~\rf{fig:InteractionLength} makes clear, even near resonance peaks, aneutronic reactions require substantial target areal densities to reach unit optical depth.
 
 The laser-driven $p+{}^{11}\mathrm{B}$ experiments (see~\rf{fig:PBFusion} and~\rf{fig:YieldpB}) and boron-nitride cycles (see \rf{fig:BNcycles}) demonstrate that non-equilibrium, picosecond-scale fusion is experimentally accessible. In these schemes, fusion is driven by transient ion acceleration and beam--target interactions rather than by a Maxwellian ion distribution, so the relevant control parameters shift from bulk temperature and confinement time to the ion energy spectrum, stopping length, target density, and the timing of resonant energy deposition relative to hydrodynamic expansion and thermalization. 
 
 
 \paragraph*{\bf Space propulsion}
-Let us close this report with some futuristic consideration of the small scale (nano) fusion in space propulsion. On Earth nuclear fusion solution must demonstrate a significant amplification factor in energy, allowing fusion power to compete economically. Moreover, for fusion power to be acceptable, it must be near to  100\% safe with radiation load much reduced compared to nuclear fission reactors. This makes deployment of fusion on Earth complicated, as one must achieve several somewhat contradictory objectives at once. 
+Let us close this report with some futuristic consideration of the small scale (nano) fusion in space propulsion. On Earth nuclear fusion solution must demonstrate a significant amplification factor in energy, allowing fusion power to compete economically. Moreover, for fusion power to be acceptable, it must be near to 100\% safe with radiation load much reduced compared to nuclear fission reactors. This makes deployment of fusion on Earth complicated, as one must achieve several somewhat contradictory objectives at once. 
 
 In space all that matters is reliability, portability and absence of penetrating (neutron) radiation. These aspects permeate this article. In space there is no need for an amplification factor, as long as the Sun shines there is electricity to drive lasers or particle beams for fusion. What matters is ability to achieve thrust, as measured in rocket community by specific impulse 
 \begin{align}
@@ -1720,17 +1716,17 @@ I_\mathrm{sp}\equiv\frac{v_\mathrm{exhaust}}{g_0} \propto \sqrt{\frac{Q}{m_\math
 \end{align}
 where $g_0$ is Earth standard acceleration, $Q$ is the energy gained per reaction and $m_\mathrm{propellant}$ is the exhaust mass. $I_\mathrm{sp}$ defines how efficiently a rocket engine converts its propellant into usable thrust. A higher value of $I_\mathrm{sp}$ means the engine gets a larger push from a smaller amount of fuel. 
 
-For the best chemical rockets $I_\mathrm{sp}\simeq 450$\,s. The NASA Dawn spacecraft had in interplanetary space a specific impulse $I_\mathrm{sp}=3,100$\,s for its xenon ion propulsion system ($v_\mathrm{exhaust}\simeq 30$\,km/s=$10^{-4}$c). The kinetic energy per nucleon of this ion drive was thus $E_\mathrm{kin}\simeq  5\times 10^{-9}\times935\,\mathrm{MeV}=4.65$\,eV achieved by combining solar power with electrostatic grid at keV potential level for singly ionized xenon. We keep in mind that fusion energies are million times greater and thus $I_\mathrm{sp}$ can be up to 1000 times greater. The major difference to ion drive is the ultra short-pulse  operation of the fusion assisted propulsion system. This is allowing to use the same solar power to reach in principle a much greater, up to factor 1000, specific impulse.
+For the best chemical rockets $I_\mathrm{sp}\simeq 450$\,s. The NASA Dawn spacecraft had in interplanetary space a specific impulse $I_\mathrm{sp}=3,100$\,s for its xenon ion propulsion system ($v_\mathrm{exhaust}\simeq 30$\,km/s=$10^{-4}$c). The kinetic energy per nucleon of this ion drive was thus $E_\mathrm{kin}\simeq 5\times 10^{-9}\times935\,\mathrm{MeV}=4.65$\,eV achieved by combining solar power with electrostatic grid at keV potential level for singly ionized xenon. We keep in mind that fusion energies are million times greater and thus $I_\mathrm{sp}$ can be up to 1000 times greater. The major difference to ion drive is the ultra short-pulse operation of the fusion assisted propulsion system. This is allowing to use the same solar power to reach in principle a much greater, up to factor 1000, specific impulse.
 
 The technological requirements for fusion amplified ion drive are challenging but not forbidding. We need light-weight versions of:
 \begin{enumerate}
 \item 
 A high repetition-rate intense laser capable to prepare the reaction target area by stripping electrons allowing to reduce stopping power for incoming pulsed ion beam for fusion. 
 \item
-A conventional, or laser driven pulsed 200\,keV protons (for proton-Boron drive), or 600\,keV ${}^3\mathrm{He}^{++}$ (for ${}^3\mathrm{He}\to d$ drive) ion beam. Note that particle speed for ${}^3\mathrm{He}^{++}$ is the same as for protons while ${}^3\mathrm{He}^{++}$ has  33\%  smaller charge to mass ratio $Q/M$. The required ${}^3\mathrm{He}^{++}$ pulsed ion beam could be easier to prepare.
+A conventional, or laser driven pulsed 200\,keV protons (for proton-Boron drive), or $\sim600$\,keV ${}^3\mathrm{He}^{++}$ (for ${}^3\mathrm{He}\to d$ drive) ion beam. Note that particle speed for ${}^3\mathrm{He}^{++}$ is the same as for protons while ${}^3\mathrm{He}^{++}$ has 33\% smaller charge to mass ratio $Q/M$. The required ${}^3\mathrm{He}^{++}$ pulsed ion beam could be easier to prepare.
 \end{enumerate}
 
-The space propulsion application is arguably the most near-term route to use in a real-world system the small scale fusion introduced in this article. Power requirements of fusion assisted system are comparable to electrostatic ion drive due to pulsed operation. The drive is just `another' ion drive realization capable of considerably fusion-amplifying the achieved ionic rocket thrust. The issue of energy gain which hinders deployment of fusion on Earth is of no relevance as required power is provided, in the initial realization, entirely by the Sun.  This said: none of conventional magnetic or inertial solutions for fusion could be today considered for space deployment due to intrinsic weight and/or inability to burn safe fusion fuel. 
+The space propulsion application is arguably the most near-term route to use in a real-world system the small scale fusion introduced in this article. Power requirements of fusion assisted system are comparable to electrostatic ion drive due to pulsed operation. The drive is just `another' ion drive realization capable of considerably fusion-amplifying the achieved ionic rocket thrust. The issue of energy gain which hinders deployment of fusion on Earth is of no relevance as required power is provided, in the initial realization, entirely by the Sun. This said: none of conventional magnetic or inertial solutions for fusion could be today considered for space deployment due to intrinsic weight and/or inability to burn safe fusion fuel. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1758,14 +1754,17 @@ The following abbreviations are used in this manuscript:
 BBN & Big Bang nucleosynthesis \\
 BN & Boron nitride \\
 CNO & Carbon--nitrogen--oxygen (cycle) \\
+HBT & Hanbury-Brown-Twiss \\
 IC & Inertial confinement \\
 ICF & Inertial confinement fusion \\
 ITER & International Thermonuclear Experimental Reactor \\
 LIBS & Laser-induced breakdown spectroscopy \\
+LILU & Laboratoire pour l'Utilisation des Lasers Intenses \\
 LMJ & Laser M{\'e}gajoule \\
 LSP & Localized surface plasmon \\
 LSPP & Localized surface plasmon polariton \\
 LLE & Laboratory for Laser Energetics \\
+MJ & Megajoule \\
 NAPLIFE & NAno-Plasmonic Laser Induced (or Ignited) Fusion Energy\\
 NIF & National Ignition Facility \\
 $pp$ & Proton--proton (chain) \\
@@ -1774,14 +1773,15 @@ $dd$ & Deuterium--deuterium \\
 $p$BN & proton--Boron-Nitride \\
 CF & Catalyzed fusion \\
 $\mu$CF & Muon-catalyzed fusion \\
-PIC & Particle in cell (computational simulation method)
+PIC & Particle in cell (computational simulation method) \\
+WKB & Wentzel-Kramers-Brillouin
 \end{tabular}
 }
 
 %\input{AllElementsComment.tex}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\isPreprints{}{% This command is only used for ``preprints''.
-\begin{adjustwidth}{-\extralength}{0cm}
+%\begin{adjustwidth}{-\extralength}{0cm}
 %} % If the paper is ``preprints'', please uncomment this parenthesis.
 %\printendnotes[custom] % Un-comment to print a list of endnotes
 
@@ -1801,7 +1801,7 @@ PIC & Particle in cell (computational simulation method)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \PublishersNote{}
 %\isPreprints{}{% This command is only used for ``preprints''.
-\end{adjustwidth}
+%\end{adjustwidth}
 %} % If the paper is ``preprints'', please uncomment this parenthesis.
 
 \end{document}
