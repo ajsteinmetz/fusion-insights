@@ -18,8 +18,8 @@ Iliadis, C.
 
 \bibitem[Arnett(1996)]{Arnett:1996ev}
 Arnett, D.
-\newblock {\em Supernovae and Nucleosynthesis: An Investigation of the History
-  of Matter, from the Big Bang to the Present}; Princeton University Press,
+\newblock {\em {Supernovae and Nucleosynthesis: An Investigation of the History
+  of Matter, from the Big Bang to the Present}}; Princeton University Press,
   1996.
 
 \bibitem[Rolfs and Rodney(1988)]{Rolfs:1988}
@@ -67,10 +67,10 @@ Meija, J.; Coplen, T.B.; Berglund, M.; Brand, W.A.; Bièvre, P.D.; Gröning,
 \newblock {\em Pure and Applied Chemistry} {\bf 2016}, {\em 88},~293--306.
 \newblock {\url{https://doi.org/10.1515/pac-2015-0503}}.
 
-\bibitem[Aguilar et~al.(2025)]{Aguilar:2025}
+\bibitem[Aguilar et~al.(2025)]{AMS:2025xoq}
 Aguilar, M.;  et~al.
-\newblock Properties of Cosmic Lithium Isotopes Measured by the Alpha Magnetic
-  Spectrometer.
+\newblock {Properties of Cosmic Lithium Isotopes Measured by the Alpha Magnetic
+  Spectrometer}.
 \newblock {\em Phys. Rev. Lett.} {\bf 2025}, {\em 134},~201001.
 \newblock {\url{https://doi.org/10.1103/PhysRevLett.134.201001}}.
 
@@ -104,6 +104,12 @@ Abdou, M.; Riva, M.; Ying, A.; Day, C.; Loarte, A.; Baylor, L.; Humrickhouse,
   ATOMIC ENERGY AGENCY}: Vienna,  2024.
 \newblock
   \url{http://www.iaea.org/publications/15616/plasma-physics-and-technology-aspects-of-the-deuterium-tritium-fuel-cycle-for-fusion-energy}.
+
+\bibitem[{Laboratory for Laser Energetics}()]{lle_cryogenic_tritium}
+{Laboratory for Laser Energetics}.
+\newblock Cryogenic \& Tritium Facility.
+\newblock \url{https://www.lle.rochester.edu/cryogenic-tritium/}.
+\newblock Accessed: 2026-08-31.
 
 \bibitem[Aymar(2001)]{Aymer:2001}
 Aymar, R.
@@ -306,8 +312,8 @@ Aladi, M.; Kedves, M.; {NAPLIFE Collaboration}.
 \newblock High-intensity femtosecond laser irradiation experiments on polymer
   targets doped with gold nanorods.
 \newblock {\em European Physical Journal Special Topics} {\bf 2025}, {\em
-  234},~2999--3005.
-\newblock {\url{https://doi.org/10.1140/epjs/s11734-025-01674-0}}.
+  234},~3015--3019.
+\newblock {\url{https://doi.org/10.1140/epjs/s11734-025-01523-0}}.
 
 \bibitem[Csernai and Collaborations(2026)]{Csernai:2026MDPI}
 Csernai, L.P.o.b.o.t.N.; Collaborations, F.
@@ -350,37 +356,36 @@ Jackson, J.D.
 
 \bibitem[Alvarez et~al.(1957)]{Alvarez:1957un}
 Alvarez, L.W.;  et~al.
-\newblock Catalysis of nuclear reactions by mu mesons.
+\newblock {Catalysis of nuclear reactions by mu mesons}.
 \newblock {\em Phys. Rev.} {\bf 1957}, {\em 105},~1127--1128.
 \newblock {\url{https://doi.org/10.1103/PhysRev.105.1127}}.
 
 \bibitem[Jackson(1957)]{Jackson:1957zza}
 Jackson, J.D.
-\newblock Catalysis of Nuclear Reactions between Hydrogen Isotopes by
-  $\mu^-$-Mesons.
+\newblock {Catalysis of Nuclear Reactions between Hydrogen Isotopes by mu-
+  Mesons}.
 \newblock {\em Phys. Rev.} {\bf 1957}, {\em 106},~330--339.
 \newblock {\url{https://doi.org/10.1103/PhysRev.106.330}}.
 
 \bibitem[Rafelski(1979)]{Rafelski:1979ab}
 Rafelski, J.
-\newblock HYDROGENIC MESOMOLECULES AND MUON CATALYZED FUSION.
-\newblock In Proceedings of the International School of Physics of Exotic
+\newblock {HYDROGENIC MESOMOLECULES AND MUON CATALYZED FUSION}.
+\newblock In Proceedings of the {International School of Physics of Exotic
   Atoms: Exotic Atoms, A Tool for the Study of Fundamental Interactions and the
-  Structure of Matter,  6 1979.
-\newblock {\url{https://doi.org/10.1007/978-1-4613-3042-4}}.
+  Structure of Matter},  6 1979.
 
 \bibitem[Jones et~al.(1983)Jones, Anderson, Caffrey, Walter, Watts, Bradbury,
   Gram, Leon, Maltrud, and Paciotti]{Jones:1983pw}
 Jones, S.E.; Anderson, A.N.; Caffrey, A.J.; Walter, J.B.; Watts, K.D.;
   Bradbury, J.N.; Gram, P.A.M.; Leon, M.J.; Maltrud, H.R.; Paciotti, M.A.
-\newblock Experimental investigation of muon catalyzed D T fusion.
+\newblock {EXPERIMENTAL INVESTIGATION OF MUON CATALYZED D T FUSION}.
 \newblock {\em Phys. Rev. Lett.} {\bf 1983}, {\em 51},~1757--1760.
 \newblock {\url{https://doi.org/10.1103/PhysRevLett.51.1757}}.
 
 \bibitem[Jones et~al.(1986)]{Jones:1986kk}
 Jones, S.E.;  et~al.
-\newblock Observation of Unexpected Density Effects in Muon Catalyzed $D T$
-  Fusion.
+\newblock {Observation of Unexpected Density Effects in Muon Catalyzed $D T$
+  Fusion}.
 \newblock {\em Phys. Rev. Lett.} {\bf 1986}, {\em 56},~588--591.
 \newblock {\url{https://doi.org/10.1103/PhysRevLett.56.588}}.
 
@@ -400,7 +405,7 @@ Jones, S.E.; Taylor, S.F.; Anderson, A.N.
 \bibitem[Rafelski et~al.(1989)Rafelski, Muller, Rafelski, Trautmann, and
   Viollier]{Rafelski:1988wq}
 Rafelski, H.E.; Muller, B.; Rafelski, J.; Trautmann, D.; Viollier, R.D.
-\newblock MUON REACTIVATION IN MUON CATALYZED D T FUSION.
+\newblock {MUON REACTIVATION IN MUON CATALYZED D T FUSION}.
 \newblock {\em Prog. Part. Nucl. Phys.} {\bf 1989}, {\em 22},~279.
 \newblock {\url{https://doi.org/10.1016/0146-6410(89)90005-7}}.
 
@@ -435,7 +440,7 @@ Rafelski, J.; Jones, S.E.
 \bibitem[Rafelski et~al.(1991)Rafelski, Harley, Shin, and
   Rafelski]{Rafelski:1990gg}
 Rafelski, H.E.; Harley, D.; Shin, G.R.; Rafelski, J.
-\newblock Cold fusion: Muon catalyzed fusion.
+\newblock {Cold fusion: Muon catalyzed fusion}.
 \newblock {\em J. Phys. B} {\bf 1991}, {\em 24},~1469.
 
 \bibitem[Kuramoto and Kitaoka(2000)]{Kuramoto:2000}
@@ -443,18 +448,20 @@ Kuramoto, Y.; Kitaoka, Y.
 \newblock {\em Dynamics of Heavy Electrons}; International Series of Monographs
   on Physics, OUP Oxford,  2000.
 
-\bibitem[Kamimura et~al.(2023)Kamimura, Kino, and Yamashita]{Kamimura2023:xka}
+\bibitem[Kamimura et~al.(2023)Kamimura, Kino, and Yamashita]{Kamimura:2021msf}
 Kamimura, M.; Kino, Y.; Yamashita, T.
-\newblock Comprehensive study of muon-catalyzed nuclear reaction processes in
-  the $dt\mu$ molecule.
-\newblock {\em Physical Review C} {\bf 2023}, {\em 107},~034607.
+\newblock {Comprehensive study of muon-catalyzed nuclear reaction processes in
+  the dt{\ensuremath{\mu}} molecule}.
+\newblock {\em Phys. Rev. C} {\bf 2023}, {\em 107},~034607,
+  \href{http://arxiv.org/abs/2112.08399}{{\normalfont
+  [arXiv:nucl-th/2112.08399]}}.
 \newblock {\url{https://doi.org/10.1103/PhysRevC.107.034607}}.
 
 \bibitem[Yamashita et~al.(2022)Yamashita, Kino, Okutsu, Okada, and
-  Sato]{Yamashita:2022yza}
+  Sato]{Yamashita:2022rtu}
 Yamashita, T.; Kino, Y.; Okutsu, K.; Okada, S.; Sato, M.
-\newblock Roles of resonant muonic molecule in new kinetics model and muon
-  catalyzed fusion in compressed gas.
+\newblock {Roles of resonant muonic molecule in new kinetics model and muon
+  catalyzed fusion in compressed gas}.
 \newblock {\em Sci. Rep.} {\bf 2022}, {\em 12},~6393.
 \newblock {\url{https://doi.org/10.1038/s41598-022-09487-0}}.
 
@@ -465,11 +472,11 @@ Toyama, Y.; et~al..
 \newblock {\em Science Advances} {\bf 2026}, {\em 12}.
 \newblock {\url{https://doi.org/10.1126/sciadv.aed3321}}.
 
-\bibitem[Sawicki et~al.(1991)Sawicki, Gajda, Harley, and
-  Rafelski]{Rafelski:1989pz}
-Sawicki, M.; Gajda, M.; Harley, D.; Rafelski, J.
-\newblock Reactions of charged massive particles in a deuterium environment.
-\newblock {\em Phys. Rev. A} {\bf 1991}, {\em 44},~4345--4352.
+\bibitem[Rafelski et~al.(1991)Rafelski, Sawicki, Gajda, and
+  Harley]{Rafelski:1989pz}
+Rafelski, J.; Sawicki, M.; Gajda, M.; Harley, D.
+\newblock {Reactions of charged massive particle in a deuterium environment}.
+\newblock {\em Phys. Rev. A} {\bf 1991}, {\em 44},~4345.
 \newblock {\url{https://doi.org/10.1103/PhysRevA.44.4345}}.
 
 \bibitem[Haynes(2016)]{Haynes:2016}
@@ -564,7 +571,7 @@ Ehamberg.
   \url{https://commons.wikimedia.org/wiki/File:Alfa_beta_gamma_radiation_penetration.svg},
    2009.
 \newblock Licensed under
-  \href{https://creativecommons.org/licenses/by-sa/3.0/CC~BY-SA~3.0} via
+  \href{https://creativecommons.org/licenses/by-sa/3.0/}{CC~BY-SA~3.0} via
   Wikimedia Commons.
 
 \bibitem[Coleman and Kovari(2018)]{coleman2018global}
@@ -589,7 +596,9 @@ Blumenthal, G.R.; Gould, R.J.
 
 \bibitem[Beresnyak(2023)]{Beresnyak:2023nrl}
 Beresnyak, A.
-\newblock {\em 2023NRL plasma formulary}; Naval Research Laboratory,  2023.
+\newblock {\em {NRL Plasma Formulary}}; Naval Research Laboratory: Washington,
+  DC,  2023.
+\newblock 2023 revision.
 
 \bibitem[Ochs et~al.(2026)Ochs, Kolmes, Glasser, and
   Fisch]{ochs2026bremsstrahlung}
@@ -801,11 +810,11 @@ Spitaleri, C.;  et~al.
 \newblock {\url{https://doi.org/10.1103/PhysRevC.95.035801}}.
 
 \bibitem[Labaune et~al.(2016)Labaune, Baccou, Yahia, Neuville, and
-  Rafelski]{Labaune2016BN}
+  Rafelski]{Labaune:2016mqp}
 Labaune, C.; Baccou, C.; Yahia, V.; Neuville, C.; Rafelski, J.
-\newblock Laser-initiated primary and secondary nuclear reactions in
-  Boron-Nitride.
-\newblock {\em Scientific Reports} {\bf 2016}, {\em 6},~21202.
+\newblock {Laser-initiated primary and secondary nuclear reactions in
+  Boron-Nitride}.
+\newblock {\em Sci. Rep.} {\bf 2016}, {\em 6},~21202.
 \newblock {\url{https://doi.org/10.1038/srep21202}}.
 
 \bibitem[Golberg et~al.(1998)Golberg, Bando, St\'ephan, and
@@ -971,7 +980,7 @@ Szokol, {\'A}.N.; K{\'a}m{\'a}n, J.; Holomb, R.; Aladi, M.; Kedves, M.;
   Taylor, and Rafelski]{Jones:1989dv}
 Jones, S.E.; Palmer, E.P.; Czirr, J.B.; Decker, D.L.; Jensen, G.L.; Thorne,
   J.M.; Taylor, S.F.; Rafelski, J.
-\newblock Observation of Cold Nuclear Fusion in Condensed Matter.
+\newblock {Observation of Cold Nuclear Fusion in Condensed Matter}.
 \newblock {\em Nature} {\bf 1989}, {\em 338},~737.
 \newblock {\url{https://doi.org/10.1038/338737a0}}.
 
@@ -993,32 +1002,40 @@ Harley, D.; Muller, B.; Rafelski, J.
 \newblock {\em J. Phys. G} {\bf 1990}, {\em 16},~281.
 \newblock {\url{https://doi.org/10.1088/0954-3899/16/2/017}}.
 
+\bibitem[Navas et~al.(2024)]{ParticleDataGroup:2024cfk}
+Navas, S.;  et~al.
+\newblock {Review of particle physics}.
+\newblock {\em Phys. Rev. D} {\bf 2024}, {\em 110},~030001.
+\newblock {\url{https://doi.org/10.1103/PhysRevD.110.030001}}.
+
 \bibitem[Vignola and Team(1994)]{Vignola:1994DAFNE}
 Vignola, G.; Team, D.P.
 \newblock DA$\Phi$NE the First $\phi$-Factory. In {\em Proceedings of EPAC
   1994}; INFN-LNF, Frascati, Italy,  1994.
 
-\bibitem[Zobov and Team(2008)]{Zobov:2007DAFNE}
-Zobov, M.; Team, D.C.
-\newblock DA$\Phi$NE status and upgrade plans.
-\newblock {\em Physics of Particles and Nuclei Letters} {\bf 2008}, {\em
-  5},~560--565.
+\bibitem[Zobov(2008)]{Zobov:2007xw}
+Zobov, M.
+\newblock {DAFNE status and upgrade plans}.
+\newblock {\em Phys. Part. Nucl. Lett.} {\bf 2008}, {\em 5},~560--565,
+  \href{http://arxiv.org/abs/0709.3696}{{\normalfont
+  [arXiv:physics.acc-ph/0709.3696]}}.
 \newblock {\url{https://doi.org/10.1134/S1547477108070042}}.
 
-\bibitem[Skurzok and {SIDDHARTA-2 Collaboration}(2024)]{Skurzok:2024SIDDHARTA2}
-Skurzok, M.; {SIDDHARTA-2 Collaboration}.
-\newblock SIDDHARTA-2 apparatus for kaonic atoms research on the DA$\Phi$NE
-  collider.
-\newblock {\em European Physical Journal A} {\bf 2024}.
-\newblock arXiv:2311.16144, {\url{https://doi.org/10.48550/arXiv.2311.16144}}.
+\bibitem[Sirghi et~al.(2024)]{Sirghi:2023wok}
+Sirghi, F.;  et~al.
+\newblock {SIDDHARTA-2 apparatus for kaonic atoms research on the
+  DA{\ensuremath{\Phi}}NE collider}.
+\newblock {\em JINST} {\bf 2024}, {\em 19},~P11006,
+  \href{http://arxiv.org/abs/2311.16144}{{\normalfont
+  [arXiv:physics.ins-det/2311.16144]}}.
+\newblock {\url{https://doi.org/10.1088/1748-0221/19/11/P11006}}.
 
-\bibitem[Curceanu et~al.(2011)Curceanu, Ishiwatari, Sirghi, and
-  Zmeskal]{Curceanu:2011SIDDHARTA}
-Curceanu, C.; Ishiwatari, T.; Sirghi, D.; Zmeskal, J.
-\newblock Kaonic atoms and strangeness in nuclei: {SIDDHARTA-2} and {AMADEUS}
-  experiments.
-\newblock {\em Nuclear Physics A} {\bf 2011}.
-\newblock DA$\Phi$NE kaonic atom experiments; INFN-LNF Frascati.
+\bibitem[Iliescu et~al.(2016)]{Iliescu:2016zgx}
+Iliescu, M.;  et~al.
+\newblock {Kaonic atoms and strangeness in nuclei: SIDDHARTA-2 and AMADEUS
+  experiments}.
+\newblock {\em J. Phys. Conf. Ser.} {\bf 2016}, {\em 770},~012034.
+\newblock {\url{https://doi.org/10.1088/1742-6596/770/1/012034}}.
 
 \bibitem[Galactic(2020)]{VirginGalactic:2020}
 Galactic, V.
@@ -1034,5 +1051,6 @@ Karsch, S.
   new tool for plasma diagnostics.
 \newblock PhD thesis, Fakult\"at f\"ur Physik, Ludwig-Maximilians-Universit\"at
   M\"unchen, M\"unchen,  2002.
+\newblock \url{https://edoc.ub.uni-muenchen.de/703/}.
 
 \end{thebibliography}
