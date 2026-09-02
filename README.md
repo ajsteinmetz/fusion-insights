@@ -2,7 +2,7 @@
 Science Of Nuclear Fusion: Insights and Ideas
 
 <p align="center">
-  <img src="art/FusionScale4D.svg" width="700" alt="Comparison of time and scale of fusion environments.">
+  <img src="art/FusionScale4D.svg" width="600" alt="Comparison of time and scale of fusion environments.">
 </p>
 
 ## abstract
