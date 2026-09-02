@@ -1,7 +1,9 @@
 # fusion-insights
 Science Of Nuclear Fusion: Insights and Ideas
 
-![Comparison of time and scale of fusion environments.](art/FusionScale4D.png)
+<p align="center">
+  <img src="art/FusionScale4D.svg" width="700" alt="Comparison of time and scale of fusion environments.">
+</p>
 
 ## abstract
 Advances in several physics domains open up novel paths to smaller scale, higher energy density opportunities to advance small systems for nuclear fusion. Here we survey both legacy and several novel "table-top" approaches which attract current interest. We furthermore address a few related practical and challenging nuclear science topics arising in the context of magnetic confinement and inertial confinement fusion. The contents emphasis includes: By example of solar fusion cycles we draw attention to aneutronic fusion reaction chains. Considering the natural isotopic abundances we assess more carefully the meaning of the term "limitless energy" in the context of actual fusion power realizations. We describe achievements in laser-driven proton-boron fusion, and extensions to a self-sustaining and nearly fully aneutronic proton-boron-nitride reaction cycle. We propose another aneutronic option, where the target is a mix of beryllium and light helium isotope; this 3-helium is arguably the most mentioned fusion component in this article. We look in depth at the plasmonic opto-electric field-enhancement for fusion, and at the particle (muon) catalyzed fusion option. We describe problems in harnessing the *dt* fusion for civilian use. We introduce space travel as forthcoming application of aneutronic fusion.
