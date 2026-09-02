@@ -32,18 +32,18 @@ alt="ORCID iD icon"/> Andrew J. Steinmetz</a>
 ## cite as
 Rafelski, J. & Steinmetz, A. J. Science Of Nuclear Fusion: Insights and Ideas. arXiv:2609.01366 [nucl-th] (2026).
 
-Submitted to the special issue "Particles and Plasmas in Strong Fields, Part 2" of *Particles*.
+Submitted to the special issue ["Particles and Plasmas in Strong Fields, Part 2"](https://www.mdpi.com/journal/particles/special_issues/C8XU54WI5Z) of *Particles*.
 
 ## doi/arXiv id
 - https://arxiv.org/abs/2609.01366
 - https://doi.org/10.48550/arXiv.2609.01366
 
 ## contents
-- `aneutronic-fusion-v3.tex`, `aneutronic-fusion-v3.bib`, `aneutronic-fusion-v3.bbl` — manuscript source and bibliography.
-- `anc/TikZ/` — TikZ sources for the figures compiled into the manuscript.
-- `anc/NACREII/` — NACRE II reaction rate tables (`nacre_*.csv`) with the cross-section and reactivity scripts built on `nacre_reactivity.py`.
-- `anc/EXFOR/` — EXFOR retrieval (`fetch_exfor.sh`) and peak cross-section extraction (`exfor_peaks.py`), Bosch-Hale parameterizations (`bosch_hale.py`), and the optimal ³He spike fraction calculation (`he3_spike_optimum.py`).
-- `art/` — graphical abstract shown above.
+- `aneutronic-fusion-v3.tex`, `aneutronic-fusion-v3.bib`, `aneutronic-fusion-v3.bbl` -- manuscript source and bibliography.
+- `anc/TikZ/` -- TikZ sources for the figures compiled into the manuscript.
+- `anc/NACREII/` -- NACRE II reaction rate tables (`nacre_*.csv`) with the cross-section and reactivity scripts built on `nacre_reactivity.py`.
+- `anc/EXFOR/` -- EXFOR retrieval (`fetch_exfor.sh`) and peak cross-section extraction (`exfor_peaks.py`), Bosch-Hale parameterizations (`bosch_hale.py`), and the optimal ³He spike fraction calculation (`he3_spike_optimum.py`).
+- `art/` -- graphical abstract shown above.
 
 ## license
 Copyright © 2026 by the authors.
