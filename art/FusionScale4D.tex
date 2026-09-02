@@ -9,14 +9,21 @@
 
 \usepackage{pgfplots,amsmath}
 \pgfplotsset{compat=1.18}
-\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{shapes.geometric,backgrounds}
 \usepgfplotslibrary{fillbetween}
 \usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+
+% Opaque white ground: the SVG is displayed on pages that may use a dark theme,
+% where a transparent background would swallow the black axes and labels.
+\pagecolor{white}
 
 \begin{document}
 
 
-\begin{tikzpicture}[scale=1.0, transform shape]
+\begin{tikzpicture}[scale=1.0, transform shape,
+show background rectangle,
+inner frame sep=4pt,
+background rectangle/.style={fill=white, draw=none}]
 %%%%%%%%%%
 % Bubbles (background)
 %%%%%%%%%%
