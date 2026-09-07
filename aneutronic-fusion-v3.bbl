@@ -492,6 +492,16 @@ Aguilar, M.;  et~al.
 \newblock {\em Phys. Rev. Lett.} {\bf 2023}, {\em 130},~211002.
 \newblock {\url{https://doi.org/10.1103/PhysRevLett.130.211002}}.
 
+\bibitem[{MHz`as}(2012)]{MHzas:2012ABU}
+{MHz`as}.
+\newblock Solar System Abundances.
+\newblock
+  \url{https://commons.wikimedia.org/wiki/File:SolarSystemAbundances.svg},
+  2012.
+\newblock Licensed under
+  \href{https://creativecommons.org/licenses/by-sa/3.0/}{CC~BY-SA~3.0} via
+  Wikimedia Commons.
+
 \bibitem[Barker(2002)]{Barker:2002mfp}
 Barker, F.C.
 \newblock Electron screening in reactions between light nuclei.
@@ -564,8 +574,8 @@ Koning, A.J.; Rochman, D.; Sublet, J.C.; Dzysiuk, N.; Fleming, M.; van~der
 \newblock {\em Nucl. Data Sheets} {\bf 2019}, {\em 155},~1--55.
 \newblock {\url{https://doi.org/10.1016/j.nds.2019.01.002}}.
 
-\bibitem[Ehamberg(2009)]{Ehamberg:2007ABG}
-Ehamberg.
+\bibitem[{Ehamberg}(2009)]{Ehamberg:2007ABG}
+{Ehamberg}.
 \newblock Alfa, beta and gamma radiation penetration diagram.
 \newblock
   \url{https://commons.wikimedia.org/wiki/File:Alfa_beta_gamma_radiation_penetration.svg},
@@ -645,6 +655,23 @@ Szam, D.
 \bibitem[Krane(1991)]{krane1991introductory}
 Krane, K.S.
 \newblock {\em Introductory nuclear physics}; John Wiley \& Sons,  1991.
+
+\bibitem[Iliadis et~al.(2026)Iliadis, Longland, Setoodehnia, Marshall, Mohr,
+  and Psaltis]{Iliadis:2026hww}
+Iliadis, C.; Longland, R.; Setoodehnia, K.; Marshall, C.; Mohr, P.; Psaltis, A.
+\newblock {The 2025 Evaluation of Experimental Thermonuclear Reaction Rates
+  (ETR25)}.
+\newblock {\em Astrophys. J. Suppl.} {\bf 2026}, {\em 283},~17,
+  \href{http://arxiv.org/abs/2601.20059}{{\normalfont
+  [arXiv:astro-ph.SR/2601.20059]}}.
+\newblock {\url{https://doi.org/10.3847/1538-4365/ae2bdc}}.
+
+\bibitem[Iliadis et~al.(2025)Iliadis, Longland, Setoodehnia, Marshall, Mohr,
+  and Psaltis]{iliadis_2025_17610211}
+Iliadis, C.; Longland, R.; Setoodehnia, K.; Marshall, C.; Mohr, P.; Psaltis, A.
+\newblock Data for the 2025 Evaluation of Experimental Reaction Rates (ETR25).
+\newblock Zenodo, version vETR25,  2025.
+\newblock {\url{https://doi.org/10.5281/zenodo.17610211}}.
 
 \bibitem[Suno et~al.(2016)Suno, Suzuki, and Descouvemont]{Suno:2016fjb}
 Suno, H.; Suzuki, Y.; Descouvemont, P.
