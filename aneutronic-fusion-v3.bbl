@@ -13,8 +13,7 @@ Thompson, Ian J.and~Nunes, F.
 
 \bibitem[Iliadis(2007)]{Iliadis:2007}
 Iliadis, C.
-\newblock {\em Nuclear Physics of Stars}; WILEY-VCH Verlag GmbH \& Co. KGaA,
-  2007.
+\newblock {\em Nuclear Physics of Stars}; Wiley-VCH,  2007.
 
 \bibitem[Arnett(1996)]{Arnett:1996ev}
 Arnett, D.
@@ -174,6 +173,11 @@ Mohamed, M.; Zakuan, N.D.; Tengku~Hassan, T.N.A.; Lock, S.S.M.; Mohd~Shariff,
 Morse, E.
 \newblock {\em Nuclear fusion}; Springer,  2018.
 \newblock {\url{https://doi.org/10.1007/978-3-319-98171-0}}.
+
+\bibitem[Lidsky(1983)]{lidsky1983trouble}
+Lidsky, L.M.
+\newblock The trouble with fusion.
+\newblock {\em MIT Technology Review} {\bf 1983}.
 
 \bibitem[Creely et~al.(2020)Creely, Greenwald, Ballinger, Brunner,
   et~al.]{Creely:2020}
@@ -339,8 +343,9 @@ Aladi, M.; Kedves, M.; {NAPLIFE Collaboration}.
   234},~3015--3019.
 \newblock {\url{https://doi.org/10.1140/epjs/s11734-025-01523-0}}.
 
-\bibitem[Csernai and Collaborations(2026)]{Csernai:2026MDPI}
-Csernai, L.P.o.b.o.t.N.; Collaborations, F.
+\bibitem[Csernai and {NAPLIFE and FUSENOW
+  Collaborations}(2026)]{Csernai:2026MDPI}
+Csernai, L.P.; {NAPLIFE and FUSENOW Collaborations}.
 \newblock Laser-Induced Fusion via Resonant Nanorod Antennas.
 \newblock {\em Particles} {\bf 2026}, {\em 9},~86.
 \newblock {\url{https://doi.org/10.3390/particles9030086}}.
@@ -818,7 +823,7 @@ Labaune, C.; Baccou, C.; Depierreux, S.; Goyon, C.; Loisel, G.; Yahia, V.;
 Labaune, C.; Rafelski, J.; Depierreux, S.; Goyon, C.
 \newblock Production d'{\'e}nergie par des r{\'e}actions de fusion
   nucl{\'e}aires aneutroniques initi{\'e}es par lasers.
-\newblock France FR2988897B1,  oct 2014.
+\newblock French Patent FR 2 988 897 B1,  oct 2014.
 
 \bibitem[Scisci{\`o} et~al.(2025)Scisci{\`o}, Petringa, Zhu, Rodrigues, Alonzo,
   Andreoli, Filippi, Consoli, Huault, Raffestin, et~al.]{sciscio2025laser}
@@ -902,7 +907,7 @@ Oku, T.; Nishiwaki, A.; Narita, I.
 \bibitem[Labaune and Rafelski(2019)]{Labaune2019US10217538B2}
 Labaune, C.; Rafelski, J.
 \newblock Creation of isotopes using laser beams.
-\newblock US10217538B2,  July 2019.
+\newblock United States Patent US 10,217,538 B2,  July 2019.
 
 \bibitem[Rafelski and Mueller(2025)]{Rafelski:2025uio}
 Rafelski, J.; Mueller, B.
@@ -928,10 +933,10 @@ Schuck, P.J.; Fromm, D.P.; Sundaramurthy, A.; Kino, G.S.; Moerner, W.E.
 \newblock {\em Physical Review Letters} {\bf 2005}, {\em 94},~017402.
 \newblock {\url{https://doi.org/10.1103/PhysRevLett.94.017402}}.
 
-\bibitem[for~the NAPLIFE~Collaboration et~al.(2026)]{tamas2025nanofusion}
-for~the NAPLIFE~Collaboration, T.B.;  et~al.
+\bibitem[Bir{\'o} and {NAPLIFE Collaboration}(2026)]{tamas2025nanofusion}
+Bir{\'o}, T.S.; {NAPLIFE Collaboration}.
 \newblock Nanofusion: Plasmons Help to Accelerate Protons.
-\newblock {\em Particles} {\bf 2026}, {\em 9}.
+\newblock {\em Particles} {\bf 2026}, {\em 9},~28.
 \newblock {\url{https://doi.org/10.3390/particles9010028}}.
 
 \bibitem[Papp et~al.(2022)Papp, Bravina, Csete, Kumari, Mishustin, Moln{\'a}r,
