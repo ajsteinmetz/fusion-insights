@@ -3,15 +3,21 @@
 
 \usepackage{pgfplots,amsmath}
 \pgfplotsset{compat=1.18}
-\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{shapes.geometric,backgrounds}
 \usepgfplotslibrary{fillbetween}
 \usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+
+% Opaque white ground: the SVG may be displayed on pages that use a dark theme,
+% where a transparent background would swallow the black axes and labels.
+\pagecolor{white}
 
 \begin{document}
 
 % -------- D–He3 mixtures: fusion heating and brems (all normalized to n_e^2) --------
 % Uses: d3he_power_brem_curves_for_tikz.csv
-\begin{tikzpicture}
+\begin{tikzpicture}[show background rectangle,
+inner frame sep=4pt,
+background rectangle/.style={fill=white, draw=none}]
 \begin{axis}[
   width=10.5cm, height=10.5cm,
   xmode=log, ymode=log,
@@ -89,6 +95,9 @@
 \addlegendentry{$P_{\rm brem}$ (50\% ${}^3$He)}
 
 \end{axis}
+% fill between switches pgfplots to its own layer list; add 'background' so the
+% white background rectangle has a layer to be drawn on.
+\pgfsetlayers{background,axis background,axis grid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis foreground}
 \end{tikzpicture}
 
 \end{document}

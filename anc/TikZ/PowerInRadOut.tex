@@ -3,14 +3,20 @@
 
 \usepackage{pgfplots,amsmath}
 \pgfplotsset{compat=1.18}
-\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{shapes.geometric,backgrounds}
 \usepgfplotslibrary{fillbetween}
 \usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+
+% Opaque white ground: the SVG may be displayed on pages that use a dark theme,
+% where a transparent background would swallow the black axes and labels.
+\pagecolor{white}
 
 \begin{document}
 
 % -------- DT PANEL --------
-\begin{tikzpicture}
+\begin{tikzpicture}[show background rectangle,
+inner frame sep=4pt,
+background rectangle/.style={fill=white, draw=none}]
 \begin{axis}[
   width=10.5cm, height=10.5cm,
   xmode=log, ymode=log,
@@ -55,6 +61,9 @@
 %\addlegendentry{$P_\alpha$ low-high}
 
 \end{axis}
+% fill between switches pgfplots to its own layer list; add 'background' so the
+% white background rectangle has a layer to be drawn on.
+\pgfsetlayers{background,axis background,axis grid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis foreground}
 \end{tikzpicture}
 
 \end{document}
