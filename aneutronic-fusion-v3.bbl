@@ -111,6 +111,15 @@ Abdou, M.; Riva, M.; Ying, A.; Day, C.; Loarte, A.; Baylor, L.; Humrickhouse,
 \newblock \url{https://www.lle.rochester.edu/cryogenic-tritium/}.
 \newblock Accessed: 2026-08-31.
 
+\bibitem[{Asplund} et~al.(2021){Asplund}, {Amarsi}, and
+  {Grevesse}]{Asplund:2021Sun}
+{Asplund}, M.; {Amarsi}, A.M.; {Grevesse}, N.
+\newblock {The chemical make-up of the Sun: A 2020 vision}.
+\newblock {\em Astronomy \& Astrophysics (A \&A)} {\bf 2021}, {\em 653},~A141,
+  \href{http://arxiv.org/abs/2105.01661}{{\normalfont
+  [arXiv:astro-ph.SR/2105.01661]}}.
+\newblock {\url{https://doi.org/10.1051/0004-6361/202140445}}.
+
 \bibitem[Aymar(2001)]{Aymer:2001}
 Aymar, R.
 \newblock ITER R\&D: Executive Summary: Design Overview.
@@ -202,6 +211,12 @@ Wurzel, S.E.; Hsu, S.C.
 \newblock {\em Physics of Plasmas} {\bf 2025}, {\em 32},~112106.
 \newblock {\url{https://doi.org/10.1063/5.0297357}}.
 
+\bibitem[Hofmann(2018)]{hofmann2018review}
+Hofmann, I.
+\newblock Review of accelerator driven heavy ion nuclear fusion.
+\newblock {\em Matter and Radiation at Extremes} {\bf 2018}, {\em 3},~1--11.
+\newblock {\url{https://doi.org/10.1016/j.mre.2017.12.001}}.
+
 \bibitem[Hurricane et~al.(2023)Hurricane, Patel, Betti, Froula, Regan, Slutz,
   Gomez, and Sweeney]{Hurricane:2023Review}
 Hurricane, O.A.; Patel, P.K.; Betti, R.; Froula, D.H.; Regan, S.P.; Slutz,
@@ -276,7 +291,16 @@ Novotny, L.
 \newblock {\em Physical review letters} {\bf 2007}, {\em 98},~266802.
 \newblock {\url{https://doi.org/10.1103/PhysRevLett.98.266802}}.
 
-\bibitem[Kroo(2025)]{Kroo2025HighField}
+\bibitem[{Csernai} et~al.(2018){Csernai}, {Kroo}, and
+  {Papp}]{Csernai:2018Radiation}
+{Csernai}, L.P.; {Kroo}, N.; {Papp}, I.
+\newblock {Radiation dominated implosion with nano-plasmonics}.
+\newblock {\em Laser and Particle Beams} {\bf 2018}, {\em 36},~171--178,
+  \href{http://arxiv.org/abs/1710.10954}{{\normalfont
+  [arXiv:physics.plasm-ph/1710.10954]}}.
+\newblock {\url{https://doi.org/10.1017/S0263034618000149}}.
+
+\bibitem[Kroo(2025)]{Kroo:2025HighField}
 Kroo, N.
 \newblock High field nanoplasmonics for nuclear fusion.
 \newblock {\em European Physical Journal Special Topics} {\bf 2025}, {\em
@@ -1028,6 +1052,14 @@ Harley, D.; Muller, B.; Rafelski, J.
 \newblock Muon Catalyzed Fusion with \ensuremath{Z > 1}.
 \newblock {\em J. Phys. G} {\bf 1990}, {\em 16},~281.
 \newblock {\url{https://doi.org/10.1088/0954-3899/16/2/017}}.
+
+\bibitem[Wang et~al.(2026)Wang, Li, Wu, and Cui]{Wang:2026zuj}
+Wang, H.Y.; Li, Y.Q.; Wu, Q.; Cui, Z.F.
+\newblock {A novel approach to proton-boron-11 fusion}.
+\newblock {\em Eur. Phys. J. A} {\bf 2026}, {\em 62},~184,
+  \href{http://arxiv.org/abs/2604.18928}{{\normalfont
+  [arXiv:nucl-th/2604.18928]}}.
+\newblock {\url{https://doi.org/10.1140/epja/s10050-026-01948-8}}.
 
 \bibitem[Navas et~al.(2024)]{ParticleDataGroup:2024cfk}
 Navas, S.;  et~al.
