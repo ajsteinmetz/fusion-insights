@@ -66,8 +66,8 @@ Meija, J.; Coplen, T.B.; Berglund, M.; Brand, W.A.; Bièvre, P.D.; Gröning,
 \newblock {\em Pure Appl. Chem.} {\bf 2016}, {\em 88},~293--306.
 \newblock {\url{https://doi.org/10.1515/pac-2015-0503}}.
 
-\bibitem[Aguilar et~al.(2025)]{AMS:2025xoq}
-Aguilar, M.;  et~al.
+\bibitem[Aguilar et~al.(2025)Aguilar, {AMS Collaboration}, et~al.]{AMS:2025xoq}
+Aguilar, M.; {AMS Collaboration}.;  et~al.
 \newblock {Properties of Cosmic Lithium Isotopes Measured by the Alpha Magnetic
   Spectrometer}.
 \newblock {\em Phys. Rev. Lett.} {\bf 2025}, {\em 134},~201001.
@@ -178,9 +178,10 @@ Lidsky, L.M.
 \newblock The trouble with fusion.
 \newblock {\em MIT Technology Review} {\bf 1983}.
 
-\bibitem[Creely et~al.(2020)Creely, Greenwald, Ballinger, Brunner,
-  et~al.]{Creely:2020}
-Creely, A.J.; Greenwald, M.J.; Ballinger, S.B.; Brunner, D.;  et~al.
+\bibitem[Creely et~al.(2020)Creely, {SPARC Team}, Greenwald, Ballinger,
+  Brunner, et~al.]{Creely:2020}
+Creely, A.J.; {SPARC Team}.; Greenwald, M.J.; Ballinger, S.B.; Brunner, D.;
+  et~al.
 \newblock Overview of the {SPARC} tokamak.
 \newblock {\em J. Plasma Phys.} {\bf 2020}, {\em 86},~865860502.
 \newblock {\url{https://doi.org/10.1017/S0022377820001257}}.
@@ -506,8 +507,8 @@ Haynes, W.M., Ed.
 \newblock {\em CRC handbook of chemistry and physics}; CRC press,  2016.
 \newblock {\url{https://doi.org/10.1201/9781315380476}}.
 
-\bibitem[Aguilar et~al.(2023)]{AMS:2023anq}
-Aguilar, M.;  et~al.
+\bibitem[Aguilar et~al.(2023)Aguilar, {AMS Collaboration}, et~al.]{AMS:2023anq}
+Aguilar, M.; {AMS Collaboration}.;  et~al.
 \newblock Properties of Cosmic-Ray Sulfur and Determination of the Composition
   of Primary Cosmic-Ray Carbon, Neon, Magnesium, and Sulfur: Ten-Year Results
   from the Alpha Magnetic Spectrometer.
@@ -931,11 +932,12 @@ Bir{\'o}, T.S.; {NAPLIFE Collaboration}.
 \newblock {\em Particles} {\bf 2026}, {\em 9},~28.
 \newblock {\url{https://doi.org/10.3390/particles9010028}}.
 
-\bibitem[Papp et~al.(2022)Papp, Bravina, Csete, Kumari, Mishustin, Moln{\'a}r,
-  Motornenko, R{\'a}cz, Satarov, Stocker, Strottman, Szenes, Vass, Bir{\'o},
-  Csernai, Kro{\'o}, and {NAPLIFE Collaboration}]{Papp:2022PRXEnergy}
-Papp, I.; Bravina, L.; Csete, M.; Kumari, A.; Mishustin, I.N.; Moln{\'a}r, D.;
-  Motornenko, A.; R{\'a}cz, P.; Satarov, L.M.; Stocker, H.;  et~al.
+\bibitem[Papp et~al.(2022)Papp, {NAPLIFE Collaboration}, Bravina, Csete,
+  Kumari, Mishustin, Moln{\'a}r, Motornenko, R{\'a}cz, Satarov, Stocker,
+  Strottman, Szenes, Vass, Bir{\'o}, Csernai, and Kro{\'o}]{Papp:2022PRXEnergy}
+Papp, I.; {NAPLIFE Collaboration}.; Bravina, L.; Csete, M.; Kumari, A.;
+  Mishustin, I.N.; Moln{\'a}r, D.; Motornenko, A.; R{\'a}cz, P.; Satarov, L.M.;
+   et~al.
 \newblock Kinetic Model Evaluation of the Resilience of Plasmonic Nanoantennas
   for Laser-Induced Fusion.
 \newblock {\em PRX Energy} {\bf 2022}, {\em 1},~023001.
@@ -951,10 +953,10 @@ Papp, I.; Bravina, L.; Csete, M.; Kumari, A.; Mishustin, I.N.; Motornenko, A.;
 \newblock {\em Front. in Phys.} {\bf 2023}, {\em 11},~1116023.
 \newblock {\url{https://doi.org/10.3389/fphy.2023.1116023}}.
 
-\bibitem[Kro{\'o} et~al.(2024)Kro{\'o}, Csernai, Papp, Sz{\.o}kefalvi-Nagy,
-  Nagy, et~al.]{Kroo2024pB}
-Kro{\'o}, N.; Csernai, L.P.; Papp, I.; Sz{\.o}kefalvi-Nagy, Z.; Nagy, M.;
-  et~al.
+\bibitem[Kro{\'o} et~al.(2024)Kro{\'o}, {NAPLIFE Collaboration}, Csernai, Papp,
+  Sz{\.o}kefalvi-Nagy, Nagy, et~al.]{Kroo2024pB}
+Kro{\'o}, N.; {NAPLIFE Collaboration}.; Csernai, L.P.; Papp, I.;
+  Sz{\.o}kefalvi-Nagy, Z.; Nagy, M.;  et~al.
 \newblock Indication of p + $^{11}$B reaction in Laser Induced Nanofusion
   experiment.
 \newblock {\em Sci. Rep.} {\bf 2024}, {\em 14},~30087.
@@ -969,11 +971,12 @@ Zweiback, J.; Smith, R.A.; Cowan, T.E.; Hays, G.; Wharton, K.B.; Yanovsky,
 \newblock {\em Phys. Rev. Lett.} {\bf 2000}, {\em 84},~2634--2637.
 \newblock {\url{https://doi.org/10.1103/PhysRevLett.84.2634}}.
 
-\bibitem[Papp et~al.(2023)Papp, Bravina, Csete, Kumari, Mishustin, Motornenko,
-  R{\'a}cz, Satarov, Stocker, Szenes, Vass, Bir{\'o}, Csernai, Kro{\'o}, and
-  {NAPLIFE Collaboration}]{Papp:2023arXiv}
-Papp, I.; Bravina, L.; Csete, M.; Kumari, A.; Mishustin, I.N.; Motornenko, A.;
-  R{\'a}cz, P.; Satarov, L.M.; Stocker, H.; Szenes, A.;  et~al.
+\bibitem[Papp et~al.(2023)Papp, {NAPLIFE Collaboration}, Bravina, Csete,
+  Kumari, Mishustin, Motornenko, R{\'a}cz, Satarov, Stocker, Szenes, Vass,
+  Bir{\'o}, Csernai, and Kro{\'o}]{Papp:2023arXiv}
+Papp, I.; {NAPLIFE Collaboration}.; Bravina, L.; Csete, M.; Kumari, A.;
+  Mishustin, I.N.; Motornenko, A.; R{\'a}cz, P.; Satarov, L.M.; Stocker, H.;
+  et~al.
 \newblock PIC simulations of laser-induced proton acceleration by resonant
   nanoantennas for fusion.
 \newblock arXiv preprint,  2023.
@@ -999,12 +1002,13 @@ McNamee, A.; Kantarelou, V.; Nersisyan, G.; Milani, A.; Maffini, A.; Orecchia,
 \newblock {\em Laser Part. Beams} {\bf 2025}, {\em 43},~e8.
 \newblock {\url{https://doi.org/10.1017/lpb.2025.10005}}.
 
-\bibitem[Csernai et~al.(2023)Csernai, Mishustin, Satarov, Stocker, Bravina,
-  Csete, K{\'a}m{\'a}n, Kumari, Motornenko, Papp, R{\'a}cz, Strottman, Szenes,
-  Szokol, Vass, Veres, Bir{\'o}, Kro{\'o}, and {NAPLIFE
-  Collaboration}]{Csernai:2023PRE}
-Csernai, L.P.; Mishustin, I.N.; Satarov, L.M.; Stocker, H.; Bravina, L.; Csete,
-  M.; K{\'a}m{\'a}n, J.; Kumari, A.; Motornenko, A.; Papp, I.;  et~al.
+\bibitem[Csernai et~al.(2023)Csernai, {NAPLIFE Collaboration}, Mishustin,
+  Satarov, Stocker, Bravina, Csete, K{\'a}m{\'a}n, Kumari, Motornenko, Papp,
+  R{\'a}cz, Strottman, Szenes, Szokol, Vass, Veres, Bir{\'o}, and
+  Kro{\'o}]{Csernai:2023PRE}
+Csernai, L.P.; {NAPLIFE Collaboration}.; Mishustin, I.N.; Satarov, L.M.;
+  Stocker, H.; Bravina, L.; Csete, M.; K{\'a}m{\'a}n, J.; Kumari, A.;
+  Motornenko, A.;  et~al.
 \newblock Crater formation and deuterium production in laser irradiation of
   polymers with implanted nano-antennas.
 \newblock {\em Phys. Rev. E} {\bf 2023}, {\em 108},~025205.
@@ -1027,12 +1031,12 @@ Baym, G.
 \newblock {\em Acta Phys. Polon. B} {\bf 1998}, {\em 29},~1839--1884,
   \href{http://arxiv.org/abs/nucl-th/9804026}{{\normalfont [nucl-th/9804026]}}.
 
-\bibitem[Szokol et~al.(2024)Szokol, K{\'a}m{\'a}n, Holomb, Aladi, Kedves,
-  R{\'a}czkevi, R{\'a}cz, Bony{\'a}r, Bor{\'o}k, Zangana,
-  et~al.]{szokol2024pulsed}
-Szokol, {\'A}.N.; K{\'a}m{\'a}n, J.; Holomb, R.; Aladi, M.; Kedves, M.;
-  R{\'a}czkevi, B.; R{\'a}cz, P.; Bony{\'a}r, A.; Bor{\'o}k, A.; Zangana, S.;
-  et~al.
+\bibitem[Szokol et~al.(2024)Szokol, {NAPLIFE Collaboration}, K{\'a}m{\'a}n,
+  Holomb, Aladi, Kedves, R{\'a}czkevi, R{\'a}cz, Bony{\'a}r, Bor{\'o}k,
+  Zangana, et~al.]{szokol2024pulsed}
+Szokol, {\'A}.N.; {NAPLIFE Collaboration}.; K{\'a}m{\'a}n, J.; Holomb, R.;
+  Aladi, M.; Kedves, M.; R{\'a}czkevi, B.; R{\'a}cz, P.; Bony{\'a}r, A.;
+  Bor{\'o}k, A.;  et~al.
 \newblock Pulsed laser intensity dependence of crater formation and light
   reflection in the UDMA-TEGDMA copolymer nanocomposite, doped with resonant
   plasmonic gold nanorods.
@@ -1074,19 +1078,20 @@ Wang, H.Y.; Li, Y.Q.; Wu, Q.; Cui, Z.F.
   [arXiv:nucl-th/2604.18928]}}.
 \newblock {\url{https://doi.org/10.1140/epja/s10050-026-01948-8}}.
 
-\bibitem[Navas et~al.(2024)]{ParticleDataGroup:2024cfk}
-Navas, S.;  et~al.
+\bibitem[Navas et~al.(2024)Navas, {Particle Data Group},
+  et~al.]{ParticleDataGroup:2024cfk}
+Navas, S.; {Particle Data Group}.;  et~al.
 \newblock {Review of particle physics}.
 \newblock {\em Phys. Rev. D} {\bf 2024}, {\em 110},~030001.
 \newblock {\url{https://doi.org/10.1103/PhysRevD.110.030001}}.
 
-\bibitem[Vignola and Team(1994)]{Vignola:1994DAFNE}
-Vignola, G.; Team, D.P.
+\bibitem[Vignola and {DA$\Phi$NE Project Team}(1994)]{Vignola:1994DAFNE}
+Vignola, G.; {DA$\Phi$NE Project Team}.
 \newblock DA$\Phi$NE the First $\phi$-Factory. In {\em Proceedings of EPAC
   1994}; INFN-LNF, Frascati, Italy,  1994.
 
-\bibitem[Zobov(2008)]{Zobov:2007xw}
-Zobov, M.
+\bibitem[Zobov and {DA$\Phi$NE Collaboration}(2008)]{Zobov:2007xw}
+Zobov, M.; {DA$\Phi$NE Collaboration}.
 \newblock {DAFNE status and upgrade plans}.
 \newblock {\em Phys. Part. Nucl. Lett.} {\bf 2008}, {\em 5},~560--565,
   \href{http://arxiv.org/abs/0709.3696}{{\normalfont
