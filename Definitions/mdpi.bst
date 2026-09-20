@@ -206,9 +206,9 @@ FUNCTION {format.names}
     { s nameptr "{vv~}{ll}{, jj}{, f{.}}." format.name$ 't :=
       nameptr #1 >
         {
-          nameptr #10
+          nameptr #2
           #1 + =
-          numnames #10
+          numnames #2
           > and
             { "others" 't :=
               #1 'namesleft := }
