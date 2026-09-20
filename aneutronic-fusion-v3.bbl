@@ -6,8 +6,8 @@ Salas, C.A.; Kelkar, N.G.
   Comprehensive Review}; Springer Nature Switzerland,  2026.
 \newblock {\url{https://doi.org/10.1007/978-3-032-30466-7}}.
 
-\bibitem[Thompson(2009)]{Nunes:2009}
-Thompson, Ian J.and~Nunes, F.
+\bibitem[Thompson and Nunes(2009)]{Nunes:2009}
+Thompson, I.J.; Nunes, F.
 \newblock {\em Nuclear Reactions for Astrophysics: Principles, Calculation and
   Applications of Low-Energy Reactions}; University Press, Cambridge,  2009.
 
@@ -319,9 +319,9 @@ Csernai, L.P.; {NAPLIFE Collaboration}.
 \newblock {\em Eur. Phys. J. ST} {\bf 2025}, {\em 234},~2991--2992.
 \newblock {\url{https://doi.org/10.1140/epjs/s11734-025-01466-6}}.
 
-\bibitem[Aladi et~al.(2025)Aladi, {NAPLIFE Collaboration}, and
-  Kedves]{Aladi:2025EPJ}
-Aladi, M.; {NAPLIFE Collaboration}.;  et~al.
+\bibitem[Kedves et~al.(2025)Kedves, {NAPLIFE Collaboration}, and
+  Aladi]{Kedves:2025EPJ}
+Kedves, M.{\'A}.; {NAPLIFE Collaboration}.;  et~al.
 \newblock High-intensity femtosecond laser irradiation experiments on polymer
   targets doped with gold nanorods.
 \newblock {\em Eur. Phys. J. ST} {\bf 2025}, {\em 234},~3015--3019.
@@ -413,9 +413,9 @@ Jones, S.E.; Taylor, S.F.;  et~al.
 \newblock {\em Hyperfine Interact.} {\bf 1993}, {\em 82},~303--311.
 \newblock {\url{https://doi.org/10.1007/BF01027968}}.
 
-\bibitem[Rafelski et~al.(1989)Rafelski, Muller, Rafelski, Trautmann, and
+\bibitem[Rafelski et~al.(1989)Rafelski, M{\"u}ller, Rafelski, Trautmann, and
   Viollier]{Rafelski:1988wq}
-Rafelski, H.E.; Muller, B.;  et~al.
+Rafelski, H.E.; M{\"u}ller, B.;  et~al.
 \newblock Muon reactivation in muon-catalyzed $d$-$t$ fusion.
 \newblock {\em Prog. Part. Nucl. Phys.} {\bf 1989}, {\em 22},~279.
 \newblock {\url{https://doi.org/10.1016/0146-6410(89)90005-7}}.
@@ -481,10 +481,10 @@ Toyama, Y.; Azuma, T.;  et~al.
 \newblock {\em Sci. Adv.} {\bf 2026}, {\em 12}.
 \newblock {\url{https://doi.org/10.1126/sciadv.aed3321}}.
 
-\bibitem[Rafelski et~al.(1991)Rafelski, Sawicki, Gajda, and
-  Harley]{Rafelski:1989pz}
-Rafelski, J.; Sawicki, M.;  et~al.
-\newblock {Reactions of charged massive particle in a deuterium environment}.
+\bibitem[Sawicki et~al.(1991)Sawicki, Gajda, Harley, and
+  Rafelski]{Rafelski:1989pz}
+Sawicki, M.; Gajda, M.;  et~al.
+\newblock {Reactions of charged massive particles in a deuterium environment}.
 \newblock {\em Phys. Rev. A} {\bf 1991}, {\em 44},~4345.
 \newblock {\url{https://doi.org/10.1103/PhysRevA.44.4345}}.
 
@@ -527,7 +527,7 @@ Wang, T.; Guan, X.;  et~al.
 
 \bibitem[Page and Hale(2005)]{Page:2004md}
 Page, P.R.; Hale, G.M.
-\newblock {Be-8 nuclear data evaluation}.
+\newblock {$^{8}$Be nuclear data evaluation}.
 \newblock {\em AIP Conf. Proc.} {\bf 2005}, {\em 769},~390--393,
   \href{http://arxiv.org/abs/nucl-th/0410090}{{\normalfont [nucl-th/0410090]}}.
 \newblock {\url{https://doi.org/10.1063/1.1945030}}.
@@ -600,9 +600,9 @@ Coleman, M.; Kovari, M.
 
 \bibitem[Clery(2022)]{Clery2022FusionFuel}
 Clery, D.
-\newblock Fusion power may run out of fuel even before it gets started.
+\newblock Fusion power may run out of fuel before it even gets started.
 \newblock {\em Science} {\bf 2022}.
-\newblock {\url{https://doi.org/10.1126/science.ada3065}}.
+\newblock {\url{https://doi.org/10.1126/science.add5489}}.
 
 \bibitem[Blumenthal and Gould(1970)]{Blumenthal:1970gc}
 Blumenthal, G.R.; Gould, R.J.
@@ -882,9 +882,9 @@ Labaune, C.; Rafelski, J.
 \newblock Creation of isotopes using laser beams.
 \newblock United States Patent US 10,217,538 B2,  July 2019.
 
-\bibitem[Rafelski and Mueller(2025)]{Rafelski:2025uio}
-Rafelski, J.; Mueller, B.
-\newblock Molecular 9Be+p Fusion Reaction.
+\bibitem[Rafelski and M{\"u}ller(2025)]{Rafelski:2025uio}
+Rafelski, J.; M{\"u}ller, B.
+\newblock Molecular $^{9}$Be $+\,p$ fusion reaction.
 \newblock {\em Eur. Phys. J. ST} {\bf 2025},
   \href{http://arxiv.org/abs/2503.00023}{{\normalfont
   [arXiv:physics.app-ph/2503.00023]}}.
@@ -931,7 +931,8 @@ Papp, I.; Bravina, L.;  et~al.
 \newblock {\url{https://doi.org/10.3389/fphy.2023.1116023}}.
 
 \bibitem[Kro{\'o} et~al.(2024)Kro{\'o}, {NAPLIFE Collaboration}, Csernai, Papp,
-  Sz{\.o}kefalvi-Nagy, Nagy, et~al.]{Kroo2024pB}
+  Kedves, Aladi, Bony{\'a}r, Szal{\'o}ki, Osvay, Varmazyar, and
+  Bir{\'o}]{Kroo2024pB}
 Kro{\'o}, N.; {NAPLIFE Collaboration}.;  et~al.
 \newblock Indication of p + $^{11}$B reaction in Laser Induced Nanofusion
   experiment.
@@ -983,9 +984,10 @@ Csernai, L.P.; {NAPLIFE Collaboration}.;  et~al.
 \newblock {\em Phys. Rev. E} {\bf 2023}, {\em 108},~025205.
 \newblock {\url{https://doi.org/10.1103/PhysRevE.108.025205}}.
 
-\bibitem[Csernai et~al.(2024)Csernai, {NAPLIFE Collaboration}, Kro{\'o}, Papp,
-  Kumari, and Bir{\'o}]{Csernai:2024SciRep}
-Csernai, L.P.; {NAPLIFE Collaboration}.;  et~al.
+\bibitem[Kro{\'o} et~al.(2024)Kro{\'o}, {NAPLIFE Collaboration}, Aladi, Kedves,
+  R{\'a}czkevi, Kumari, R{\'a}cz, Veres, Galb{\'a}cs, Csernai, and
+  Bir{\'o}]{Kroo:2024SciRep}
+Kro{\'o}, N.; {NAPLIFE Collaboration}.;  et~al.
 \newblock Monitoring of nanoplasmonics-assisted deuterium production in a
   polymer seeded with resonant {Au} nanorods using in situ femtosecond laser
   induced breakdown spectroscopy.
@@ -1029,9 +1031,9 @@ Vesman, E.A.
 \newblock {\em JETP Lett.} {\bf 1967}, {\em 5},~91--95.
 \newblock Pisma Zh. Eksp. Teor. Fiz. 5: 113-117 (1967).
 
-\bibitem[Harley et~al.(1990)Harley, Muller, and Rafelski]{Harley:1988wp}
-Harley, D.; Muller, B.;  et~al.
-\newblock Muon Catalyzed Fusion with \ensuremath{Z > 1}.
+\bibitem[Harley et~al.(1990)Harley, M{\"u}ller, and Rafelski]{Harley:1988wp}
+Harley, D.; M{\"u}ller, B.;  et~al.
+\newblock Muon catalysed fusion of nuclei with \ensuremath{Z > 1}.
 \newblock {\em J. Phys. G} {\bf 1990}, {\em 16},~281.
 \newblock {\url{https://doi.org/10.1088/0954-3899/16/2/017}}.
 
@@ -1057,7 +1059,7 @@ Vignola, G.; {DA$\Phi$NE Project Team}.
 
 \bibitem[Zobov and {DA$\Phi$NE Collaboration}(2008)]{Zobov:2007xw}
 Zobov, M.; {DA$\Phi$NE Collaboration}.
-\newblock {DAFNE status and upgrade plans}.
+\newblock {DA$\Phi$NE status and upgrade plans}.
 \newblock {\em Phys. Part. Nucl. Lett.} {\bf 2008}, {\em 5},~560--565,
   \href{http://arxiv.org/abs/0709.3696}{{\normalfont
   [arXiv:physics.acc-ph/0709.3696]}}.
