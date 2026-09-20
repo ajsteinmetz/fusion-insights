@@ -33,7 +33,7 @@ Clayton, D.D.
 
 \bibitem[Rafelski et~al.(2023)Rafelski, Birrell, Steinmetz, and
   Yang]{Rafelski:2023emw}
-Rafelski, J.; Birrell, J.; Steinmetz, A.; Yang, C.T.
+Rafelski, J.; Birrell, J.;  et~al.
 \newblock A Short Survey of Matter-Antimatter Evolution in the Primordial
   Universe.
 \newblock {\em Universe} {\bf 2023}, {\em 9},~309,
@@ -43,7 +43,7 @@ Rafelski, J.; Birrell, J.; Steinmetz, A.; Yang, C.T.
 
 \bibitem[Rafelski et~al.(2025)Rafelski, Birrell, Grayson, Steinmetz, and
   Yang]{Rafelski:2024fej}
-Rafelski, J.; Birrell, J.; Grayson, C.; Steinmetz, A.; Yang, C.T.
+Rafelski, J.; Birrell, J.;  et~al.
 \newblock Quarks to Cosmos: Particles and Plasma in Cosmological evolution.
 \newblock {\em Eur. Phys. J. ST} {\bf 2025},
   \href{http://arxiv.org/abs/2409.19031}{{\normalfont
@@ -51,7 +51,7 @@ Rafelski, J.; Birrell, J.; Grayson, C.; Steinmetz, A.; Yang, C.T.
 \newblock {\url{https://doi.org/10.1140/epjs/s11734-025-01470-w}}.
 
 \bibitem[Cooke et~al.(2018)Cooke, Pettini, and Steidel]{Cooke:2017cwo}
-Cooke, R.J.; Pettini, M.; Steidel, C.C.
+Cooke, R.J.; Pettini, M.;  et~al.
 \newblock One Percent Determination of the Primordial Deuterium Abundance.
 \newblock {\em Astrophys. J.} {\bf 2018}, {\em 855},~102,
   \href{http://arxiv.org/abs/1710.11129}{{\normalfont
@@ -60,8 +60,7 @@ Cooke, R.J.; Pettini, M.; Steidel, C.C.
 
 \bibitem[Meija et~al.(2016)Meija, Coplen, Berglund, Brand, Bièvre, Gröning,
   Holden, Irrgeher, Loss, Walczyk, and Prohaska]{Meija:2016}
-Meija, J.; Coplen, T.B.; Berglund, M.; Brand, W.A.; Bièvre, P.D.; Gröning,
-  M.; Holden, N.E.; Irrgeher, J.; Loss, R.D.; Walczyk, T.;  et~al.
+Meija, J.; Coplen, T.B.;  et~al.
 \newblock Isotopic compositions of the elements 2013 (IUPAC Technical Report).
 \newblock {\em Pure Appl. Chem.} {\bf 2016}, {\em 88},~293--306.
 \newblock {\url{https://doi.org/10.1515/pac-2015-0503}}.
@@ -89,8 +88,7 @@ Dalton, T.
 
 \bibitem[Abdou et~al.(2021)Abdou, Riva, Ying, Day, Loarte, Baylor,
   Humrickhouse, Fuerst, and Cho]{abdou2021physics}
-Abdou, M.; Riva, M.; Ying, A.; Day, C.; Loarte, A.; Baylor, L.; Humrickhouse,
-  P.; Fuerst, T.F.; Cho, S.
+Abdou, M.; Riva, M.;  et~al.
 \newblock Physics and technology considerations for the deuterium--tritium fuel
   cycle and conditions for tritium fuel self sufficiency.
 \newblock {\em Nucl. Fusion} {\bf 2021}, {\em 61},~013001.
@@ -112,7 +110,7 @@ Abdou, M.; Riva, M.; Ying, A.; Day, C.; Loarte, A.; Baylor, L.; Humrickhouse,
 
 \bibitem[{Asplund} et~al.(2021){Asplund}, {Amarsi}, and
   {Grevesse}]{Asplund:2021Sun}
-{Asplund}, M.; {Amarsi}, A.M.; {Grevesse}, N.
+{Asplund}, M.; {Amarsi}, A.M.;  et~al.
 \newblock {The chemical make-up of the Sun: A 2020 vision}.
 \newblock {\em Astron. Astrophys.} {\bf 2021}, {\em 653},~A141,
   \href{http://arxiv.org/abs/2105.01661}{{\normalfont
@@ -136,8 +134,7 @@ Aymar, R.
 \bibitem[Campbell et~al.(2024)Campbell, Loarte, Boilson, Bonnin, de~Vries,
   Giancarli, Gribov, Kim, Lehnen, Luce, Nunes, Polevoi, Pinches, Pitts,
   Reichle, Schneider, van~der Laan, and Vayakis]{ITR-24-005}
-Campbell, D.J.; Loarte, A.; Boilson, D.; Bonnin, X.; de~Vries, P.; Giancarli,
-  L.; Gribov, Y.; Kim, S.H.; Lehnen, M.; Luce, T.;  et~al.
+Campbell, D.J.; Loarte, A.;  et~al.
 \newblock ITER Research Plan within the Staged Approach (Level\,III - Final
   Version); ITR-24-005.
 \newblock ITER Technical Report ITR-24-005, {ITER Organization},  2024.
@@ -146,23 +143,21 @@ Campbell, D.J.; Loarte, A.; Boilson, D.; Bonnin, X.; de~Vries, P.; Giancarli,
 
 \bibitem[Loarte et~al.(2025)Loarte, Pitts, Wauters, Nunes, de~Vries, Kim,
   Kochl, Polevoi, Lehnen, Artola, et~al.]{loarte2025new}
-Loarte, A.; Pitts, R.; Wauters, T.; Nunes, I.; de~Vries, P.; Kim, S.; Kochl,
-  F.; Polevoi, A.; Lehnen, M.; Artola, J.;  et~al.
+Loarte, A.; Pitts, R.;  et~al.
 \newblock The new ITER baseline, research plan and open R\&D issues.
 \newblock {\em Plasma Phys. Control. Fusion} {\bf 2025}, {\em 67},~065023.
 \newblock {\url{https://doi.org/10.1088/1361-6587/add9c9}}.
 
 \bibitem[Takeda et~al.(2023)Takeda, Keeley, and
   Managi]{Takeda2023FusionYearsAway}
-Takeda, S.; Keeley, A.R.; Managi, S.
+Takeda, S.; Keeley, A.R.;  et~al.
 \newblock How Many Years Away is Fusion Energy? A Review.
 \newblock {\em J. Fusion Energ.} {\bf 2023}, {\em 42}.
 \newblock {\url{https://doi.org/10.1007/s10894-023-00361-z}}.
 
 \bibitem[Mohamed et~al.(2024)Mohamed, Zakuan, Tengku~Hassan, Lock, and
   Mohd~Shariff]{Mohamed2024FusionReadiness}
-Mohamed, M.; Zakuan, N.D.; Tengku~Hassan, T.N.A.; Lock, S.S.M.; Mohd~Shariff,
-  A.
+Mohamed, M.; Zakuan, N.D.;  et~al.
 \newblock Global Development and Readiness of Nuclear Fusion Technology as the
   Alternative Source for Clean Energy Supply.
 \newblock {\em Sustainability} {\bf 2024}, {\em 16}.
@@ -180,22 +175,21 @@ Lidsky, L.M.
 
 \bibitem[Creely et~al.(2020)Creely, {SPARC Team}, Greenwald, Ballinger,
   Brunner, et~al.]{Creely:2020}
-Creely, A.J.; {SPARC Team}.; Greenwald, M.J.; Ballinger, S.B.; Brunner, D.;
-  et~al.
+Creely, A.J.; {SPARC Team}.;  et~al.
 \newblock Overview of the {SPARC} tokamak.
 \newblock {\em J. Plasma Phys.} {\bf 2020}, {\em 86},~865860502.
 \newblock {\url{https://doi.org/10.1017/S0022377820001257}}.
 
 \bibitem[Grulke et~al.(2024)Grulke, Albert, Alcuson~Belloso,
   et~al.]{Grulke:2024}
-Grulke, O.; Albert, C.; Alcuson~Belloso, J.A.;  et~al.
+Grulke, O.; Albert, C.;  et~al.
 \newblock Overview of the first {Wendelstein 7-X} long pulse campaign with
   fully water-cooled plasma facing components.
 \newblock {\em Nucl. Fusion} {\bf 2024}, {\em 64},~112002.
 \newblock {\url{https://doi.org/10.1088/1741-4326/ad2f4d}}.
 
 \bibitem[Lion et~al.(2025)Lion, Angl{\'e}s, Bonauer, et~al.]{Lion:2025}
-Lion, J.; Angl{\'e}s, J.C.; Bonauer, L.;  et~al.
+Lion, J.; Angl{\'e}s, J.C.;  et~al.
 \newblock Stellaris: A high-field quasi-isodynamic stellarator for a
   prototypical fusion power plant.
 \newblock {\em Fusion Eng. Des.} {\bf 2025}, {\em 214},~114868.
@@ -203,7 +197,7 @@ Lion, J.; Angl{\'e}s, J.C.; Bonauer, L.;  et~al.
 
 \bibitem[Keilhacker et~al.(1999)Keilhacker, Gibson, Gormezano, Lomas,
   et~al.]{Keilhacker:1999}
-Keilhacker, M.; Gibson, A.; Gormezano, C.; Lomas, P.J.;  et~al.
+Keilhacker, M.; Gibson, A.;  et~al.
 \newblock High fusion performance from deuterium-tritium plasmas in {JET}.
 \newblock {\em Nucl. Fusion} {\bf 1999}, {\em 39},~209--234.
 \newblock {\url{https://doi.org/10.1088/0029-5515/39/2/306}}.
@@ -223,8 +217,7 @@ Hofmann, I.
 
 \bibitem[Hurricane et~al.(2023)Hurricane, Patel, Betti, Froula, Regan, Slutz,
   Gomez, and Sweeney]{Hurricane:2023Review}
-Hurricane, O.A.; Patel, P.K.; Betti, R.; Froula, D.H.; Regan, S.P.; Slutz,
-  S.A.; Gomez, M.R.; Sweeney, M.A.
+Hurricane, O.A.; Patel, P.K.;  et~al.
 \newblock Physics principles of inertial confinement fusion and U.S. program
   overview.
 \newblock {\em Rev. Mod. Phys.} {\bf 2023}, {\em 95}.
@@ -232,8 +225,7 @@ Hurricane, O.A.; Patel, P.K.; Betti, R.; Froula, D.H.; Regan, S.P.; Slutz,
 
 \bibitem[Zylstra et~al.(2022)Zylstra, Hurricane, Callahan, Kritcher, Ralph,
   Robey, Ross, Young, Baker, Casey, et~al.]{Zylstra:2022burn}
-Zylstra, A.B.; Hurricane, O.A.; Callahan, D.A.; Kritcher, A.L.; Ralph, J.E.;
-  Robey, H.F.; Ross, J.S.; Young, C.V.; Baker, K.L.; Casey, D.T.;  et~al.
+Zylstra, A.B.; Hurricane, O.A.;  et~al.
 \newblock Burning plasma achieved in inertial fusion.
 \newblock {\em Nature} {\bf 2022}, {\em 601},~542--548.
 \newblock {\url{https://doi.org/10.1038/s41586-021-04281-w}}.
@@ -248,8 +240,7 @@ Zylstra, A.B.; Hurricane, O.A.; Callahan, D.A.; Kritcher, A.L.; Ralph, J.E.;
   Smalyuk, Spears, Springer, Stadermann, Strozzi, Suratwala, Tommasini, Town,
   Weber, Wild, Van~Wonterghem, Woodworth, Wu, Young, and
   Zylstra]{Hurricane:2025}
-Hurricane, O.A.; Allen, A.; Bachmann, B.L.; Baker, K.L.; Baxamusa, S.;
-  Bhandarkar, S.D.; Biener, J.; Bionta, S.R.M.; Braun, T.; Briggs, T.;  et~al.
+Hurricane, O.A.; Allen, A.;  et~al.
 \newblock Present understanding of ignition and gain using indirect-drive
   inertial confinement fusion target designs on the U.S. National Ignition
   Facility.
@@ -259,8 +250,7 @@ Hurricane, O.A.; Allen, A.; Bachmann, B.L.; Baker, K.L.; Baxamusa, S.;
 \bibitem[Mannion et~al.(2022)Mannion, Crilly, Forrest, Appelbe, Betti, Glebov,
   Gopalaswamy, Knauer, Mohamed, Stoeckl, Chittenden, and
   Regan]{Manion:2022Omega}
-Mannion, O.M.; Crilly, A.J.; Forrest, C.J.; Appelbe, B.D.; Betti, R.; Glebov,
-  V.Y.; Gopalaswamy, V.; Knauer, J.P.; Mohamed, Z.L.; Stoeckl, C.;  et~al.
+Mannion, O.M.; Crilly, A.J.;  et~al.
 \newblock Measurements of the temperature and velocity of the dense fuel layer
   in inertial confinement fusion experiments.
 \newblock {\em Phys. Rev. E} {\bf 2022}, {\em 105},~055205.
@@ -268,8 +258,7 @@ Mannion, O.M.; Crilly, A.J.; Forrest, C.J.; Appelbe, B.D.; Betti, R.; Glebov,
 
 \bibitem[Gopalaswamy et~al.(2024)Gopalaswamy, Williams, Betti, Patel, Knauer,
   Lees, Cao, Campbell, Farmakis, Ejaz, et~al.]{Gopalaswamy:2024direct}
-Gopalaswamy, V.; Williams, C.; Betti, R.; Patel, D.; Knauer, J.; Lees, A.; Cao,
-  D.; Campbell, E.; Farmakis, P.; Ejaz, R.;  et~al.
+Gopalaswamy, V.; Williams, C.;  et~al.
 \newblock Demonstration of a hydrodynamically equivalent burning plasma in
   direct-drive inertial confinement fusion.
 \newblock {\em Nature Phys.} {\bf 2024}, {\em 20},~751--757.
@@ -277,7 +266,7 @@ Gopalaswamy, V.; Williams, C.; Betti, R.; Patel, D.; Knauer, J.; Lees, A.; Cao,
 
 \bibitem[Freestone et~al.(2007)Freestone, Meeks, Sax, and
   Higgitt]{freestone2007lycurgus}
-Freestone, I.; Meeks, N.; Sax, M.; Higgitt, C.
+Freestone, I.; Meeks, N.;  et~al.
 \newblock The Lycurgus cup—a roman nanotechnology.
 \newblock {\em Gold bulletin} {\bf 2007}, {\em 40},~270--277.
 \newblock {\url{https://doi.org/10.1007/BF03215599}}.
@@ -296,7 +285,7 @@ Novotny, L.
 
 \bibitem[{Csernai} et~al.(2018){Csernai}, {Kroo}, and
   {Papp}]{Csernai:2018Radiation}
-{Csernai}, L.P.; {Kroo}, N.; {Papp}, I.
+{Csernai}, L.P.; {Kroo}, N.;  et~al.
 \newblock {Radiation dominated implosion with nano-plasmonics}.
 \newblock {\em Laser Part. Beams} {\bf 2018}, {\em 36},~171--178,
   \href{http://arxiv.org/abs/1710.10954}{{\normalfont
@@ -330,9 +319,9 @@ Csernai, L.P.; {NAPLIFE Collaboration}.
 \newblock {\em Eur. Phys. J. ST} {\bf 2025}, {\em 234},~2991--2992.
 \newblock {\url{https://doi.org/10.1140/epjs/s11734-025-01466-6}}.
 
-\bibitem[Aladi et~al.(2025)Aladi, Kedves, and {NAPLIFE
-  Collaboration}]{Aladi:2025EPJ}
-Aladi, M.; Kedves, M.; {NAPLIFE Collaboration}.
+\bibitem[Aladi et~al.(2025)Aladi, {NAPLIFE Collaboration}, and
+  Kedves]{Aladi:2025EPJ}
+Aladi, M.; {NAPLIFE Collaboration}.;  et~al.
 \newblock High-intensity femtosecond laser irradiation experiments on polymer
   targets doped with gold nanorods.
 \newblock {\em Eur. Phys. J. ST} {\bf 2025}, {\em 234},~3015--3019.
@@ -346,9 +335,8 @@ Csernai, L.P.; {NAPLIFE and FUSENOW Collaborations}.
 \newblock {\url{https://doi.org/10.3390/particles9030086}}.
 
 \bibitem[Bir{\'o} et~al.(2023)Bir{\'o}, Kro{\'o}, {Csernai}, Veres, Aladi,
-  Papp, and Kedves]{Biro:2023Univ}
-Bir{\'o}, T.S.; Kro{\'o}, N.; {Csernai}, L.P.; Veres, M.; Aladi, M.; Papp, I.;
-  Kedves, M.{\'A}.e.a.
+  Papp, Kedves, et~al.]{Biro:2023Univ}
+Bir{\'o}, T.S.; Kro{\'o}, N.;  et~al.
 \newblock With Nanoplasmonics towards Fusion.
 \newblock {\em Universe} {\bf 2023}, {\em 9},~233.
 \newblock {\url{https://doi.org/10.3390/universe9050233}}.
@@ -378,8 +366,8 @@ Jackson, J.D.
 \newblock {\em Phys. Perspect.} {\bf 2010}, {\em 12},~74--88.
 \newblock {\url{https://doi.org/10.1007/s00016-009-0006-9}}.
 
-\bibitem[Alvarez et~al.(1957)]{Alvarez:1957un}
-Alvarez, L.W.;  et~al.
+\bibitem[Alvarez et~al.(1957)Alvarez, Bradner, et~al.]{Alvarez:1957un}
+Alvarez, L.W.; Bradner, H.;  et~al.
 \newblock {Catalysis of nuclear reactions by mu mesons}.
 \newblock {\em Phys. Rev.} {\bf 1957}, {\em 105},~1127--1128.
 \newblock {\url{https://doi.org/10.1103/PhysRev.105.1127}}.
@@ -400,14 +388,13 @@ Rafelski, J.
 
 \bibitem[Jones et~al.(1983)Jones, Anderson, Caffrey, Walter, Watts, Bradbury,
   Gram, Leon, Maltrud, and Paciotti]{Jones:1983pw}
-Jones, S.E.; Anderson, A.N.; Caffrey, A.J.; Walter, J.B.; Watts, K.D.;
-  Bradbury, J.N.; Gram, P.A.M.; Leon, M.J.; Maltrud, H.R.; Paciotti, M.A.
+Jones, S.E.; Anderson, A.N.;  et~al.
 \newblock Experimental investigation of muon-catalyzed $d$-$t$ fusion.
 \newblock {\em Phys. Rev. Lett.} {\bf 1983}, {\em 51},~1757--1760.
 \newblock {\url{https://doi.org/10.1103/PhysRevLett.51.1757}}.
 
-\bibitem[Jones et~al.(1986)]{Jones:1986kk}
-Jones, S.E.;  et~al.
+\bibitem[Jones et~al.(1986)Jones, Anderson, et~al.]{Jones:1986kk}
+Jones, S.E.; Anderson, A.N.;  et~al.
 \newblock {Observation of Unexpected Density Effects in Muon Catalyzed $D T$
   Fusion}.
 \newblock {\em Phys. Rev. Lett.} {\bf 1986}, {\em 56},~588--591.
@@ -420,7 +407,7 @@ Jones, S.E.
 \newblock {\url{https://doi.org/10.1038/321127a0}}.
 
 \bibitem[Jones et~al.(1993)Jones, Taylor, and Anderson]{jones1993evaluation}
-Jones, S.E.; Taylor, S.F.; Anderson, A.N.
+Jones, S.E.; Taylor, S.F.;  et~al.
 \newblock Evaluation of muon-alpha sticking from liquid, non-equilibrated d-t
   targets with high tritium fractions.
 \newblock {\em Hyperfine Interact.} {\bf 1993}, {\em 82},~303--311.
@@ -428,15 +415,14 @@ Jones, S.E.; Taylor, S.F.; Anderson, A.N.
 
 \bibitem[Rafelski et~al.(1989)Rafelski, Muller, Rafelski, Trautmann, and
   Viollier]{Rafelski:1988wq}
-Rafelski, H.E.; Muller, B.; Rafelski, J.; Trautmann, D.; Viollier, R.D.
+Rafelski, H.E.; Muller, B.;  et~al.
 \newblock Muon reactivation in muon-catalyzed $d$-$t$ fusion.
 \newblock {\em Prog. Part. Nucl. Phys.} {\bf 1989}, {\em 22},~279.
 \newblock {\url{https://doi.org/10.1016/0146-6410(89)90005-7}}.
 
 \bibitem[Aprahamian et~al.(2025)Aprahamian, deBoer, Wiescher, Sorensen,
   Goerres, Johnson, Forrest, and Schwemmlein]{Aprahamian:2025AA}
-Aprahamian, A.; deBoer, R.; Wiescher, M.; Sorensen, M.; Goerres, J.; Johnson,
-  M.G.; Forrest, C.J.; Schwemmlein, A.
+Aprahamian, A.; deBoer, R.;  et~al.
 \newblock Nucleosynthesis with tritium.
 \newblock {\em J. Phys. G} {\bf 2025}, {\em 52},~063001.
 \newblock {\url{https://doi.org/10.1088/1361-6471/addc86}}.
@@ -462,7 +448,7 @@ Rafelski, J.; Jones, S.E.
 
 \bibitem[Rafelski et~al.(1991)Rafelski, Harley, Shin, and
   Rafelski]{Rafelski:1990gg}
-Rafelski, H.E.; Harley, D.; Shin, G.R.; Rafelski, J.
+Rafelski, H.E.; Harley, D.;  et~al.
 \newblock {Cold fusion: Muon catalyzed fusion}.
 \newblock {\em J. Phys. B} {\bf 1991}, {\em 24},~1469.
 
@@ -472,7 +458,7 @@ Kuramoto, Y.; Kitaoka, Y.
   on Physics, OUP Oxford,  2000.
 
 \bibitem[Kamimura et~al.(2023)Kamimura, Kino, and Yamashita]{Kamimura:2021msf}
-Kamimura, M.; Kino, Y.; Yamashita, T.
+Kamimura, M.; Kino, Y.;  et~al.
 \newblock {Comprehensive study of muon-catalyzed nuclear reaction processes in
   the dt{\ensuremath{\mu}} molecule}.
 \newblock {\em Phys. Rev. C} {\bf 2023}, {\em 107},~034607,
@@ -482,14 +468,14 @@ Kamimura, M.; Kino, Y.; Yamashita, T.
 
 \bibitem[Yamashita et~al.(2022)Yamashita, Kino, Okutsu, Okada, and
   Sato]{Yamashita:2022rtu}
-Yamashita, T.; Kino, Y.; Okutsu, K.; Okada, S.; Sato, M.
+Yamashita, T.; Kino, Y.;  et~al.
 \newblock {Roles of resonant muonic molecule in new kinetics model and muon
   catalyzed fusion in compressed gas}.
 \newblock {\em Sci. Rep.} {\bf 2022}, {\em 12},~6393.
 \newblock {\url{https://doi.org/10.1038/s41598-022-09487-0}}.
 
-\bibitem[Toyama and et~al.(2026)]{Toyama:2026}
-Toyama, Y.; et~al..
+\bibitem[Toyama et~al.(2026)Toyama, Azuma, et~al.]{Toyama:2026}
+Toyama, Y.; Azuma, T.;  et~al.
 \newblock Direct observation of muonic molecules in resonance states critical
   to muon catalyzed fusion.
 \newblock {\em Sci. Adv.} {\bf 2026}, {\em 12}.
@@ -497,7 +483,7 @@ Toyama, Y.; et~al..
 
 \bibitem[Rafelski et~al.(1991)Rafelski, Sawicki, Gajda, and
   Harley]{Rafelski:1989pz}
-Rafelski, J.; Sawicki, M.; Gajda, M.; Harley, D.
+Rafelski, J.; Sawicki, M.;  et~al.
 \newblock {Reactions of charged massive particle in a deuterium environment}.
 \newblock {\em Phys. Rev. A} {\bf 1991}, {\em 44},~4345.
 \newblock {\url{https://doi.org/10.1103/PhysRevA.44.4345}}.
@@ -533,7 +519,7 @@ Barker, F.C.
 
 \bibitem[Wang et~al.(2012)Wang, Guan, Fang, Zhao, He, Lan, and
   Xu]{wang2012reanalysis}
-Wang, T.; Guan, X.; Fang, K.; Zhao, J.; He, Q.; Lan, M.; Xu, X.
+Wang, T.; Guan, X.;  et~al.
 \newblock Reanalysis of the astrophysical S (E) factors of the 6Li (d,
   $\alpha$) 4He, 7Li (p, $\alpha$) 4He and 6Li (p, $\alpha$) 3He reactions.
 \newblock {\em J. Phys. G} {\bf 2012}, {\em 39},~015201.
@@ -546,8 +532,8 @@ Page, P.R.; Hale, G.M.
   \href{http://arxiv.org/abs/nucl-th/0410090}{{\normalfont [nucl-th/0410090]}}.
 \newblock {\url{https://doi.org/10.1063/1.1945030}}.
 
-\bibitem[Angulo et~al.(1999)]{Angulo:1999zz}
-Angulo, C.;  et~al.
+\bibitem[Angulo et~al.(1999)Angulo, Arnould, et~al.]{Angulo:1999zz}
+Angulo, C.; Arnould, M.;  et~al.
 \newblock A compilation of charged-particle induced thermonuclear reaction
   rates.
 \newblock {\em Nucl. Phys. A} {\bf 1999}, {\em 656},~3--183.
@@ -555,7 +541,7 @@ Angulo, C.;  et~al.
 
 \bibitem[Xu et~al.(2013)Xu, Takahashi, Goriely, Arnould, Ohta, and
   Utsunomiya]{Xu:2013fha}
-Xu, Y.; Takahashi, K.; Goriely, S.; Arnould, M.; Ohta, M.; Utsunomiya, H.
+Xu, Y.; Takahashi, K.;  et~al.
 \newblock NACRE II: an update of the NACRE compilation of
   charged-particle-induced thermonuclear reaction rates for nuclei with mass
   number $A < 16$.
@@ -577,8 +563,8 @@ Sikora, M.H.; Weller, H.R.
 \newblock {\em J. Fusion Energ.} {\bf 2016}, {\em 35},~538--543.
 \newblock {\url{https://doi.org/10.1007/s10894-016-0069-y}}.
 
-\bibitem[Otuka et~al.(2014)]{Otuka:2014wzu}
-Otuka, N.;  et~al.
+\bibitem[Otuka et~al.(2014)Otuka, Dupont, et~al.]{Otuka:2014wzu}
+Otuka, N.; Dupont, E.;  et~al.
 \newblock {Towards a More Complete and Accurate Experimental Nuclear Reaction
   Data Library (EXFOR): International Collaboration Between Nuclear Reaction
   Data Centres (NRDC)}.
@@ -589,8 +575,7 @@ Otuka, N.;  et~al.
 
 \bibitem[Koning et~al.(2019)Koning, Rochman, Sublet, Dzysiuk, Fleming, and
   van~der Marck]{Koning:2019qbo}
-Koning, A.J.; Rochman, D.; Sublet, J.C.; Dzysiuk, N.; Fleming, M.; van~der
-  Marck, S.
+Koning, A.J.; Rochman, D.;  et~al.
 \newblock {TENDL: Complete Nuclear Data Library for Innovative Nuclear Science
   and Technology}.
 \newblock {\em Nucl. Data Sheets} {\bf 2019}, {\em 155},~1--55.
@@ -634,20 +619,20 @@ Beresnyak, A.
 
 \bibitem[Ochs et~al.(2026)Ochs, Kolmes, Glasser, and
   Fisch]{ochs2026bremsstrahlung}
-Ochs, I.E.; Kolmes, E.J.; Glasser, A.S.; Fisch, N.J.
+Ochs, I.E.; Kolmes, E.J.;  et~al.
 \newblock Bremsstrahlung constraints on proton-boron 11 inertial fusion.
 \newblock {\em Phys. Plasmas} {\bf 2026}, {\em 33}.
 \newblock {\url{https://doi.org/10.1063/5.0305034}}.
 
 \bibitem[Harms et~al.(2000)Harms, Kingdon, Miley, and
   Schoepf]{harms2000principles}
-Harms, A.A.; Kingdon, D.R.; Miley, G.H.; Schoepf, K.F.
+Harms, A.A.; Kingdon, D.R.;  et~al.
 \newblock {\em Principles of fusion energy: an introduction to fusion energy
   for students of science and engineering}; World Scientific Publishing
   Company,  2000.
 
 \bibitem[Heidbrink et~al.(1983)Heidbrink, Chrien, and Strachan]{heidbrink1983}
-Heidbrink, W.W.; Chrien, R.E.; Strachan, J.D.
+Heidbrink, W.W.; Chrien, R.E.;  et~al.
 \newblock Burn-up of fusion-produced tritons and {}$^3$He ions in {PLT} and
   {PDX}.
 \newblock {\em Nucl. Fusion} {\bf 1983}, {\em 23},~917--931.
@@ -655,7 +640,7 @@ Heidbrink, W.W.; Chrien, R.E.; Strachan, J.D.
 
 \bibitem[Sharapov et~al.(2016)Sharapov, Hellsten, Kiptily,
   et~al.]{sharapov2016}
-Sharapov, S.E.; Hellsten, T.; Kiptily, V.G.;  et~al.
+Sharapov, S.E.; Hellsten, T.;  et~al.
 \newblock Fusion product studies via fast ion {D--D} and {D--}$^3$He fusion on
   {JET}.
 \newblock {\em Nucl. Fusion} {\bf 2016}, {\em 56},~112021.
@@ -663,8 +648,7 @@ Sharapov, S.E.; Hellsten, T.; Kiptily, V.G.;  et~al.
 
 \bibitem[Bucik et~al.(2025)Bucik, Mason, Mulay, Ho, Wimmer-Schweingruber, and
   Rodriguez-Pacheco]{Bucik:2025}
-Bucik, R.; Mason, G.M.; Mulay, S.M.; Ho, G.C.; Wimmer-Schweingruber, R.F.;
-  Rodriguez-Pacheco, J.
+Bucik, R.; Mason, G.M.;  et~al.
 \newblock Origin of the Unusual Composition of 3He-rich Solar Energetic
   Particles.
 \newblock {\em Astrophys. J.} {\bf 2025}, {\em 981},~178,
@@ -672,8 +656,9 @@ Bucik, R.; Mason, G.M.; Mulay, S.M.; Ho, G.C.; Wimmer-Schweingruber, R.F.;
   [arXiv:astro-ph.SR/2510.17100]}}.
 \newblock {\url{https://doi.org/10.3847/1538-4357/adb48d}}.
 
-\bibitem[Adelberger et~al.(2011)]{Adelberger:2010qa}
-Adelberger, E.G.;  et~al.
+\bibitem[Adelberger et~al.(2011)Adelberger, Garc{\'\i}a,
+  et~al.]{Adelberger:2010qa}
+Adelberger, E.G.; Garc{\'\i}a, A.;  et~al.
 \newblock Solar fusion cross sections II: the pp chain and CNO cycles.
 \newblock {\em Rev. Mod. Phys.} {\bf 2011}, {\em 83},~195,
   \href{http://arxiv.org/abs/1004.2318}{{\normalfont
@@ -695,7 +680,7 @@ Krane, K.S.
 
 \bibitem[Iliadis et~al.(2026)Iliadis, Longland, Setoodehnia, Marshall, Mohr,
   and Psaltis]{Iliadis:2026hww}
-Iliadis, C.; Longland, R.; Setoodehnia, K.; Marshall, C.; Mohr, P.; Psaltis, A.
+Iliadis, C.; Longland, R.;  et~al.
 \newblock {The 2025 Evaluation of Experimental Thermonuclear Reaction Rates
   (ETR25)}.
 \newblock {\em Astrophys. J. Suppl.} {\bf 2026}, {\em 283},~17,
@@ -705,13 +690,13 @@ Iliadis, C.; Longland, R.; Setoodehnia, K.; Marshall, C.; Mohr, P.; Psaltis, A.
 
 \bibitem[Iliadis et~al.(2025)Iliadis, Longland, Setoodehnia, Marshall, Mohr,
   and Psaltis]{iliadis_2025_17610211}
-Iliadis, C.; Longland, R.; Setoodehnia, K.; Marshall, C.; Mohr, P.; Psaltis, A.
+Iliadis, C.; Longland, R.;  et~al.
 \newblock Data for the 2025 Evaluation of Experimental Reaction Rates (ETR25).
 \newblock Zenodo, version vETR25,  2025.
 \newblock {\url{https://doi.org/10.5281/zenodo.17610211}}.
 
 \bibitem[Suno et~al.(2016)Suno, Suzuki, and Descouvemont]{Suno:2016fjb}
-Suno, H.; Suzuki, Y.; Descouvemont, P.
+Suno, H.; Suzuki, Y.;  et~al.
 \newblock Precise calculation of the triple-\ensuremath{\alpha} reaction rates
   using the transmission-free complex absorbing potential method.
 \newblock {\em Phys. Rev. C} {\bf 2016}, {\em 94},~054607.
@@ -726,14 +711,14 @@ Hoyle, F.
 
 \bibitem[Chernykh et~al.(2007)Chernykh, Feldmeier, Neff, von Neumann-Cosel, and
   Richter]{Chernykh:2007zz}
-Chernykh, M.; Feldmeier, H.; Neff, T.; von Neumann-Cosel, P.; Richter, A.
+Chernykh, M.; Feldmeier, H.;  et~al.
 \newblock Structure of the Hoyle State in C-12.
 \newblock {\em Phys. Rev. Lett.} {\bf 2007}, {\em 98},~032501.
 \newblock {\url{https://doi.org/10.1103/PhysRevLett.98.032501}}.
 
 \bibitem[Epelbaum et~al.(2011)Epelbaum, Krebs, Lee, and
   Meissner]{Epelbaum:2011md}
-Epelbaum, E.; Krebs, H.; Lee, D.; Meissner, U.G.
+Epelbaum, E.; Krebs, H.;  et~al.
 \newblock Ab initio calculation of the Hoyle state.
 \newblock {\em Phys. Rev. Lett.} {\bf 2011}, {\em 106},~192501,
   \href{http://arxiv.org/abs/1101.2547}{{\normalfont
@@ -750,7 +735,7 @@ Grayson, C.; Rafelski, J.
 
 \bibitem[Grayson et~al.(2024)Grayson, Yang, Formanek, and
   Rafelski]{Grayson:2024uwg}
-Grayson, C.; Yang, C.T.; Formanek, M.; Rafelski, J.
+Grayson, C.; Yang, C.T.;  et~al.
 \newblock Self-consistent Strong Screening Applied to Thermonuclear Reactions.
 \newblock {\em Astrophys. J.} {\bf 2024}, {\em 976},~31,
   \href{http://arxiv.org/abs/2406.13055}{{\normalfont
@@ -759,7 +744,7 @@ Grayson, C.; Yang, C.T.; Formanek, M.; Rafelski, J.
 
 \bibitem[Birrell et~al.(2024)Birrell, Formanek, Steinmetz, Yang, and
   Rafelski]{Birrell:2024bdb}
-Birrell, J.; Formanek, M.; Steinmetz, A.; Yang, C.T.; Rafelski, J.
+Birrell, J.; Formanek, M.;  et~al.
 \newblock {Fermi-Dirac Integrals in Degenerate Regimes: Novel Asymptotic
   Expansion}.
 \newblock {\em Int. J. Theor. Phys.} {\bf 2024}, {\em 63},~163,
@@ -768,7 +753,7 @@ Birrell, J.; Formanek, M.; Steinmetz, A.; Yang, C.T.; Rafelski, J.
 \newblock {\url{https://doi.org/10.1007/s10773-024-05695-8}}.
 
 \bibitem[Elze et~al.(1980)Elze, Greiner, and Rafelski]{Elze:1980er}
-Elze, H.T.; Greiner, W.; Rafelski, J.
+Elze, H.T.; Greiner, W.;  et~al.
 \newblock {The relativistic ideal Fermi gas revisited}.
 \newblock {\em J. Phys. G} {\bf 1980}, {\em 6},~L149--L153.
 \newblock {\url{https://doi.org/10.1088/0305-4616/6/9/003}}.
@@ -793,8 +778,7 @@ Garrett, W.R.; Bhalla, C.P.
 
 \bibitem[Stave et~al.(2011)Stave, Ahmed, France, Henshaw, Muller, Perdue,
   Prior, Spraker, and Weller]{Stave:2011zz}
-Stave, S.; Ahmed, M.W.; France, R.H.; Henshaw, S.S.; Muller, B.; Perdue, B.A.;
-  Prior, R.M.; Spraker, M.C.; Weller, H.R.
+Stave, S.; Ahmed, M.W.;  et~al.
 \newblock Understanding the B-11(p, alpha)alpha alpha reaction at the 0.675-MeV
   resonance.
 \newblock {\em Phys. Lett. B} {\bf 2011}, {\em 696},~26--29.
@@ -802,8 +786,7 @@ Stave, S.; Ahmed, M.W.; France, R.H.; Henshaw, S.S.; Muller, B.; Perdue, B.A.;
 
 \bibitem[Labaune et~al.(2013)Labaune, Baccou, Depierreux, Goyon, Loisel, Yahia,
   and Rafelski]{Labaune:2013dla}
-Labaune, C.; Baccou, C.; Depierreux, S.; Goyon, C.; Loisel, G.; Yahia, V.;
-  Rafelski, J.
+Labaune, C.; Baccou, C.;  et~al.
 \newblock Fusion reactions initiated by laser-accelerated particle beams in a
   laser-produced plasma.
 \newblock {\em Nature Commun.} {\bf 2013}, {\em 4},~2506,
@@ -813,22 +796,21 @@ Labaune, C.; Baccou, C.; Depierreux, S.; Goyon, C.; Loisel, G.; Yahia, V.;
 
 \bibitem[Labaune et~al.(2014)Labaune, Rafelski, Depierreux, and
   Goyon]{labaune2014production}
-Labaune, C.; Rafelski, J.; Depierreux, S.; Goyon, C.
+Labaune, C.; Rafelski, J.;  et~al.
 \newblock Production d'{\'e}nergie par des r{\'e}actions de fusion
   nucl{\'e}aires aneutroniques initi{\'e}es par lasers.
 \newblock French Patent FR 2 988 897 B1,  oct 2014.
 
 \bibitem[Scisci{\`o} et~al.(2025)Scisci{\`o}, Petringa, Zhu, Rodrigues, Alonzo,
   Andreoli, Filippi, Consoli, Huault, Raffestin, et~al.]{sciscio2025laser}
-Scisci{\`o}, M.; Petringa, G.; Zhu, Z.; Rodrigues, M.; Alonzo, M.; Andreoli,
-  P.; Filippi, F.; Consoli, F.; Huault, M.; Raffestin, D.;  et~al.
+Scisci{\`o}, M.; Petringa, G.;  et~al.
 \newblock Laser-initiated p--11B fusion reactions in petawatt
   high-repetition-rate laser facilities.
 \newblock {\em Matter Radiat. Extremes} {\bf 2025}, {\em 10}.
 \newblock {\url{https://doi.org/10.1063/5.0241993}}.
 
 \bibitem[Aladi et~al.(2025)Aladi, Benabdelghani, and Kedves]{Aladi2025Alpha}
-Aladi, M.; Benabdelghani, I.; Kedves, M.
+Aladi, M.; Benabdelghani, I.;  et~al.
 \newblock Alpha particle yield in femtosecond laser-driven proton--boron
   fusion.
 \newblock {\em Eur. Phys. J. ST} {\bf 2025}, {\em 234},~2999--3005.
@@ -836,8 +818,7 @@ Aladi, M.; Benabdelghani, I.; Kedves, M.
 
 \bibitem[Mehlhorn et~al.(2022)Mehlhorn, Labun, Hegelich, Margarone, Gu, Batani,
   Campbell, Hu, and Ramakrishna]{mehlhorn2022path}
-Mehlhorn, T.A.; Labun, L.; Hegelich, B.M.; Margarone, D.; Gu, M.F.; Batani, D.;
-  Campbell, E.M.; Hu, S.; Ramakrishna, B.
+Mehlhorn, T.A.; Labun, L.;  et~al.
 \newblock Path to increasing p-B11 reactivity via ps and ns lasers.
 \newblock {\em Laser Part. Beams} {\bf 2022}, {\em 2022},~e1.
 \newblock {\url{https://doi.org/10.1155/2022/2355629}}.
@@ -845,14 +826,13 @@ Mehlhorn, T.A.; Labun, L.; Hegelich, B.M.; Margarone, D.; Gu, M.F.; Batani, D.;
 \bibitem[Margarone et~al.(2022)Margarone, Bonvalet, Giuffrida, Morace,
   Kantarelou, Tosca, Raffestin, Nicolai, Picciotto, Abe,
   et~al.]{margarone2022target}
-Margarone, D.; Bonvalet, J.; Giuffrida, L.; Morace, A.; Kantarelou, V.; Tosca,
-  M.; Raffestin, D.; Nicolai, P.; Picciotto, A.; Abe, Y.;  et~al.
+Margarone, D.; Bonvalet, J.;  et~al.
 \newblock In-target proton--boron nuclear fusion using a PW-class laser.
 \newblock {\em Appl. Sciences} {\bf 2022}, {\em 12},~1444.
 \newblock {\url{https://doi.org/10.3390/app12031444}}.
 
-\bibitem[Kolk et~al.(2022)]{Kolk:2022isp}
-Kolk, B.V.;  et~al.
+\bibitem[Kolk et~al.(2022)Kolk, Macon, et~al.]{Kolk:2022isp}
+Kolk, B.V.; Macon, K.T.;  et~al.
 \newblock Investigation of the B10(\ensuremath{p,\alpha})Be7 reaction from 0.8
   to 2.0 MeV.
 \newblock {\em Phys. Rev. C} {\bf 2022}, {\em 105},~055802.
@@ -860,14 +840,14 @@ Kolk, B.V.;  et~al.
 
 \bibitem[Wiescher et~al.(2017)Wiescher, deBoer, G\"orres, and
   Azuma]{Wiescher:2017vhs}
-Wiescher, M.; deBoer, R.J.; G\"orres, J.; Azuma, R.E.
+Wiescher, M.; deBoer, R.J.;  et~al.
 \newblock Low energy measurements of the B10(\ensuremath{p,\alpha})Be7
   reaction.
 \newblock {\em Phys. Rev. C} {\bf 2017}, {\em 95},~044617.
 \newblock {\url{https://doi.org/10.1103/PhysRevC.95.044617}}.
 
-\bibitem[Spitaleri et~al.(2017)]{Spitaleri:2017spt}
-Spitaleri, C.;  et~al.
+\bibitem[Spitaleri et~al.(2017)Spitaleri, Puglia, et~al.]{Spitaleri:2017spt}
+Spitaleri, C.; Puglia, S.M.R.;  et~al.
 \newblock Measurement of the B10(\ensuremath{p,\alpha}0)Be7 cross section from
   5 keV to 1.5 MeV in a single experiment using the Trojan horse method.
 \newblock {\em Phys. Rev. C} {\bf 2017}, {\em 95},~035801.
@@ -875,7 +855,7 @@ Spitaleri, C.;  et~al.
 
 \bibitem[Labaune et~al.(2016)Labaune, Baccou, Yahia, Neuville, and
   Rafelski]{Labaune:2016mqp}
-Labaune, C.; Baccou, C.; Yahia, V.; Neuville, C.; Rafelski, J.
+Labaune, C.; Baccou, C.;  et~al.
 \newblock {Laser-initiated primary and secondary nuclear reactions in
   Boron-Nitride}.
 \newblock {\em Sci. Rep.} {\bf 2016}, {\em 6},~21202.
@@ -883,14 +863,14 @@ Labaune, C.; Baccou, C.; Yahia, V.; Neuville, C.; Rafelski, J.
 
 \bibitem[Golberg et~al.(1998)Golberg, Bando, St\'ephan, and
   Kurashima]{Golberg:1998BNfull}
-Golberg, D.; Bando, Y.; St\'ephan, O.; Kurashima, K.
+Golberg, D.; Bando, Y.;  et~al.
 \newblock Octahedral boron nitride fullerenes formed by electron beam
   irradiation.
 \newblock {\em Appl. Phys. Lett.} {\bf 1998}, {\em 73},~2441--2443.
 \newblock {\url{https://doi.org/10.1063/1.122475}}.
 
 \bibitem[Oku et~al.(2004)Oku, Nishiwaki, and Narita]{Oku:2004BnNn}
-Oku, T.; Nishiwaki, A.; Narita, I.
+Oku, T.; Nishiwaki, A.;  et~al.
 \newblock Formation and atomic structures of {B$_n$N$_n$} ($n=24$--$60$)
   clusters studied by mass spectrometry, high-resolution electron microscopy
   and molecular orbital calculations.
@@ -912,7 +892,7 @@ Rafelski, J.; Mueller, B.
 
 \bibitem[Kro{\'o} et~al.(2016)Kro{\'o}, R{\'a}cz, and
   Tuett{\H{o}}]{kroo2016plasmonic}
-Kro{\'o}, N.; R{\'a}cz, P.; Tuett{\H{o}}, I.
+Kro{\'o}, N.; R{\'a}cz, P.;  et~al.
 \newblock Plasmonic dynamic screening in a gold film by intense femtosecond
   laser light.
 \newblock {\em EPL} {\bf 2016}, {\em 115},~27010.
@@ -920,7 +900,7 @@ Kro{\'o}, N.; R{\'a}cz, P.; Tuett{\H{o}}, I.
 
 \bibitem[Schuck et~al.(2005)Schuck, Fromm, Sundaramurthy, Kino, and
   Moerner]{Schuck:2005}
-Schuck, P.J.; Fromm, D.P.; Sundaramurthy, A.; Kino, G.S.; Moerner, W.E.
+Schuck, P.J.; Fromm, D.P.;  et~al.
 \newblock Improving the mismatch between light and nanoscale objects with gold
   bowtie nanoantennas.
 \newblock {\em Phys. Rev. Lett.} {\bf 2005}, {\em 94},~017402.
@@ -935,9 +915,7 @@ Bir{\'o}, T.S.; {NAPLIFE Collaboration}.
 \bibitem[Papp et~al.(2022)Papp, {NAPLIFE Collaboration}, Bravina, Csete,
   Kumari, Mishustin, Moln{\'a}r, Motornenko, R{\'a}cz, Satarov, Stocker,
   Strottman, Szenes, Vass, Bir{\'o}, Csernai, and Kro{\'o}]{Papp:2022PRXEnergy}
-Papp, I.; {NAPLIFE Collaboration}.; Bravina, L.; Csete, M.; Kumari, A.;
-  Mishustin, I.N.; Moln{\'a}r, D.; Motornenko, A.; R{\'a}cz, P.; Satarov, L.M.;
-   et~al.
+Papp, I.; {NAPLIFE Collaboration}.;  et~al.
 \newblock Kinetic Model Evaluation of the Resilience of Plasmonic Nanoantennas
   for Laser-Induced Fusion.
 \newblock {\em PRX Energy} {\bf 2022}, {\em 1},~023001.
@@ -946,8 +924,7 @@ Papp, I.; {NAPLIFE Collaboration}.; Bravina, L.; Csete, M.; Kumari, A.;
 \bibitem[Papp et~al.(2023)Papp, Bravina, Csete, Kumari, Mishustin, Motornenko,
   R{\'a}cz, Satarov, Stocker, Strottman, Szenes, Szokol, K{\'a}m{\'a}n,
   Bony{\'a}r, Bir{\'o}, Csernai, and Kro{\'o}]{Papp:2023FrontPhys}
-Papp, I.; Bravina, L.; Csete, M.; Kumari, A.; Mishustin, I.N.; Motornenko, A.;
-  R{\'a}cz, P.; Satarov, L.M.; Stocker, H.; Strottman, D.D.;  et~al.
+Papp, I.; Bravina, L.;  et~al.
 \newblock Kinetic model of resonant nanoantennas in polymer for laser induced
   fusion.
 \newblock {\em Front. in Phys.} {\bf 2023}, {\em 11},~1116023.
@@ -955,8 +932,7 @@ Papp, I.; Bravina, L.; Csete, M.; Kumari, A.; Mishustin, I.N.; Motornenko, A.;
 
 \bibitem[Kro{\'o} et~al.(2024)Kro{\'o}, {NAPLIFE Collaboration}, Csernai, Papp,
   Sz{\.o}kefalvi-Nagy, Nagy, et~al.]{Kroo2024pB}
-Kro{\'o}, N.; {NAPLIFE Collaboration}.; Csernai, L.P.; Papp, I.;
-  Sz{\.o}kefalvi-Nagy, Z.; Nagy, M.;  et~al.
+Kro{\'o}, N.; {NAPLIFE Collaboration}.;  et~al.
 \newblock Indication of p + $^{11}$B reaction in Laser Induced Nanofusion
   experiment.
 \newblock {\em Sci. Rep.} {\bf 2024}, {\em 14},~30087.
@@ -964,8 +940,7 @@ Kro{\'o}, N.; {NAPLIFE Collaboration}.; Csernai, L.P.; Papp, I.;
 
 \bibitem[Zweiback et~al.(2000)Zweiback, Smith, Cowan, Hays, Wharton, Yanovsky,
   and Ditmire]{Zweiback:00Coul}
-Zweiback, J.; Smith, R.A.; Cowan, T.E.; Hays, G.; Wharton, K.B.; Yanovsky,
-  V.P.; Ditmire, T.
+Zweiback, J.; Smith, R.A.;  et~al.
 \newblock Nuclear Fusion Driven by Coulomb Explosions of Large Deuterium
   Clusters.
 \newblock {\em Phys. Rev. Lett.} {\bf 2000}, {\em 84},~2634--2637.
@@ -974,19 +949,16 @@ Zweiback, J.; Smith, R.A.; Cowan, T.E.; Hays, G.; Wharton, K.B.; Yanovsky,
 \bibitem[Papp et~al.(2023)Papp, {NAPLIFE Collaboration}, Bravina, Csete,
   Kumari, Mishustin, Motornenko, R{\'a}cz, Satarov, Stocker, Szenes, Vass,
   Bir{\'o}, Csernai, and Kro{\'o}]{Papp:2023arXiv}
-Papp, I.; {NAPLIFE Collaboration}.; Bravina, L.; Csete, M.; Kumari, A.;
-  Mishustin, I.N.; Motornenko, A.; R{\'a}cz, P.; Satarov, L.M.; Stocker, H.;
-  et~al.
+Papp, I.; {NAPLIFE Collaboration}.;  et~al.
 \newblock PIC simulations of laser-induced proton acceleration by resonant
   nanoantennas for fusion.
 \newblock arXiv preprint,  2023.
 \newblock arXiv:2306.13445, {\url{https://doi.org/10.48550/arXiv.2306.13445}}.
 
-\bibitem[Csernai et~al.(2024)Csernai, Csorg{\H{o}}, Papp, Tamosiunas, Csete,
-  Szenes, Vass, Bir{\'o}, Kro{\'o}, and {NAPLIFE
-  Collaboration}]{Csernai:2024Universe}
-Csernai, L.P.; Csorg{\H{o}}, T.; Papp, I.; Tamosiunas, K.; Csete, M.; Szenes,
-  A.; Vass, D.; Bir{\'o}, T.S.; Kro{\'o}, N.; {NAPLIFE Collaboration}.
+\bibitem[Csernai et~al.(2024)Csernai, {NAPLIFE Collaboration}, Csorg{\H{o}},
+  Papp, Tamosiunas, Csete, Szenes, Vass, Bir{\'o}, and
+  Kro{\'o}]{Csernai:2024Universe}
+Csernai, L.P.; {NAPLIFE Collaboration}.;  et~al.
 \newblock Femtoscopy for the {NAno-Plasmonic Laser Inertial Fusion Experiments
   (NAPLIFE)} Project.
 \newblock {\em Universe} {\bf 2024}, {\em 10},~161.
@@ -995,8 +967,7 @@ Csernai, L.P.; Csorg{\H{o}}, T.; Papp, I.; Tamosiunas, K.; Csete, M.; Szenes,
 \bibitem[McNamee et~al.(2025)McNamee, Kantarelou, Nersisyan, Milani, Maffini,
   Orecchia, Martin, Scisci{\`o}, Giuffrida, Consoli,
   et~al.]{mcnamee2025contaminant}
-McNamee, A.; Kantarelou, V.; Nersisyan, G.; Milani, A.; Maffini, A.; Orecchia,
-  D.; Martin, P.; Scisci{\`o}, M.; Giuffrida, L.; Consoli, F.;  et~al.
+McNamee, A.; Kantarelou, V.;  et~al.
 \newblock Contaminant-free alpha particles signature from laser-driven
   proton-boron fusion plasma using Thomson parabola spectrometer.
 \newblock {\em Laser Part. Beams} {\bf 2025}, {\em 43},~e8.
@@ -1006,18 +977,15 @@ McNamee, A.; Kantarelou, V.; Nersisyan, G.; Milani, A.; Maffini, A.; Orecchia,
   Satarov, Stocker, Bravina, Csete, K{\'a}m{\'a}n, Kumari, Motornenko, Papp,
   R{\'a}cz, Strottman, Szenes, Szokol, Vass, Veres, Bir{\'o}, and
   Kro{\'o}]{Csernai:2023PRE}
-Csernai, L.P.; {NAPLIFE Collaboration}.; Mishustin, I.N.; Satarov, L.M.;
-  Stocker, H.; Bravina, L.; Csete, M.; K{\'a}m{\'a}n, J.; Kumari, A.;
-  Motornenko, A.;  et~al.
+Csernai, L.P.; {NAPLIFE Collaboration}.;  et~al.
 \newblock Crater formation and deuterium production in laser irradiation of
   polymers with implanted nano-antennas.
 \newblock {\em Phys. Rev. E} {\bf 2023}, {\em 108},~025205.
 \newblock {\url{https://doi.org/10.1103/PhysRevE.108.025205}}.
 
-\bibitem[Csernai et~al.(2024)Csernai, Kro{\'o}, Papp, Kumari, Bir{\'o}, and
-  {NAPLIFE Collaboration}]{Csernai:2024SciRep}
-Csernai, L.P.; Kro{\'o}, N.; Papp, I.; Kumari, A.; Bir{\'o}, T.S.; {NAPLIFE
-  Collaboration}.
+\bibitem[Csernai et~al.(2024)Csernai, {NAPLIFE Collaboration}, Kro{\'o}, Papp,
+  Kumari, and Bir{\'o}]{Csernai:2024SciRep}
+Csernai, L.P.; {NAPLIFE Collaboration}.;  et~al.
 \newblock Monitoring of nanoplasmonics-assisted deuterium production in a
   polymer seeded with resonant {Au} nanorods using in situ femtosecond laser
   induced breakdown spectroscopy.
@@ -1034,9 +1002,7 @@ Baym, G.
 \bibitem[Szokol et~al.(2024)Szokol, {NAPLIFE Collaboration}, K{\'a}m{\'a}n,
   Holomb, Aladi, Kedves, R{\'a}czkevi, R{\'a}cz, Bony{\'a}r, Bor{\'o}k,
   Zangana, et~al.]{szokol2024pulsed}
-Szokol, {\'A}.N.; {NAPLIFE Collaboration}.; K{\'a}m{\'a}n, J.; Holomb, R.;
-  Aladi, M.; Kedves, M.; R{\'a}czkevi, B.; R{\'a}cz, P.; Bony{\'a}r, A.;
-  Bor{\'o}k, A.;  et~al.
+Szokol, {\'A}.N.; {NAPLIFE Collaboration}.;  et~al.
 \newblock Pulsed laser intensity dependence of crater formation and light
   reflection in the UDMA-TEGDMA copolymer nanocomposite, doped with resonant
   plasmonic gold nanorods.
@@ -1046,8 +1012,7 @@ Szokol, {\'A}.N.; {NAPLIFE Collaboration}.; K{\'a}m{\'a}n, J.; Holomb, R.;
 
 \bibitem[Jones et~al.(1989)Jones, Palmer, Czirr, Decker, Jensen, Thorne,
   Taylor, and Rafelski]{Jones:1989dv}
-Jones, S.E.; Palmer, E.P.; Czirr, J.B.; Decker, D.L.; Jensen, G.L.; Thorne,
-  J.M.; Taylor, S.F.; Rafelski, J.
+Jones, S.E.; Palmer, E.P.;  et~al.
 \newblock {Observation of Cold Nuclear Fusion in Condensed Matter}.
 \newblock {\em Nature} {\bf 1989}, {\em 338},~737.
 \newblock {\url{https://doi.org/10.1038/338737a0}}.
@@ -1065,13 +1030,13 @@ Vesman, E.A.
 \newblock Pisma Zh. Eksp. Teor. Fiz. 5: 113-117 (1967).
 
 \bibitem[Harley et~al.(1990)Harley, Muller, and Rafelski]{Harley:1988wp}
-Harley, D.; Muller, B.; Rafelski, J.
+Harley, D.; Muller, B.;  et~al.
 \newblock Muon Catalyzed Fusion with \ensuremath{Z > 1}.
 \newblock {\em J. Phys. G} {\bf 1990}, {\em 16},~281.
 \newblock {\url{https://doi.org/10.1088/0954-3899/16/2/017}}.
 
 \bibitem[Wang et~al.(2026)Wang, Li, Wu, and Cui]{Wang:2026zuj}
-Wang, H.Y.; Li, Y.Q.; Wu, Q.; Cui, Z.F.
+Wang, H.Y.; Li, Y.Q.;  et~al.
 \newblock {A novel approach to proton-boron-11 fusion}.
 \newblock {\em Eur. Phys. J. A} {\bf 2026}, {\em 62},~184,
   \href{http://arxiv.org/abs/2604.18928}{{\normalfont
@@ -1098,8 +1063,8 @@ Zobov, M.; {DA$\Phi$NE Collaboration}.
   [arXiv:physics.acc-ph/0709.3696]}}.
 \newblock {\url{https://doi.org/10.1134/S1547477108070042}}.
 
-\bibitem[Sirghi et~al.(2024)]{Sirghi:2023wok}
-Sirghi, F.;  et~al.
+\bibitem[Sirghi et~al.(2024)Sirghi, Iliescu, et~al.]{Sirghi:2023wok}
+Sirghi, F.; Iliescu, M.;  et~al.
 \newblock {SIDDHARTA-2 apparatus for kaonic atoms research on the
   DA{\ensuremath{\Phi}}NE collider}.
 \newblock {\em JINST} {\bf 2024}, {\em 19},~P11006,
@@ -1107,8 +1072,8 @@ Sirghi, F.;  et~al.
   [arXiv:physics.ins-det/2311.16144]}}.
 \newblock {\url{https://doi.org/10.1088/1748-0221/19/11/P11006}}.
 
-\bibitem[Iliescu et~al.(2016)]{Iliescu:2016zgx}
-Iliescu, M.;  et~al.
+\bibitem[Iliescu et~al.(2016)Iliescu, Bazzi, et~al.]{Iliescu:2016zgx}
+Iliescu, M.; Bazzi, M.;  et~al.
 \newblock {Kaonic atoms and strangeness in nuclei: SIDDHARTA-2 and AMADEUS
   experiments}.
 \newblock {\em J. Phys. Conf. Ser.} {\bf 2016}, {\em 770},~012034.
