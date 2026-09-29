@@ -1,0 +1,62 @@
+\contentsline {section}{\numberline {1}Overview}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Nuclear\nobreakspace {}Fusion}{3}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Basic\nobreakspace {}Principles}{3}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Hydrogen and\nobreakspace {}Helium}{4}{subsubsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.3}Bottling Weapon-Grade Fuel\nobreakspace {}Burn}{6}{subsubsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.1.4}Solar Aneutronic\nobreakspace {}Power}{9}{subsubsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.2}Quasi Static\nobreakspace {}Plasma}{11}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Iter Sine\nobreakspace {}Termino}{11}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Alternative Plasma Fusion\nobreakspace {}Approaches}{12}{subsubsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.3}Paths Towards Laser\nobreakspace {}Fusion}{13}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Inertial Confinement\nobreakspace {}Fusion}{13}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Laser Driven IC Fusion\nobreakspace {}Burn}{14}{subsubsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.3.3}Antennas for Light and\nobreakspace {}Fusion}{15}{subsubsection.1.3.3}%
+\contentsline {subsubsection}{\numberline {1.3.4}Opto--Electro--Mechanical\nobreakspace {}Fusion}{16}{subsubsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.4}Particle Catalyzed\nobreakspace {}Fusion}{18}{subsection.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1}The Birth of Particle Physics: Particle Catalyzed Nuclear\nobreakspace {}Fusion}{18}{subsubsection.1.4.1}%
+\contentsline {subsubsection}{\numberline {1.4.2}Experimental Muon Catalyzed Fusion\nobreakspace {}Breakthrough}{19}{subsubsection.1.4.2}%
+\contentsline {subsubsection}{\numberline {1.4.3}Fusion\nobreakspace {}Confusion}{20}{subsubsection.1.4.3}%
+\contentsline {section}{\numberline {2}Nuclear Fusion\nobreakspace {}Everywhere}{21}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Availability of Nuclear Fusion\nobreakspace {}Energy}{21}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Relevant Nuclear `Ashes'}{21}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}The (Nuclear) Interaction\nobreakspace {}Length}{23}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}The Most Accessible Path to\nobreakspace {}Fusion}{24}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}The Need to Control Neutrons in\nobreakspace {}dt-Fusion}{24}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Tritium\nobreakspace {}Availability}{26}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Thermal Equilibrium $dd$ Fusion}{27}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Steady State Power\nobreakspace {}Balance}{27}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Radiative\nobreakspace {}Losses}{28}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Secondary Heating: $dd$ Example}{30}{subsubsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.4}The Aneutronic Fusion Reactor Powering the Solar\nobreakspace {}System}{33}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Solar\nobreakspace {}Model}{33}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}The Proton--Proton ($pp$) Chains}{34}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}The Carbon--Nitrogen--Oxygen (CNO) Cycles}{35}{subsubsection.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.4.4}The Triple-Alpha\nobreakspace {}Process}{37}{subsubsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.5}Plasma Screening and Heavy-Nuclear\nobreakspace {}Catalysis}{37}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Heavy Nuclear\nobreakspace {}Catalysts}{37}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Potential-Dependent Screening\nobreakspace {}Mass}{38}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.3}Strong Field Fusion Rate\nobreakspace {}Enhancement}{39}{subsubsection.2.5.3}%
+\contentsline {section}{\numberline {3}High-Tech\nobreakspace {}Fusion}{41}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Particle Beams and\nobreakspace {}Fusion}{41}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Aneutronic {$d+^{3 \!} \mathrm {He}$} Fusion}{41}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Laser-Driven Two Target Proton--Boron (pB) Fusion}{43}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Boron--Nitride Fusion\nobreakspace {}Cycles}{44}{subsubsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.4}Reactions of Interest for Multi-Component Fusion\nobreakspace {}Materials}{45}{subsubsection.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.1.5}Beryllium Based Aneutronic Fusion\nobreakspace {}Cycle}{46}{subsubsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.2}Laser Plasmonic\nobreakspace {}Resonance}{48}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Antennas for Light: The NAPLIFE\nobreakspace {}Approach}{48}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Nuclear Fusion\nobreakspace {}Signatures}{49}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Crater Volume and Energy\nobreakspace {}Deposition}{50}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Pic Simulations and Simultaneous-Ignition\nobreakspace {}Geometry}{51}{subsubsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.3}Muon-Catalyzed\nobreakspace {}Fusion}{51}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}True ``Cold Fusion''}{51}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Catalytic\nobreakspace {}Cycle}{52}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Towards 1000 Fusions per\nobreakspace {}Muon}{53}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Many Possible (Catalyzed) Fusion\nobreakspace {}Reactions}{54}{subsubsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.5}Muon\nobreakspace {}Production}{57}{subsubsection.3.3.5}%
+\contentsline {section}{\numberline {4}Evaluation, Discussion and\nobreakspace {}Outlook}{60}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Fusion\nobreakspace {}Pathways}{60}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Fusion\nobreakspace {}Fuel}{61}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Future Fusion\nobreakspace {}Solutions}{62}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Outlook}{64}{subsection.4.4}%
+\contentsline {section}{\numberline {5}\colorbox {yellow}{References} }{67}{section.5}%
