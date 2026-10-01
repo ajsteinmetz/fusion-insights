@@ -402,12 +402,14 @@ Jackson, J.D.
 \newblock {\em Phys. Rev.} {\bf 1957}, {\em 106},~330--339.
 \newblock {\url{https://doi.org/10.1103/PhysRev.106.330}}.
 
-\bibitem[Rafelski(1979)]{Rafelski:1979ab}
+\bibitem[Rafelski(1980)]{Rafelski:1979ab}
 Rafelski, J.
-\newblock Hydrogenic mesomolecules and muon catalyzed fusion.
-\newblock In Proceedings of the {International School of Physics of Exotic
-  Atoms: Exotic Atoms, A Tool for the Study of Fundamental Interactions and the
-  Structure of Matter},  6 1979.
+\newblock Hydrogenic mesomolecules and muon catalyzed fusion. In {\em {Exotic
+  Atoms '79: Fundamental Interactions and Structure of Matter}, Proceedings of
+  the Second Course of the International School of Physics of Exotic Atoms,
+  Erice, Italy, 25 March--5 April 1979}; Crowe, K.; Duclos, J.;  et~al., Eds.;
+  Springer: Boston, MA, USA,  1980; pp. 177--205.
+\newblock {\url{https://doi.org/10.1007/978-1-4613-3042-4_14}}.
 
 \bibitem[Jones et~al.(1983)Jones, Anderson, Caffrey, Walter, Watts, Bradbury,
   Gram, Leon, Maltrud, and Paciotti]{Jones:1983pw}
@@ -618,9 +620,9 @@ Coleman, M.; Kovari, M.
 
 \bibitem[Clery(2022)]{Clery2022FusionFuel}
 Clery, D.
-\newblock Fusion power may run out of fuel before it even gets started.
-\newblock {\em Science} {\bf 2022}, {\em 376}.
-\newblock {\url{https://doi.org/10.1126/science.add5489}}.
+\newblock Out of gas.
+\newblock {\em Science} {\bf 2022}, {\em 376},~1372--1376.
+\newblock {\url{https://doi.org/10.1126/science.add5098}}.
 
 \bibitem[Blumenthal and Gould(1970)]{Blumenthal:1970gc}
 Blumenthal, G.R.; Gould, R.J.
@@ -1091,9 +1093,9 @@ Szokol, {\'A}.N.; {NAPLIFE Collaboration}.;  et~al.
   \href{http://arxiv.org/abs/2402.18138}{{\normalfont [2402.18138]}}.
 \newblock {\url{https://doi.org/10.48550/arXiv.2402.18138}}.
 
-\bibitem[Nagyn{\'e}~Szokol()]{NagyneSzokol:pc}
+\bibitem[Nagyn{\'e}~Szokol(2026)]{NagyneSzokol:pc}
 Nagyn{\'e}~Szokol, {\'A}.
-\newblock {NAPLIFE} Collaboration.
+\newblock {NAPLIFE} Collaboration,  2026.
 \newblock Private communication.
 
 \bibitem[Jones et~al.(1989)Jones, Palmer, Czirr, Decker, Jensen, Thorne,
