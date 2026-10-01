@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%	MDPI class for pdfLaTeX version
+%%%%	MDPI class for XeLaTeX version
 %% %%	For any information please send an e-mail to:
 %% %%		latex@mdpi.com
 %% %%
@@ -18,15 +18,15 @@
 %% %%		v2.0 when Dr. Janine Daum started (March 2013)
 %% %%		v3.0 layout change September 2015
 %%%%		v4.0 layout change December 2020
-%%%%           v5.0 layout change December 2024
-%%%%           v6.0 layout change December 2025
+%%%%             v5.0 layout change December 2024
+%%%%             v6.0 layout change December 2025
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% IDENTIFICATION
 \def\mdpidate{2026-09-11}
-\def\mdpiversion{v6.5a}
+\def\mdpiversion{v6.5a-xelatex}
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{Definitions/mdpi}[\mdpidate\ \mdpiversion\ MDPI paper class for pdflatex]
+\ProvidesClass{Definitions/mdpi}[\mdpidate\ \mdpiversion\ MDPI paper class for xelatex]
 
  %% PRELIMINARY DECLARATIONS
 \LoadClass[10pt,a4paper]{article}
@@ -70,7 +70,7 @@
 \RequirePackage{enotez} % For endnotes
 \RequirePackage{xstring} % For citation in left column
 \RequirePackage[labelformat=simple]{subfig} % Support to add subfigures
-\renewcommand\thesubfigure{\normalfont(\textbf{\alph{subfigure}})} % Change subfigure label format
+\renewcommand\thesubfigure{\normalfont\palatinofont(\textbf{\alph{subfigure}})} % Change subfigure label format
 \RequirePackage{alphalph} % Provide double letters numbers
 \graphicspath{{./Definitions/}{./Figures/}{./Figure/}{./figures/}{./figure/}}
 \RequirePackage[normalem]{ulem} % \uuline in abstract
@@ -181,9 +181,6 @@
 %% To choose the whether there is one or more authors
 \DeclareOption{oneauthor}{\gdef\@authornum{author}}
 \DeclareOption{moreauthors}{\gdef\@authornum{authors}}
-\newif\ifmdpiunicodemaps
-\mdpiunicodemapsfalse
-\DeclareOption{unicode}{\mdpiunicodemapstrue}
 
 %% Add the chosen options to the class
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
@@ -465,21 +462,205 @@
 \DeclareHookRule{begindocument}{hyperref}{before}{mdpi}
 	\AddToHook{begindocument/before}{ 
 		\hyperrefpackage
-             \crefnameDefinitions
+		 \crefnameDefinitions
+		\RequirePackage[T5,T1]{fontenc}
+%%%\usepackage[russian,english]{babel} %% Please comment out when you used texlive 2023 with polyglossia
+		\RequirePackage{fontspec}
+		\setmainfont{Palatino Linotype}
+		\RequirePackage{polyglossia}
+		\setmainlanguage{english}
+		\setotherlanguage{hebrew}
+		\setotherlanguage{arabic}
+		\defaultfontfeatures{Ligatures=TeX}
+		\newfontfamily\palatinofont{Palatino Linotype}
+		\newfontfamily\rmfont{Times New Roman}
+		\newfontfamily\hebrewfont{Times New Roman}[Script=Hebrew]
+		\newfontfamily\arabicfont{Times New Roman}[Script=Arabic]
+		\newfontfamily\rufont{Palatino Linotype}[Script=Cyrillic]
+		\newfontfamily\simsun{SimSun}
+		\newfontfamily\koreanfont{Malgun Gothic}
+		\RequirePackage{mathtools}
+		\newtagform{New}[]{\palatinofont (}{)}
+		\usetagform{New}
+		%\RequirePackage{bidi} %% Can be added or not in texlive 2023
+		% bidi (via polyglossia RTL) still uses \UseMathForPositioningText in \@tabular;
+		% LaTeX 2026-06-01+ no longer defines it unless latex-lab tagging is loaded.
+		\providecommand\UseMathForPositioningText{}
+		\makeatletter
+		%%%% Bibliography
+		\renewcommand\bibname{References} % Backwards compatibility for book production
+		\renewcommand\@biblabel[1]{#1.\hfill}
+		\def\thebibliography#1{
+		\emergencystretch 2em
+		\titleformat {\section} [block] {\raggedright \fontsize{12}{12}\selectfont\bfseries} {} {0pt} {}
+		\isBookContribution{}{% to remove the sectin from the TOC in books
+		\section{\@reftitle}
+		}
+		\fontsize{9}{11}\selectfont
+		\list{{\arabic{enumi}}}{\def\makelabel##1{\hss{##1}}
+		\topsep=0\p@
+		\parsep=0\p@
+		\partopsep=0\p@
+		\itemsep=0\p@
+		\labelsep=1.5mm
+		\isAPAandChicago{%
+		\ifthenelse{\equal{\@externalbibliography}{\@empty}}{%
+		\itemindent=-7.7mm
+		}{%
+		\itemindent=-3.3mm}%
+		}{%
+		\itemindent=0\p@}
+		\settowidth\labelwidth{\footnotesize[#1]}%
+		\leftmargin\labelwidth
+		\advance\leftmargin\labelsep
+		\usecounter{enumi}}
+		}
+		\let\endthebibliography=\endlist
+%%%% Maketitle part 1: Logo, Arttype, Title, Author
+\renewcommand{\@maketitle}{
+	\isBookContribution{% for books we have no logos, article type and narrow column
+            }{% for journals and preprints we have logos, article type and narrow column
+		\ifthenelse{\equal{\@leftcolumnsplit}{\@empty}}{% Default option for the left column
+			\marginnote[\contentleftcolumn]{}[\MyLen] % Bottom aligned
+			}{%
+		}
+		\isPreprints{\vspace{0.92cm}}{%
+		\begin{adjustwidth}{-\extralength}{}
+		}
+	}
+	\begin{flushleft}
+	\ifthenelse{\equal{\@arttype}{Supfile}}{%
+		\fontsize{18}{18}\selectfont
+		\raggedright
+		\hyphenpenalty=10000
+		\tolerance=1000
+		\noindent\textbf{Supplementary Materials: \@Title}%
+		\par
+		\vspace{12pt}
+		\fontsize{10}{10}\selectfont
+		\noindent\boldmath\bfseries{\@Author}
+		}{%
+		\isBookContribution{}{%
+			\vspace*{-1.75cm}
+		}
+		{%0
+		\ifthenelse{\equal{\@journal}{preprints}
+		\OR \equal{\@journal}{preprintschicago}
+		\OR \equal{\@journal}{preprintsapa}
+			\OR \equal{\@arttype}{Book}
+			\OR \equal{\@arttype}{Monograph}}{}{
+				\vspace{-2 pt}%
+				\ifthenelse{\equal{\@status}{submit}}{%	
+					\hfill \href{https://www.mdpi.com}{%
+					\includegraphics[height=1cm]{Definitions/logo-mdpi.eps}}%
+					}{
+					\href{https://www.mdpi.com/journal/\@journal}{
+					\includegraphics[height=1.2cm]{Definitions/\@journal-logo.eps}}%
+					\hfill
+					\ifthenelse{\equal{\@IsAssociation}{\@empty} \OR \isundefined{\@IsAssociation}}{%
+					\ifthenelse{\equal{\@journal}{ijom}}{%
+						\href{https://www.mdpi.com}{\includegraphics[height=1cm]{Definitions/logo-mdpi-ijom.eps}}
+						}{
+					\ifthenelse{\equal{\@journal}{siuj}}{%
+						\href{https://www.mdpi.com}{\includegraphics[height=1cm]{Definitions/logo-mdpi-siuj.eps}}
+						}{
+						\ifthenelse{\equal{\@journal}{scipharm}}{%
+							\href{https://www.mdpi.com}{\includegraphics[height=1cm]{Definitions/logo-mdpi-scipharm.eps}}%
+						}{%
+							\href{https://www.mdpi.com}{\includegraphics[height=1cm]{Definitions/logo-mdpi.eps}}%
+							}			
+				                 }%				
+				            }%				
+				        }{	
+				\href{https://www.mdpi.com}{\includegraphics[height=1cm]{Definitions/logo-mdpi-\@journal.eps}}%	
+				      }%		
+			      }%	
+				\par
+				\rule{\fulllength}{0.4pt}%
+			}%
+		\par
+		}%0
+		{%1
+    		\vspace{14pt}
+    		\fontsize{10}{10}\selectfont
+		\isBookContribution{}{%
+			\textit{\@arttype}%
+			}%	
+ 	   	\par
+    		}%1
+    		{%2
+  	  	\fontsize{18}{18}\selectfont
+		\hyphenpenalty=10000
+		\tolerance=1000
+   	 	\isMonograph{}{%
+   	 	       \boldmath\bfseries{\@Title}%
+		       }%
+   	 	\par
+   	 	\vspace{12pt}
+   	 	}%2
+		\ifthenelse{\equal{\@longauthorlist}{\@empty}}{%
+			}{%
+			\end{flushleft}%
+		\isPreprints{}{%
+			\end{adjustwidth}%
+			}
+			\vspace{-2.5pt}
+		}
+   		{%3
+		\hyphenpenalty=10000
+		\tolerance=1000
+   	 	\isMonograph{}{%
+    		\boldmath\bfseries{\@Author}
+             \ifthenelse{\equal{\@arttype}{Book}}{\vspace{-12pt}}{}
+		       }%    		     
+    		\par
+		\vspace{12pt}
+    		}%3
+		}%
+	\ifthenelse{\equal{\@longauthorlist}{\@empty}}{%
+		\end{flushleft}%
+		}{%
+	}%
+	\isBookContribution{}{%
+		\ifthenelse{\equal{\@longauthorlist}{\@empty}}{%
+		\isPreprints{}{%
+			\end{adjustwidth}%
+			}
+			}{%
+		}
+	}
+		\ifthenelse{\equal{\@leftcolumnsplit}{\@empty}}{% Left column split
+			}{
+			\marginnote[\contentleftcolumn]{}% Alignment with the affiliations
+		}
+	 \isMonograph{\vspace{-2cm}}{}	
+	}
+		
+%%%% Metadata
+\newcommand{\org@maketitle}{}% LATEX-Check
+\let\org@maketitle\maketitle
+\def\maketitle{%
+	\hypersetup{
+		pdftitle={\@Title},
+		pdfsubject={\@abstract},
+		pdfkeywords={\@keyword},
+		pdfauthor={\@AuthorNames}
+	}%
+	\org@maketitle
+}	
 		}
 	}{
-	     \hyperrefpackage
-           \crefnameDefinitions
+	       \hyperrefpackage
+              \crefnameDefinitions             
 }
+%% To have the possibility to change the urlcolor
+\newcommand{\changeurlcolor}[1]{\hypersetup{urlcolor=#1}} 
 
 \ifdefined\XeTeXversion
     \typeout{Check out XeLaTex!}
     \else
     \pdfminorversion=7  % Set PDF version
 \fi
-
-%% To have the possibility to change the urlcolor
-\newcommand{\changeurlcolor}[1]{\hypersetup{urlcolor=#1}} 
 
 %% Cleveref definitions
 \newcommand{\cleverefDefinitions}{
@@ -502,19 +683,6 @@
 \newcommand{\equ}[1]{\ref{#1}}
 \newcommand{\boxref}[1]{Box~\ref{#1}}
 \newcommand{\cgraph}[1]{Graph~\ref{#1}}
-
-%%%% Metadata
-\newcommand{\org@maketitle}{}% LATEX-Check
-\let\org@maketitle\maketitle
-\def\maketitle{%
-	\hypersetup{
-		pdftitle={\@Title},
-		pdfsubject={\@abstract},
-		pdfkeywords={\@keyword},
-		pdfauthor={\@AuthorNames}
-	}%
-	\org@maketitle
-}
 
 %%%%% Endnotes
 \setenotez{backref=true}
@@ -1276,6 +1444,8 @@
      \def\UrlDigits{\do\1\do\2\do\3\do\4\do\5\do\6\do\7\do\8\do\9\do\0}
      \g@addto@macro{\UrlBreaks}{\UrlOrds}
      \g@addto@macro{\UrlBreaks}{\UrlDigits}
+     % Set bibitem space
+     \setlength{\bibsep}{0em}
 }
 
 %%%% Font size in Tables and watermark in arttype retraction
@@ -1312,22 +1482,22 @@
 \titlespacing {\paragraph} {0pt} {12pt} {3pt}
 
 %%%% Special section title style for back matter
-\newcommand{\supplementary}[1]{%
+\newcommand{\supplementary}[1]{
 \par\vspace{6pt}\noindent{\fontsize{9}{11.5}\selectfont\textbf{Supplementary Materials:} {#1}\par}}
 
 \newcommand{\authorcontributions}[1]{%
 \vspace{6pt}\noindent{\fontsize{9}{11.2}\selectfont\textbf{Author Contributions:} {#1}\par}}
 
-\newcommand{\funding}[1]{%
+\newcommand{\funding}[1]{
 \vspace{6pt}\noindent{\fontsize{9}{11.2}\selectfont\textbf{Funding:} {#1}\par}}
 
-\newcommand{\institutionalreview}[1]{%
+\newcommand{\institutionalreview}[1]{
 \vspace{6pt}\noindent{\fontsize{9}{11.2}\selectfont\textbf{Institutional Review Board Statement:} {#1}\par}}
 
-\newcommand{\informedconsent}[1]{%
+\newcommand{\informedconsent}[1]{
 \vspace{6pt}\noindent{\fontsize{9}{11.2}\selectfont\textbf{Informed Consent Statement:} {#1}\par}}
 
-\newcommand{\dataavailability}[1]{%
+\newcommand{\dataavailability}[1]{
 \vspace{6pt}\noindent{\fontsize{9}{11.2}\selectfont\textbf{Data Availability Statement:} {#1}\par}}
 
 \newcommand{\durcstatement}[1]{% For journal Drones
@@ -1339,7 +1509,7 @@
 \newcommand{\guidelinesstandards}[1]{% For journal Nursing Reports
 \vspace{6pt}\noindent{\fontsize{9}{11.2}\selectfont\textbf{Guidelines and Standards Statement:} {#1}\par}}
 
-\newcommand{\acknowledgments}[1]{%
+\newcommand{\acknowledgments}[1]{
 \vspace{6pt}\noindent{\fontsize{9}{11.2}\selectfont\textbf{Acknowledgments:} {#1}\par}}
 
 \newcommand{\conflictsofinterest}[1]{%
@@ -1370,7 +1540,7 @@
 \par\vspace{-12pt}\hspace{-0.85cm}{\fontsize{9}{11.2}\selectfont #2}\par}}
 
 % Use for special paragraph requirement in back matter
-\newcommand{\backnotes}[2]{%
+\newcommand{\backnotes}[2]{
 \vspace{6pt}\noindent{\fontsize{9}{11.2}\selectfont\textbf{#1:} {#2}\par}}
 
 %%%%% Defines the appendix
@@ -1567,6 +1737,32 @@
 \DeclareFloatingEnvironment[]{figurewide}
 \DeclareFloatingEnvironment[]{graph}
 
+% Label format
+\RequirePackage{caption}
+\DeclareCaptionLabelFormat{custom}
+{%
+\palatinofont\textbf{#1 #2.}
+}
+% Separator style
+\DeclareCaptionLabelSeparator{custom}{\hspace{-0.15em}}
+% Caption format    
+\DeclareCaptionFormat{custom}
+{%
+\palatinofont\small #1#2#3
+}
+\captionsetup
+{format=custom,%
+  labelformat=custom,%
+  labelsep=custom,
+  position=bottom, 	
+  labelfont={bf, small, stretch=1.17}, 
+  textfont={small, stretch=1.17}, 
+  aboveskip=6pt, 
+  belowskip=-6pt, 
+  singlelinecheck=off, 
+  justification=justified
+}
+
 \RequirePackage{caption}
 \isPreprints{%
 \captionsetup[figure]{position=bottom, 	labelfont={bf, small, stretch=1.17}, labelsep=period, textfont={small, stretch=1.17}, aboveskip=6pt, belowskip=-6pt, singlelinecheck=on, justification=justified}
@@ -1583,19 +1779,19 @@
 
 \captionsetup[graph]{position=bottom, 	labelfont={bf, small, stretch=1.17}, labelsep=period, textfont={small, stretch=1.17}, aboveskip=6pt, belowskip=-6pt, singlelinecheck=on, justification=justified}
 }{
-\captionsetup[figure]{position=bottom, 	labelfont={bf, small, stretch=1.17}, labelsep=period, textfont={small, stretch=1.17}, aboveskip=6pt, belowskip=-6pt, singlelinecheck=off, justification=justified}
+\captionsetup[figure]{position=bottom, 	labelfont={bf, small, stretch=1.17}, textfont={small, stretch=1.17}, aboveskip=6pt, belowskip=-6pt, singlelinecheck=off, justification=justified}
 
-\captionsetup[scheme]{position=bottom,	labelfont={bf, small, stretch=1.17}, labelsep=period, textfont={small, stretch=1.17}, aboveskip=6pt, belowskip=-6pt, singlelinecheck=off, justification=justified}
+\captionsetup[scheme]{position=bottom,	labelfont={bf, small, stretch=1.17}, textfont={small, stretch=1.17}, aboveskip=6pt, belowskip=-6pt, singlelinecheck=off, justification=justified}
 
-\captionsetup[listing]{position=top, 		labelfont={bf, small, stretch=1.17}, labelsep=period, textfont={small, stretch=1.17}, aboveskip=6pt, singlelinecheck=off, justification=justified}
+\captionsetup[listing]{position=top, 		labelfont={bf, small, stretch=1.17}, textfont={small, stretch=1.17}, aboveskip=6pt, singlelinecheck=off, justification=justified}
 
-\captionsetup[chart]{position=bottom, 	labelfont={bf, small, stretch=1.17}, labelsep=period, textfont={small, stretch=1.17}, aboveskip=6pt, belowskip=-6pt, singlelinecheck=off, justification=justified}
+\captionsetup[chart]{position=bottom, 	labelfont={bf, small, stretch=1.17}, textfont={small, stretch=1.17}, aboveskip=6pt, belowskip=-6pt, singlelinecheck=off, justification=justified}
 
-\captionsetup[table]{position=top, 		labelfont={bf, small, stretch=1.17}, labelsep=period, textfont={small, stretch=1.17}, aboveskip=6pt, singlelinecheck=off, justification=justified}
+\captionsetup[table]{position=top, 		labelfont={bf, small, stretch=1.17}, textfont={small, stretch=1.17}, aboveskip=6pt, singlelinecheck=off, justification=justified}
 
-\captionsetup[boxenv]{position=top, 		labelfont={bf, small, stretch=1.17}, labelsep=period, textfont={small, stretch=1.17}, aboveskip=6pt, singlelinecheck=off, justification=justified}
+\captionsetup[boxenv]{position=top, 		labelfont={bf, small, stretch=1.17}, textfont={small, stretch=1.17}, aboveskip=6pt, singlelinecheck=off, justification=justified}
 
-\captionsetup[graph]{position=bottom, 	labelfont={bf, small, stretch=1.17}, labelsep=period, textfont={small, stretch=1.17}, aboveskip=6pt, belowskip=-6pt, singlelinecheck=off, justification=justified}
+\captionsetup[graph]{position=bottom, 	labelfont={bf, small, stretch=1.17}, textfont={small, stretch=1.17}, aboveskip=6pt, belowskip=-6pt, singlelinecheck=off, justification=justified}
 }
 
 %% Non-floating figure block with long caption (\captionof{figure}{...}).
@@ -1648,7 +1844,7 @@
 \renewcommand\headrule{} %% set line (from fancyhdr) in header to nothing
 
 \pagestyle{fancy}
-\lhead{
+\lhead{\palatinofont%
 	\ifthenelse{\equal{\@journal}{preprints}%
 	\OR \equal{\@journal}{preprintschicago}
 	\OR \equal{\@journal}{preprintsapa}
@@ -1680,7 +1876,7 @@
 		}%
 	}
 	
-\rhead{%
+\rhead{\palatinofont%
     \isBookContribution{}{%
 	\ifthenelse{\equal{\@arttype}{Supfile}}{%
 		\fontsize{8}{8}\selectfont S\thepage{} of S\pageref*{LastPage}%
@@ -1697,7 +1893,7 @@
 	}%
 }
 
-\cfoot{%
+\cfoot{\palatinofont%
 	\isBookContribution{%
 		\fontsize{8}{8}\selectfont\thepage
 		}{%
@@ -1707,7 +1903,7 @@
 \isBookContribution{%
     }{%
       \isPreprints{}{%
-        \rfoot{%
+        \rfoot{\palatinofont%
 	   \fontsize{8}{8}\selectfont%
 	  {\url{https://doi.org/\@doinum}}%
      }
@@ -1868,12 +2064,5 @@
   \newlength{\cellWidthY}
   \newlength{\cellWidthZ}
  \newcommand{\PreserveBackslash}[1]{\let\temp=\\#1\let\\=\temp} % For table column setting in XML2PDF
-
-\ifmdpiunicodemaps
-  \InputIfFileExists{Definitions/unicode.tex}{}{%
-    \PackageError{mdpi}{Missing Definitions/unicode.tex}{%
-      Install the MDPI Definitions bundle beside the main .tex file.}%
-  }%
-\fi
 
 \endinput

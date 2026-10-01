@@ -1,7 +1,7 @@
 %
 %\documentclass[particles,article,submit,pdftex,moreauthors]{Definitions/mdpi} 
 %\documentclass[particles,review,submit,pdftex,moreauthors]{Definitions/mdpi} 
-\documentclass[preprints,article,submit,pdftex,moreauthors]{Definitions/mdpi} 
+\documentclass[particles,article,accept,pdftex,moreauthors]{Definitions/mdpi}
 % For posting an early version of this manuscript as a preprint, you may use "preprints" as the journal. Changing "submit" to "accept" before posting will remove line numbers.
 
 % Below journals will use APA reference format:
@@ -38,14 +38,13 @@
 \articlenumber{0}
 \pubyear{2026}
 \copyrightyear{2026}
-%\externaleditor{Firstname Lastname} % More than 1 editor, please add `` and '' before the last editor name
-\datereceived{ } 
-\daterevised{ } % Comment out if no revised date
-\dateaccepted{ } 
-\datepublished{ } 
+\externaleditor{Mª Ángeles Pérez García} % More than 1 editor, please add `` and '' before the last editor name
+\datereceived{3 September 2026}
+\daterevised{22 September 2026} % Comment out if no revised date
+\dateaccepted{25 September 2026}
+\datepublished{ }
 %\datecorrected{} % For corrected papers: "Corrected: XXX" date in the original paper.
 %\dateretracted{} % For retracted papers: "Retracted: XXX" date in the original paper.
-\hreflink{https://doi.org/} % If needed use \linebreak
 %\doinum{}
 %\CorrStatement{yes} % For updates
 %\longauthorlist{yes} % For many authors that exceed the left citation part
@@ -89,13 +88,13 @@
 
 % Useful macros for annotation
 %\newcommand*{\xred}{\color{red}}
-\newcommand*{\xblue}{\color{blue}}
+\newcommand*{\xblue}{}
 %\newcommand*{\xgreen}{\color{green}}
 %\newcommand*{\rcite}{{\xred [Cite!]}}
-\newcommand*{\AJS}[1]{{\color{red} AJS: #1}}
-
-\setlength{\headheight}{25.0pt}
-\addtolength{\topmargin}{-13.0pt}
+\newcommand*{\AJS}[1]{}
+%
+%\setlength{\headheight}{25.0pt}
+%\addtolength{\topmargin}{-13.0pt}
 
 %=================================================================
 % The following two lines should be uncommented if the LaTeX file is uploaded to arXiv.org in a century, 
@@ -106,17 +105,17 @@
 %% For proofs, please use the proof environment (the amsthm package is loaded by the MDPI class).
 %=================================================================
 % Full title of the paper (Capitalized)
-\Title{Science Of Nuclear Fusion:\texorpdfstring{\\ \Large{Insights and Ideas}}{ Insights and Ideas}}
+\Title{Science of Nuclear Fusion: Insights and Ideas}
 
 % MDPI internal command: Title for citation in the left column
-\TitleCitation{Science Of Nuclear Fusion}
+%\TitleCitation{Science Of Nuclear Fusion}
 
 % Author Orchid ID: enter ID or remove command
 \newcommand{\orcidauthorB}{0000-0001-5474-2649} % Add \orcidA{} behind the author's name
 \newcommand{\orcidauthorA}{0000-0001-8217-1484} % Add \orcidB{} behind the author's name
 
 % Authors, for the paper (add full first names)
-\Author{Johann Rafelski ${}^{1}$\orcidA{} and Andrew J. Steinmetz ${}^{2,1}$\orcidB{}}
+\Author{Johann Rafelski ${}^{1}$\orcidA{} and Andrew J. Steinmetz ${}^{2,1,}$*\orcidB{}}
 
 %\longauthorlist{yes}
 
@@ -134,19 +133,21 @@
 
 % If this is a ACS style journal (Except for the above Chicago and APA journals, all others are in the ACS format): 
 % Lastname, F.; Lastname, F.; Lastname, F.
-\isAPAStyle{%
-\AuthorCitation{Rafelski, J. \& Steinmetz, A. J.}
-}{%
-\isChicagoStyle{%
-\AuthorCitation{Rafelski, Johann and Andrew Steinmetz.}
-}{
-\AuthorCitation{Rafelski, J.; Steinmetz, A. J.}
-}
-}
+%\isAPAStyle{%
+%\AuthorCitation{Rafelski, J. \& Steinmetz, A. J.}
+%}{%
+%\isChicagoStyle{%
+%\AuthorCitation{Rafelski, Johann and Andrew Steinmetz.}
+%}{
+%%\AuthorCitation{Rafelski, J.; Steinmetz, A. J.}
+%}
+%}
 % Affiliations / Addresses (Add [1] after \address if there is only one affiliation.)
 \address{%
-${}^{1}$ Department of Physics, The University of Arizona, Tucson, AZ 85721, USA\\
-${}^{2}$ School of Physics, Georgia Institute of Technology, Atlanta, GA 30332, USA}
+$^{1}$ \quad Department of Physics, The University of Arizona, Tucson, AZ 85721, USA\\
+$^{2}$ \quad School of Physics, Georgia Institute of Technology, Atlanta, GA 30332, USA}
+
+\corres{Correspondence: ajsteinmetz@gatech.edu}
 % Contact information of the corresponding author
 %\corres{Correspondence: johannr@arizona.edu%
 %; ajsteinmetz@arizona.edu
