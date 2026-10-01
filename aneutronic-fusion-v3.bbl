@@ -45,7 +45,7 @@ Rafelski, J.; Birrell, J.;  et~al.
   Yang]{Rafelski:2024fej}
 Rafelski, J.; Birrell, J.;  et~al.
 \newblock Quarks to Cosmos: Particles and Plasma in Cosmological evolution.
-\newblock {\em Eur. Phys. J. ST} {\bf 2025},
+\newblock {\em Eur. Phys. J. ST} {\bf 2025}, {\em 234},~1125--1329,
   \href{http://arxiv.org/abs/2409.19031}{{\normalfont
   [arXiv:hep-ph/2409.19031]}}.
 \newblock {\url{https://doi.org/10.1140/epjs/s11734-025-01470-w}}.
@@ -77,14 +77,16 @@ von Baeckmann, A.
 \newblock Modern fuel cycle technologies and IAEA safeguards.
 \newblock {\em IAEA Bulletin} {\bf 1990}, {\em 32},~11--15.
 \newblock
-  \url{https://www.iaea.org/sites/default/files/publications/magazines/bulletin/bull32-1/32103451115.pdf}.
+  \url{https://www.iaea.org/sites/default/files/publications/magazines/bulletin/bull32-1/32103451115.pdf}
+  (accessed on 30 September 2026).
 
 \bibitem[Dalton(2017)]{dalton2017toward}
 Dalton, T.
 \newblock Toward a nuclear firewall: Bridging the NPT’s three pillars.
 \newblock {\em JSTOR Security Studies Collection} {\bf 2017}.
 \newblock
-  \url{https://carnegieendowment.org/files/CP_301_Dalton_et_al_Firewall_Final_Web.pdf}.
+  \url{https://carnegieendowment.org/files/CP_301_Dalton_et_al_Firewall_Final_Web.pdf}
+  (accessed on 30 September 2026).
 
 \bibitem[Abdou et~al.(2021)Abdou, Riva, Ying, Day, Loarte, Baylor,
   Humrickhouse, Fuerst, and Cho]{abdou2021physics}
@@ -100,13 +102,14 @@ Abdou, M.; Riva, M.;  et~al.
   Fuel Cycle for Fusion Energy}; Number 2049 in IAEA-TECDOC, {International
   Atomic Energy Agency}: Vienna,  2024.
 \newblock
-  \url{http://www.iaea.org/publications/15616/plasma-physics-and-technology-aspects-of-the-deuterium-tritium-fuel-cycle-for-fusion-energy}.
+  \url{http://www.iaea.org/publications/15616/plasma-physics-and-technology-aspects-of-the-deuterium-tritium-fuel-cycle-for-fusion-energy}
+  (accessed on 30 September 2026).
 
 \bibitem[{Laboratory for Laser Energetics}()]{lle_cryogenic_tritium}
 {Laboratory for Laser Energetics}.
 \newblock Cryogenic \& Tritium Facility.
-\newblock \url{https://www.lle.rochester.edu/cryogenic-tritium/}.
-\newblock Accessed: 2026-08-31.
+\newblock \url{https://www.lle.rochester.edu/cryogenic-tritium/} (accessed on
+  31 August 2026).
 
 \bibitem[{Asplund} et~al.(2021){Asplund}, {Amarsi}, and
   {Grevesse}]{Asplund:2021Sun}
@@ -138,7 +141,8 @@ Aymar, R.
   Provisional Version).
 \newblock ITER Technical Report ITR-18-003, ITER Organization,  2018.
 \newblock
-  \url{https://www.iter.org/sites/default/files/media/2024-04/iter_research_plan_within_the_staged_approach_leviii_provversion.pdf}.
+  \url{https://www.iter.org/sites/default/files/media/2024-04/iter_research_plan_within_the_staged_approach_leviii_provversion.pdf}
+  (accessed on 30 September 2026).
 
 \bibitem[Campbell et~al.(2024)Campbell, Loarte, Boilson, Bonnin, de~Vries,
   Giancarli, Gribov, Kim, Lehnen, Luce, Nunes, Polevoi, Pinches, Pitts,
@@ -148,7 +152,8 @@ Campbell, D.J.; Loarte, A.;  et~al.
   Version); ITR-24-005.
 \newblock ITER Technical Report ITR-24-005, {ITER Organization},  2024.
 \newblock
-  \url{https://www.iter.org/sites/default/files/media/2024-04/itr-24-005-ok1.pdf}.
+  \url{https://www.iter.org/sites/default/files/media/2024-04/itr-24-005-ok1.pdf}
+  (accessed on 30 September 2026).
 
 \bibitem[Loarte et~al.(2025)Loarte, Pitts, Wauters, Nunes, de~Vries, Kim,
   Kochl, Polevoi, Lehnen, Artola, et~al.]{loarte2025new}
@@ -161,7 +166,7 @@ Loarte, A.; Pitts, R.;  et~al.
   Managi]{Takeda2023FusionYearsAway}
 Takeda, S.; Keeley, A.R.;  et~al.
 \newblock How Many Years Away is Fusion Energy? A Review.
-\newblock {\em J. Fusion Energ.} {\bf 2023}, {\em 42}.
+\newblock {\em J. Fusion Energ.} {\bf 2023}, {\em 42},~16.
 \newblock {\url{https://doi.org/10.1007/s10894-023-00361-z}}.
 
 \bibitem[Mohamed et~al.(2024)Mohamed, Zakuan, Tengku~Hassan, Lock, and
@@ -175,7 +180,9 @@ Mohamed, M.; Zakuan, N.D.;  et~al.
 \bibitem[Morse(2018)]{morse2018nuclear}
 Morse, E.
 \newblock {\em Nuclear fusion}; Springer,  2018.
-\newblock {\url{https://doi.org/10.1007/978-3-319-98171-0}}.
+\newblock \url{https://doi.org/10.1007/978-3-319-98171-0}. Correction in
+  \emph{Nuclear Fusion}; Springer: Cham, Switzerland, 2019; p.~C1.
+  \url{https://doi.org/10.1007/978-3-319-98171-0_13}.
 
 \bibitem[Lidsky(1983)]{lidsky1983trouble}
 Lidsky, L.M.
@@ -229,7 +236,7 @@ Hofmann, I.
 Hurricane, O.A.; Patel, P.K.;  et~al.
 \newblock Physics principles of inertial confinement fusion and U.S. program
   overview.
-\newblock {\em Rev. Mod. Phys.} {\bf 2023}, {\em 95}.
+\newblock {\em Rev. Mod. Phys.} {\bf 2023}, {\em 95},~025005.
 \newblock {\url{https://doi.org/10.1103/revmodphys.95.025005}}.
 
 \bibitem[Zylstra et~al.(2022)Zylstra, Hurricane, Callahan, Kritcher, Ralph,
@@ -237,7 +244,9 @@ Hurricane, O.A.; Patel, P.K.;  et~al.
 Zylstra, A.B.; Hurricane, O.A.;  et~al.
 \newblock Burning plasma achieved in inertial fusion.
 \newblock {\em Nature} {\bf 2022}, {\em 601},~542--548.
-\newblock {\url{https://doi.org/10.1038/s41586-021-04281-w}}.
+\newblock \url{https://doi.org/10.1038/s41586-021-04281-w}. Publisher
+  Correction in \emph{Nature} \textbf{2022}, \emph{603}, E34.
+  \url{https://doi.org/10.1038/s41586-022-04607-2}.
 
 \bibitem[Hurricane et~al.(2024)Hurricane, Allen, Bachmann, Baker, Baxamusa,
   Bhandarkar, Biener, Bionta, Braun, Briggs, Brunton, Casey, Chapman, Choate,
@@ -271,7 +280,9 @@ Gopalaswamy, V.; Williams, C.;  et~al.
 \newblock Demonstration of a hydrodynamically equivalent burning plasma in
   direct-drive inertial confinement fusion.
 \newblock {\em Nature Phys.} {\bf 2024}, {\em 20},~751--757.
-\newblock {\url{https://doi.org/10.1038/s41567-023-02361-4}}.
+\newblock \url{https://doi.org/10.1038/s41567-023-02361-4}. Publisher
+  Correction in \emph{Nat. Phys.} \textbf{2024}, \emph{20}, 1217.
+  \url{https://doi.org/10.1038/s41567-024-02577-y}.
 
 \bibitem[Freestone et~al.(2007)Freestone, Meeks, Sax, and
   Higgitt]{freestone2007lycurgus}
@@ -314,13 +325,16 @@ Grayson, C.; Rafelski, J.
   structures.
 \newblock United States US Patent App. 19/773,972,  Aug 2026.
 \newblock
-  \url{https://inventions.arizona.edu/tech/Sub-Picosecond_Coulomb_Implosion_of_Resonant_Nanoscale_Structures_for_Nuclear_Fusion}.
+  \url{https://inventions.arizona.edu/tech/Sub-Picosecond_Coulomb_Implosion_of_Resonant_Nanoscale_Structures_for_Nuclear_Fusion}
+  (accessed on 30 September 2026).
 
 \bibitem[Bir{\'o} and {NAPLIFE Collaboration}(2025)]{Biro:2025EPJ}
 Bir{\'o}, T.; {NAPLIFE Collaboration}.
 \newblock Nanotechnology and plasmonics for fusion.
 \newblock {\em Eur. Phys. J. ST} {\bf 2025}, {\em 234},~2979--2984.
-\newblock {\url{https://doi.org/10.1140/epjs/s11734-025-01562-7}}.
+\newblock \url{https://doi.org/10.1140/epjs/s11734-025-01562-7}. Correction in
+  \emph{Eur. Phys. J. ST} \textbf{2025}, \emph{234} (Suppl.~1), 29.
+  \url{https://doi.org/10.1140/epjs/s11734-025-01902-7}.
 
 \bibitem[Csernai and {NAPLIFE Collaboration}(2025)]{Csernai:2025EPJ}
 Csernai, L.P.; {NAPLIFE Collaboration}.
@@ -514,11 +528,8 @@ Aguilar, M.; {AMS Collaboration}.;  et~al.
 {MHz`as}.
 \newblock Solar System Abundances.
 \newblock
-  \url{https://commons.wikimedia.org/wiki/File:SolarSystemAbundances.svg},
-  2012.
-\newblock Licensed under
-  \href{https://creativecommons.org/licenses/by-sa/3.0/}{CC~BY-SA~3.0} via
-  Wikimedia Commons.
+  \url{https://commons.wikimedia.org/wiki/File:SolarSystemAbundances.svg}
+  (accessed on 30 September 2026),  2012.
 
 \bibitem[Barker(2002)]{Barker:2002mfp}
 Barker, F.C.
@@ -594,18 +605,16 @@ Koning, A.J.; Rochman, D.;  et~al.
 {Ehamberg}.
 \newblock Alfa, beta and gamma radiation penetration diagram.
 \newblock
-  \url{https://commons.wikimedia.org/wiki/File:Alfa_beta_gamma_radiation_penetration.svg},
-   2009.
-\newblock Licensed under
-  \href{https://creativecommons.org/licenses/by-sa/3.0/}{CC~BY-SA~3.0} via
-  Wikimedia Commons.
+  \url{https://commons.wikimedia.org/wiki/File:Alfa_beta_gamma_radiation_penetration.svg}
+  (accessed on 30 September 2026),  2009.
 
 \bibitem[Coleman and Kovari(2018)]{coleman2018global}
 Coleman, M.; Kovari, M.
 \newblock Global supply of tritium for fusion R\&D.
 \newblock In Proceedings of the 27th IAEA Fusion Energy Conference,  2018,
   number IAEA-CN--258 in IAEA Fusion Energy Conference, pp. 662--662.
-\newblock \url{https://inis.iaea.org/records/td1c1-evd46}.
+\newblock \url{https://inis.iaea.org/records/td1c1-evd46} (accessed on 30
+  September 2026).
 
 \bibitem[Clery(2022)]{Clery2022FusionFuel}
 Clery, D.
@@ -630,7 +639,7 @@ Beresnyak, A.
   Fisch]{ochs2026bremsstrahlung}
 Ochs, I.E.; Kolmes, E.J.;  et~al.
 \newblock Bremsstrahlung constraints on proton-boron 11 inertial fusion.
-\newblock {\em Phys. Plasmas} {\bf 2026}, {\em 33}.
+\newblock {\em Phys. Plasmas} {\bf 2026}, {\em 33},~012703.
 \newblock {\url{https://doi.org/10.1063/5.0305034}}.
 
 \bibitem[Harms et~al.(2000)Harms, Kingdon, Miley, and
@@ -677,11 +686,8 @@ Adelberger, E.G.; Garc{\'\i}a, A.;  et~al.
 \bibitem[Szam(2012)]{SzamPPCycle:2012}
 Szam, D.
 \newblock Proton--proton cycle.
-\newblock
-  \url{https://commons.wikimedia.org/wiki/File:Proton_proton_cycle.svg},  2012.
-\newblock Licensed under
-  \href{https://creativecommons.org/licenses/by-sa/2.5/}{CC~BY-SA~2.5} via
-  Wikimedia Commons.
+\newblock \url{https://commons.wikimedia.org/wiki/File:Proton_proton_cycle.svg}
+  (accessed on 30 September 2026),  2012.
 
 \bibitem[Krane(1991)]{krane1991introductory}
 Krane, K.S.
@@ -737,7 +743,7 @@ Epelbaum, E.; Krebs, H.;  et~al.
 \bibitem[Grayson and Rafelski(2025)]{Grayson:2025kva}
 Grayson, C.; Rafelski, J.
 \newblock Nuclear Fusion Enhancement by Heavy Nuclear Catalysts.
-\newblock {\em Eur. Phys. J. ST} {\bf 2025},
+\newblock {\em Eur. Phys. J. ST} {\bf 2025}, {\em 234},~2967--2977,
   \href{http://arxiv.org/abs/2502.07804}{{\normalfont
   [arXiv:physics.plasm-ph/2502.07804]}}.
 \newblock {\url{https://doi.org/10.1140/epjs/s11734-025-01623-x}}.
@@ -803,19 +809,19 @@ Labaune, C.; Baccou, C.;  et~al.
   [arXiv:physics.plasm-ph/1310.2002]}}.
 \newblock {\url{https://doi.org/10.1038/ncomms3506}}.
 
-\bibitem[Labaune et~al.(2014)Labaune, Rafelski, Depierreux, and
-  Goyon]{labaune2014production}
+\bibitem[Labaune et~al.(2014)Labaune, Rafelski, Depierreux, Goyon, and
+  Yahia]{labaune2014production}
 Labaune, C.; Rafelski, J.;  et~al.
 \newblock Production d'{\'e}nergie par des r{\'e}actions de fusion
   nucl{\'e}aires aneutroniques initi{\'e}es par lasers.
-\newblock French Patent FR 2 988 897 B1,  oct 2014.
+\newblock French Patent FR 2 988 897 B1,  9~May 2014.
 
 \bibitem[Scisci{\`o} et~al.(2025)Scisci{\`o}, Petringa, Zhu, Rodrigues, Alonzo,
   Andreoli, Filippi, Consoli, Huault, Raffestin, et~al.]{sciscio2025laser}
 Scisci{\`o}, M.; Petringa, G.;  et~al.
 \newblock Laser-initiated p--11B fusion reactions in petawatt
   high-repetition-rate laser facilities.
-\newblock {\em Matter Radiat. Extremes} {\bf 2025}, {\em 10}.
+\newblock {\em Matter Radiat. Extremes} {\bf 2025}, {\em 10},~037402.
 \newblock {\url{https://doi.org/10.1063/5.0241993}}.
 
 \bibitem[Aladi et~al.(2025)Aladi, Benabdelghani, and Kedves]{Aladi2025Alpha}
@@ -825,12 +831,61 @@ Aladi, M.; Benabdelghani, I.;  et~al.
 \newblock {\em Eur. Phys. J. ST} {\bf 2025}, {\em 234},~2999--3005.
 \newblock {\url{https://doi.org/10.1140/epjs/s11734-025-01674-0}}.
 
-\bibitem[Mehlhorn et~al.(2022)Mehlhorn, Labun, Hegelich, Margarone, Gu, Batani,
-  Campbell, Hu, and Ramakrishna]{mehlhorn2022path}
-Mehlhorn, T.A.; Labun, L.;  et~al.
-\newblock Path to increasing p-B11 reactivity via ps and ns lasers.
-\newblock {\em Laser Part. Beams} {\bf 2022}, {\em 2022},~e1.
-\newblock {\url{https://doi.org/10.1155/2022/2355629}}.
+\bibitem[Belyaev et~al.(2005)Belyaev, Matafonov, Vinogradov, Krainov, Lisitsa,
+  Roussetski, Ignatyev, and Andrianov]{Belyaev:2005pB}
+Belyaev, V.S.; Matafonov, A.P.;  et~al.
+\newblock Observation of neutronless fusion reactions in picosecond laser
+  plasmas.
+\newblock {\em Phys. Rev. E} {\bf 2005}, {\em 72},~026406.
+\newblock {\url{https://doi.org/10.1103/PhysRevE.72.026406}}.
+
+\bibitem[Margarone et~al.(2014)Margarone, Picciotto, Velyhan, Krasa, Kucharik,
+  Mangione, Szydlowsky, Malinowska, Bertuccio, Shi, et~al.]{Margarone:2014pB}
+Margarone, D.; Picciotto, A.;  et~al.
+\newblock Advanced scheme for high-yield laser driven nuclear reactions.
+\newblock {\em Plasma Phys. Control. Fusion} {\bf 2014}, {\em 57},~014030.
+\newblock {\url{https://doi.org/10.1088/0741-3335/57/1/014030}}.
+
+\bibitem[Picciotto et~al.(2014)Picciotto, Margarone, Velyhan, Bellutti, Krasa,
+  Szydlowsky, Bertuccio, Shi, Mangione, Prokupek, et~al.]{Picciotto:2014pB}
+Picciotto, A.; Margarone, D.;  et~al.
+\newblock Boron-Proton Nuclear-Fusion Enhancement Induced in Boron-Doped
+  Silicon Targets by Low-Contrast Pulsed Laser.
+\newblock {\em Phys. Rev. X} {\bf 2014}, {\em 4},~031030.
+\newblock {\url{https://doi.org/10.1103/PhysRevX.4.031030}}.
+
+\bibitem[Baccou et~al.(2015)Baccou, Depierreux, Yahia, Neuville, Goyon,
+  De~Angelis, Consoli, Ducret, Boutoux, Rafelski, et~al.]{Baccou:2015pB}
+Baccou, C.; Depierreux, S.;  et~al.
+\newblock New scheme to produce aneutronic fusion reactions by
+  laser-accelerated ions.
+\newblock {\em Laser Part. Beams} {\bf 2015}, {\em 33},~117--122.
+\newblock {\url{https://doi.org/10.1017/S0263034615000178}}.
+
+\bibitem[Tayyab et~al.(2019)Tayyab, Bagchi, Moorti, and Chakera]{Tayyab:2019pB}
+Tayyab, M.; Bagchi, S.;  et~al.
+\newblock Experimental investigation on nuclear reactions using a
+  laser-accelerated proton and deuteron beam.
+\newblock {\em Plasma Phys. Control. Fusion} {\bf 2019}, {\em 61},~115007.
+\newblock {\url{https://doi.org/10.1088/1361-6587/ab4339}}.
+
+\bibitem[Giuffrida et~al.(2020)Giuffrida, Belloni, Margarone, Petringa,
+  Milluzzo, Scuderi, Velyhan, Rosinski, Picciotto, Kucharik,
+  et~al.]{Giuffrida:2020pB}
+Giuffrida, L.; Belloni, F.;  et~al.
+\newblock High-current stream of energetic $\alpha$ particles from laser-driven
+  proton-boron fusion.
+\newblock {\em Phys. Rev. E} {\bf 2020}, {\em 101},~013204.
+\newblock {\url{https://doi.org/10.1103/PhysRevE.101.013204}}.
+
+\bibitem[Bonvalet et~al.(2021)Bonvalet, Nicola{\"\i}, Raffestin,
+  D'Humi{\`e}res, Batani, Tikhonchuk, Kantarelou, Giuffrida, Tosca, Korn,
+  et~al.]{Bonvalet:2021pB}
+Bonvalet, J.; Nicola{\"\i}, P.;  et~al.
+\newblock Energetic $\alpha$-particle sources produced through proton-boron
+  reactions by high-energy high-intensity laser beams.
+\newblock {\em Phys. Rev. E} {\bf 2021}, {\em 103},~053202.
+\newblock {\url{https://doi.org/10.1103/PhysRevE.103.053202}}.
 
 \bibitem[Margarone et~al.(2022)Margarone, Bonvalet, Giuffrida, Morace,
   Kantarelou, Tosca, Raffestin, Nicolai, Picciotto, Abe,
@@ -839,6 +894,21 @@ Margarone, D.; Bonvalet, J.;  et~al.
 \newblock In-target proton--boron nuclear fusion using a PW-class laser.
 \newblock {\em Appl. Sciences} {\bf 2022}, {\em 12},~1444.
 \newblock {\url{https://doi.org/10.3390/app12031444}}.
+
+\bibitem[Hegelich et~al.(2023)Hegelich, Labun, Labun, Mehlhorn, and
+  Batani]{Hegelich:2023pB}
+Hegelich, B.M.; Labun, L.;  et~al.
+\newblock Photon and Neutron Production as In Situ Diagnostics of Proton-Boron
+  Fusion.
+\newblock {\em Laser Part. Beams} {\bf 2023}, {\em 2023},~e7.
+\newblock {\url{https://doi.org/10.1155/2023/6924841}}.
+
+\bibitem[Mehlhorn et~al.(2022)Mehlhorn, Labun, Hegelich, Margarone, Gu, Batani,
+  Campbell, Hu, and Ramakrishna]{mehlhorn2022path}
+Mehlhorn, T.A.; Labun, L.;  et~al.
+\newblock Path to increasing p-B11 reactivity via ps and ns lasers.
+\newblock {\em Laser Part. Beams} {\bf 2022}, {\em 2022},~e1.
+\newblock {\url{https://doi.org/10.1155/2022/2355629}}.
 
 \bibitem[Kolk et~al.(2022)Kolk, Macon, et~al.]{Kolk:2022isp}
 Kolk, B.V.; Macon, K.T.;  et~al.
@@ -889,12 +959,12 @@ Oku, T.; Nishiwaki, A.;  et~al.
 \bibitem[Labaune and Rafelski(2019)]{Labaune2019US10217538B2}
 Labaune, C.; Rafelski, J.
 \newblock Creation of isotopes using laser beams.
-\newblock United States Patent US 10,217,538 B2,  July 2019.
+\newblock United States Patent US 10,217,538 B2,  26~February 2019.
 
 \bibitem[Rafelski and M{\"u}ller(2025)]{Rafelski:2025uio}
 Rafelski, J.; M{\"u}ller, B.
 \newblock Molecular $^{9}$Be $+\,p$ fusion reaction.
-\newblock {\em Eur. Phys. J. ST} {\bf 2025},
+\newblock {\em Eur. Phys. J. ST} {\bf 2025}, {\em 234},~2957--2966,
   \href{http://arxiv.org/abs/2503.00023}{{\normalfont
   [arXiv:physics.app-ph/2503.00023]}}.
 \newblock {\url{https://doi.org/10.1140/epjs/s11734-025-01626-8}}.
@@ -1021,6 +1091,11 @@ Szokol, {\'A}.N.; {NAPLIFE Collaboration}.;  et~al.
   \href{http://arxiv.org/abs/2402.18138}{{\normalfont [2402.18138]}}.
 \newblock {\url{https://doi.org/10.48550/arXiv.2402.18138}}.
 
+\bibitem[Nagyn{\'e}~Szokol()]{NagyneSzokol:pc}
+Nagyn{\'e}~Szokol, {\'A}.
+\newblock {NAPLIFE} Collaboration.
+\newblock Private communication.
+
 \bibitem[Jones et~al.(1989)Jones, Palmer, Czirr, Decker, Jensen, Thorne,
   Taylor, and Rafelski]{Jones:1989dv}
 Jones, S.E.; Palmer, E.P.;  et~al.
@@ -1094,9 +1169,9 @@ Iliescu, M.; Bazzi, M.;  et~al.
 {Virgin Galactic}.
 \newblock Virgin Galactic Unveils Mach 3 Aircraft Design for High Speed Travel,
   and Signs Memorandum of Understanding with Rolls-Royce,  2020.
-\newblock Archived
-  \href{https://web.archive.org/web/20200803152200/https://www.virgingalactic.com/articles/virgin-galactic-unveils-mach-3-aircraft-design-for-high-speed-travel-and-signs-memorandum-of-understanding-with-rolls-royce/}{URL}
-  [Accessed 05-08-2025].
+\newblock Archived at
+  \url{https://web.archive.org/web/20200803152200/https://www.virgingalactic.com/articles/virgin-galactic-unveils-mach-3-aircraft-design-for-high-speed-travel-and-signs-memorandum-of-understanding-with-rolls-royce/}
+  (accessed on 30 September 2026).
 
 \bibitem[Karsch(2002)]{Karsch2002Neutrons}
 Karsch, S.
@@ -1104,6 +1179,6 @@ Karsch, S.
   new tool for plasma diagnostics.
 \newblock PhD thesis, Fakult\"at f\"ur Physik, Ludwig-Maximilians-Universit\"at
   M\"unchen, M\"unchen,  2002.
-\newblock \url{https://edoc.ub.uni-muenchen.de/703/}.
+\newblock {\url{https://doi.org/10.5282/edoc.703}}.
 
 \end{thebibliography}
