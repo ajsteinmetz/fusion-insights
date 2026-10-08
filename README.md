@@ -30,16 +30,29 @@ style="width: 1em; margin-inline-start: 0.5em"
 alt="ORCID iD icon"/> Andrew J. Steinmetz</a>
 
 ## cite as
-Rafelski, J. & Steinmetz, A. J. Science of Nuclear Fusion: Insights and Ideas. arXiv:2609.01366 [nucl-th] (2026).
+Rafelski, J. & Steinmetz, A. J. Science of Nuclear Fusion: Insights and Ideas. *Particles* **9**, 94 (2026). https://doi.org/10.3390/particles9040094
 
 Published in the special issue ["Particles and Plasmas in Strong Fields, Part 2"](https://www.mdpi.com/journal/particles/special_issues/C8XU54WI5Z) of *Particles*.
 
-Published version: Rafelski, J. & Steinmetz, A. J. Science of Nuclear Fusion: Insights and Ideas. *Particles* **9**, 94 (2026). https://doi.org/10.3390/particles9040094
+```bibtex
+@article{Rafelski:2026gta,
+  author        = {Rafelski, Johann and Steinmetz, Andrew J.},
+  title         = {Science of Nuclear Fusion: Insights and Ideas},
+  journal       = {Particles},
+  volume        = {9},
+  number        = {4},
+  pages         = {94},
+  year          = {2026},
+  doi           = {10.3390/particles9040094},
+  eprint        = {2609.01366},
+  archivePrefix = {arXiv},
+  primaryClass  = {nucl-th}
+}
+```
 
 ## doi/arXiv id
+- https://doi.org/10.3390/particles9040094
 - https://arxiv.org/abs/2609.01366
-- https://doi.org/10.48550/arXiv.2609.01366
-- https://doi.org/10.3390/particles9040094 (published version)
 
 ## contents
 - `aneutronic-fusion-v3.tex`, `aneutronic-fusion-v3.bib`, `aneutronic-fusion-v3.bbl` -- manuscript source and bibliography.
@@ -53,4 +66,4 @@ Published version: Rafelski, J. & Steinmetz, A. J. Science of Nuclear Fusion: In
 ## license
 Copyright © 2026 by the authors.
 
-This preprint is distributed under the [arXiv.org perpetual, non-exclusive license 1.0](http://arxiv.org/licenses/nonexclusive-distrib/1.0/). The published version is an open access article distributed under the [Creative Commons Attribution (CC BY 4.0) license](https://creativecommons.org/licenses/by/4.0/).
+This preprint is distributed under the [Creative Commons Attribution (CC BY 4.0) license](https://creativecommons.org/licenses/by/4.0/), as is the published version.
