@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Optimal ${}^3$He spike fraction and burn temperature for a d-3He plasma.
 
-Produces the numbers of table 'tab:He3Spike' in aneutronic-fusion-v3.tex: for
+Produces the numbers of table 'tab:He3Spike' in particles-4572719.tex: for
 each ${}^3$He number fraction x the temperature T_opt that maximizes the
 heating-to-bremsstrahlung ratio
 
