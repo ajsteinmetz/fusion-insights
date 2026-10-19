@@ -354,17 +354,15 @@ Csernai, L.P.; {NAPLIFE Collaboration}.
 \newblock {\em Eur. Phys. J. Spec. Top.} {\bf 2025}, {\em 234},~2991--2992.
 \newblock {\url{https://doi.org/10.1140/epjs/s11734-025-01466-6}}.
 
-\bibitem[Kedves et~al.(2025)Kedves, {NAPLIFE Collaboration}, and
-  Aladi]{Kedves:2025EPJ}
-Kedves, M.{\'A}.; {NAPLIFE Collaboration}.; Aladi, M.
+\bibitem[Kedves and Aladi(2025)]{Kedves:2025EPJ}
+Kedves, M.{\'A}.; Aladi, M.
 \newblock High-intensity femtosecond laser irradiation experiments on polymer
   targets doped with gold nanorods.
 \newblock {\em Eur. Phys. J. Spec. Top.} {\bf 2025}, {\em 234},~3015--3019.
 \newblock {\url{https://doi.org/10.1140/epjs/s11734-025-01523-0}}.
 
-\bibitem[Csernai and {NAPLIFE and FUSENOW
-  Collaborations}(2026)]{Csernai:2026MDPI}
-Csernai, L.P.; {NAPLIFE and FUSENOW Collaborations}.
+\bibitem[Csernai(2026)]{Csernai:2026MDPI}
+Csernai, L.P.
 \newblock Laser-Induced Fusion via Resonant Nanorod Antennas.
 \newblock {\em Particles} {\bf 2026}, {\em 9},~86.
 \newblock {\url{https://doi.org/10.3390/particles9030086}}.
@@ -1020,40 +1018,38 @@ Schuck, P.J.; Fromm, D.P.; Sundaramurthy, A.; Kino, G.S.; Moerner, W.E.
 \newblock {\em Phys. Rev. Lett.} {\bf 2005}, {\em 94},~017402.
 \newblock {\url{https://doi.org/10.1103/PhysRevLett.94.017402}}.
 
-\bibitem[Bir{\'o} and {NAPLIFE Collaboration}(2026)]{tamas2025nanofusion}
-Bir{\'o}, T.S.; {NAPLIFE Collaboration}.
+\bibitem[Bir{\'o}(2026)]{tamas2025nanofusion}
+Bir{\'o}, T.S.
 \newblock Nanofusion: Plasmons Help to Accelerate Protons.
 \newblock {\em Particles} {\bf 2026}, {\em 9},~28.
 \newblock {\url{https://doi.org/10.3390/particles9010028}}.
 
-\bibitem[Papp et~al.(2022)Papp, {NAPLIFE Collaboration}, Bravina, Csete,
-  Kumari, Mishustin, Moln{\'a}r, Motornenko, R{\'a}cz, Satarov, Stocker,
-  Strottman, Szenes, Vass, Bir{\'o}, Csernai, and Kro{\'o}]{Papp:2022PRXEnergy}
-Papp, I.; {NAPLIFE Collaboration}.; Bravina, L.; Csete, M.; Kumari, A.;
-  Mishustin, I.N.; Moln{\'a}r, D.; Motornenko, A.; R{\'a}cz, P.; Satarov, L.M.;
-   et~al.
+\bibitem[Papp et~al.(2022)Papp, Bravina, Csete, Kumari, Mishustin, Moln{\'a}r,
+  Motornenko, R{\'a}cz, Satarov, St{\"o}cker, Strottman, Szenes, Vass,
+  Bir{\'o}, Csernai, Kro{\'o}, and {NAPLIFE Collaboration}]{Papp:2022PRXEnergy}
+Papp, I.; Bravina, L.; Csete, M.; Kumari, A.; Mishustin, I.N.; Moln{\'a}r, D.;
+  Motornenko, A.; R{\'a}cz, P.; Satarov, L.M.; St{\"o}cker, H.;  et~al.
 \newblock Kinetic Model Evaluation of the Resilience of Plasmonic Nanoantennas
   for Laser-Induced Fusion.
 \newblock {\em PRX Energy} {\bf 2022}, {\em 1},~023001.
 \newblock {\url{https://doi.org/10.1103/PRXEnergy.1.023001}}.
 
 \bibitem[Papp et~al.(2023)Papp, Bravina, Csete, Kumari, Mishustin, Motornenko,
-  R{\'a}cz, Satarov, Stocker, Strottman, Szenes, Nagyn{\'e}~Szokol,
+  R{\'a}cz, Satarov, St{\"o}cker, Strottman, Szenes, Nagyn{\'e}~Szokol,
   K{\'a}m{\'a}n, Bony{\'a}r, Bir{\'o}, Csernai, and
   Kro{\'o}]{Papp:2023FrontPhys}
 Papp, I.; Bravina, L.; Csete, M.; Kumari, A.; Mishustin, I.N.; Motornenko, A.;
-  R{\'a}cz, P.; Satarov, L.M.; Stocker, H.; Strottman, D.D.;  et~al.
+  R{\'a}cz, P.; Satarov, L.M.; St{\"o}cker, H.; Strottman, D.D.;  et~al.
 \newblock Kinetic model of resonant nanoantennas in polymer for laser induced
   fusion.
 \newblock {\em Front. Phys.} {\bf 2023}, {\em 11},~1116023.
 \newblock {\url{https://doi.org/10.3389/fphy.2023.1116023}}.
 
-\bibitem[Kro{\'o} et~al.(2024)Kro{\'o}, {NAPLIFE Collaboration}, Csernai, Papp,
-  Kedves, Aladi, Bony{\'a}r, Szal{\'o}ki, Osvay, Varmazyar, and
-  Bir{\'o}]{Kroo2024pB}
-Kro{\'o}, N.; {NAPLIFE Collaboration}.; Csernai, L.P.; Papp, I.; Kedves,
-  M.{\'A}.; Aladi, M.; Bony{\'a}r, A.; Szal{\'o}ki, M.; Osvay, K.; Varmazyar,
-  P.;  et~al.
+\bibitem[Kro{\'o} et~al.(2024)Kro{\'o}, Csernai, Papp, Kedves, Aladi,
+  Bony{\'a}r, Szal{\'o}ki, Osvay, Varmazyar, Bir{\'o}, and {NAPLIFE
+  Collaboration}]{Kroo2024pB}
+Kro{\'o}, N.; Csernai, L.P.; Papp, I.; Kedves, M.{\'A}.; Aladi, M.; Bony{\'a}r,
+  A.; Szal{\'o}ki, M.; Osvay, K.; Varmazyar, P.; Bir{\'o}, T.S.;  et~al.
 \newblock Indication of p + $^{11}$B reaction in Laser Induced Nanofusion
   experiment.
 \newblock {\em Sci. Rep.} {\bf 2024}, {\em 14},~30087.
@@ -1068,22 +1064,20 @@ Zweiback, J.; Smith, R.A.; Cowan, T.E.; Hays, G.; Wharton, K.B.; Yanovsky,
 \newblock {\em Phys. Rev. Lett.} {\bf 2000}, {\em 84},~2634--2637.
 \newblock {\url{https://doi.org/10.1103/PhysRevLett.84.2634}}.
 
-\bibitem[Papp et~al.()Papp, {NAPLIFE Collaboration}, Bravina, Csete, Kumari,
-  Mishustin, Motornenko, R{\'a}cz, Satarov, Stocker, Szenes, Vass, Bir{\'o},
-  Csernai, and Kro{\'o}]{Papp:2023arXiv}
-Papp, I.; {NAPLIFE Collaboration}.; Bravina, L.; Csete, M.; Kumari, A.;
-  Mishustin, I.N.; Motornenko, A.; R{\'a}cz, P.; Satarov, L.M.; Stocker, H.;
-  et~al.
+\bibitem[Papp et~al.()Papp, Bravina, Csete, Kumari, Mishustin, Motornenko,
+  R{\'a}cz, Satarov, St{\"o}cker, Szenes, Vass, Bir{\'o}, Csernai, and
+  Kro{\'o}]{Papp:2023arXiv}
+Papp, I.; Bravina, L.; Csete, M.; Kumari, A.; Mishustin, I.N.; Motornenko, A.;
+  R{\'a}cz, P.; Satarov, L.M.; St{\"o}cker, H.; Szenes, A.;  et~al.
 \newblock PIC simulations of laser-induced proton acceleration by resonant
   nanoantennas for fusion.
 \newblock \textit{arXiv} \textbf{2023}, arXiv:2306.13445.
 \newblock {\url{https://doi.org/10.48550/arXiv.2306.13445}}.
 
-\bibitem[Csernai et~al.(2024)Csernai, {NAPLIFE Collaboration}, Csorg{\H{o}},
-  Papp, Tamosiunas, Csete, Szenes, Vass, Bir{\'o}, and
-  Kro{\'o}]{Csernai:2024Universe}
-Csernai, L.P.; {NAPLIFE Collaboration}.; Csorg{\H{o}}, T.; Papp, I.;
-  Tamosiunas, K.; Csete, M.; Szenes, A.; Vass, D.; Bir{\'o}, T.S.; Kro{\'o}, N.
+\bibitem[Csernai et~al.(2024)Csernai, Csorg{\H{o}}, Papp, Tamosiunas, Csete,
+  Szenes, Vass, Bir{\'o}, and Kro{\'o}]{Csernai:2024Universe}
+Csernai, L.P.; Csorg{\H{o}}, T.; Papp, I.; Tamosiunas, K.; Csete, M.; Szenes,
+  A.; Vass, D.; Bir{\'o}, T.S.; Kro{\'o}, N.
 \newblock Femtoscopy for the {NAno-Plasmonic Laser Inertial Fusion Experiments
   (NAPLIFE)} Project.
 \newblock {\em Universe} {\bf 2024}, {\em 10},~161.
@@ -1099,24 +1093,21 @@ McNamee, A.; Kantarelou, V.; Nersisyan, G.; Milani, A.; Maffini, A.; Orecchia,
 \newblock {\em Laser Part. Beams} {\bf 2025}, {\em 43},~e8.
 \newblock {\url{https://doi.org/10.1017/lpb.2025.10005}}.
 
-\bibitem[Csernai et~al.(2023)Csernai, {NAPLIFE Collaboration}, Mishustin,
-  Satarov, Stocker, Bravina, Csete, K{\'a}m{\'a}n, Kumari, Motornenko, Papp,
-  R{\'a}cz, Strottman, Szenes, Nagyn{\'e}~Szokol, Vass, Veres, Bir{\'o}, and
-  Kro{\'o}]{Csernai:2023PRE}
-Csernai, L.P.; {NAPLIFE Collaboration}.; Mishustin, I.N.; Satarov, L.M.;
-  Stocker, H.; Bravina, L.; Csete, M.; K{\'a}m{\'a}n, J.; Kumari, A.;
-  Motornenko, A.;  et~al.
+\bibitem[Csernai et~al.(2023)Csernai, Mishustin, Satarov, St{\"o}cker, Bravina,
+  Csete, K{\'a}m{\'a}n, Kumari, Motornenko, Papp, R{\'a}cz, Strottman, Szenes,
+  Nagyn{\'e}~Szokol, Vass, Veres, Bir{\'o}, Kro{\'o}, and {NAPLIFE
+  Collaboration}]{Csernai:2023PRE}
+Csernai, L.P.; Mishustin, I.N.; Satarov, L.M.; St{\"o}cker, H.; Bravina, L.;
+  Csete, M.; K{\'a}m{\'a}n, J.; Kumari, A.; Motornenko, A.; Papp, I.;  et~al.
 \newblock Crater formation and deuterium production in laser irradiation of
   polymers with implanted nano-antennas.
 \newblock {\em Phys. Rev. E} {\bf 2023}, {\em 108},~025205.
 \newblock {\url{https://doi.org/10.1103/PhysRevE.108.025205}}.
 
-\bibitem[Kro{\'o} et~al.(2024)Kro{\'o}, {NAPLIFE Collaboration}, Aladi, Kedves,
-  R{\'a}czkevi, Kumari, R{\'a}cz, Veres, Galb{\'a}cs, Csernai, and
-  Bir{\'o}]{Kroo:2024SciRep}
-Kro{\'o}, N.; {NAPLIFE Collaboration}.; Aladi, M.; Kedves, M.{\'A}.;
-  R{\'a}czkevi, B.; Kumari, A.; R{\'a}cz, P.; Veres, M.; Galb{\'a}cs, G.;
-  Csernai, L.P.;  et~al.
+\bibitem[Kro{\'o} et~al.(2024)Kro{\'o}, Aladi, Kedves, R{\'a}czkevi, Kumari,
+  R{\'a}cz, Veres, Galb{\'a}cs, Csernai, and Bir{\'o}]{Kroo:2024SciRep}
+Kro{\'o}, N.; Aladi, M.; Kedves, M.{\'A}.; R{\'a}czkevi, B.; Kumari, A.;
+  R{\'a}cz, P.; Veres, M.; Galb{\'a}cs, G.; Csernai, L.P.; Bir{\'o}, T.S.
 \newblock Monitoring of nanoplasmonics-assisted deuterium production in a
   polymer seeded with resonant {Au} nanorods using in situ femtosecond laser
   induced breakdown spectroscopy.
@@ -1129,12 +1120,12 @@ Baym, G.
   stars to nuclear collisions}.
 \newblock {\em Acta Phys. Polon. B} {\bf 1998}, {\em 29},~1839--1884.
 
-\bibitem[Nagyn{\'e}~Szokol et~al.()Nagyn{\'e}~Szokol, {NAPLIFE Collaboration},
-  K{\'a}m{\'a}n, Holomb, Aladi, Kedves, R{\'a}czkevi, R{\'a}cz, Bony{\'a}r,
-  Bor{\'o}k, Zangana, et~al.]{szokol2024pulsed}
-Nagyn{\'e}~Szokol, {\'A}.; {NAPLIFE Collaboration}.; K{\'a}m{\'a}n, J.; Holomb,
-  R.; Aladi, M.; Kedves, M.; R{\'a}czkevi, B.; R{\'a}cz, P.; Bony{\'a}r, A.;
-  Bor{\'o}k, A.;  et~al.
+\bibitem[Nagyn{\'e}~Szokol et~al.()Nagyn{\'e}~Szokol, K{\'a}m{\'a}n, Holomb,
+  Aladi, Kedves, R{\'a}czkevi, R{\'a}cz, Bony{\'a}r, Bor{\'o}k, Zangana,
+  et~al.]{szokol2024pulsed}
+Nagyn{\'e}~Szokol, {\'A}.; K{\'a}m{\'a}n, J.; Holomb, R.; Aladi, M.; Kedves,
+  M.; R{\'a}czkevi, B.; R{\'a}cz, P.; Bony{\'a}r, A.; Bor{\'o}k, A.; Zangana,
+  S.;  et~al.
 \newblock Pulsed laser intensity dependence of crater formation and light
   reflection in the UDMA-TEGDMA copolymer nanocomposite, doped with resonant
   plasmonic gold nanorods.
@@ -1189,10 +1180,11 @@ Navas, S.; Amsler, C.; Gutsche, T.; Hanhart, C.; Hern{\'a}ndez-Rey, J.J.;
 \newblock {\em Phys. Rev. D} {\bf 2024}, {\em 110},~030001.
 \newblock {\url{https://doi.org/10.1103/PhysRevD.110.030001}}.
 
-\bibitem[Vignola and {DA$\Phi$NE Project Team}(1994)]{Vignola:1994DAFNE}
+\bibitem[Vignola and {DA$\Phi$NE Project Team}(1996)]{Vignola:1994DAFNE}
 Vignola, G.; {DA$\Phi$NE Project Team}.
-\newblock DA$\Phi$NE the First $\phi$-Factory. In {\em Proceedings of EPAC
-  1994}; INFN-LNF: Frascati, Italy,  1994.
+\newblock DA$\Phi$NE, the First $\phi$-Factory.
+\newblock In Proceedings of the 5th European Particle Accelerator Conference
+  (EPAC'96), Sitges, Spain,  1996; pp. 22--26.
 
 \bibitem[Zobov and {DA$\Phi$NE Collaboration}(2008)]{Zobov:2007xw}
 Zobov, M.; {DA$\Phi$NE Collaboration}.
