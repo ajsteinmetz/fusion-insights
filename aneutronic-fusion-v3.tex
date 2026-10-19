@@ -768,7 +768,7 @@ grows like $x(1-x)/(1+x)^2$. The common denominator arises because at fixed elec
 \centering
 %\input{PowerInRadOut_He3Spike}
 \includegraphics[width=0.75\linewidth]{PowerInRadOut_He3Spike.pdf}
-\caption{Density-normalized fusion self-heating $P_{\rm fus}/n_e^2$ (solid/dotted) and bremsstrahlung losses $P_{\rm brem}/n_e^2$ (dashed) for $d$--${}^3$He mixtures at fixed $n_e$, shown for pure $dd$ and for 5\%, 10\%, and 50\% ${}^3$He by number, with shading indicating the gain relative to pure deuterium.}
+\caption{Density-normalized fusion self-heating $P_{\rm fus}/n_e^2$ (solid/dotted) and bremsstrahlung losses $P_{\rm brem}/n_e^2$ (dashed) for $d$--${}^3$He mixtures at fixed $n_e$, shown for pure $dd$ and for 5\%, 10\%, and 50\% ${}^3$He by number, with shading indicating the gain relative to pure deuterium. The $dd$ heating uses the same reactivity as Figure~\ref{fig:PowerBalance_AllFuels}; the Bosch--Hale values behind Table~\ref{tab:He3Spike} differ from these curves by less than 5\%.}
 \label{fig:He3Spike}
 \end{figure}
 %%%%%%%%%%
@@ -879,8 +879,8 @@ E_{\rm ch}^{dd}
 Including full burn-up of both daughter species yields
 \begin{align}
 E_{\rm ch}^{dd,\;{\rm full}}
-\simeq 2.43 + 1.75 + 9.18
-\simeq 13.36~\mathrm{MeV},
+\simeq 2.43 + 1.78 + 9.18
+\simeq 13.39~\mathrm{MeV},
 \end{align}
 more than a five-fold increase relative to primary $dd$ heating alone. This represents an upper bound corresponding to complete confinement and re-fusion of both daughter products. In practice, $\chi_t$ may exceed unity in sufficiently dense plasmas, while $\chi_3$ typically requires higher temperatures because $\langle\sigma v\rangle_{d{}^3\!He}$ peaks at substantially larger $T$ than $\langle\sigma v\rangle_{dt}$. Accordingly, the full enhancement should be regarded as an optimistic limit. Burn-up of tritons and ${}^3\mathrm{He}$ sourced in $dd$ reactions has been observed in tokamaks~\cite{heidbrink1983}. The $d{}^3\mathrm{He}$ fusion products can be diagnosed directly through charged-particle and $\gamma$-ray detection~\cite{sharapov2016}.
 
@@ -920,16 +920,16 @@ For a plasma that starts as pure deuterium, the secondary-burn network has exact
 1 (secondary) & $d+t\to\alpha+n$ & 17.59 & 3.56 & $b_t\times 3.56 \simeq 1.78$ \\
  & $d+{}^3\mathrm{He}\to\alpha+p$ & 18.35 & 18.35 & $b_3\times 18.35\simeq 9.18$ \\
 \midrule
-\multicolumn{4}{l}{Secondary charged heating} & $\simeq$10.93\\
+\multicolumn{4}{l}{Secondary charged heating} & $\simeq$10.96\\
 \midrule
-\multicolumn{4}{l}{Full two-step total $E_\mathrm{ch}^{dd,\,\mathrm{full}}$} & $\simeq$13.36\\
+\multicolumn{4}{l}{Full two-step total $E_\mathrm{ch}^{dd,\,\mathrm{full}}$} & $\simeq$13.39\\
 \bottomrule
 \end{tabularx}
 \end{table}
 
-The total charged heating per primary $dd$ reaction in the strong-confinement limit is, therefore, $E_\mathrm{ch}^{dd,\,\mathrm{full}}\simeq 13.36$~MeV, a factor of $\simeq$5.5 above the primary-only value of 2.43~MeV. This is the enhancement depicted in Figure~\ref{fig:DD_boosted}. Two points deserve emphasis. First, the $d+{}^3\mathrm{He}$ secondary branch contributes by far the largest share (9.18~MeV) because it deposits its full $Q$ in charged particles; the $d+t$ branch deposits only the 3.56~MeV $\alpha$-particle energy, while the 14.1~MeV neutron escapes. Second, and most important for the message of Section~\ref{sssec:bottleHBomb}, the secondary $d+t$ reaction produces a 14~MeV neutron for every two primary $dd$ fusions, so a pure $dd$ plasma operating in the strong-burn regime carries a similar neutron hazard to an explicit $dt$ plasma.
+The total charged heating per primary $dd$ reaction in the strong-confinement limit is, therefore, $E_\mathrm{ch}^{dd,\,\mathrm{full}}\simeq 13.39$~MeV, a factor of $\simeq$5.5 above the primary-only value of 2.43~MeV. This is the enhancement depicted in Figure~\ref{fig:DD_boosted}. Two points deserve emphasis. First, the $d+{}^3\mathrm{He}$ secondary branch contributes by far the largest share (9.18~MeV) because it deposits its full $Q$ in charged particles; the $d+t$ branch deposits only the 3.56~MeV $\alpha$-particle energy, while the 14.1~MeV neutron escapes. Second, and most important for the message of Section~\ref{sssec:bottleHBomb}, the secondary $d+t$ reaction produces a 14~MeV neutron for every two primary $dd$ fusions, so a pure $dd$ plasma operating in the strong-burn regime carries a similar neutron hazard to an explicit $dt$ plasma.
 
-The claim that $dd$ fusion is `clean' is, therefore, incorrect. Each primary $dd$ reaction of Table~\ref{tab:dd_chain} is accompanied on average by one neutron, half of these at 14~MeV, so the extractable charged energy is $E_\mathrm{ch}^{dd,\,\mathrm{full}}\simeq13.36$~MeV per neutron produced, compared to 3.56~MeV per neutron for $dt$. Pure deuterium improves this ratio, but it does not remove the 14~MeV neutrons nor the shielding and activation burden they impose.
+The claim that $dd$ fusion is `clean' is, therefore, incorrect. Each primary $dd$ reaction of Table~\ref{tab:dd_chain} is accompanied on average by one neutron, half of these at 14~MeV, so the extractable charged energy is $E_\mathrm{ch}^{dd,\,\mathrm{full}}\simeq13.39$~MeV per neutron produced, compared to 3.56~MeV per neutron for $dt$. Pure deuterium improves this ratio, but it does not remove the 14~MeV neutrons nor the shielding and activation burden they impose.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{The Aneutronic Fusion Reactor Powering the Solar System}\label{ssec:SolarFusion}
