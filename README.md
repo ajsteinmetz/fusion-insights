@@ -55,13 +55,14 @@ Published in the special issue ["Particles and Plasmas in Strong Fields, Part 2"
 - https://arxiv.org/abs/2609.01366
 
 ## contents
-- `aneutronic-fusion-v3.tex`, `aneutronic-fusion-v3.bib`, `aneutronic-fusion-v3.bbl` -- manuscript source and bibliography.
+- `particles-4572719.tex`, `reference.bib`, `particles-4572719.bbl` -- manuscript source and bibliography, under MDPI's file names (the arXiv basis on `main` keeps `aneutronic-fusion-v3.*`).
 - `anc/TikZ/` -- TikZ sources for the figures compiled into the manuscript, with the power curve tables (`*_for_tikz.csv`) plotted by the `PowerInRadOut*` figures.
 - `anc/SVG/` -- SVG renders of the `anc/TikZ/` figures, rebuilt with `build.sh`.
 - `anc/NACREII/` -- NACRE II reaction rate tables (`nacre_*.csv`) with the cross-section and reactivity scripts built on `nacre_reactivity.py`.
 - `anc/ETR25/` -- ETR25 reaction rate tables (`etr25_*.csv`) for the ¹⁷O branch of the CNO bicycle, with the CNO-II/CNO-III branching calculation (`etr25_branching.py`).
 - `anc/EXFOR/` -- EXFOR retrieval (`fetch_exfor.sh`) and peak cross-section extraction (`exfor_peaks.py`), Bosch-Hale parameterizations (`bosch_hale.py`), and the optimal ³He spike fraction calculation (`he3_spike_optimum.py`).
 - `particles-4572719-for proof/` -- MDPI proof source (`.tex`) and PDF.
+- `particles-4572719-FC-updated/` -- MDPI's final-check package after the post-publication corrections: their `.tex`, PDF and `reference.bib`. `reference-2.bib` is an unused, mechanically title-cased variant that breaks LaTeX commands in titles; do not use it.
 - `art/` -- graphical abstract shown above.
 
 ## license
